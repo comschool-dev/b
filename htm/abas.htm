@@ -1,0 +1,44 @@
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+<div class="w3-container">
+  <h2>Tabs</h2>
+  <p>Tabs are perfect for single page web applications, or for web pages capable of displaying different subjects. Click on the links below.</p>
+</div>
+
+<div class="w3-bar w3-black">
+  <button class="w3-bar-item w3-button" onclick="openCity('London')">Aba 1</button>
+  <button class="w3-bar-item w3-button" onclick="openCity('Paris')">Aba 2</button>
+  <button class="w3-bar-item w3-button" onclick="openCity('Tokyo')">Aba 3</button>
+</div>
+
+<div id="London" class="w3-container city">
+  <h2>Aba 1</h2>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum pretium leo risus, eget convallis ex euismod vitae. Curabitur varius, diam ac faucibus fermentum, massa mi porttitor nunc, ac finibus metus ligula et tellus. Etiam hendrerit blandit lacus at sollicitudin. Aliquam magna arcu, tempor a molestie quis, condimentum ut velit. Curabitur eget risus ante. Nunc eu mi nulla. Etiam et aliquam tellus, a euismod metus. Aliquam sed faucibus leo, et ultrices libero. Morbi fringilla, ex ac pulvinar porttitor, lorem ipsum aliquam sapien, et dignissim eros nulla sed dolor. Pellentesque accumsan justo eu volutpat dapibus. Quisque dignissim mauris dolor, in gravida purus interdum nec. Nam dolor nulla, sollicitudin ut placerat dignissim, auctor tristique sem.
+<br><br>
+<a href="#">link inserido manualmente</a>
+<br><br>
+Suspendisse odio lacus, interdum eget tincidunt eu, luctus at ex. Nulla facilisi. Mauris velit nisi, pretium id aliquet quis, varius nec felis. Pellentesque vestibulum erat sem, ut mattis elit maximus in. Pellentesque purus neque, ornare et dui id, porta imperdiet orci. Nullam eget luctus sapien. Nullam imperdiet fermentum nunc quis iaculis. Curabitur ante nisi, sagittis ut nibh quis, finibus ornare urna. Vivamus in magna ligula. Cras euismod tortor eu dui ultrices cursus. Morbi ornare mi eget libero elementum fringilla. Vestibulum ornare dolor eget tellus tincidunt, ac lacinia risus posuere. Praesent aliquam quam ac augue eleifend, a bibendum magna lobortis. Donec eleifend justo eget porttitor rhoncus. Proin ultrices sem at nisi pharetra, a cursus lectus semper.</p>
+</div>
+
+<div id="Paris" class="w3-container city" style="display:none">
+  <h2>Aba 2</h2>
+  <p>Sed tincidunt tempor velit, vel interdum tortor eleifend at. Nam volutpat turpis in mauris varius tempus. Fusce a interdum tortor, id porta dolor. Aliquam imperdiet tincidunt dui, id lacinia ligula interdum vitae. Vivamus a hendrerit turpis. Etiam turpis felis, condimentum eget lorem id, gravida sagittis neque. Aenean eu elit vitae lectus eleifend laoreet. Sed sed sapien tellus.
+<br>
+Suspendisse nulla nibh, pulvinar suscipit auctor a, lobortis at ante. Donec a libero pharetra, volutpat nulla id, cursus ex. In ultrices ultricies enim, at euismod est mollis id. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam iaculis et arcu pulvinar ornare. Donec nec arcu maximus, iaculis orci vel, lobortis felis. Vivamus lectus ante, euismod nec mi quis, mollis dignissim dolor. Aenean molestie pharetra ipsum, eu efficitur sem malesuada vel.</p> 
+</div>
+
+<div id="Tokyo" class="w3-container city" style="display:none">
+  <h2>Aba 3</h2>
+  <p>Ut in metus et nisi dapibus aliquam. Pellentesque ac lacus nec ex ornare iaculis. Maecenas consectetur justo neque, ut varius sem molestie quis. Donec purus risus, tempor ut tortor ut, interdum maximus magna. Nam vel sapien ullamcorper ligula vehicula eleifend. Vestibulum elit dolor, accumsan vel ex sed, hendrerit rutrum elit. Aliquam lectus nibh, hendrerit sed iaculis a, dapibus in tortor. Sed interdum diam sit amet felis rhoncus maximus. Aenean mi risus, ullamcorper sed convallis eu, blandit ut neque. Nulla sit amet leo vitae lorem sodales pretium. Donec vel elit volutpat, finibus ipsum ut, suscipit nibh. Nam porttitor enim justo, consectetur porttitor nulla porta et. Fusce nec blandit erat. Sed in blandit mauris.</p>
+</div>
+
+<script>
+function openCity(cityName) {
+  var i;
+  var x = document.getElementsByClassName("city");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  document.getElementById(cityName).style.display = "block";  
+}
+</script>
