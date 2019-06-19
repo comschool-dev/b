@@ -1,0 +1,39 @@
+ <div class=FProdNotErrOr>
+		<div class=zFProdNotFoundHeader>
+		  <div class=font-primary>
+
+		    <h2 class=zFNotFoundTxt>
+          <img src='<PathTo file="images/ico404lupa.svg">'>
+		      Não encontramos produto para esta busca:
+		    </h2>
+          <span class=zFNotFoundSTxt>"<SearchText>"</span>
+		  </div>
+		</div>
+		<div class=zFProdNotFoundPromo>
+		  <ul>
+		    <h2>Dicas para sua busca:</h2>
+		    <li>- Verifique se há erros de digitação</li>
+		    <li>- Tente utilizar uma única palavra</li>
+		    <li>- Procure utilizar sinônimos ao termo desejado</li>
+		  </ul>
+			  <p class=zFNotFoundContinue><a href="/BuscaAvancada.asp?IDLoja=<IDLoja>&produtos=20&order=1" target=_top>Clique aqui</a> e faça uma busca avançada ou conheça as nossas <a href="/listaprodutos.asp?idloja=<IDLoja>&promocao=true" target=_top>promoções</a>.</p>
+			  <a href="/listaprodutos.asp?idloja=<IDLoja>&promocao=true" class=zFPromoNotFound target=_top>Promoções</a>
+		</div>
+	</div>
+
+<style>
+.zFPromoNotFound{background:#2196F3;}
+.zFPromoNotFound:hover {box-shadow: 1px 0px 7px #888888; transition: 0.3s}
+.zFPromoNotFound:active {color:#fff;}
+.zFNotFoundTxt {display: flex;margin: 30px auto 0;font-size: 17px;font-size: 1.9em;}
+.zFNotFoundTxt img {display: block;margin-right: 10px;}
+.zFPromoNotFound:visited {color:#fff;}
+.zFPromoNotFound { transition: 0.3s; width: 200px; display: block; background: <tag-FCCSSMainColor>; color: #fff; font-size: 1.35em; text-decoration: none; border-radius: 5px; text-align: center; padding: 10px 0; margin: 1.3em auto 0px;  text-transform: uppercase; font-family: 'Roboto'; }
+.FProdNotErrOr {padding:0px 0px; background: center; width: 100%; max-width: 600px;margin: 0 auto;}
+.zFProdNotFoundPromo li {line-height: normal; list-style: none;}
+.zFNotFoundSTxt {display:block;margin:10px auto;color:#969696;font-size: 22px;text-align:center;font-weight:bold;font-family: 'Roboto',verdana,arial;}
+.zFProdNotFoundPromo h2 { margin: 5px auto 10px;}
+.zFProdNotFoundPromo { font-family: 'Roboto',verdana,arial;}
+p.zFNotFoundContinue a {color:#969696;}
+p.zFNotFoundContinue {font-size: 14px; margin: 10px auto;}
+</style>
