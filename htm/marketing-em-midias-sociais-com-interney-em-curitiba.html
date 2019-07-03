@@ -1,0 +1,49 @@
+<div id="tabs">
+<input id="tab43" type="radio" name="tabs" checked>
+<label for="tab43">Descrição do curso</label><input id="tab44" type="radio" name="tabs" checked>
+<label for="tab44">Objetivo e Público Alvo</label><input id="tab45" type="radio" name="tabs" checked>
+<label for="tab45">Conteúdo Programático</label><input id="tab88" type="radio" name="tabs" checked>
+<label for="tab88">Vídeos</label><input id="tab89" type="radio" name="tabs">
+  <label for="tab89">Professores</label><section id="content43">
+<p class="TxtDescr">O curso de <strong>Marketing em Mídias Sociais com Interney em Curitiba</strong> tem 12 horas de duração e ensina você a desenvolver estratégias e ações de marketing, vendas, atendimento e relações públicas, em Mídias Sociais e comunidades virtuais. Aprenda a ouvir e interagir com clientes e prospects usando o <strong>Orkut, Twitter, Linkedin, Facebook, YouTube e Flickr</strong>, entre outras.</p>
+<p class="TxtDescr">Por que fazer o curso de <strong>Marketing em Mídias Sociais com Interney em Curitiba</strong>? Muitas empresas ainda têm receio de se exporem nas Mídias Sociais, simplesmente porque não sabem como. Esse curso irá mostrar para você "<strong>como fazer</strong>". Qual a maneira certa de proteger sua marca, ouvir seus consumidores e interagir com eles através dessas redes.</p>
+<p class="TxtDescr"><strong>As aulas serão ministradas no seguinte endereço:</strong></p>
+<p class="TxtDescr"><strong>A definir.</strong></p>
+</section>
+<section id="content44">
+<p class="TxtDescr"><strong>Objetivos:</strong></p>
+<p><span >Desenvolver habilidades de comunicação online;</span><br /><span >Diferenciar a comunicação autêntica usadas nas Mídias Sociais, da comunicação tradicional de marketing;</span><br /><span >Ensinar como montar departamentos de Mídias Sociais nas empresas;</span><br /><span >Habilitar os alunos a criarem relatórios de ações a partir de dados coletados em social media;</span><br /><span >Formar comunicadores líderes na disseminação de mensagens pela Internet.</span></p>
+</section>
+<section id="content45">
+<p><span >Introdução as Mídias Sociais</span><br /><span >Mercado (Estatísticas e Casos de Uso)</span><br /><span >Conceitos (Tecnologia, Comunicação, Sociologia)</span><br /><span >Cuidados ( Quando não usar, Erros a Evitar)</span><br /><span >Planejamento em Mídias Sociais</span><br /><span >Diagnóstico</span><br /><span >Palavras Chave</span><br /><span >Canais</span><br /><span >Ações</span><br /><span >Implantação (Configuração e Treinamentos)</span><br /><span >Gestão (Conteúdo, Seeding)</span><br /><span >Monitoria (Oportunidades, Influenciadores, Gestão de Crises)</span><br /><span >Métricas em Mídias Sociais</span><br /><span >Estatísticas</span><br /><span >Ferramentas</span><br /><span >Análise de Influenciadores</span><br /><span >Tendências</span><br /><span >Pesquisa</span><br /><span >Conversões</span><br /><span >Analytics</span><br /><span >Engajamento</span><br /><span >Relatórios</span><br /><span >Fornecedores</span></p>
+</section>
+<section id="content88">
+<pre> </pre>
+<p></p>
+</section>
+<section id="content89">
+
+<div id="det-product-profs-tab">
+
+  <div id="showProfs"><h2>Relação dos Professores do Curso</h2></div>
+    <script src="<baseloja>htm/profsminicv.js"></script>
+    <script>
+        var oProdFilters= <ProdFiltersJS>; //json com os filtros
+        if(typeof(oProdFilters)=="object"){
+          var opFil=oProdFilters.pFil; //array com os filtros
+          if(typeof(opFil)=="object"){
+            opFil.forEach(function(item){
+              if(item.name=="Professores" && item.image!=undefined){
+                var profNames = item.value.split(",")
+                var profImage = item.image.split(",")
+                var showProfsDiv = document.getElementById('showProfs');
+                profImage.forEach(function(item,index){
+                  showProfsDiv.innerHTML += "<div id='prof"+index+"'><img src='<baseloja>prod/"+item+"'>"+profNames[index]+"</div><p>"+insertProfMiniCV(profNames[index])+"</p>"
+                });
+              }
+            });
+          }
+        }
+    </script>
+</div>
+  </section></div>

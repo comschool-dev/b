@@ -1,4 +1,8 @@
-<div class="w3-bar w3-black"><button class="w3-bar-item w3-button" onclick="openCity('aba-458')">Curso Atendimento ao Cliente</button></div><div id="aba-458" class="w3-container city"  ><h1 >Curso de Certificação em Atendimento ao Cliente com Hi Platform</h1>
+<div id="tabs">
+<input id="tab458" type="radio" name="tabs" checked>
+<label for="tab458">Curso Atendimento ao Cliente</label><input id="tab459" type="radio" name="tabs">
+  <label for="tab459">Professores</label><section id="content458">
+<h1 >Curso de Certificação em Atendimento ao Cliente com Hi Platform</h1>
 
 <p ><span >O maior ativo que uma empresa pode ter é o seu cliente. Em tempos de guerras de preços, se diferenciar pela qualidade no <strong>atendimento ao cliente</strong> é uma das ações mais inteligentes que um gestor pode tomar para ser lucrativo.</span></p>
 
@@ -114,13 +118,31 @@
 
 
 <p >Esse curso não serve para você? Veja aqui todos os nossos <a  title="Cursos de Marketing Digital" href="https://www.comschool.com.br/cursos-de-marketing-digital/" target="_blank"><strong>cursos de marketing digital</strong></a>.</p>
-</div><script>
-function openCity(cityName) {
-  var i;
-  var x = document.getElementsByClassName("city");
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";  
-  }
-  document.getElementById(cityName).style.display = "block";  
-}
-</script>
+
+</section>
+<section id="content459">
+
+<div id="det-product-profs-tab">
+
+  <div id="showProfs"><h2>Relação dos Professores do Curso</h2></div>
+    <script src="<baseloja>htm/profsminicv.js"></script>
+    <script>
+        var oProdFilters= <ProdFiltersJS>; //json com os filtros
+        if(typeof(oProdFilters)=="object"){
+          var opFil=oProdFilters.pFil; //array com os filtros
+          if(typeof(opFil)=="object"){
+            opFil.forEach(function(item){
+              if(item.name=="Professores" && item.image!=undefined){
+                var profNames = item.value.split(",")
+                var profImage = item.image.split(",")
+                var showProfsDiv = document.getElementById('showProfs');
+                profImage.forEach(function(item,index){
+                  showProfsDiv.innerHTML += "<div id='prof"+index+"'><img src='<baseloja>prod/"+item+"'>"+profNames[index]+"</div><p>"+insertProfMiniCV(profNames[index])+"</p>"
+                });
+              }
+            });
+          }
+        }
+    </script>
+</div>
+  </section></div>

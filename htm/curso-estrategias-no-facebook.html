@@ -1,0 +1,48 @@
+<div id="tabs">
+<input id="tab75" type="radio" name="tabs" checked>
+<label for="tab75">Descrição</label><input id="tab76" type="radio" name="tabs">
+  <label for="tab76">Professores</label><section id="content75">
+<p><span ><strong>Descrição do Curso Estratégias no Facebook</strong></span></p>
+<p><span >O <strong>Curso Estratégias no Facebook</strong> ensina o passo-a-passo para estabelecer e aumentar a presença da sua empresa no Facebook. Aprenda a construir uma rede de fãs e angajá-los na comunicação social. Converse com seus clientes e prospects através de conteúdo relevante. Saiba como criar uma Fanpage e fazer anúncios usando o Facebook Ads.</span></p>
+
+<p><span ><strong>Objetivos:</strong></span></p>
+<p><span ><span>• </span>Apresentar os conceitos da rede social Facebook;</span><br /><span ><span>• </span>Ensinar a criar Fanpages para empresas;</span><br /><span ><span>• Demonstrar como utilizar o Facebook Ads</span>;</span><br /><span ><span>• Ensinar a p</span>roduzir conteúdo de qualidade para o perfil social;</span></p>
+
+<p><strong><span >Duração:</span></strong></p>
+<p ><span >O <strong>Curso Estratégias no Facebook</strong> tem carga horária total de <strong>100 minutos</strong>.</span></p>
+<p><strong><span >Estude Pela Internet</span></strong></p>
+<p><span >Após recebermos a confirmação do pagamento, enviaremos login e senha para você acessar a Sala de Aula Virtual. Você terá noventa (90) dias para concluir o curso e ao final gerar seu certificado em PDF.</span></p>
+
+<p><strong><span >Público Alvo do Curso Estratégias no Facebook:</span></strong></p>
+<p><span >Este curso destina-se a estudantes, empresários, empreendedores, profissionais de marketing, publicidade, tecnologia, jornalistas e demais interessados que buscam entender ou ampliar seus conhecimentos sobre o Facebook.</span></p>
+
+<p><strong><span >Conteúdo Programático</span></strong></p>
+<p><span >• Configurando uma Página de Fãs</span><br /><span >• Entendendo a Anatomia de uma Página de Fãs</span><br /><span >• Estatísticas de Página (Facebook Insights)</span><br /><span >• Estratégias de Anúncios (Facebook Ads)</span><br /><span >• Configurando uma Campanha de Anúncios</span><br /><span >• Gerenciamento de Anúncios</span><br /><span >• Produzindo Conteúdo Relevante</span><br /></p>
+
+</section>
+<section id="content76">
+
+<div id="det-product-profs-tab">
+
+  <div id="showProfs"><h2>Relação dos Professores do Curso</h2></div>
+    <script src="<baseloja>htm/profsminicv.js"></script>
+    <script>
+        var oProdFilters= <ProdFiltersJS>; //json com os filtros
+        if(typeof(oProdFilters)=="object"){
+          var opFil=oProdFilters.pFil; //array com os filtros
+          if(typeof(opFil)=="object"){
+            opFil.forEach(function(item){
+              if(item.name=="Professores" && item.image!=undefined){
+                var profNames = item.value.split(",")
+                var profImage = item.image.split(",")
+                var showProfsDiv = document.getElementById('showProfs');
+                profImage.forEach(function(item,index){
+                  showProfsDiv.innerHTML += "<div id='prof"+index+"'><img src='<baseloja>prod/"+item+"'>"+profNames[index]+"</div><p>"+insertProfMiniCV(profNames[index])+"</p>"
+                });
+              }
+            });
+          }
+        }
+    </script>
+</div>
+  </section></div>

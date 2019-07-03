@@ -1,0 +1,55 @@
+<div id="tabs">
+<input id="tab313" type="radio" name="tabs" checked>
+<label for="tab313">Livro Mercado Livre</label><input id="tab314" type="radio" name="tabs">
+  <label for="tab314">Professores</label><section id="content313">
+<h1><span><span >Livro Supervendedores do Mercado Livre e outros Marketplaces</span></span></h1>
+<p><img title="Livro Marketplaces" src="https://www.ecommerceschool.com.br//Livro-Ecommerce/capa-livro-mercado-livre-400x400.jpg" alt="Livro Marketplaces" width="400" height="400" /></p>
+<p><span >Segundo a ABComm, Associação Brasileira de Comércio Eletrônico, os marketplaces já representam 20% do faturamento no e-commerce brasileiro.<br /></span></p>
+
+<p><span >A expectativa é que esse número aumente para 30% até 2020, ou seja, uma em cada três compras feitas pela Internet no Brasil, será em marketplaces.</span></p>
+<p><span >Não dá para ficar de fora.</span></p>
+<p><span >O Mercado Livre é o líder de mercado na América Latina.</span></p>
+
+<p><span >O livro <strong>Supervendedores do Mercado Livre e outros Marketplaces</strong> foi escrito por um insider.</span></p>
+
+<p><span >André Santos é executivo do Mercado Livre e um <strong>expert em marketplaces</strong>.</span></p>
+<p><span >Alguns <strong>marketplaces de destaque</strong> no mundo:</span></p>
+<p><span >• ALIBABA (<span >China</span>)<br /><span >• </span>AMAZON (USA)<br /><span >• </span>JD.COM (<span >China</span>)<br /><span >• </span>EBAY (USA)<br /><span >• </span>WALMART (USA)<br /><span >• </span>PAIPAI (<span >China</span>)<br /><span >• </span>RAKUTEN (Japão)<br /><span >• </span>TMALL (China)<br /><span >• </span>MERCADO LIVRE (América Latina).</span></p>
+<p><span >Prepare-se para turbinar suas vendas!</span></p>
+<p><span >Livro: <strong>Supervendedores do Mercado Livre e outros Marketplaces</strong><br /></span></p>
+<p><span ><strong>Páginas</strong>: 200</span></p>
+<p><span ><strong>Editora</strong>: Editora ComSchool</span></p>
+<p><span ><strong>Ano</strong>: 2016</span></p>
+<p><span ><strong>Autores</strong>: André Santos<br /></span></p>
+
+<p><span ><strong>Conteúdo</strong>:</span></p>
+<p><span ><span >• </span></span><span >Prefácio<br /><span >• </span>Introdução<br /><span >• </span>Mercado Livre – História, conceitos e plano de negócios<br /><span >• </span>Como iniciar as minhas vendas no Mercado Livre<br /><span >• </span>Marketing no Mercado Livre<br /><span >• </span>Como administrar a minha conta no Mercado Livre<br /><span >• </span>Como anunciar no Mercado Livre<br /><span >• </span>Desenvolvimento de reputação no Mercado Livre<br /><span >• </span>Programa de Melhores Vendedores Mercado Livre – Mercado Líderes<br /><span >• </span>Canais de comunicação com o Mercado Livre<br /><span >• </span>Mercado Livre Classificados<br /><span >• </span>Mercado Pago e gestão financeira<br /><span >• </span>Mercado Livre Publicidade<br /><span >• </span>Mercado Shops – Lojas virtuais com a tecnologia Mercado Livre<br /><span >• </span>Mercado Envios – Gestão logística<br /><span >• </span>Mercado Livre Developers<br /><span >• </span>KPL – ERP para e-commerce<br /><span >• </span>Outros marketplaces<br /><span >• </span>Histórias que inspiram no Mercado Livre</span></p>
+
+
+</section>
+<section id="content314">
+
+<div id="det-product-profs-tab">
+
+  <div id="showProfs"><h2>Relação dos Professores do Curso</h2></div>
+    <script src="<baseloja>htm/profsminicv.js"></script>
+    <script>
+        var oProdFilters= <ProdFiltersJS>; //json com os filtros
+        if(typeof(oProdFilters)=="object"){
+          var opFil=oProdFilters.pFil; //array com os filtros
+          if(typeof(opFil)=="object"){
+            opFil.forEach(function(item){
+              if(item.name=="Professores" && item.image!=undefined){
+                var profNames = item.value.split(",")
+                var profImage = item.image.split(",")
+                var showProfsDiv = document.getElementById('showProfs');
+                profImage.forEach(function(item,index){
+                  showProfsDiv.innerHTML += "<div id='prof"+index+"'><img src='<baseloja>prod/"+item+"'>"+profNames[index]+"</div><p>"+insertProfMiniCV(profNames[index])+"</p>"
+                });
+              }
+            });
+          }
+        }
+    </script>
+</div>
+  </section></div>

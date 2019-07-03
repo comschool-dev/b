@@ -1,0 +1,62 @@
+<div id="tabs">
+<input id="tab197" type="radio" name="tabs" checked>
+<label for="tab197">Descrição do curso</label><input id="tab198" type="radio" name="tabs">
+  <label for="tab198">Professores</label><section id="content197">
+<p><span ><strong><span >Descrição do curso de Facebook Ads</span></strong></span></p>
+<p><span >O curso de Facebook Ads apresenta de forma simples como criar anúncios eficientes no Facebook. A aula foca na objetividade e simplicidade, sem deixar de ser completa e ilustrativa. Aprenda como criar seus próprios anúncios na maior rede social do mundo e como usar essa poderosa ferramenta de marketing digital.</span></p>
+
+<p><span ><strong><span >Objetivos: </span></strong></span></p>
+<ul>
+<li><span >Criar anúncios no facebook</span></li>
+<li><span >Boas práticas e dicas para melhores resultados</span></li>
+<li><span >Entender o raciocínio de criação de segmentação de público</span></li>
+</ul>
+<p>  </p>
+<p><span ><strong><span >Duração:</span></strong></span></p>
+<p><span >O Curso de Facebook Ads tem carga horária total de 65 minutos.</span></p>
+<p>  </p>
+<p><span ><strong><span >Estude Pela Internet:</span></strong></span></p>
+<p><span >Após recebermos a confirmação do pagamento, enviaremos login e senha para você acessar a Sala de Aula Virtual. Você terá noventa (90) dias para concluir o curso e ao final gerar seu certificado em PDF.</span></p>
+
+<p><span ><strong><span >Público Alvo: </span></strong></span></p>
+<p><span >Profissionais autônomos, profissionais de redes sociais, profissionais de mídia e empresários que desejam se atualizar aprender como utilizar o sistema de anúncios e publicidade do Facebook.</span></p>
+
+<p><span ><strong><span >Conteúdo Programático:</span></strong></span></p>
+<ul>
+<li><span >Introdução</span></li>
+<li><span >Conhecimentos essenciais</span></li>
+<li><span >Conceito</span></li>
+<li><span >Planejamento e objetivos</span></li>
+<li><span >Definição de imagem e texto</span></li>
+<li><span >Segmentação e público alvo</span></li>
+<li><span >Orçamento e preço</span></li>
+<li><span >Otimização de anúncios</span></li>
+<li><span >Métricas e resultados</span></li>
+</ul>
+</section>
+<section id="content198">
+
+<div id="det-product-profs-tab">
+
+  <div id="showProfs"><h2>Relação dos Professores do Curso</h2></div>
+    <script src="<baseloja>htm/profsminicv.js"></script>
+    <script>
+        var oProdFilters= <ProdFiltersJS>; //json com os filtros
+        if(typeof(oProdFilters)=="object"){
+          var opFil=oProdFilters.pFil; //array com os filtros
+          if(typeof(opFil)=="object"){
+            opFil.forEach(function(item){
+              if(item.name=="Professores" && item.image!=undefined){
+                var profNames = item.value.split(",")
+                var profImage = item.image.split(",")
+                var showProfsDiv = document.getElementById('showProfs');
+                profImage.forEach(function(item,index){
+                  showProfsDiv.innerHTML += "<div id='prof"+index+"'><img src='<baseloja>prod/"+item+"'>"+profNames[index]+"</div><p>"+insertProfMiniCV(profNames[index])+"</p>"
+                });
+              }
+            });
+          }
+        }
+    </script>
+</div>
+  </section></div>

@@ -1,0 +1,43 @@
+<div id="tabs">
+<input id="tab71" type="radio" name="tabs" checked>
+<label for="tab71">Descrição</label><input id="tab72" type="radio" name="tabs">
+  <label for="tab72">Professores</label><section id="content71">
+<p><strong><span >Descrição do Curso</span></strong></p>
+<p><span >O <strong>curso de Ecommerce para Corretores de Seguros</strong> da Ecommerce School, oferece uma imersão ao mundo de vendas pela internet, compartilhando conhecimentos sobre elaboração de produto, parceria com seguradoras, operações, estratégias, linguagem web, atendimento e gestão.</span></p>
+<p><strong><span >Objetivos:</span></strong></p>
+<p><span >Compartilhar conceitos e técnicas de ecommerce de Seguros;</span><br /><span >Treinar a capacidade e habilidade de pensar de maneira diferente e inovadora, dentro do mercado de seguros, focando o estreitamento do relacionamento e a obtenção de resultados financeiros positivos através do ambiente web;</span><br /><span >Oferecer conhecimentos para aplicação diária na rotina profissional, que contribuem para alavancar a carreira ou a desenvolver o próprio negócio;</span><br /><span >Como construir uma página vendedora;</span><br /><span >Duração:</span></p>
+<p><span >O <strong>curso de Ecommerce para Corretores de Seguros</strong> tem carga horária total de <strong>60 minutos</strong>.</span></p>
+<p><strong><span >Estude Pela Internet</span></strong></p>
+<p><span >Após recebermos a confirmação do pagamento, enviaremos login e senha para você acessar a Sala de Aula Virtual. Você terá noventa (90) dias para concluir o curso.</span></p>
+<p><span >Você pode tirar suas dúvidas diretamente com o professor através de seus contatos.</span></p>
+<p><strong><span >A quem se destina</span></strong></p>
+<p><span >Este curso destina-se a profissionais de qualquer área do mercado de seguros interessados na ampliação do conhecimento através do aprendizado de mecanismo moderno e inovador para a venda de seguros e a disseminação desta cultura, especialmente os corretores de seguros.</span></p>
+<p><strong><span >Conteúdo Programático</span></strong></p>
+<p><span >- Panorama do Comércio Eletrônico no Brasil</span><br /><span >- Conceitos iniciais para o comércio eletrônico de seguros</span><br /><span >- Visão sistêmica do processo de vendas na internet</span><br /><span >- Operação</span><br /><span >- Mídias Sociais e Divulgação</span></p>
+</section>
+<section id="content72">
+
+<div id="det-product-profs-tab">
+
+  <div id="showProfs"><h2>Relação dos Professores do Curso</h2></div>
+    <script src="<baseloja>htm/profsminicv.js"></script>
+    <script>
+        var oProdFilters= <ProdFiltersJS>; //json com os filtros
+        if(typeof(oProdFilters)=="object"){
+          var opFil=oProdFilters.pFil; //array com os filtros
+          if(typeof(opFil)=="object"){
+            opFil.forEach(function(item){
+              if(item.name=="Professores" && item.image!=undefined){
+                var profNames = item.value.split(",")
+                var profImage = item.image.split(",")
+                var showProfsDiv = document.getElementById('showProfs');
+                profImage.forEach(function(item,index){
+                  showProfsDiv.innerHTML += "<div id='prof"+index+"'><img src='<baseloja>prod/"+item+"'>"+profNames[index]+"</div><p>"+insertProfMiniCV(profNames[index])+"</p>"
+                });
+              }
+            });
+          }
+        }
+    </script>
+</div>
+  </section></div>

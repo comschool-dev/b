@@ -1,0 +1,52 @@
+<div id="tabs">
+<input id="tab207" type="radio" name="tabs" checked>
+<label for="tab207">Descrição do Curso</label><input id="tab208" type="radio" name="tabs">
+  <label for="tab208">Professores</label><section id="content207">
+<p><span >A profissão de vendedor vem se aprimorando a cada ano. Aquela antiga percepção de que para ser bom vendedor bastava ter âbom papoâ não existe mais. Os velhos clichês e fórmulas batidas de vendas não funcionam mais, agora é necessário obter técnica e conhecimento.</span></p>
+<p><span >O mercado está cada vez mais competitivo, e os clientes cada vez mais exigentes. Por isso, para se ter sucesso como vendedor hoje é preciso investir em qualificação, ter foco e trabalhar estrategicamente.</span></p>
+<p><span >Se você tem uma equipe comercial na sua empresa, é importante que a tecnologia seja uma aliada na hora da venda. Transforme seus vendedores em profissionais 3.0!</span></p>
+<p><span >Com o curso <strong>In Company <strong>de Vendedor 3.0</strong> </strong>sua equipe aprende dicas, truques e ferramentas on-line que vão aumentar a produtividade e otimizar o tempo.</span></p>
+<p><span >O vendedor 3.0 deve saber usar as novas mídias a seu favor, e a internet é o grande coringa, trazendo inúmeros benefícios e possibilitando uma comunicação mais rápida com seus clientes.</span></p>
+<p><span >Com o curso <strong>In Company <strong>de Vendedor 3.0</strong> </strong>sua equipe aprende criar e usar um perfil nas redes sociais para fidelizar prospects e clientes, fazer relatórios de venda, fazer manutenção de estoque, agendar e organizar suas visitas e muito mais.</span></p>
+<p><span >O objetivo do <strong>curso <strong>de </strong></strong><strong>Vendedor 3.0 </strong>é introduzir os conceitos digitais ao vendedor e ensina-lo como otimizar seu tempo, utilizando ferramentas disponíveis na internet.</span></p>
+<p><span >A ComSchool oferece cursos In Company, para atender necessidades específicas da empresa solicitante. Esses treinamentos podem seguir a programação normal dos treinamentos oferecidos na escola, e ser ministrados a uma turma exclusiva de colaboradores da empresa, ou então, a ComSchool pode desenvolver um conteúdo para solucionar uma demanda interna solicitada, com estudos de casos específicos e questões a serem debatidas durante o curso já pré-determinadas.</span></p>
+
+<p><span ><strong>Vantagens dos cursos In Company:</strong></span></p>
+<p><span >- Conteúdo Personalizado</span></p>
+<p><span > - Adaptação do Conteúdo programático a atividade da empresa</span></p>
+<p><span >- Horários Flexíveis</span></p>
+<p><span > - Realização do treinamento na sede da empresa ou na ComSchool (quando realizado na sede da ComSchool, é possível transmitir online o treinamento a demais colaboradores da empresa, que estejam em outras cidades, e permitir a interação em real time entre os mesmos)</span></p>
+<p><span >- Discussões direcionadas a casos reais e situações ocorridas no dia a dia da empresa</span></p>
+<p><span > - Integração entre os funcionários da empresa</span></p>
+<p><span > - Alto grau de aproveitamento</span></p>
+
+<p><span >Estamos prontos para atender a sua necessidade, e desenvolver um conteúdo exclusivo à sua empresa. Entre em contato para mais informações, solicite um orçamento e o conteúdo programático detalhado. </span></p>
+
+
+</section>
+<section id="content208">
+
+<div id="det-product-profs-tab">
+
+  <div id="showProfs"><h2>Relação dos Professores do Curso</h2></div>
+    <script src="<baseloja>htm/profsminicv.js"></script>
+    <script>
+        var oProdFilters= <ProdFiltersJS>; //json com os filtros
+        if(typeof(oProdFilters)=="object"){
+          var opFil=oProdFilters.pFil; //array com os filtros
+          if(typeof(opFil)=="object"){
+            opFil.forEach(function(item){
+              if(item.name=="Professores" && item.image!=undefined){
+                var profNames = item.value.split(",")
+                var profImage = item.image.split(",")
+                var showProfsDiv = document.getElementById('showProfs');
+                profImage.forEach(function(item,index){
+                  showProfsDiv.innerHTML += "<div id='prof"+index+"'><img src='<baseloja>prod/"+item+"'>"+profNames[index]+"</div><p>"+insertProfMiniCV(profNames[index])+"</p>"
+                });
+              }
+            });
+          }
+        }
+    </script>
+</div>
+  </section></div>

@@ -1,0 +1,89 @@
+<div id="tabs">
+<input id="tab125" type="radio" name="tabs" checked>
+<label for="tab125">Descrição do Curso</label><input id="tab126" type="radio" name="tabs">
+  <label for="tab126">Professores</label><section id="content125">
+<h1 align="justify"><span ><strong><span >Curso de Fotografia para E-commerce</span></strong></span></h1>
+<p><span >O curso de Fotografia para Ecommerce da ComSchool, traz dicas práticas para você que deseja produzir suas próprias fotos para Ecommerce. Conceitos de fotografia que irão te auxiliar a obter melhores resultados em suas fotos de produtos, que vão de roupas a acessórios.</span></p>
+
+<p><span ><strong><span >Objetivos:</span></strong></span></p>
+<ul>
+<li><span >Produzir fotos de qualidade para Ecommerce;</span></li>
+<li><span >Capacitar o aluno a produzir seu próprio estúdio de fotografia;</span></li>
+<li><span >Quais equipamentos utilizar;</span></li>
+<li><span >Calibrar equipamentos;</span></li>
+<li><span >Conceitos de iluminação;</span></li>
+</ul>
+
+<p><strong ><span >Duração:</span></strong></p>
+<p><span >O curso de Fotografia para Ecommerce tem carga horária total de 80 minutos.</span></p>
+
+<p><span ><strong><span >Estude Pela Internet</span></strong></span></p>
+<p><span >Após recebermos a confirmação do pagamento, enviaremos login e senha para você acessar a Sala de Aula Virtual. Você terá noventa (90) dias para concluir o curso. </span><br /> <br /><span > Você pode tirar suas dúvidas diretamente com o professor através de seus contatos.</span></p>
+
+<p><span ><strong><span >Público Alvo</span></strong></span></p>
+<p><span >Este curso destina-se a profissionais de Ecommerce que desejam produzir suas próprias fotografias de produtos com custo baixo e alta qualidade.</span></p>
+
+<p><span ><strong><span >Conteúdo Programático</span></strong></span></p>
+<p><span >Introdução</span></p>
+<ul>
+<li><span >Conceito</span></li>
+<li><span >Catálogo de produtos</span></li>
+</ul>
+<p><span >Equipamentos</span></p>
+<ul>
+<li><span >Equipamentos</span></li>
+<li><span >Câmera</span></li>
+<li><span >Luz</span></li>
+<li><span >Como calibrar seu equipamento</span></li>
+</ul>
+<p><span >Faça sua própria mesa Still</span></p>
+<ul>
+<li><span >Criando sua própria mesa Still</span></li>
+<li><span >Passo a passo</span></li>
+<li><span >Como utilizar sua tenda de luz</span></li>
+</ul>
+<p><span >Fotografando jóias e vidros</span></p>
+<ul>
+<li><span >Como fotografar jóias</span></li>
+<li><span >Como fotografar vidros</span></li>
+</ul>
+<p><span >Modelo, manequim ou flat</span></p>
+<ul>
+<li><span >Quais destes estilos utilizar</span></li>
+<li><span >Fotografando roupas</span></li>
+</ul>
+<p><span >Cases de sucesso</span></p>
+<ul>
+<li><span >Alguns cases de sucesso</span></li>
+</ul>
+
+
+<p><span >Veja todos os <a title="Curso de ecommerce" href="https://www.comschool.com.br/cursos-de-e-commerce/"><strong>cursos de e-commerce</strong></a>.</span></p>
+
+</section>
+<section id="content126">
+
+<div id="det-product-profs-tab">
+
+  <div id="showProfs"><h2>Relação dos Professores do Curso</h2></div>
+    <script src="<baseloja>htm/profsminicv.js"></script>
+    <script>
+        var oProdFilters= <ProdFiltersJS>; //json com os filtros
+        if(typeof(oProdFilters)=="object"){
+          var opFil=oProdFilters.pFil; //array com os filtros
+          if(typeof(opFil)=="object"){
+            opFil.forEach(function(item){
+              if(item.name=="Professores" && item.image!=undefined){
+                var profNames = item.value.split(",")
+                var profImage = item.image.split(",")
+                var showProfsDiv = document.getElementById('showProfs');
+                profImage.forEach(function(item,index){
+                  showProfsDiv.innerHTML += "<div id='prof"+index+"'><img src='<baseloja>prod/"+item+"'>"+profNames[index]+"</div><p>"+insertProfMiniCV(profNames[index])+"</p>"
+                });
+              }
+            });
+          }
+        }
+    </script>
+</div>
+  </section></div>

@@ -1,0 +1,57 @@
+<div id="tabs">
+<input id="tab306" type="radio" name="tabs" checked>
+<label for="tab306">Descrição do Curso </label><input id="tab307" type="radio" name="tabs">
+  <label for="tab307">Professores</label><section id="content306">
+<p>Como acompanhar o que estão falando do seu candidato e concorrentes, evite crises e mantenha presença nas principais redes sociais do momento</p>
+<p>Descrição longa do curso: Dicas de como estruturar e organizar o seu monitoramento, indicação de ferramentas e orientações práticas para turbinar sua página no Facebook e perfil no Instagram</p>
+
+<p>Objetivos: Organizar um monitoramento de Redes Sociais</p>
+<p>Usar Ferramentas como Facebook e Instagram</p>
+
+<p>A quem se destina: Qualquer comunicador pretendendo utilizar redes sociais nas eleições de 2016</p>
+
+<p>Conteúdo programático:</p>
+
+<ul>
+<li>Monitoramento em Redes Sociais
+<ul>
+<li>Ferramentas</li>
+<li>Técnicas</li>
+<li>Operação de Redes Sociais
+<ul>
+<li>Facebook</li>
+<li>nstagram</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+<p>Por que fazer o curso: A campanha de 2016 será a mais curta que já tivemos, a velocidade das redes sociais aumentam a chance do candidato conquistar seus votos e com pouco tempo de campanha não há espaço para errar, prepare-se para aproveitar ao máximo cada dia disponível.</p>
+</section>
+<section id="content307">
+
+<div id="det-product-profs-tab">
+
+  <div id="showProfs"><h2>Relação dos Professores do Curso</h2></div>
+    <script src="<baseloja>htm/profsminicv.js"></script>
+    <script>
+        var oProdFilters= <ProdFiltersJS>; //json com os filtros
+        if(typeof(oProdFilters)=="object"){
+          var opFil=oProdFilters.pFil; //array com os filtros
+          if(typeof(opFil)=="object"){
+            opFil.forEach(function(item){
+              if(item.name=="Professores" && item.image!=undefined){
+                var profNames = item.value.split(",")
+                var profImage = item.image.split(",")
+                var showProfsDiv = document.getElementById('showProfs');
+                profImage.forEach(function(item,index){
+                  showProfsDiv.innerHTML += "<div id='prof"+index+"'><img src='<baseloja>prod/"+item+"'>"+profNames[index]+"</div><p>"+insertProfMiniCV(profNames[index])+"</p>"
+                });
+              }
+            });
+          }
+        }
+    </script>
+</div>
+  </section></div>

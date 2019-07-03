@@ -1,0 +1,46 @@
+<div id="tabs">
+<input id="tab232" type="radio" name="tabs" checked>
+<label for="tab232">Descrição</label><input id="tab233" type="radio" name="tabs">
+  <label for="tab233">Professores</label><section id="content232">
+<h1><span ><strong>Livro Comércio Eletrônico: Melhores Práticas do Mercado Brasileiro.</strong></span></h1>
+
+<p><span >Há 10 anos, quando Gabriel Lima ingressou no e-commerce, o cenário era de desconfiança e muitas dúvidas. Poucos acreditavam que seria possível vender roupas e perfumes pela Internet, por exemplo.</span></p>
+
+<p><span >O mercado digital ainda engatinhava no Brasil, não havia massa crítica de e-shoppers e as tecnologias eram muito caras e complexas. Após uma década as coisas mudaram muito! As categorias mais vendidas no e-commerce nacional são, acredite: moda e beleza.</span></p>
+
+<p><span >O cofundador da Enext passou esses anos envolvido em operações de comércio eletrônico de diversos portes, aproveitando sua veia acadêmica para fazer de estudos e observações que agora apresenta nessa obra.</span></p>
+
+<p><span >O livro Comércio Eletrônico – Melhores Práticas do Mercado Brasileiro deve auxiliar os empresários do mercado digital. Se você gosta e se interessa por vendas online, é uma excelente leitura.</span></p>
+
+<p><span >Autor: Gabriel Lima</span></p>
+<p><span >Editora: ComSchool</span></p>
+<p><span >São Paulo, 2015.</span></p>
+<p><span >98 páginas.</span></p>
+<p><span ><img title="Livro de ecommerce Gabriel Lima Enext" src="https://www.ecommerceschool.com.br/images/livro-de-ecommerce-gabriel-lima-enext.jpg" alt="Livro de ecommerce Gabriel Lima Enext" width="500" height="354" /></span></p>
+</section>
+<section id="content233">
+
+<div id="det-product-profs-tab">
+
+  <div id="showProfs"><h2>Relação dos Professores do Curso</h2></div>
+    <script src="<baseloja>htm/profsminicv.js"></script>
+    <script>
+        var oProdFilters= <ProdFiltersJS>; //json com os filtros
+        if(typeof(oProdFilters)=="object"){
+          var opFil=oProdFilters.pFil; //array com os filtros
+          if(typeof(opFil)=="object"){
+            opFil.forEach(function(item){
+              if(item.name=="Professores" && item.image!=undefined){
+                var profNames = item.value.split(",")
+                var profImage = item.image.split(",")
+                var showProfsDiv = document.getElementById('showProfs');
+                profImage.forEach(function(item,index){
+                  showProfsDiv.innerHTML += "<div id='prof"+index+"'><img src='<baseloja>prod/"+item+"'>"+profNames[index]+"</div><p>"+insertProfMiniCV(profNames[index])+"</p>"
+                });
+              }
+            });
+          }
+        }
+    </script>
+</div>
+  </section></div>

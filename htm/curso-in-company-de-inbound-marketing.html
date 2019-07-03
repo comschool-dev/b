@@ -1,0 +1,49 @@
+<div id="tabs">
+<input id="tab252" type="radio" name="tabs" checked>
+<label for="tab252">Descrição do Curso </label><input id="tab253" type="radio" name="tabs">
+  <label for="tab253">Professores</label><section id="content252">
+<h1><span >Curso In Company de Inbound Marketing</span></h1>
+
+<p><span >O <strong>Inbound Marketing</strong>, ou Marketing de Atração, surgiu nos Estados Unidos, no ano de 2009, e desde 2014 vem se tornando bastante comum no Brasil, por conta dos resultados alcançados. Esses resultados são resultados da mudança do comportamento do novo consumidor, que não aceita mais ser forçado a consumir nada.</span></p>
+<p><span >A estratégia de Inbound Marketing visa justamente o contrário: atraia o visitante até o seu site, solicite o seu contato, e permita a oferta de seus produtos ou serviços!</span></p>
+<p><span >A sua equipe precisa aprender as estratégias de planejamento desse novo Marketing.</span></p>
+<p><span >Com o <strong>treinamento de Inbound Marketing</strong>, a sua equipe entenderá as mudanças de comportamento do novo consumidor e os fundamentos do Marketing de Atração; Compreender a Jornada do Consumidor e aprenderá a realizar a conversão de visitantes em leads potenciais, além de criar o planejamento estratégico para tais ações, além de também definir campanhas e planejar o workflow para a geração de leads. O objetivo do curso In Company de Inbound Marketing é ensinar a sua equipe a atrair visitantes, transformá-los em leads, estabelecer formatos de relacionamento com essa base e por final, como gerar as oportunidades de vendas.</span></p>
+
+<p><span >A ComSchool oferece cursos In Company, para atender necessidades específicas da empresa solicitante. Esses treinamentos podem seguir a programação normal dos treinamentos oferecidos na escola, e ser ministrados a uma turma exclusiva de colaboradores da empresa, ou então, a ComSchool pode desenvolver um conteúdo para solucionar uma demanda interna solicitada, com estudos de casos específicos e questões a serem debatidas durante o curso já pré-determinadas.</span></p>
+<p><span >Vantagens dos cursos In Company:</span></p>
+<p><span >- Conteúdo Personalizado</span></p>
+<p><span >- Adaptação do Conteúdo programático a atividade da empresa</span></p>
+<p><span >- Horários Flexíveis</span></p>
+<p><span >- Realização do treinamento na sede da empresa ou na ComSchool (quando realizado na sede da ComSchool, é possível transmitir online o treinamento a demais colaboradores da empresa, que estejam em outras cidades, e permitir a interação em real time entre os mesmos)</span></p>
+<p><span >- Discussões direcionadas a casos reais e situações ocorridas no dia a dia da empresa</span></p>
+<p><span >- Integração entre os funcionários da empresa</span></p>
+<p><span >- Alto grau de aproveitamento</span></p>
+
+<p><span >Estamos prontos para atender a sua necessidade, e desenvolver um conteúdo exclusivo à sua empresa. Entre em contato para mais informações, solicite um orçamento e o conteúdo programático detalhado.</span></p>
+</section>
+<section id="content253">
+
+<div id="det-product-profs-tab">
+
+  <div id="showProfs"><h2>Relação dos Professores do Curso</h2></div>
+    <script src="<baseloja>htm/profsminicv.js"></script>
+    <script>
+        var oProdFilters= <ProdFiltersJS>; //json com os filtros
+        if(typeof(oProdFilters)=="object"){
+          var opFil=oProdFilters.pFil; //array com os filtros
+          if(typeof(opFil)=="object"){
+            opFil.forEach(function(item){
+              if(item.name=="Professores" && item.image!=undefined){
+                var profNames = item.value.split(",")
+                var profImage = item.image.split(",")
+                var showProfsDiv = document.getElementById('showProfs');
+                profImage.forEach(function(item,index){
+                  showProfsDiv.innerHTML += "<div id='prof"+index+"'><img src='<baseloja>prod/"+item+"'>"+profNames[index]+"</div><p>"+insertProfMiniCV(profNames[index])+"</p>"
+                });
+              }
+            });
+          }
+        }
+    </script>
+</div>
+  </section></div>

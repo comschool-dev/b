@@ -1,0 +1,54 @@
+<div id="tabs">
+<input id="tab213" type="radio" name="tabs" checked>
+<label for="tab213">Descrição do Curso</label><input id="tab214" type="radio" name="tabs">
+  <label for="tab214">Professores</label><section id="content213">
+<p><span >Seus clientes e consumidores estão cada vez mais conectados e exigentes. E isso não é uma exclusividade deles. Os consumidores brasileiros, de forma geral, são influenciados diretamente pelas mídias digitais, pela internet, e seus multicanais. Dentro dessas mídias, principalmente nas redes sociais, o consumidor tem total poder de escolha, decidindo o que ver, quais notícias vai receber, quais empresas vai seguir, etc.</span> </p>
+<p><span >Nesse cenário, a internet tem desempenhado um papel cada vez mais importante para que as empresas melhorem a sua performance, se mantenham acessíveis aos consumidores e atinjam uma audiência qualificada e segmentada.</span></p>
+<p><span >Por isso, saber trabalhar as mídias online é essencial, e isso requer um bom planejamento de ações. Fazer um planejamento de mídia assertivo e eficaz reduz custos desnecessários e aumenta seus resultados.</span></p>
+<p><span >Aliás, que palavrinha importante: RESULTADOS. Toda empresa quer alcançar esse objetivo em comum. E para isso é necessário entender o comportamento do seu consumidor. Falar com ele onde ele está, e na linguagem que ele espera ser alcançado.</span></p>
+<p><span >Sem esquecer, claro, da estratégia. Pensar estrategicamente, alinhado com seus objetivos de comunicação online, vai trazer um aumento do seu ROI, o famoso retorno sobre investimento.</span></p>
+<p><span >Sua empresa quer ingressar na compra de mídia online, mas ainda não sabe como? Nossa sugestão é o <strong>curso In Company de </strong><strong>Planejamento e Gestão de Mídia Online.</strong></span></p>
+<p><span >Esse curso visa capacitar sua equipe para realizar as funções de planejamento, compra, gestão e avaliação de resultados em mídia online com foco em branding e alta performance.</span></p>
+<p><span >Com o <strong>curso In Company de </strong><strong>Planejamento e Gestão de Mídia Online</strong>, seus gestores aprendem na prática a fazer a mensuração e a identificar o KPIS de sucesso relacionados a sua área de atuação.</span></p>
+<p><span >O objetivo do <strong>curso <strong>Planejamento e Gestão de Mídia </strong></strong>é familiarizar os participantes com os conceitos de gestão de mídia online e desenvolver neles a habilidade de pensar e agir estrategicamente, pensando sempre na obtenção de resultados.</span></p>
+<p><span >Esse curso pode ser contratado individualmente por módulo, caso a necessidade da sua empresa seja aprimorar apenas um dos temas ministrados no treinamento completo. Consulte nossa equipe especializada em Cursos In Company e peça mais detalhes!</span></p>
+<p><span >A ComSchool oferece cursos In Company para atender necessidades específicas da empresa solicitante. Esses treinamentos podem seguir a programação normal dos treinamentos oferecidos na escola, e ser ministrados a uma turma exclusiva de colaboradores da empresa, ou então, a ComSchool pode desenvolver um conteúdo para solucionar uma demanda interna solicitada.</span></p>
+
+<p><span ><strong>Vantagens dos treinamentos In Company:</strong></span></p>
+
+<p><span >- Conteúdo Personalizado</span></p>
+<p><span >- Adaptação do Conteúdo programático a atividade da empresa</span></p>
+<p><span >- Horários Flexíveis</span></p>
+<p><span >- Realização do treinamento na sede da empresa ou na ComSchool (quando realizado na sede da ComSchool, é possível transmitir online o treinamento a demais colaboradores da empresa, que estejam em outras cidades, e permitir a interação em real time entre os mesmos)</span></p>
+<p><span >- Discussões direcionadas a casos reais e situações ocorridas no dia a dia da empresa</span></p>
+<p><span >- Integração entre os funcionários da empresa</span></p>
+<p><span >- Alto grau de aproveitamento</span></p>
+
+<p><span > Estamos prontos para atender a sua necessidade, e desenvolver um conteúdo exclusivo à sua empresa. Entre em contato para mais informações, e solicite um orçamento. </span></p>
+</section>
+<section id="content214">
+
+<div id="det-product-profs-tab">
+
+  <div id="showProfs"><h2>Relação dos Professores do Curso</h2></div>
+    <script src="<baseloja>htm/profsminicv.js"></script>
+    <script>
+        var oProdFilters= <ProdFiltersJS>; //json com os filtros
+        if(typeof(oProdFilters)=="object"){
+          var opFil=oProdFilters.pFil; //array com os filtros
+          if(typeof(opFil)=="object"){
+            opFil.forEach(function(item){
+              if(item.name=="Professores" && item.image!=undefined){
+                var profNames = item.value.split(",")
+                var profImage = item.image.split(",")
+                var showProfsDiv = document.getElementById('showProfs');
+                profImage.forEach(function(item,index){
+                  showProfsDiv.innerHTML += "<div id='prof"+index+"'><img src='<baseloja>prod/"+item+"'>"+profNames[index]+"</div><p>"+insertProfMiniCV(profNames[index])+"</p>"
+                });
+              }
+            });
+          }
+        }
+    </script>
+</div>
+  </section></div>

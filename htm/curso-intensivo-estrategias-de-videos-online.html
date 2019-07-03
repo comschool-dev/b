@@ -1,0 +1,61 @@
+<div id="tabs">
+<input id="tab180" type="radio" name="tabs" checked>
+<label for="tab180">Objetivos</label><input id="tab181" type="radio" name="tabs">
+  <label for="tab181">Professores</label><section id="content180">
+<p><span >O principal objetivo da aula é mostrar a todos diversos caminhos de como se construir um vídeo de sucesso não apenas para web, mais também para o ecommerce.</span><br /><span > É analisado e ensinado todas as mídias complementares, principais programas de edição e estratégias de divulgação online. Faz referencia a um capitulo focado exclusivamente em vídeos virais, alem das principais mídias de apoio. O estudo e a metodologia mostrada se encaixam em absolutamente todos os tipos de mídia de que se tem conhecimento.</span></p>
+
+<p><strong><span >Conteúdo Programático:</span></strong></p>
+<p><span >Curso Intensivo: Estratégias de vídeos online.</span></p>
+<p><span >Estruturação áudiovisual (8 Horas)</span></p>
+
+<p><span >- Conceitos básicos de vídeos online</span></p>
+<p><span >- Principais mídias</span></p>
+<p><span >- Novas mídias</span></p>
+<p><span >- Principais ferramentas de edição</span></p>
+<p><span >- Storyboard</span></p>
+<p><span >- Roteiros</span></p>
+<p><span >- Definindo técnicas</span></p>
+<p><span >- Os componentes visuais</span></p>
+<p><span >- Contraste e afinidade</span></p>
+<p><span >- Cor e Tonalidade</span></p>
+<p><span >- Espaço</span></p>
+<p><span >- Metodologias de divulgação básica e Google Add vídeos</span></p>
+<p><span >- Narratologia extremada ( Conceitos virais audiovisuais)</span></p>
+<p><span >Elaboração de um vídeo para Web! ( 8 Horas)</span></p>
+<p><span >- Interpretando um Roteiro/Storyboard</span></p>
+<p><span >- Nichos de ação e continuidade</span></p>
+<p><span >- Definindo a persona narrativa</span></p>
+<p><span >- Movimento</span></p>
+<p><span >- Cor</span></p>
+<p><span >- Espaços: Parte 01 e 02</span></p>
+<p><span >- Gravação e edição</span></p>
+<p><span >- Liberando um vídeo na web</span></p>
+<p><span >- Otimizações com o Youtube</span></p>
+<p><span >- Resultados esperados</span></p>
+</section>
+<section id="content181">
+
+<div id="det-product-profs-tab">
+
+  <div id="showProfs"><h2>Relação dos Professores do Curso</h2></div>
+    <script src="<baseloja>htm/profsminicv.js"></script>
+    <script>
+        var oProdFilters= <ProdFiltersJS>; //json com os filtros
+        if(typeof(oProdFilters)=="object"){
+          var opFil=oProdFilters.pFil; //array com os filtros
+          if(typeof(opFil)=="object"){
+            opFil.forEach(function(item){
+              if(item.name=="Professores" && item.image!=undefined){
+                var profNames = item.value.split(",")
+                var profImage = item.image.split(",")
+                var showProfsDiv = document.getElementById('showProfs');
+                profImage.forEach(function(item,index){
+                  showProfsDiv.innerHTML += "<div id='prof"+index+"'><img src='<baseloja>prod/"+item+"'>"+profNames[index]+"</div><p>"+insertProfMiniCV(profNames[index])+"</p>"
+                });
+              }
+            });
+          }
+        }
+    </script>
+</div>
+  </section></div>

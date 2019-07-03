@@ -1,0 +1,67 @@
+<div id="tabs">
+<input id="tab89" type="radio" name="tabs" checked>
+<label for="tab89">Descrição do Curso</label><input id="tab90" type="radio" name="tabs">
+  <label for="tab90">Professores</label><section id="content89">
+<p><span ><strong>Curso Inovação nas Redes Sociais<br /></strong></span></p>
+
+<p><span >Let´s go Inovadores!</span></p>
+<p><span >O curso ensina o processo criativo nas redes sociais. Como criar e solucionar problemas utilizando a internet e suas ferramentas? Quais são os métodos e processos para se criar ações e projetos autênticos e originais? Como formar ideias viáveis e funcionais?</span></p>
+<p><span >Um curso que apresenta novos horizontes, que vai além do trabalho de conteúdo em redes sociais, amplia suas habilidades e torna você capaz de solucionar os problemas com mais criatividade. Sejam eles processos cotidianos ou grandes projetos!</span></p>
+<p><strong><span >Quem é o professor?</span></strong></p>
+<p><span >Juliano Kimura, CEO e fundador da Trianons Inovação digital e redes sociais, professor titular na ComSchool. Foi destaque no primeiro Seminário nacional de Inovação, pesquisa e desenvolvimento! Co-fundador do projeto SocialBrunch, o primeiro diretório de blogueiros e influentes da internet. </span><span >Palestrante em mais de 90 eventos de tecnologia e internet pelo Brasil. Ministrou palestras para: USP, UPF, FECAP, Faculdade Anhanguera, Anhembi Morumbi, IBOPE Media, Sebrae-SP, Eshow São Paulo, Social Media Week, Campus Party e Conferencia Crowdsourcing, entre outros. </span><span >15 anos de experiência profissional, foi diretor executivo da Gaia Creative, consultor na agência Inter.net Brasil, Coordenador de jogos e aplicativos na Supportcomm, BI da Gameloft Brasil, Community Manager na Level Up! Games. Foi responsável pela marca GameZ! e pela premiação no Troféu Gameworld como melhor Publisher de jogos para celular.</span></p>
+
+<p><strong><span >O que você vai aprender?</span></strong></p>
+
+<ul>
+<li><span >Criando conexões – Quebrando barreiras</span></li>
+<li><span >Inovação no networking</span></li>
+<li><span >Deixando de somar para multiplicar – O gestor, o funcionário e o colaborador</span></li>
+<li><span >Gerações – Conflito de interesses e mudanças invisíveis.</span></li>
+<li><span >Evolução tecnológica e o novo comportamento do consumidor</span></li>
+<li><span >Colaboração e valor gerado através de co-criação e inovação nos processos.</span></li>
+<li><span >Processo criativo e solução de problemas – Exercícios práticos e exemplos de aplicação</span></li>
+<li><span >Utilização de Ferramentas e eficiência na produção</span></li>
+<li><span >O nativo digital - O que podemos esperar dessa nova geração?</span></li>
+<li><span >Validação de ideias e projetos – como criar um protótipo e validar sua ideia</span></li>
+<li><span >Humanizar para aproximar – A causa </span></li>
+<li><span >Viabilizando projetos e apresentando ideias</span></li>
+<li><span >As barreiras da inovação – Falta de visão analítica, conhecimento técnico, problemas financeiros</span></li>
+<li><span >Criando muito com pouco – a busca incansável por processos e métodos mais eficientes. A eficiência é menos trabalho e mais resultados. </span></li>
+<li><span >O lendário ócio criativo – Produtivo ou não? Como?</span></li>
+</ul>
+<p><strong><span >Público Alvo</span></strong></p>
+<p><span >Profissionais e gestores cansados da rotina. Que precisam conhecer novas maneiras de pensar e mudar seu dia a dia. Profissionais de: Marketing, Relações Públicas, Jornalistas, blogueiros, social media, publicitários e criativos. Responsáveis pela comunicação online e executivos inovadores.</span></p>
+
+<p><strong><span >Grupos Corporativos</span></strong></p>
+<p><span >Se sua empresa quer inscrever 3 ou mais pessoas, entre em contato conosco: c</span><span >ontato@comschool.com.br</span></p>
+
+<p><span >Veja abaixo o vídeo da última turma</span></p>
+
+<p></p>
+</section>
+<section id="content90">
+
+<div id="det-product-profs-tab">
+
+  <div id="showProfs"><h2>Relação dos Professores do Curso</h2></div>
+    <script src="<baseloja>htm/profsminicv.js"></script>
+    <script>
+        var oProdFilters= <ProdFiltersJS>; //json com os filtros
+        if(typeof(oProdFilters)=="object"){
+          var opFil=oProdFilters.pFil; //array com os filtros
+          if(typeof(opFil)=="object"){
+            opFil.forEach(function(item){
+              if(item.name=="Professores" && item.image!=undefined){
+                var profNames = item.value.split(",")
+                var profImage = item.image.split(",")
+                var showProfsDiv = document.getElementById('showProfs');
+                profImage.forEach(function(item,index){
+                  showProfsDiv.innerHTML += "<div id='prof"+index+"'><img src='<baseloja>prod/"+item+"'>"+profNames[index]+"</div><p>"+insertProfMiniCV(profNames[index])+"</p>"
+                });
+              }
+            });
+          }
+        }
+    </script>
+</div>
+  </section></div>

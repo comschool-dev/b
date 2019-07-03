@@ -1,0 +1,54 @@
+<div id="tabs">
+<input id="tab85" type="radio" name="tabs" checked>
+<label for="tab85">Descrição do Curso</label><input id="tab86" type="radio" name="tabs">
+  <label for="tab86">Professores</label><section id="content85">
+<p class="TxtDescr"><strong><span >Descrição do Curso de Marketing Online para Autônomos e Profissionais de Serviços</span></strong></p>
+<p class="TxtDescr"> </p>
+<p><span >Se você é um profissional liberal ou autônomo, a Internet é um excelente canal para divulgar seus serviços. Cada vez mais consumidores procuram por serviços profissionais usando a Internet. Estar bem posicionado nosbuscadores, redes sociais e sites de classificados, vai trazer novos clientes para seu negócio.</span></p>
+<p class="TxtDescr"> </p>
+<p><span >De nada adianta você prestar serviços de ótima qualidade se as pessoas não souberem. Aprenda a usar o boca-a-boca na Internet para divulgar seu negócio e aumentar sua base de clientes.</span></p>
+<p class="TxtDescr"> </p>
+<p class="TxtDescr"> </p>
+<p class="TxtDescr"><strong><span >Objetivos:</span></strong></p>
+<p class="TxtDescr"><span >• Apresentar as principais ferramentas de marketing digital para profissionais de serviços</span></p>
+<p class="TxtDescr"><span >• Listar os canais que podem ser usados para divulgação</span></p>
+<p class="TxtDescr"><span >• Demonstrar técnicas de uso da Internet como ferramenta de atração de clientes</span></p>
+<p class="TxtDescr"> </p>
+<p class="TxtDescr"><strong><span >Curso a Distância</span></strong></p>
+<p class="TxtDescr"><span >Estude na hora que quiser, de onde quiser. São 20 horas de estudo em nossa Sala de Aula Virtual, com vídeos, textos, imagens e tutoriais com dicas e segredos de sucesso de Marketing Online para Serviços Profissionais.</span></p>
+<p class="TxtDescr"><span >Após recebermos a confirmação do pagamento, enviaremos login e senha para você acessar a Sala de Aula Virtual. Você terá noventa (90) dias para concluir o curso e ao final gerar seu certificado em PDF.</span></p>
+<p class="TxtDescr"> </p>
+<p class="TxtDescr"><span ><strong>Público Alvo</strong></span></p>
+<p class="TxtDescr"><span >​Autônomos e Profissionais Liberais que oferecem serviços, em qualquer área e que queiram aumentar sua base de clientes e alavancar seu negócio.</span></p>
+<p class="TxtDescr"> </p>
+<p class="TitDescr"><span ><strong>Conteúdo Programático</strong></span></p>
+<p><span ><span>• </span>Como você mesmo pode criar seu site</span><br /><span ><span>• </span>Registro de domínio: tenha um domínio próprio</span><br /><span ><span>• </span>Como usar Redes Sociais para divulgar seus serviços</span><br /><span ><span>• </span>Como criar um blog</span><br /><span ><span>• </span>Receba pagamentos pelo seu site</span><br /><span ><span>• </span>Análise da audiência do seu site</span><br /><span ><span>• </span>SEO: Search Engine Optimization (como fazer seu site aparecer no topo do Google)</span><br /><span ><span>• </span>SEM: Search Engine Marketing: como divulgar seu site investindo no Google</span><br /><span ><span>• </span>Atendimento a clientes usando a Internet</span><br /><span ><span>• </span>Marketing Online (e-mail marketing, redes sociais, banners, portais, programas de affiliates, etc)</span><br /><span ><span>• </span>E mais.</span></p>
+
+<p class="TitDescr"><span > </span></p>
+</section>
+<section id="content86">
+
+<div id="det-product-profs-tab">
+
+  <div id="showProfs"><h2>Relação dos Professores do Curso</h2></div>
+    <script src="<baseloja>htm/profsminicv.js"></script>
+    <script>
+        var oProdFilters= <ProdFiltersJS>; //json com os filtros
+        if(typeof(oProdFilters)=="object"){
+          var opFil=oProdFilters.pFil; //array com os filtros
+          if(typeof(opFil)=="object"){
+            opFil.forEach(function(item){
+              if(item.name=="Professores" && item.image!=undefined){
+                var profNames = item.value.split(",")
+                var profImage = item.image.split(",")
+                var showProfsDiv = document.getElementById('showProfs');
+                profImage.forEach(function(item,index){
+                  showProfsDiv.innerHTML += "<div id='prof"+index+"'><img src='<baseloja>prod/"+item+"'>"+profNames[index]+"</div><p>"+insertProfMiniCV(profNames[index])+"</p>"
+                });
+              }
+            });
+          }
+        }
+    </script>
+</div>
+  </section></div>

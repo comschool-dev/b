@@ -1,0 +1,54 @@
+<div id="tabs">
+<input id="tab208" type="radio" name="tabs" checked>
+<label for="tab208">Descrição do Curso</label><input id="tab209" type="radio" name="tabs">
+  <label for="tab209">Professores</label><section id="content208">
+<p><span >A internet mudou a forma como as pessoas se comunicam e as redes sociais vieram somar nesse cenário, revolucionando a forma como as pessoas se relacionam, se divertem e trabalham. </span></p>
+<p><span >As redes sociais são ferramentas cada vez mais utilizadas pelas empresas como SAC e interação com seus públicos, por isso é necessário estar presente nesses canais e investir em marketing digital.</span></p>
+<p><span >Quando falamos em redes sociais, o alcance pode chegar facilmente a milhões. Basta para isso que sua empresa faça um bom planejamento de suas ações online.</span></p>
+<p><span >Nesse aspecto, é importante saber trabalhar seu conteúdo de forma atrativa, para assim gerar resultado. Por isso torna-se cada vez mais importante o papel do gestor de conteúdo, responsável por utilizar as redes sociais de maneira mais eficiente, explorando seu potencial de relacionamento com o público-alvo, com o objetivo de converter ações em resultados mais assertivos para as empresas.</span></p>
+<p><span >Isso significa saber utilizar as principais plataformas e ferramentas, como Facebook, Twitter e Linkedin, de forma inteligente.</span></p>
+<p><span >Para suprir essa demanda por bons Gestores de Redes Sociais, a ComSchool oferece o curso <strong>de Planejamento e Conversão nas Redes Sociais.</strong></span></p>
+<p><span >No curso, você aprende a usar ferramentas de SAC 2.0, Social Media Otimization, Facebook Marketing, gestão de conteúdo, entre outros.</span></p>
+<p><span >No <strong>curso de Conversão nas Redes Sociais</strong>, seu gestor vai aprender técnicas avançadas de gerenciamento das principais redes sociais, desde o levantamento de informações sobre a empresa, até ferramentas úteis e estratégias operacionais, passando por planejamento estratégico, conteúdo, métricas e monitoramento. Tudo isso com foco na <strong>melhora da conversão</strong> dos seus resultados.</span></p>
+<p><span >O objetivo desse curso é ambientar o aluno nas melhores estratégias para gerenciamento das principais redes sociais; além de ensinar o empresário a gerenciar seu próprio negócio nas redes sociais.</span></p>
+<p><span >A ComSchool oferece treinamentos InCompany, para atender necessidades específicas da empresa solicitante. Esses treinamentos podem seguir a programação normal dos treinamentos oferecidos na escola, e ser ministrados a uma turma exclusiva de colaboradores da empresa, ou então, a ComSchool pode desenvolver um conteúdo para solucionar uma demanda interna solicitada.</span></p>
+
+<p><span ><strong>Vantagens dos treinamentos InCompany:</strong></span></p>
+<p><span >- Conteúdo Personalizado</span></p>
+<p><span > - Adaptação do Conteúdo programático a atividade da empresa</span></p>
+<p><span >- Horários Flexíveis</span></p>
+<p><span > - Realização do treinamento na sede da empresa ou na ComSchool (quando realizado na sede da ComSchool, é possível transmitir online o treinamento a demais colaboradores da empresa, que estejam em outras cidades, e permitir a interação em real time entre os mesmos)</span></p>
+<p><span >- Discussões direcionadas a casos reais e situações ocorridas no dia a dia da empresa</span></p>
+<p><span > - Integração entre os funcionários da empresa</span></p>
+<p><span > - Alto grau de aproveitamento</span></p>
+
+<p><span >Estamos prontos para atender a sua necessidade, e desenvolver um conteúdo exclusivo à sua empresa. Entre em contato para mais informações, e solicite um orçamento. </span></p>
+
+
+</section>
+<section id="content209">
+
+<div id="det-product-profs-tab">
+
+  <div id="showProfs"><h2>Relação dos Professores do Curso</h2></div>
+    <script src="<baseloja>htm/profsminicv.js"></script>
+    <script>
+        var oProdFilters= <ProdFiltersJS>; //json com os filtros
+        if(typeof(oProdFilters)=="object"){
+          var opFil=oProdFilters.pFil; //array com os filtros
+          if(typeof(opFil)=="object"){
+            opFil.forEach(function(item){
+              if(item.name=="Professores" && item.image!=undefined){
+                var profNames = item.value.split(",")
+                var profImage = item.image.split(",")
+                var showProfsDiv = document.getElementById('showProfs');
+                profImage.forEach(function(item,index){
+                  showProfsDiv.innerHTML += "<div id='prof"+index+"'><img src='<baseloja>prod/"+item+"'>"+profNames[index]+"</div><p>"+insertProfMiniCV(profNames[index])+"</p>"
+                });
+              }
+            });
+          }
+        }
+    </script>
+</div>
+  </section></div>

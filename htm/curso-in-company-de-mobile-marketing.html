@@ -1,0 +1,50 @@
+<div id="tabs">
+<input id="tab205" type="radio" name="tabs" checked>
+<label for="tab205">Descrição do Curso</label><input id="tab206" type="radio" name="tabs">
+  <label for="tab206">Professores</label><section id="content205">
+<p><span >Por que o Google comprou a Nokia? Por que o Facebook comprou o Whats App? Tem algo no mundo corporativo que esses gigantes estão de olho: o <strong>mobile marketing</strong>. E você, sabe qual a importância do <strong>mobile marketing</strong> para o sucesso da sua empresa?</span></p>
+<p><span >Segundo a ANATEL, atualmente existem mais de 180 milhões de aparelhos celulares ativos no Brasil. Através de ações de <strong>mobile marketing</strong> - para celulares, smartphones, netbooks e iPads - as empresas alcançam um público diferenciado, que está conectado 24h por dia.</span></p>
+<p><span >Ao contrário do que se acreditava até pouco tempo, o consumidor brasileiro já é, sim, um consumidor online. O termo não significa que o cliente tenha abandonado os locais de compra e aderido exclusivamente ao e-commerce. O que acontece é o uso combinado do off-line e do on-line, o chamado âcross channelâ.<strong> </strong>As pessoas continuam indo à loja física para ver os produtos, mas depois utilizam sites de busca para saber se aquele local tem o melhor preço ou as melhores condições do mercado<strong>.</strong> Em linhas gerais, os consumidores buscam online mais informações sobre determinado produto ou serviço que conheceram offline. E, muitas vezes, fazem isso dentro da própria loja pelo smartphone.</span></p>
+<p><span >Portanto, fazer <strong>mobile marketing </strong><strong>é muito importante para que sua empresa seja encontrada pelos consumidores conectados</strong>. O que fazer, então, como estratégia de marketing para dispositivos móveis? A ComSchool pode te orientar.</span></p>
+<p><span >Com o <strong>curso In Company <strong>de Mobile Marketing</strong> </strong>você mergulha nesse mundo mobile, aprende a criar e implementar campanhas, definir estratégias, contratar desenvolvedores, e mensurar resultados.</span></p>
+<p><span >O objetivo do <strong>curso In Company <strong>de Mobile Marketing</strong> </strong>é familiarizar os participantes com os conceitos e técnicas de marketing em dispositivos móveis eoferecer aos alunos conhecimentos que possam ser aplicados para o desenvolvimento de ações de performance com foco no seu público-alvo.</span></p>
+<p><span >A ComSchool oferece cursos In Company, para atender necessidades específicas da empresa solicitante. Esses treinamentos podem seguir a programação normal dos treinamentos oferecidos na escola, e ser ministrados a uma turma exclusiva de colaboradores da empresa, ou então, a ComSchool pode desenvolver um conteúdo para solucionar uma demanda interna solicitada, com estudos de casos específicos e questões a serem debatidas durante o curso já pré-determinadas.</span></p>
+
+<p><span ><strong>Vantagens dos cursos In Company:</strong></span></p>
+<p><span >- Conteúdo Personalizado</span></p>
+<p><span > - Adaptação do Conteúdo programático a atividade da empresa</span></p>
+<p><span >- Horários Flexíveis</span></p>
+<p><span > - Realização do treinamento na sede da empresa ou na ComSchool (quando realizado na sede da ComSchool, é possível transmitir online o treinamento a demais colaboradores da empresa, que estejam em outras cidades, e permitir a interação em real time entre os mesmos)</span></p>
+<p><span >- Discussões direcionadas a casos reais e situações ocorridas no dia a dia da empresa</span></p>
+<p><span > - Integração entre os funcionários da empresa</span></p>
+<p><span > - Alto grau de aproveitamento</span></p>
+
+<p><span >Estamos prontos para atender a sua necessidade, e desenvolver um conteúdo exclusivo à sua empresa. Entre em contato para mais informações, solicite um orçamento e o conteúdo programático detalhado. </span></p>
+
+</section>
+<section id="content206">
+
+<div id="det-product-profs-tab">
+
+  <div id="showProfs"><h2>Relação dos Professores do Curso</h2></div>
+    <script src="<baseloja>htm/profsminicv.js"></script>
+    <script>
+        var oProdFilters= <ProdFiltersJS>; //json com os filtros
+        if(typeof(oProdFilters)=="object"){
+          var opFil=oProdFilters.pFil; //array com os filtros
+          if(typeof(opFil)=="object"){
+            opFil.forEach(function(item){
+              if(item.name=="Professores" && item.image!=undefined){
+                var profNames = item.value.split(",")
+                var profImage = item.image.split(",")
+                var showProfsDiv = document.getElementById('showProfs');
+                profImage.forEach(function(item,index){
+                  showProfsDiv.innerHTML += "<div id='prof"+index+"'><img src='<baseloja>prod/"+item+"'>"+profNames[index]+"</div><p>"+insertProfMiniCV(profNames[index])+"</p>"
+                });
+              }
+            });
+          }
+        }
+    </script>
+</div>
+  </section></div>
