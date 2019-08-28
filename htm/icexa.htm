@@ -1,0 +1,60 @@
+<div id="tabs">
+<input id="tab182" type="radio" name="tabs" checked>
+<label for="tab182">Descrição do curso </label><input id="tab183" type="radio" name="tabs">
+  <label for="tab183">Professores</label><section id="content182">
+
+<p><strong>OBJETIVOS:<br /></strong>- Apresentar os Processos de Gestão no Atendimento e Qualidade dos Serviços;<br />- Utilização dos Processos de Gestão na realidade vigente de cada participante;<br />- Criar novos processos de Atendimento e Qualidade de Serviços para serem aplicados imediatamente;<br />- Criar um Plano de Ação para implantação de um novo processo no Atendimento e Qualidade dos Serviços.</p>
+
+<p><strong>PÚBLICO-ALVO:<br /></strong>- Profissionais que atuam diretamente com público (clientes internos e externos);<br />- Profissionais de Marketing, Recursos Humanos, Vendedores e demais áreas relacionadas;<br />- Interessados em garantir a Excelência no atendimento e resoluções de problemas com clientes.</p>
+
+<p><strong>PROGRAMA:</strong></p>
+
+<p><strong>1-A importância do cliente<br /></strong>- O cliente no centro das atenções<br />- Existe empresa sem clientes?<br />- O cliente pode demitir todo mundo, inclusive o presidente<br />- Percepção de qualidade no atendimento</p>
+<p><strong>2-O que é atendimento?</strong><br />- Para que serve atendimento<br />- Quem deve fazer o atendimento?</p>
+<p><strong>3-Por que fazer um bom atendimento?</strong><br />- O que o cliente espera de um atendimento<br />- O que a empresa espera de um atendimento<br />- O que é um atendimento bem feito?<br />- O que é um atendimento incrível?<br />- Como surpreender (positivamente) o cliente?</p>
+<p><strong>4-Tipos de atendimento</strong><br />- Presencial<br />- Telefônico<br />- Internet<br />- WhatsApp<br />- Outros</p>
+<p><strong>5-Tipos de clientes</strong></p>
+<p><strong>6-O básico bem feito!</strong><br />- Tudo começa com um sorriso no rosto<br />- Olhos nos olhos!<br />- O que fazer num atendimento telefônico<br />- O que não fazer num atendimento telefônico<br />- Como receber o cliente num estabelecimento<br />- Pontualidade é obrigação<br />- Dica: use palavras mágicas<br />- Dica: seja ágili nas respostas<br />- Dica de ouro: a primeira impressão deve ser memorável<br />- Tudo está envolvido no atendimento<br />    - Como você se veste<br />    - Como o ambiente está organizado<br />    - Música<br />    - Conversas paralelas<br />    - Decoração<br />    - Etc...<br />    - Padrão de atendimento LAST</p>
+<p><strong>7-O que não fazer</strong><br />- Erros de português<br />- Vícios de linguagem<br />- Falta de cordialidade<br />- Mau humor<br />- Desatenção aos detalhes<br />- Deixar clientes sem resposta<br />- Discussão com os clientes<br />- Promessas tem que ser cumpridas<br />- Exemplos de mau atendimento<br />- Palavras proibidas</p>
+<p><strong>8-Como lidar com situações difíceis</strong><br />- Como tratar clientes nervosos ou mal educados<br />- O cliente tem sempre razão?<br />- Como tratar erros causados pela empresa</p>
+<p><strong>9-Como lidar com as críticas</strong></p>
+<p><strong>10-Exercícios práticos e cases de bom atendimento</strong></p>
+
+<p><strong>CARGA HORÁRIA:</strong> 05 horas-aula</p>
+
+
+<p><strong>EXCLUSIVIDADE COMSCHOOL:<br /></strong></p>
+<p><strong>Assistência Pós-Treinamento: <br /></strong>Na ComSchool, o processo de aprendizado não termina com o final do curso. Os ex-alunos dos Cursos In Company têm assistência direta com o professor, via e-mail, por mais 30 dias após o encerramento das aulas, para solucionar dúvidas ou discutir questões que possam surgir na aplicação do conhecimento adquirido, desde que relacionadas aos temas abordados em sala de aula. </p>
+
+<p><strong>Convênio ComSchool:</strong></p>
+<p>O <strong>CONVÊNIO </strong>tem por objetivo oferecer um benefício especial (bolsa-desconto) a todos os colaboradores da sua empresa, que desejarem participar dos cursos da <strong>COMSCHOOL</strong>. O benefício aplica-se também na contratação de Treinamentos In Company. Consulte!   </p>
+
+
+<p><strong>VANTAGENS DOS TREINAMENTOS IN COMPANY:<br /></strong>- Adaptação do conteúdo programático;<br />- Horários flexíveis;<br />- Realização do treinamento na sede da empresa ou na ComSchool (quando realizado na sede da ComSchool, é possível transmitir on-line o treinamento a demais colaboradores da empresa, que estejam em outras cidades, e permitir a interação em real time entre os mesmos);<br />- Discussões direcionadas a casos reais e situações ocorridas no dia a dia da empresa;<br />- Integração entre os funcionários da empresa;<br />- Alto grau de aproveitamento.</p>
+</section>
+<section id="content183">
+
+<div id="det-product-profs-tab">
+
+  <div id="showProfs"><h2>Relação dos Professores do Curso</h2></div>
+    <script src="<baseloja>htm/profsminicv.js"></script>
+    <script>
+        var oProdFilters= <ProdFiltersJS>; //json com os filtros
+        if(typeof(oProdFilters)=="object"){
+          var opFil=oProdFilters.pFil; //array com os filtros
+          if(typeof(opFil)=="object"){
+            opFil.forEach(function(item){
+              if(item.name=="Professores" && item.image!=undefined){
+                var profNames = item.value.split(",")
+                var profImage = item.image.split(",")
+                var showProfsDiv = document.getElementById('showProfs');
+                profImage.forEach(function(item,index){
+                  showProfsDiv.innerHTML += "<div id='prof"+index+"'><img src='<baseloja>prod/"+item+"'>"+profNames[index]+"</div><p>"+insertProfMiniCV(profNames[index])+"</p>"
+                });
+              }
+            });
+          }
+        }
+    </script>
+</div>
+  </section></div>

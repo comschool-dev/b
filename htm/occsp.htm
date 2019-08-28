@@ -1,0 +1,58 @@
+<div id="tabs">
+<input id="tab503" type="radio" name="tabs" checked>
+<label for="tab503">Curso Oracle Cloud Commerce - OCC</label><input id="tab504" type="radio" name="tabs">
+  <label for="tab504">Professores</label><section id="content503">
+<h1>Curso Oracle Cloud Commerce (OCC)</h1>
+<p><strong>Objetivo do curso:</strong></p>
+<p>O objetivo desse curso é preparar programadores para que possam trabalhar com a OCC de forma ágil e efetiva, ensinado os atalhos para as principais funcionalidades e códigos do sistema.</p>
+
+<p><strong>Público-alvo:</strong></p>
+<p>Programadores com conhecimento em Java</p>
+
+<p><strong>Duração:</strong></p>
+<p>O curso Oracle Cloud Commerce tem carga horária total de 21 horas de muito conteúdo.</p>
+
+<p><strong>Curso Presencial:</strong> as aulas acontecem nas modernas e confortáveis instalações da ComSchool, na Avenida Paulista, 1776, 4º andar, próximo às estações do metrô Consolação e Trianon Masp (linha verde) e Paulista (amarela), no coração de São Paulo.</p>
+
+<p><strong>Conteúdo Programático:</strong></p>
+
+<p><strong>Módulo 1</strong><br />1. Introdução<br />2. Gerenciamento da ferramenta<br />2.1. Admin Console<br /> 2.1.1. Catálogo<br /> 2.1.2. Mídias<br /> 2.1.3. Layout e Design<br />2.2.Agent<br /> 2.2.1. Clientes<br /> 2.2.2. Pedidos<br />2.3. Boas práticas de utilização</p>
+
+<p><strong>Módulo 2</strong><br />3. Customização<br /> 3.1. Extensão do storefront<br /> 3.1.1. Design e Layout<br /> 3.1.2. Widgets e Extensões<br /> 3.1.3. Knockout<br /> 3.1.3.1. MVVM<br /> 3.1.3.2. Data-bind</p>
+<p>3.1.4. View-models e bibliotecas<br /> 3.1.4.1. User<br /> 3.1.4.2. Cart<br /> 3.1.4.3. Site<br /> 3.1.4.4. Order<br />3.1.5. Boas práticas de desenvolvimento</p>
+
+<p><strong>Módulo 3</strong><br />3. Customização (Continuação)<br />3.2. Customização de objetos<br />3.2.1. Perfil de Clientes<br />3.2.2. Pedidos<br />3.3. Extensões Server-Side<br />3.4. Pesquisa<br />3.5. Promoção<br />3.5.1. Cupons<br />3.5.2. Promoções avançadas</p>
+
+<p><strong>Módulo 4</strong><br />4. Integrações<br />4.2. Utilização das API<br />4.3. Webhooks<br />4.4. Visão geral<br />4.5. CRM<br />4.6. OMS<br />4.7. Frete<br />4.8. Pagamento<br />5. B2B</p>
+
+<p>Por que fazer o <strong>Curso Oracle Cloud Commerce</strong> na ComSchool?</p>
+<p>? Única escola no Brasil com sete livros publicados na área digital<br />? Líder nacional no ensino de negocios digital ? A ComSchool é a mais tradicional escola de comércio eletrônico, redes sociais e marketing digital do Brasil<br />? Programa inovador, fundamentado no conhecimento prático dos professores <br />? Corpo Docente com mais de 100 professores, incluindo mestres, doutores, autores de livros, diretores e CEOs de grandes empresas <br />? Estude com alguns dos nomes mais influentes da Internet brasileira<br />? Sala de Aula Virtual com conteúdo complementar: apostilas, planilhas, artigos, e-books, vídeos, números de mercado e sugestões de outros sites<br />? Clube de Benefícios para usar em empresas parceiras (sujeito às regras de cada parceiro).</p>
+
+<p><strong>Matricule-se Já:</strong><br />Clique no botão acima e matricule-se com desconto à vista ou em até 10 vezes sem juros. Se preferir, preencha o formulário acima e nossos consultores entrarão em contato com você para esclarecer quaisquer dúvidas.</p>
+</section>
+<section id="content504">
+
+<div id="det-product-profs-tab">
+
+  <div id="showProfs"><h2>Relação dos Professores do Curso</h2></div>
+    <script src="<baseloja>htm/profsminicv.js"></script>
+    <script>
+        var oProdFilters= <ProdFiltersJS>; //json com os filtros
+        if(typeof(oProdFilters)=="object"){
+          var opFil=oProdFilters.pFil; //array com os filtros
+          if(typeof(opFil)=="object"){
+            opFil.forEach(function(item){
+              if(item.name=="Professores" && item.image!=undefined){
+                var profNames = item.value.split(",")
+                var profImage = item.image.split(",")
+                var showProfsDiv = document.getElementById('showProfs');
+                profImage.forEach(function(item,index){
+                  showProfsDiv.innerHTML += "<div id='prof"+index+"'><img src='<baseloja>prod/"+item+"'>"+profNames[index]+"</div><p>"+insertProfMiniCV(profNames[index])+"</p>"
+                });
+              }
+            });
+          }
+        }
+    </script>
+</div>
+  </section></div>
