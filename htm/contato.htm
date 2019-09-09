@@ -1,0 +1,143 @@
+<style>
+.faleconosco {font-family:'Roboto',arial,verdana; font-weight:400; font-size:16px; line-height:24px; display: -ms-flexbox; display: -webkit-flex; display: flex;}
+.faleconosco p {margin-block-start: 0; margin-block-end: 1em; line-height:18px;}
+.faleconosco b {font-weight:700;}
+.faleconosco a {color:#da151d; text-decoration:none;}
+.faleconosco a:hover {color:#da151d; text-decoration:underline;}
+.tel_peq {font-size:16px; line-height:24px; color:#da151d;}
+.tel_ddd {font-size:24px; line-height:28px; font-weight:700; color:#da151d;}
+.tel_fone {font-size:32px; line-height:40px; font-weight:700; color:#da151d;}
+.fale_bloco1 {width:48%; padding-right:2%; margin:36px 0 0 0;}
+.fale_bloco2 {width:49%;}
+.fale_bloco2 .fale_form1 {font-family:'Roboto',arial,verdana; font-weight:400; font-size:16px; line-height:18px; width:100%; margin:15px 0 5px 0;}
+.fale_bloco2 .fale_form1 b {font-weight:400; font-size:16px; line-height:18px; color:#da151d;}
+.fale_bloco2 .fale_form2 {width:100%; margin:5px 0 0 0; text-align:center;}
+.fale_obrig {display: -ms-flexbox; display: -webkit-flex; display: flex; justify-content: flex-end; -webkit-justify-content: flex-end; align-items:center; -webkit-align-items:center; position:relative; top:30px; font-weight:400; font-size:12px;}
+.fale_bullet {background:#da151d; width:10px; height:10px; border:0; border-radius:5px; margin:0 5px 0 0;}
+.faleconosco .InputFale, .faleconosco textarea  {font-family: 'Roboto',arial,verdana; padding: 5px; background-color:#fff; color: #707070; border: 1px solid #dedede; border-radius:5px; width:98%; height:28px;}
+.faleconosco .SelectFale {font-family: 'Roboto',arial,verdana; padding: 5px; background-color:#fff; color: #707070; border: 1px solid #dedede; border-radius:5px; width:100%; height:40px;}
+.faleconosco textarea {min-height:120px;}
+.faleconosco .buttonForm {-webkit-appearance:none; border-radius: 21px !important; background: #da151d; font-family:'Roboto',arial,verdana; font-size: 20px; line-height:20px; text-transform:uppercase; font-weight:700; color:#fff; height: 42px; width:100%; max-width:220px;}
+
+@media screen and (max-width: 568px) {
+.faleconosco {flex-wrap:wrap; -webkit-flex-wrap:wrap; -ms-flex-wrap:wrap; }
+.fale_bloco1 {width:100%; padding-right:0;}
+.fale_bloco2 {width:100%; margin-top:20px;}
+}
+
+@media screen and (max-width: 480px) {
+.fale_bloco2 {width: 98%;}
+}
+
+@media screen and (max-width: 320px) {
+.faleconosco {font-size:14px;}
+}
+</style>
+
+<span class="Titulos">Fale Conosco</span>
+
+<div class="faleconosco">		
+  <div class="fale_bloco1">
+	Estamos &agrave; disposi&ccedil;&atilde;o para ouvir voc&ecirc;. Utilize esse espa&ccedil;o para enviar d&uacute;vidas, sugest&otilde;es, elogios ou reclama&ccedil;&otilde;es.<br>
+    <br>
+	Para entrar em contato, preencha o formul&aacute;rio. Assim que poss&iacute;vel, a nossa equipe entrar&aacute; em contato.<br>
+	<br>
+	<b>Atendimento por Email:</b><br>
+	<a href="mailto:contato@comschool.com.br">contato@comschool.com.br</a><br>
+    <br>
+    <b>Atendimento via Telefone:</b><br>
+	São Paulo: <span class="tel_peq">(11) 4766-9000</span><br>
+    Rio de Janeiro: <span class="tel_peq">(21) 3513-0632</span><br>
+    Porto Alegre: <span class="tel_peq">(51) 3103-0019</span><br>
+    Florianópolis: <span class="tel_peq">(48) 3771-0239</span><br>
+    Campinas: <span class="tel_peq">(19) 3112-9610</span><br>
+    Curitiba: <span class="tel_peq">(41) 3012-3630</span><br>
+    Ribeirão Preto: <span class="tel_peq">(16) 3505-2030</span><br>
+    <br>
+	<b>Atendimento via Whatsapp:</b><br>
+	<span class="tel_ddd">(11)</span> <span class="tel_fone">94529-8523</span><br>
+	<p>Segunda a Sexta-Feira das 8h30 &agrave;s 20h<br>
+	S&aacute;bados das 9h &agrave;s 17h</p>
+  </div>
+        
+  <div class="fale_bloco2">
+	<form name=form method="POST" action="EnviaMail.asp" class="form-horizontal">
+	<input type=hidden name="NomePara" value='ComSchool'>
+	<input type=hidden name="EmailPara" value='contato@comschool.com.br'>
+	<input type=hidden name="Assunto" value='Contato loja virtual - ComSchool'>
+	<input type=hidden name="URLRetorno" value='/custom.asp?IDLoja=<IDLoja>&arq=obrigado.htm'>
+	<input type=hidden name="OrdemCampos" value='Nome,EmailDe,Tel,Estado,ComoConheceu,Curso,Mensagem'>
+    
+    <div class="fale_obrig"><div class="fale_bullet"></div>Campo Obrigatório</div>
+    
+    <div class="fale_form1"><b>Nome:</b></div>
+    <div><input type="text" name="Nome" class="InputFale" required></div>
+
+    <div class="fale_form1"><b>E-mail:</b></div>
+	<div><input type="email" name="EmailDe" class="InputFale" required></div>
+    
+    <div class="fale_form1"><b>Telefone:</b></div>
+	<div><input type="text" name="Tel" class="InputFale" required></div>
+    
+    <div class="fale_form1"><b>Estado:</b></div>
+    <div>
+    <select class="SelectFale" name="Estado" required>
+      <option value="AC">AC</option>
+      <option value="AL">AL</option>
+      <option value="AM">AM</option>
+      <option value="AP">AP</option>
+      <option value="BA">BA</option>
+      <option value="CE">CE</option>
+      <option value="DF">DF</option>
+      <option value="ES">ES</option>
+      <option value="GO">GO</option>
+      <option value="MA">MA</option>
+      <option value="MG">MG</option>
+      <option value="MS">MS</option>
+      <option value="MT">MT</option>
+      <option value="PA">PA</option>
+      <option value="PB">PB</option>
+      <option value="PE">PE</option>
+      <option value="PI">PI</option>
+      <option value="PR">PR</option>
+      <option value="RJ">RJ</option>
+      <option value="RN">RN</option>
+      <option value="RO">RO</option>
+      <option value="RR">RR</option>
+      <option value="RS">RS</option>
+      <option value="SC">SC</option>
+      <option value="SE">SE</option>
+      <option value="SP">SP</option>
+      <option value="TO">TO</option>
+      <option value="Outro Pais">Outro Pais</option>
+    </select>
+    </div>
+	
+    <div class="fale_form1"><b>Como conheceu a Escola?</b></div>
+	<div>
+    <select class="SelectFale" name="ComoConheceu" required> 
+      <option value="Busca no Google">Busca no Google</option>
+      <option value="Convenio da empresa onde trabalha">Convenio da empresa onde trabalha</option>
+      <option value="Cupom de desconto">Cupom de desconto</option>
+      <option value="Email Marketing">E-mail Marketing</option>
+      <option value="Evento">Evento</option>
+      <option value="Redes Sociais - Facebook Twitter etc">Redes Sociais (Facebook, Twitter, etc)</option>
+      <option value="Folheto - Midia Impressa">Folheto / Midia Impressa</option>
+      <option value="Indicacao de Amigo">Indicacao de Amigo</option>
+      <option value="Site de Noticias - Blog">Site de Noticias / Blog</option>
+      <option value="Video no YouTube">Video no YouTube</option>
+      <option value="Outros">Outros</option>
+    </select>
+    </div>
+
+	<div class="fale_form1">Curso de Interesse:</div>
+	<div><input type="text" name="Curso" class="InputFale"></div>
+
+	<div class="fale_form1"><b>Mensagem:</b></div>
+	<div><textarea name="Mensagem" id="Mensagem" rows="3" required></textarea></div>
+
+	<div class="fale_form2"><input type="submit" alt="Clique para Enviar" value="Enviar" class="buttonForm"></div>
+	
+	</form>
+	</div>
+</div>

@@ -1,0 +1,185 @@
+<ProdTop>
+<link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+<style>
+  .ProductList #FilCatClose, .ProductList #ProductsFilterFC {display:none;}
+  .ProductList #idPaginationProdFC {display:none;}
+  .ProductList .FCProdSty2 {padding:40px 60px;}
+  .ProductList #idTxtIntroFoundProdsFC {display:flex; display:-webkit-flex; justify-content:center; -webkit-justify-content:center; margin-bottom:40px !important; font-family:'Roboto',arial,verdana; font-size:24px; font-weight:700;}
+  .ProductList .FCProdSty2 #idTxtIntroFoundProdsFC:before {content:'Próximos Cursos'}
+  .ProductList .FCProdSty2 #idFoundFC, .ProductList .FCProdSty2 #idPageCountFC {display:none;}
+  .DivListProd {width: 100%; height: auto; padding: 30px 0; margin: 20px 0 0 0; border-bottom:1px solid #f0f0f0; cursor:pointer; }
+  .ListProductStyleProd {width: 100%; min-height: 80px; padding: 0; transition:all 0.3s ease; display: -ms-flexbox; display: -webkit-flex; display: flex; }
+  .ListProductStyleProd .DivListProductStyleSpy, .ListProductStyleProd .DivListProductStyleReview, .ListProductStyleProd .DivListProductStyleSpy, .ListProductStyleProd .DivListDate {display:block;}
+  .ListProductStyleProd .DivListProductStyleDet {display:block; background:#ffffff; clear:both; border-radius: 20px; -webkit-border-radius: 20px; -moz-border-radius: 20px; width:130px; height:20px; -webkit-box-shadow: 0 0 5px 0 rgba(0,0,0,.25); -moz-box-shadow: 0 0 5px 0 rgba(0,0,0,.25); box-shadow: 0 0 5px 0 rgba(0,0,0,.25);}
+  .ListProductStyleProd a .DivListProductStyleDet {font-family:'Roboto',arial,verdana;font-size:16px; font-weight:700; color:#da151d; text-align: center;}
+  .ListProductStyleProd .ListProductStyleNomeProd {margin:1px 0 0 0; font-size: 18px;}
+  .ListProductStyleProd .ListProductStyleDesc {margin:15px 0 0 0; font-size: 14px;}
+  .ListProductStyleProd .DivListDate {width: 18%; margin-left:2%; font-size: 18px; display:flex; display:-webkit-flex; align-items:center; -webkit-align-items:center; justify-content:flex-start; -webkit-justify-content:flex-start;}
+  .ListProductStyleProd .DivListDesc {width: 60%;}
+  .ListProductStyleProd .DivListMore {width: 18%; margin-right:2%; display:flex; display:-webkit-flex; align-items:center; -webkit-align-items:center; justify-content:flex-end; -webkit-justify-content:flex-end; font-family:'Roboto',arial,verdana;}
+  a .DivListProductStyleDet {padding:10px;}
+  .estNextPageButFC span {display: none;}
+  .estNextPageButFC:after {content: 'VER MAIS CURSOS';}
+  .hideFromList {display: none;}
+  
+  .listClass {color: #fff; background:#707070; text-align: center; display: inline-block; padding: 2px 5px; margin-bottom: 5px; font-size:12px; text-transform:uppercase;}
+  .redCat{background:#da151d}
+  .blueCat{background:#23aee8}
+  .greenCat{background:#569c58}
+  .goldCat{background:#d0b500}
+  .buttons {border-bottom:1px solid #da151d;}
+  .offbutton {font-family:'Roboto',arial,verdana; font-size: 18px; color:#707070; background: #fff; height: 72px; border:0;  padding:0 15px;}
+  .onbutton {font-family:'Roboto',arial,verdana; font-size: 18px; color: #ffffff; background: #da151d; height: 72px; border:0;  padding:0 15px;}
+
+@media only screen and (max-width:900px) {
+  .ProductList .FCProdSty2 {padding: 40px 40px;}
+  .ListProductStyleProd .DivListDate {width: 18%; margin-left: 0; margin-right:2%}
+  .ListProductStyleProd .DivListMore {width: 18%; margin-left: 2%; margin-right:0; justify-content: flex-start; -webkit-justify-content: flex-start;}
+  .ListProductStyleProd a .DivListProductStyleDet {font-size: 14px; width: 100%;}
+}
+
+@media only screen and (max-width:768px) {
+  .ProductList .FCProdSty2 {padding: 20px 40px 40px 40px;}
+  .ListProductStyleProd .DivListDesc {width: 68%;}	
+  .ListProductStyleProd .DivListMore {width: 10%; justify-content: center; -webkit-justify-content: center;}
+  .ListProductStyleProd a .DivListProductStyleDet {text-indent: -9999px; line-height: 0; font-size: 20px; width: 40px; height: 34px; padding: 6px 0 0 0;}
+  .ListProductStyleProd a .DivListProductStyleDet:after {content:'+'; text-indent: 0; line-height: initial; display:block;}
+}
+
+@media only screen and (max-width:670px) {
+  .ListProductStyleProd .DivListDate {width: 20%; font-size: 16px;}
+  .ListProductStyleProd .DivListDesc {width: 66%;}
+  .ListProductStyleProd .ListProductStyleNomeProd {margin: 3px 0 0 0; font-size: 16px;}  
+}
+
+@media only screen and (max-width:640px) {
+   .offbutton {font-size: 16px;}
+   .onbutton {font-size: 16px;}
+}
+
+@media only screen and (max-width:600px) {
+   .DivListProd {margin: 15px 0 0 0; padding: 20px 0;}
+   .ListProductStyleProd .DivListDate {width: 24%;}
+   .ListProductStyleProd .DivListDesc {width: 60%;}
+   .offbutton {font-size: 16px; background: #f7f7f7; color:#707070; padding: 10px 0; width: 45%; border: 0; border-radius: 20px; height: 40px; margin: 0 2% 15px 2%;}
+   .onbutton {font-size: 16px; background: #da151d; color:#ffffff; padding: 10px 0; width: 45%; border: 0; border-radius: 20px; height: 40px; margin: 0 2% 15px 2%;}
+}
+
+@media only screen and (max-width:480px) {
+   .offbutton {font-size: 14px;}
+   .onbutton {font-size: 14px;}
+   .DivListProd {margin: 0 0 0 0; padding: 20px 0; height: 120px;}
+   .ListProductStyleProd {flex-wrap: wrap;}
+   .ListProductStyleProd .DivListDate {width: 100%; margin: 0 0 10px 0; font-size:14px;}
+   .ListProductStyleProd .DivListDesc {width: 76%;}
+   .ListProductStyleProd .ListProductStyleNomeProd {margin: 3px 0 0 0; font-size: 14px;}
+   .ListProductStyleProd .DivListMore {width: 20%; margin-left: 4%;}
+   .EstProdFilterFC {font-size: 14px;}
+}
+
+@media only screen and (max-width:380px) {
+   .ProductList .FCProdSty2 {padding: 20px;}
+}
+</style>
+
+<!-- Exibir/esconder produtos que contenham filtos especificos -->
+<div class="buttons">
+  <button id="button1" onclick="showHideProds('São Paulo',this.id)" class="offbutton">São Paulo</button>
+  <button id="button2" onclick="showHideProds('Curitiba',this.id)" class="offbutton">Curitiba</button>
+  <button id="button3" onclick="showHideProds('Rio de Janeiro',this.id)" class="offbutton">Rio de Janeiro</button>
+  <button id="button4" onclick="showAllFiltersDivs(this.id)" class="onbutton">Todos</button>
+</div>
+
+  <script>
+    function showHideProds(filter,button){
+      /*desmarca todos os botoes*/
+      Array.prototype.slice.call(document.querySelectorAll('[id^="button"]')).forEach(function(item){
+        item.className='offbutton';
+      });
+      /*marca botão selecionado*/
+      document.getElementById(button).className="onbutton";
+      /*seleciona todos campos com filtros*/
+      var hasFilter = Array.prototype.slice.call(document.querySelectorAll('.EstFilterValueFC'));
+      /*varre todos os filtros e seleciona os que tem o filtro desejado*/
+      hasFilter.forEach(function(item){
+        var mainItemDiv = item.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode;
+        mainItemDiv.setAttribute("style","display:none");//esconde todas as divs
+        if (item.textContent==filter && mainItemDiv.className!='hideFromList'){
+          mainItemDiv.setAttribute("style","display:block");//mosta apenas as divs que tem o filtro selecionado
+        }
+      });   
+    }
+    function showAllFiltersDivs(button){
+       /*desmarca todos os botoes*/
+      Array.prototype.slice.call(document.querySelectorAll('[id^="button"]')).forEach(function(item){
+        item.className='offbutton';
+      });
+      /*marca botão selecionado*/
+      document.getElementById(button).className="onbutton";
+      /*seleciona todos campos com filtros*/
+      Array.prototype.slice.call(document.querySelectorAll('.EstFilterValueFC')).forEach(function(item){
+        var mainItemDiv = item.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode;
+        if (mainItemDiv.className!='hideFromList'){
+          mainItemDiv.setAttribute("style","display:block");       }
+      });
+    }
+  </script>
+<!-- Exibir/esconder produtos que contenham filtos especificos -->
+
+</div>
+</ProdTop>
+
+<ProdLista>
+<!--FormProd-->
+  <div class="DivListProd">
+    <div class="ListProductStyleProd" onclick="window.open('/listaprodutos.asp?idloja=<IDLoja>&idproduto=<IDProduto>', '_top')">
+      <!-- Data Curso -->
+      <div class="DivListDate"><span data-js="data-descr"><AdicionalD2Val></span></div>      
+      <div class="DivListDesc">
+      <div class="listClass <NomeCatSimples>"><NomeCatSimples></div>
+      <div class="ListProductStyleNomeProd"><NomeProd></div>
+      <!--div class="ListProductStyleDesc"><DescricaoCurta></div-->
+      <div style="display: ;"><ProdFilters></div>
+      </div>
+      <div class="DivListMore"><a href="/listaprodutos.asp?idloja=<IDLoja>&idproduto=<IDProduto>" target="_top"><div class="DivListProductStyleDet">VEJA MAIS</div></a></div>
+    </div>
+  </div>
+  <script>
+    /*personalizar categorias*/
+    var catBox =  Array.prototype.slice.call(document.querySelectorAll('.listClass'));
+    catBox.forEach(function(item) {
+      if(item.className == "listClass E-commerce"){item.className+=' redCat'};
+      if(item.className == "listClass Midias Sociais"){item.className+=' blueCat'};
+      if(item.className == "listClass Marketing Digital"){item.className+=' greenCat'};
+      if(item.className == "listClass In Company"){item.className+=' goldCat'};
+    });
+	/*FIM - personalizar categorias*/
+
+    /*Data mostrar maior ou igual ao dia de hoje e ordenar por data*/
+    var dataDescr =  Array.prototype.slice.call(document.querySelectorAll('[data-js="data-descr"]'));
+    var pattern = /(\d{2})\/(\d{2})\/(\d{4})/;
+    var TabListaProdutos = document.getElementById('TabListaProdutos');
+
+    dataDescr.forEach(function(item) {
+      var dt = new Date(item.textContent.replace(pattern,'$3/$2/$1 23:59'));
+      var makeID = item.textContent.replace(pattern,'$3$2$1');
+      if (item.textContent!=undefined){
+        item.parentNode.parentNode.parentNode.setAttribute('id', makeID);
+        TabListaProdutos.appendChild(item.parentNode.parentNode.parentNode);
+      }
+      var today = new Date();
+      if ( !(today < dt) ){
+        item.parentNode.parentNode.parentNode.setAttribute('class', 'hideFromList');
+      }
+    });
+
+    [].map.call( TabListaProdutos.children, Object ).sort( function (a,b) {
+      return +a.id.match( /\d+/ ) - +b.id.match( /\d+/ );
+    }).forEach( function ( elem ) {
+      TabListaProdutos.appendChild( elem );
+    });   /*FIM - Data mostrar maior ou igual ao dia de hoje e ordenar por data*/
+  </script>
+<!--/FormProd-->
+<div id="fc-mobile-dynamic-filter" style="display: none;"></div>
+<div id="ProductsFilterFCMobile" style="display: none;"></div>
+</ProdLista>

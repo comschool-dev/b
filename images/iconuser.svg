@@ -1,8 +1,1 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="20px" height="20px" viewBox="0 0 20 20" enable-background="new 0 0 20 20" xml:space="preserve">
-<circle fill="#333333" cx="10.168" cy="5.156" r="4.844"/>
-<path fill="#333333" d="M10.168,12.422c-7.388,0-9.688,4.844-9.688,4.844v2.422h19.375v-2.422
-	C19.855,17.266,17.555,12.422,10.168,12.422z"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24px" height="24px" viewBox="0 0 24 24" enable-background="new 0 0 24 24" xml:space="preserve"><g fill="#555"><path d="M.976 24c.155-5.953 5.035-10.75 11.023-10.75 5.99 0 10.869 4.797 11.027 10.75h.959c-.154-6.492-5.455-11.71-11.984-11.71C5.471 12.29.17 17.508.015 24h.961zM11.999.96a5.047 5.047 0 0 1 5.041 5.041 5.046 5.046 0 0 1-5.041 5.039A5.046 5.046 0 0 1 6.96 6 5.046 5.046 0 0 1 11.999.96m0-.96a6 6 0 1 0 .002 12A6 6 0 0 0 12 0z"/></g></svg>

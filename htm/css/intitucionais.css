@@ -1,0 +1,31 @@
+.institut_geral {display:flex; display:-webkit-flex; justify-content:center; -webkit-justify-content:center; width: 100%; max-width: 1306px;line-height: 1.5rem;color: #2b2a2a;font-size: 0.9rem;}
+.institut_geral img{max-width: 100%;}
+.institut_geral p {font-size: 0.9rem;}
+.institut_geral li {margin-left: 18px;list-style-type: disc;}
+.institut_conteudo {flex: 1;-webkit-flex: 1;}
+.institut_conteudo h1 {margin-block-start: 0; color:#555555;}
+
+.left-bar {display: none;}
+
+@media only screen and (max-width:479px){
+	.institut_geral {flex-wrap:wrap;}
+  .institut_conteudo {order: 2; margin: 30px 0 0 0; width: 100%;} 
+}
+
+.video-containerYouTube {
+	position:relative;
+	padding-bottom:56.25%;
+	padding-top:30px;
+	height:0;
+	overflow:hidden;
+}
+.video-containerYouTube iframe, .video-containerYouTube object, .video-containerYouTube embed {
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+}
+@media screen and (min-width: 1024px) {
+	.preVideo {width: 60%;margin: 0 auto;}
+}

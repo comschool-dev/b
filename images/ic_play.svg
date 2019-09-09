@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="65.146" height="65.146" viewBox="0 0 65.146 65.146">
+  <g id="Icon-play" transform="translate(-403.915 -94.673)">
+    <g id="next" transform="translate(428.554 116.905)">
+      <path id="Triangle" d="M18.607,10.88a1.371,1.371,0,0,1,0,2.351L2.077,23.15A1.371,1.371,0,0,1,0,21.974V2.138A1.371,1.371,0,0,1,2.077.962Z" transform="translate(0 0)" fill="#fff"/>
+    </g>
+    <g id="Elipse_9" data-name="Elipse 9" transform="translate(403.915 94.673)" fill="none" stroke="#fff" stroke-width="3">
+      <ellipse cx="32.573" cy="32.573" rx="32.573" ry="32.573" stroke="none"/>
+      <ellipse cx="32.573" cy="32.573" rx="31.073" ry="31.073" fill="none"/>
+    </g>
+  </g>
+</svg>

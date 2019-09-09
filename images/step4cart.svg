@@ -1,8 +1,1 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="30px" height="30px" viewBox="0 0 30 30" enable-background="new 0 0 30 30" xml:space="preserve">
-<circle fill="#616161" cx="14.95" cy="15" r="14.649"/>
-<path fill="#FFFFFF" d="M14.68,21.07v-2.408H9.66v-2.008l5.32-7.724h2.006v7.724h1.506v2.008h-1.506v2.408H14.68z M14.68,16.654
-	V12.54l-2.81,4.114H14.68z"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30"><circle cx="14.95" cy="15" r="14.649" fill="#616161"/><path fill="#fff" d="M14.68 21.07v-2.4H9.66v-2.02l5.32-7.72h2v7.72h1.5v2H17v2.42h-2.3zm0-4.42v-4.1l-2.8 4.1h2.8z"/></svg>

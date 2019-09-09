@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="22"
+   height="45"
+   viewBox="0 0 22 45"
+   version="1.1"
+   id="svg3779"
+   sodipodi:docname="setabaixo.svg"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)">
+  <metadata
+     id="metadata3783">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Group 8</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="993"
+     inkscape:window-height="887"
+     id="namedview3781"
+     showgrid="false"
+     inkscape:zoom="6.5555556"
+     inkscape:cx="30.481137"
+     inkscape:cy="15.680043"
+     inkscape:window-x="470"
+     inkscape:window-y="15"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="Minha-Conta-login" />
+  <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+  <title
+     id="title3760">Group 8</title>
+  <desc
+     id="desc3762">Created with Sketch.</desc>
+  <defs
+     id="defs3765">
+    <polygon
+       id="path-1"
+       points="33.5048,0.5 33.5048,36 16.7524,36 0,36 0,0.5 16.7524,0.5 " />
+  </defs>
+  <g
+     id="g3777"
+     style="fill:none;fill-rule:evenodd;stroke:none;stroke-width:1"
+     transform="translate(0,9)">
+    <g
+       id="Minha-Conta-login"
+       transform="translate(-833.84746,-685.84746)"
+       style="fill:#d40000">
+      <g
+         id="Group-8"
+         transform="rotate(180,430.87888,358.59331)"
+         style="fill:#d40000">
+        <g
+           id="Page-1"
+           style="fill:#d40000">
+          <path
+             d="m 26.233903,20.977742 -8.791,-8.791 c -0.134,-0.134 -0.311,-0.201 -0.488,-0.201 -0.177,0 -0.354,0.067 -0.488,0.201 l -8.7919996,8.791 c -0.267,0.269 -0.267,0.707 0,0.976 l 1.844,1.842 c 0.268,0.269 0.7059996,0.269 0.9749996,0 l 6.461,-6.461 6.462,6.461 c 0.267,0.269 0.707,0.269 0.974,0 l 1.843,-1.842 c 0.269,-0.269 0.269,-0.707 0,-0.976"
+             id="Fill-4"
+             style="opacity:1;fill:#ee2f41;fill-opacity:1"
+             inkscape:connector-curvature="0" />
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
