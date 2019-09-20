@@ -87,7 +87,7 @@ a.shop-list-action{display:flex;display:-webkit-flex;align-items:center;-webkit-
 .FCContact p {line-height:24px;font-size:1rem}
 .FCContact #FCFormContainer{border-radius:2px!important}
 
-/* Página Cada Professor */
+/* Pï¿½gina Cada Professor */
 .prof_geral {display:flex; display:-webkit-flex; justify-content:center; -webkit-justify-content:center; width: 100%; max-width: 1306px;}
 .prof_conteudo {margin: 0 30px 0 0;}
 .prof_conteudo h1 {margin-block-start: 0; color:#555555;}
@@ -1355,7 +1355,7 @@ p.zFNotFoundContinue{font-size:0.9rem;margin:30px auto;}
   .TxtEndFC1 h3 {margin-block-end: 20px;}
   .TxtEndFC2 {display:none;}
   
-  /* Página Cada Professor */
+  /* Pï¿½gina Cada Professor */
   .prof_geral {flex-wrap:wrap;}
   .prof_foto {order: 1; margin: 0 0 0 0; width: 100%;}
   .prof_conteudo {order: 2; margin: 30px 0 0 0; width: 100%;}
@@ -1518,3 +1518,25 @@ figure.mz-figure.mz-hover-zoom.mz-no-zoom.mz-ready, figure.mz-figure.mz-hover-zo
 div#idPagProdTop {display: none;}
 /*esconder filtros profs lista*/
 .Fil1, .FilInfo1 { display: none;}
+.DivHomeNomeProd .HomeNomeProd{display:none !important;}
+.DivHomeNomeProd{background:none !important;}
+
+.prof_geral{
+  display:block;
+  width:100%;
+  text-align: center;
+}
+
+.prof_geral .prof_curriculo{
+  line-height: 24px;
+  text-align: justify;
+  margin-bottom: 0.83em;
+}
+
+.FCHome .iframeBack{
+  display: none !important;
+}
+
+.det-product-description-container h2{
+  margin: 20px auto !important;
+}
