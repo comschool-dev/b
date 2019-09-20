@@ -1,20 +1,59 @@
-<p255>
-<div class="DivHomeProd" onclick="NoCascate('<URLProd>');" <DataAttribute> id="DivProd<IDProduto>">
-  <div class="DivHomeImagemProd" id="DivImagemProdDouble<IDProduto>"></div>
-  <div class="DivHome-fastview font-bold" onclick='bCascate=true;FCLib$.OpenRWD("/listaprodutos.asp?idloja=<IDLoja>&sty=9&int=1&idproduto=<IDProduto>","Disp","width=700,height=700")'>
-<a href="<URLProd>" rel="nofollow" onclick="insertURLPreview();">ESPIAR</a></div>
-  <div class="DivHomeNomeProd">
-    <span class="HomeNomeProd font-regular"><NomeProd></span>
+<!-- Cursos Home -->
+<p19>
+<div id="ProdDestHome">
+<div class="DivHomeProd" <DataAttribute> id="DivProd<IDProduto>" onclick="NoCascate('<URLProd>');">
+  <div class="DivHomeImagemProd">
+    <div class="DivHomeNomeProd"><div class="HomeNomeProd"><NomeProd></div></div>
+    <img alt="<NomeProd>" src="<ImagemProdPri>">
   </div>
-  <div class="DivHomePriceProd" style="white-space:nowrap;">
-    <div id="idProdPrice<IDProduto>"></div> 
-    <div class="PriceAVistaLista" id="ProdDesc<IDProduto>"></div>
+  <div class="DivHomeDescProd"><DescricaoCurta></div>
+  <div id="DivHomeSelos">
+    <div class="DivSeloPresencial" id="DivSeloPresencial-<IDProduto>" style="display:none;"><img  src="<BaseLoja>images/ic_presencial.svg?cccfc=1" alt="Presencial" title="Presencial"></div>
+    <div class="DivSeloOnline" id="DivSeloOnline-<IDProduto>" style="display:none;"><img  src="<BaseLoja>images/ic_online_vivo.svg?cccfc=1" alt="Online Vivo" title="Online Vivo"></div>
+    <input type="text" value="<Adicional1Val>" id="add1val-<IDProduto>" style="display:none;">
+    <script>
+      if( document.getElementById('add1val-<IDProduto>').value.includes('Presencial') ){
+        document.getElementById('DivSeloPresencial-<IDProduto>').removeAttribute("style");
+      }
+      if( document.getElementById('add1val-<IDProduto>').value.includes('Online') ){
+        document.getElementById('DivSeloOnline-<IDProduto>').removeAttribute("style");
+      }
+    </script>
   </div>
+  <div class="DivHomeBtMore">Saiba Mais<img  src="<BaseLoja>images/ic_saibamais.svg?cccfc=1" alt="Saiba Mais" title="Saiba Mais"></div>
+  <div class="DivHomeBtWish"><wishlist></div>
 </div>
 <script>
 FCLib$.onReady(function(){
-  sF$.fnChangeImages("<ImagemProdPri>","<ImagemProdDet>","<URLProd>","<IDProduto>","<NomeProdUA>");
   sF$.fnShowProd(<PrecoNum>,<PrecoOri>,'<CodProd>',<MaxParcelasProdNum>,<IDProduto>)
 });
 </script>
-</p255>
+</div>
+</p19>
+
+<!-- Cursos Sugestao -->
+<p20>
+<div class="DivSugestProd" <DataAttribute> id="DivProd<IDProduto>" onclick="NoCascate('<URLProd>');">
+  <div class="DivHomeImagemProd"><img alt="<NomeProd>" src="<ImagemProdPri>"></div>
+  <div class="DivSugestNomeProd"><div class="SugestNomeProd"><NomeProd></div></div>
+  <div class="DivHomeBtMore">Saiba Mais<img  src="<BaseLoja>images/ic_saibamais.svg?cccfc=1" alt="Saiba Mais" title="Saiba Mais"></div>
+</div>
+</p20>
+
+<!-- Livros Home -->
+<p21>
+<div id="ProdBookHome">
+<div class="DivBookProd" id="DivProd<IDProduto>" <DataAttribute> onclick="NoCascate('<URLProd>');">
+  <div class="DivBookImagemProd"><img alt="<NomeProd>" src="<ImagemProdPri>"></div>
+  <div class="DivBookNomeProd"><NomeProd></div>
+  <div class="DivBookBtMore"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24px" height="24px" viewBox="4 4 24 24" enable-background="new 4 4 24 24" xml:space="preserve"><path d="M7.214 6.241L4.538 4.9a.47.47 0 0 1-.246-.615c.102-.237.376-.347.615-.247.017.008.032.015.048.024l2.857 1.43c.151.06.26.194.289.355l.621 3.497h11.605c.262 0 .471.21.471.469.002.259-.209.471-.469.471H8.887l1.949 10.966h1.513c.26 0 .47.211.471.469 0 .262-.21.471-.47.471h-1.351l.241 1.355c1.019.037 1.884.762 2.099 1.758h7.912c.26-1.203 1.443-1.965 2.644-1.705 1.2.258 1.966 1.443 1.704 2.645-.26 1.201-1.443 1.967-2.644 1.707-.854-.186-1.521-.854-1.704-1.707h-7.912c-.259 1.203-1.444 1.967-2.647 1.707-1.203-.262-1.966-1.447-1.706-2.646.155-.719.654-1.314 1.333-1.592C9.284 17.885 8.25 12.063 7.214 6.241zm8.892 15.948h7.979c.533.004 1.043-.207 1.414-.59.389-.408.643-.926.732-1.482l1.486-8.376c.018-.096.027-.194.027-.293-.014-.505-.213-.989-.562-1.354a2.3145 2.3145 0 0 0-1.275-.72c-.109-.02-.221-.03-.332-.03h-1.492c-.26 0-.469.21-.469.47s.209.47.469.47h1.492c.057 0 .115.004.172.016.287.057.549.206.744.426.189.194.303.452.316.722 0 .044-.006.088-.014.132l-1.488 8.375c-.055.365-.219.705-.469.977-.197.201-.467.316-.75.314h-7.981c-.259 0-.469.211-.469.471s.211.469.469.469v.003zm-1.879-.937c-.259 0-.469.209-.469.469 0 .262.21.471.469.471.26 0 .47-.209.47-.471 0-.26-.21-.469-.47-.469zm7.98-11.908c-.262 0-.471.21-.471.469a.4699.4699 0 1 0 .94 0c0-.259-.211-.469-.469-.469zm2.129 15.515c-.501-.504-1.317-.504-1.82-.002-.504.5-.506 1.314-.004 1.818.501.506 1.315.508 1.818.006.244-.24.381-.57.381-.91s-.135-.667-.375-.912zm-12.265 0c-.501-.504-1.317-.504-1.821-.002-.504.5-.506 1.314-.004 1.818.502.506 1.316.508 1.82.006.243-.24.379-.57.379-.91a1.291 1.291 0 0 0-.372-.912h-.002z"/><path d="M21.713 12.358c-1.039-.996-2.68-.994-3.717.002l-.197.196-.197-.196c-1.051-1.046-2.748-1.046-3.797 0l.006-.001c-1.045 1.051-1.045 2.748 0 3.798l3.66 3.661c.184.184.482.184.664 0l3.662-3.663c1.025-1.072.988-2.772-.084-3.797zm-.58 3.137l-3.33 3.328-3.329-3.328a1.7465 1.7465 0 0 1-.509-1.232c0-.963.782-1.746 1.745-1.746h-.002c.463-.001.905.182 1.233.508l.529.529c.184.184.482.184.666 0l.527-.529c.682-.682 1.787-.682 2.469 0 .682.681.682 1.787.001 2.47z"/></svg>
+Comprar Agora</div>
+</div>
+<script>
+FCLib$.onReady(function(){
+  sF$.fnShowProd(<PrecoNum>,<PrecoOri>,'<CodProd>',<MaxParcelasProdNum>,<IDProduto>)
+});
+</script>
+<!--script>fnShowBadgeBook(<IDProduto>,<PrecoOri>,<PrecoNum>);</script-->
+</div>
+</p21>

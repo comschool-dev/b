@@ -1,60 +1,110 @@
 <!--[if IE]><style type="text/css">.ui-autocomplete-category{margin-top: -2px}</style><![endif]-->
 <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+<link rel="preconnect" href="https://cdnjs.cloudflare.com/" crossorigin>
+<script src='<PathTo file="htm/js/resource-<StoreLanguage>.js">'></script>
+<script src='<PathTo file="htm/js/store-lib.js">'></script>
+
+<!-- Carousel -->
+<link rel="stylesheet" href="<baseloja>htm/css/flickity.css" media="screen">
+<script src="<baseloja>htm/js/flickity_min.js"></script>
+
 <script>
 var iItensCesta=<QtdCesta>;
 var iQtdProds=0;
 ImgLoadingFC=FC$.PathImg+"loading.gif?cccfc=1";
 ImgOnError=FC$.PathImg+"nd";
-FCLib$.LazyLoadWaitImage=FC$.PathImg+"loading-lazy-load.gif?cccfc=1"; //loading usado no lazy load
+FCLib$.LazyLoadWaitImage=FC$.PathImg+"loading-lazy-load.gif?cccfc=1"; //loading lazy load
 </script>
 
 <div id="offcanvas-overlay" onclick="headerCloseNav();"></div>
-<div id="headerSidenav" class="header-sidenav">
-  <a href="javascript:void(0)" class="closebtn" onclick="headerCloseNav()"><img alt="Fechar" title="Fechar" src="<PathTo file="images/icon-menu-close.svg">" width="35" height="35"></a>
-  <a href="/" class="header-sidenav-link"><span class="header-sidenav-link-position">Home</span></a>
-  <a href="/prod,idloja,<IDLojaNum>,promocao,1,ofertas.htm" class="header-sidenav-link"><span class="header-sidenav-link-position">Promoções</span></a>
-  <a href="/prod,idloja,<IDLojaNum>,lancamento,1,novidades.htm" class="header-sidenav-link"><span class="header-sidenav-link-position">Lançamentos</span></a>
-  <a href="/account.asp?idloja=<IDLojaNum>&orders=1#Orders" class="header-sidenav-link"><span class="header-sidenav-link-position">Meus Pedidos</span></a>
-  <a href="/lista-de-compra" rel="nofollow" class="header-sidenav-link header-sidenav-link-shopping-list"><span class="header-sidenav-link-position header-menu-shopping-list"><img64 src="<BaseLoja>images/product-list.svg" width="22" height="22" plain="true"><span>Lista de Compra</span></span></a>
-  <a href="/account.asp?idloja=<IDLoja>&wishlist=1#Wishlist" rel="nofollow" class="header-sidenav-link"><span class="header-sidenav-link-position header-menu-wishlist"><img64 src="<BaseLoja>images/product-wishlist.svg" width="22" height="22" plain="true"><span>Lista de Desejos</span></span></a>
-  <a href="/account.asp?idloja=<IDLojaNum>&register=1#Register" class="header-sidenav-link"><span class="header-sidenav-link-position">Cadastro</span></a>
-  <a href="/newsletter.asp?idloja=<IDLojaNum>" class="header-sidenav-link"><span class="header-sidenav-link-position">Newsletter</span></a>
-  <a href="/faleconosco.asp?idloja=<IDLojaNum>" class="header-sidenav-link"><span class="header-sidenav-link-position">Contato</span></a>
-  <a href="/categorias.asp?idloja=<IDLojaNum>" class="header-sidenav-link"><span class="header-sidenav-link-position"><categorias></span></a>
-  <ListPathCat out="10" id="-5">
+<div id="headerSidenav" class="header-sidenav font-regular">
+  <div class="closebtn" onclick="headerCloseNav();"><img alt="Fechar" id="header-cat-menu-close" src="<PathTo file="images/ic_search_close.svg">" width="28" height="28"></div>
+  <a href="/" class="header-sidenav-link"><b>ComSchool</b></a>
+  <a href="/c/cursos-marketing-digital" class="header-sidenav-link">Cursos de Marketing Digital</a>
+  <a href="/c/cursos-ecommerce" class="header-sidenav-link">Cursos de E-commerce</a>
+  <a href="/c/cursos-midias-sociais" class="header-sidenav-link">Cursos de Mídias Sociais</a>
+  <a href="<url-custom>?arq=in_company.htm" class="header-sidenav-link">Cursos In Company</a>
+  <a href="https://comschool.net.br/" target="_blank" class="header-sidenav-link">Cursos em Video Aula</a>
+  <a href="/product-list.ehc?typed=true&text=++&sty=2" class="header-sidenav-link">Agenda</a>
+  <a href="/c/livros" class="header-sidenav-link">Livros</a>
+  <a href="https://comschool.net.br/" target="_blank" class="header-sidenav-sala-virtual">Sala Virtual</a>
+  <a href="<url-custom>?arq=contato.htm" class="header-sidenav-phone"><b>Nossos Telefones</b><br>
+  SP: (11) 4766-9000<br>
+  RJ: (21) 3513-0632<br>
+  PR: (41) 3012-3630<br>
+  SC: (48) 3771-0239<br>
+  RS: (51) 3103-0019<br>
+  Campinas: (19) 3112-9610</a>
+  <a href="https://api.whatsapp.com/send?phone=5511945298523&text=Ol%C3%A1,%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20os%20cursos%20da%20ComSchool." target="_blank" class="header-sidenav-whats"><i>Fale por WhatsApp</i><br>
+  (11) 94529-8523</a>
+  <a href="/" class="header-sidenav-home"><b>Home</b></a>
+  <a href="<url-account>" class="header-sidenav-user"><b>Minha Conta</b></a>
+  <a href="<url-add-product>" class="header-sidenav-cart"><b>Meu Carrinho</b></a>
+  <a href="<url-custom>?arq=faq.htm" class="header-sidenav-faq"><b>Perguntas Frequentes</b></a>
 </div>
 
-<div class="row HeaderMainbar">
-  <div class="MainContainer">
-    <div class="col-small-12 col-medium-12 col-large-12 col-xlarge-12">
-      <div class="header-mainbar-flex">
-        <div class="header-mainbar-flex-mobile-menu" onclick="headerOpenNav()"><img alt="Menu" title="Menu" src="<PathTo file="images/icon-menu.svg">" width="35" height="35"></div>
-        <div class="header-mainbar-flex-logo"><a href="<StoreDomain>"><img alt="<NomeLoja>" title="<NomeLoja>" src="<PathTo file="images/logotopo.png">" class="HeaderLogo"></a></div>
-        <div class="child-header-mainbar header-mainbar-flex-menu hide-small hide-medium hide-large show-xlarge">
-          <ul class="SmallMenuList HeaderMenuULFC">
-            <a href="/prod,idloja,<IDLojaNum>,promocao,1,ofertas.htm"><li class="HeaderMenuSaleMobileFC font-bold">Promoções</li></a>
-            <a href="/prod,idloja,<IDLojaNum>,lancamento,1,novidades.htm"><li class="HeaderMenuReleaseMobileFC font-bold">Lançamentos</li></a>
-          </ul>
-        </div>
-        <div class="child-header-mainbar header-mainbar-flex-search speech" id="search-box">
-          <form name="TopSearchForm" method="GET" id="autocomplete-form" action="/listaprodutos.asp">
-            <input type="hidden" name="idloja" value="<IDLojaNum>">
-            <input type="hidden" name="digitada" value="true">
-            <input type="text" id="autocomplete" value="<SearchText>" name="Texto" class="InputTextBusca" placeholder="Digite sua busca aqui">
-            <img class="header-speech-icon" id="voiceSearch" onclick="sF$.fnStartDictation()" src="<BaseLoja>images/icon-speech.svg?cccfc=1" width="24" height="24" alt="Fale" />
-            <button id="search-button" type="submit" aria-label="Buscar">                     
-              <img src="<BaseLoja>images/iconsearch.svg?cccfc=1" width="22" height="22" alt="Buscar" id="voiceSearchMGlass">
-            </button>
-          </form>
-        </div>
-        <div class="header-mainbar-flex-cart">
-          <div class="HeaderBasket">
-            <a style="cursor:pointer;" onclick="Cart$.fnShowCartCheckout();">
-              <img64 src="<BaseLoja>images/iconcart.svg" plain="true">
-              <div class="HeaderCartItensPosition hide-small hide-medium show-large show-xlarge"><span id="idCartItemsTop" class="HeaderCartNumberProds"></span></div>
-            </a>
+<div class="HeaderMainbar">
+  <div class="header-mainbar-container">
+    <div class="header-mainbar-container-menu">
+      <div onclick="headerOpenNav();"><img alt="Menu" title="Menu" src="<PathTo file="images/ic_menu.svg?cccfc=1">" width="28" height="28"></div>
+      <div class="header-mainbar-container-logo"><a href="<StoreDomain>"><img alt="<NomeLoja>" title="<NomeLoja>" src="<PathTo file="images/comschool.svg?cccfc=1">" class="HeaderLogo"></a></div>
+    </div>
+    <div class="header-mainbar-flex-logo  header-mainbar-container-logo"><a href="<StoreDomain>"><img alt="<NomeLoja>" title="<NomeLoja>" src="<PathTo file="images/comschool.svg?cccfc=1">" class="HeaderLogo"></a></div>
+    <div class="header-mainbar-links">
+        <ul class="HeaderMenuULFC">
+          <li><a href="/listaprodutos.asp?avancada=true&Adicional1=192376">Cursos Presenciais</a></li>
+          <li><a href="/listaprodutos.asp?avancada=true&Adicional1=192377">Cursos a Distância</a></li>
+          <li><a href="<url-custom>?arq=in_company.htm">In Company</a></li>
+          <li><a href="<url-custom>?arq=quem_somos.htm">Sobre nós</a></li>
+          <li><a href="<url-custom>?arq=contato.htm">Fale Conosco</a></li>
+        </ul>
+    </div>
+    <div class="header-mainbar-links2">
+        <ul class="HeaderMenuULFC2">
+          <li><a href="/c/cursos">Cursos</a></li>
+          <li><a href="<url-custom>?arq=in_company.htm">In Company</a></li>
+          <li><a href="<url-custom>?arq=quem_somos.htm">Sobre nós</a></li>
+          <li><a href="<url-custom>?arq=contato.htm">Fale Conosco</a></li>
+        </ul>
+    </div>
+    <div class="header-mainbar-container-all-icons">
+      <a href="https://api.whatsapp.com/send?phone=5511945298523&amp;text=Ol%C3%A1,%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20os%20cursos%20da%20ComSchool.">
+      <div id="header-mainbar-whatsapp">
+        <div class="bt1-whatsapp"><img alt="WhatsApp - Clique para Falar" src="<PathTo file="images/ic_whatsapp1.svg?cccfc=1">"></div>
+        <div class="bt2-whatsapp"><img alt="WhatsApp - Clique para Falar" src="<PathTo file="images/ic_whatsapp2.svg?cccfc=1">"></div>
+      </div>
+      </a>
+      <!-- Search Box -->
+      <div id="header-mainbar-container-search-result">
+          <div class="child-header-mainbar header-mainbar-flex-search speech" id="search-box">
+            <form name="TopSearchForm" method="GET" id="autocomplete-form" action="<url-prod>">
+              <input type="hidden" name="<par-typed>" value="true">
+              <input type="text" id="autocomplete" value="<SearchText>" name="<par-text>" class="InputTextBusca" autofocus aria-label="" placeholder="">
+              <img class="header-speech-icon" id="voiceSearch" onclick="sF$.fnStartDictation()" src="<BaseLoja>images/ic_speech.svg?cccfc=1" width="24" height="24" alt="Voice" />
+              <button id="search-button" type="submit" aria-label="Buscar">                     
+              <img alt="Buscar" src="<BaseLoja>images/ic_search.svg?cccfc=1" width="24" height="24" id="voiceSearchMGlass">
+              </button>
+            </form>
           </div>
-        </div>
+      </div>
+      <!-- END Search Box -->
+      <div id="header-mainbar-container-search">
+        <div id="header-mainbar-container-search-result-close" onclick="sF$.fnCloseSearchBox()"><img alt="Fechar" id="header-cat-search-close" src="<PathTo file="images/ic_search_close.svg">"></div>
+        <img alt="Buscar" onclick="sF$.fnShowSearchBox();sF$.fnSearchInputGetFocus();" src="<PathTo file="images/ic_search.svg?cccfc=1">" width="24" height="24" id="header-mainbar-container-search-icon">
+      </div>
+      <a href="http://comschool.net.br/" target="_blank">
+        <div id="header-mainbar-salavirtual"><img alt="Sala Virtual" src="<PathTo file="images/ic_salavirtual.svg?cccfc=1">">Sala Virtual</div>
+      </a>
+      <div id="header-mainbar-container-login">
+        <span class="loginInfo" id="fc-loginInfo"></span>
+      </div>
+      <div class="header-mainbar-container-cart">
+        <div class="HeaderBasket">
+          <a onclick="Cart$.fnShowCartCheckout();" style="cursor:pointer;">
+            <img alt="Carrinho" width="24" height="24" src="<PathTo file="images/ic_cart_top.svg?cccfc=1">" id="header-cat-cart">
+            <div class="HeaderCartItensPosition"><span id="idCartItemsTop" class="HeaderCartNumberProds"></span></div>
+          </a>
+        </div>       
       </div>
     </div>
   </div>
@@ -62,28 +112,9 @@ FCLib$.LazyLoadWaitImage=FC$.PathImg+"loading-lazy-load.gif?cccfc=1"; //loading 
 
 <div class="header-space-top"></div>
 
-<div class="header-login-row hide-small">
-  <div class="row">
-    <div class="MainContainer">
-      <div class="col-small-12 col-medium-7 col-large-7 col-xlarge-7 text-left">
-        <ul class="HeaderContainerSocialLoginUL">
-          <li class="HeaderContainerSocialLoginIconUser"><img id="UserImage" src="<PathTo file="images/iconuser.svg">" width="20" height="20" alt="Login usuário">&nbsp;</li>
-          <li class="HeaderContainerSocialLoginPosition" id="Header_SocialLogin_NamePosition"><span class="loginInfo"></span></li>
-        </ul>
-      </div>
-      <div class="col-small-12 col-medium-5 col-large-5 col-xlarge-5 text-right">
-        <div class="header-free-order"><b>FRETE GRÁTIS</b> acima de R$ 199,99</div>
-      </div>
-    </div>
-  </div>
-</div>
-
 <!-- Receive Banner Home -->
 <div id="FC-ShowHomeBanners"></div>
 <!-- End Banner Home -->
 
-<div class="FullSpaceFC"></div>
-
-<!-- Begin Aside BarraEsquerda.htm - Close Rodape.htm - Don't remove -->
-<div class="MainContainer">
-  <div class="row">
+<!-- Begin Aside - Don't remove -->
+<div class="middle-container">

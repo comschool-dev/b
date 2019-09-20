@@ -204,7 +204,7 @@
 	/* Produtos Home */
 	.carousel2 {width: 90%;}
 	.carousel2 .flickity-prev-next-button {top: 45%;}
-	.carousel-cell2 {width: 100%;}
+	.carousel-cell2 {width: 100%; min-height: 330px;}
 	
 	/* Carousel Foto + Texto */
 	.carousel3 {width: 84%; height:auto;}
@@ -231,6 +231,7 @@
 @media only screen and (max-width:380px) {
 	/* Produtos Home */
 	.carousel2 {width: 88%;}
+	.carousel-cell2 {min-height: 310px;}
 	
 	/* Carousel Foto + Texto */
 	.carousel3 {width: 82%;}
@@ -242,6 +243,7 @@
 @media only screen and (max-width:320px) {
 	/* Produtos Home */
 	.carousel2 {width: 86%;}
+	.carousel-cell2 {min-height: 290px;}
 	
 	/* Carousel Foto + Texto */
 	.carousel3 {width: 80%;}

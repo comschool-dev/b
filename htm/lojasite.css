@@ -87,7 +87,7 @@ a.shop-list-action{display:flex;display:-webkit-flex;align-items:center;-webkit-
 .FCContact p {line-height:24px;font-size:1rem}
 .FCContact #FCFormContainer{border-radius:2px!important}
 
-/* Pï¿½gina Cada Professor */
+/* Página Cada Professor */
 .prof_geral {display:flex; display:-webkit-flex; justify-content:center; -webkit-justify-content:center; width: 100%; max-width: 1306px;}
 .prof_conteudo {margin: 0 30px 0 0;}
 .prof_conteudo h1 {margin-block-start: 0; color:#555555;}
@@ -254,12 +254,16 @@ h1.MainHomeBoxTitFC-line:after{left:0.5em;margin-right:-50%}
 .DivHomeImagemProd img {width:100%; opacity:1 !important;}
 .DivListImagemProd img {max-height:172px; margin:0 auto; opacity:1 !important;}
 .DivHomeImagemProd, .DivListImagemProd {width:100%; overflow: hidden; display:flex; display:-webkit-flex; align-items:flex-end; -webkit-align-item:flex-end;}
-.DivHomeDescProd {text-align:left; font-size:14px; line-height:20px; color:#707070; padding: 0 10px; margin: 10px 0 0 0; height: 60px; overflow: hidden;} 
-.DivHomeBtMore {display:none; font-size:14px; text-transform:uppercase; text-align:center; color:#ffffff; background-color:#da151d; margin:15px 0 0 10px; padding:5px 10px; border-radius: 15px; max-width:150px;}
+.DivHomeDescProd {width:75%; text-align:left; font-size:14px; line-height:20px; color:#707070; padding: 0 0 0 10px; margin: 10px 0; height: 60px; overflow: hidden; float:left;} 
+#DivHomeSelos {width:20%; float:left; margin:10px 0 0 0;}
+.DivSeloPresencial, .DivSeloOnline {margin:0 0 5px 0;}
+.DivHomeBtMore {display:none; font-size:14px; text-transform:uppercase; text-align:center; color:#ffffff; background-color:#da151d; margin:5px 0 0 10px; padding:5px 10px; border-radius: 15px; width:150px; float:left;}
 .DivHomeBtMore img {margin:0 0 0 10px;}
+.DivHomeBtWish {display:none; position:absolute; width:12%; text-align:center; bottom:15px; right:10px;}
 .DivHomeProd {cursor:pointer; height:280px; -webkit-box-shadow:0 0 7px 0 rgba(0,0,0,.25); -moz-box-shadow:0 0 7px 0 rgba(0,0,0,.25); box-shadow:0 0 7px 0 rgba(0,0,0,.25);}
 .DivHomeProd:hover {background:#ffffff; height:305px;}
 .DivHomeProd:hover .DivHomeBtMore {display:block;}
+.DivHomeProd:hover .DivHomeBtWish {display:block;}
 .videoProd {border:1px solid #eeeeee;margin-bottom:10px;margin-top:10px;background:#ffffff;padding:10px}
 
 /* Mouse Over Produtos Home */
@@ -351,9 +355,9 @@ button {cursor: pointer; outline-color: transparent; outline-style: none;}
 .EstPathCat ul li:first-child{margin:0!important}
 
 /* Wishlist */
-.icon-share-wishlist-on {background:url("../images/wishlist_on.svg") no-repeat;width:24px;height:24px;display:block;cursor:pointer}
-.icon-share-wishlist-off {background:url("../images/wishlist_off.svg") no-repeat;width:24px;height:24px;display:block;cursor:pointer}
-a:hover .icon-share-wishlist-off {background:url("../images/wishlist_on.svg") no-repeat;width:24px;height:24px;display:block;cursor:pointer}
+.icon-share-wishlist-on {background:url("../images/wishlist_on.svg") no-repeat center top;width:26px;height:24px;display:block;cursor:pointer}
+.icon-share-wishlist-off {background:url("../images/wishlist_off.svg") no-repeat center top;width:26px;height:24px;display:block;cursor:pointer}
+a:hover .icon-share-wishlist-off {background:url("../images/wishlist_on.svg") no-repeat center top;width:26px;height:24px;display:block;cursor:pointer}
 .icon-share-wishlist-on-det-product {background:url("../images/wishlist_on-det-product.svg") no-repeat;width:18px;height:18px;display:block;cursor:pointer}
 .icon-share-wishlist-off-det-product {background:url("../images/wishlist_off-det-product.svg") no-repeat;width:18px;height:18px;display:block;cursor:pointer}
 a:hover .icon-share-wishlist-off-det-product {background:url("../images/wishlist_on-det-product-hover.svg") no-repeat;width:18px;height:18px;display:block}
@@ -973,6 +977,7 @@ p.zFNotFoundContinue{font-size:0.9rem;margin:30px auto;}
   .MainHomeBoxTitFC1, .MainHomeBoxTitFC2, .MainHomeBoxTitFC3 {margin: 30px 25px 15px 25px;}
   .DivHomeProd {height: 260px;}
   .DivHomeProd:hover {height: 290px;}
+  .DivHomeBtWish {bottom:12px;}
   
   /* Custom Page | Help Page | Advanced Search | Newsletter | Indique | Contact */
   .FCCustom #idFCContent, .FCHelp #idFCContent, .FCAdvancedSearch #idFCContent, .FCNews #idFCContent, .FCRateProd #idFCContent, .FCMyAccount #idFCContent, .FCPwreset #idFCContent, .FCNewsletter #idFCContent, .FCRecommend #idFCContent, .FCContact #idFCContent, .FCTrack #idFCContent, .FCCategories #idFCContent, .FCWishlist #idFCContent {margin: 30px 2%;}
@@ -1015,6 +1020,7 @@ p.zFNotFoundContinue{font-size:0.9rem;margin:30px auto;}
   /* Main - home.htm */
   .DivHomeProd {height: 280px;}
   .DivHomeProd:hover {height: 315px;}
+  .DivHomeBtWish {bottom:17px;}
   
   /* Botoes Categorias Home */
   .zf-home-cursos {margin: 25px; font-size: 13px;}
@@ -1123,9 +1129,12 @@ p.zFNotFoundContinue{font-size:0.9rem;margin:30px auto;}
   /* Produtos Home */
   #ProdDestHome {padding: 8px 15px;}
   #ProdDestHome:hover, #ProdDestHome:focus, #ProdDestHome:active {-webkit-transform:none; transform:none;}
-  .DivHomeProd {height: auto; padding: 0 0 15px 0;}
-  .DivHomeProd:hover {height: auto; padding: 0 0 15px 0;}
-  .DivHomeBtMore {display: block;}
+  .DivHomeProd {height: auto; float:left; padding: 0 0 10px 0;}
+  .DivHomeDescProd {width: 76%; padding: 0 10px 0 10px;}
+  #DivHomeSelos {width: 16%;}
+  .DivHomeBtMore {display:block;}
+  .DivHomeBtWish {display:block; width: 11%; bottom:12px;}
+  
   
   /* Livros Home */
   .home-books {width: 94%; flex-wrap: wrap; justify-content: center;}
@@ -1234,6 +1243,11 @@ p.zFNotFoundContinue{font-size:0.9rem;margin:30px auto;}
   .zf-home-cursos3, .zf-home-cursos4 {width: 48%; margin:20px 0 0 0;}
   .MainHomeBoxTitFC1, .MainHomeBoxTitFC2, .MainHomeBoxTitFC3 {width: 92%;}
   
+  /* Produtos Home */
+  .DivHomeDescProd {width: 71%;}
+  #DivHomeSelos {width: 20%;}
+  .DivHomeBtWish {width: 13%;}
+  
   /* Texto Fim Home */
   .TxtEndFC2 {align-items: flex-start; -webkit-align-items: flex-start;}
   .TxtEndFC2 img {width: 250px;}
@@ -1275,6 +1289,12 @@ p.zFNotFoundContinue{font-size:0.9rem;margin:30px auto;}
 	.header-mainbar-links2 {display:none;}
 	.header-mainbar-flex-search .InputTextBusca {width: 80%; padding: 0 0 0 5px;}
 	
+	/* Produtos Home */
+    .DivHomeDescProd {width:66%;}
+	#DivHomeSelos    {width:25%;}
+	.DivHomeBtMore   {width:130px;}
+	.DivHomeBtWish   {width:15%;}
+	
 	/* Texto Fim Home */
 	.MainHomeTxtEndFC {width: 90%; flex-wrap:wrap;}
 	.TxtEndFC1 {width:100%;}
@@ -1309,6 +1329,12 @@ p.zFNotFoundContinue{font-size:0.9rem;margin:30px auto;}
   .MainHomeBoxTitFC1, .MainHomeBoxTitFC2, .MainHomeBoxTitFC3 {width: 90%; flex-wrap: wrap;}
   .MainHomeSeeMore {display:none;}
   
+  /* Produtos Home */
+  .DivHomeDescProd {width:76%;}
+  #DivHomeSelos {width:18%;}
+  .DivHomeBtMore {width:150px;}
+  .DivHomeBtWish {width:10%;}
+  
   /* Botoes Cursos Hoome */
   .zf-home-cursos {width: 90%; margin: 20px auto 40px auto; font-size:16px;}
   .zf-home-cursos1, .zf-home-cursos3, .zf-home-cursos4 {width: 100%;}
@@ -1329,7 +1355,7 @@ p.zFNotFoundContinue{font-size:0.9rem;margin:30px auto;}
   .TxtEndFC1 h3 {margin-block-end: 20px;}
   .TxtEndFC2 {display:none;}
   
-  /* Pï¿½gina Cada Professor */
+  /* Página Cada Professor */
   .prof_geral {flex-wrap:wrap;}
   .prof_foto {order: 1; margin: 0 0 0 0; width: 100%;}
   .prof_conteudo {order: 2; margin: 30px 0 0 0; width: 100%;}
@@ -1402,6 +1428,10 @@ p.zFNotFoundContinue{font-size:0.9rem;margin:30px auto;}
 	/* Botoes Home */
 	.zf-home-cursos1, .zf-home-cursos2, .zf-home-cursos3, .zf-home-cursos4 {border-radius: 24px;}
 	
+	/* Produtos Home */
+	.DivHomeDescProd {width: 74%;}
+	.DivHomeBtWish {width: 11%;}
+	
 	/* Livros Home */
 	.home-books {width: 88%;}
 	.book1 {width:100%;}
@@ -1455,6 +1485,9 @@ p.zFNotFoundContinue{font-size:0.9rem;margin:30px auto;}
 	/* Botoes Home */
 	.zf-home-cursos {width: 88%; font-size: 14px;}
 	
+	/* Produtos Home */
+	.DivHomeDescProd {width: 70%; font-size:12px;}
+	
 	/* Texto Fim Home */
 	.MainHomeTxtEndFC {width: 84%;}
 	
@@ -1481,18 +1514,7 @@ p.zFNotFoundContinue{font-size:0.9rem;margin:30px auto;}
 #tabs iframe {max-width: 100%;}
 /*zoom tira lupa*/
 figure.mz-figure.mz-hover-zoom.mz-no-zoom.mz-ready, figure.mz-figure.mz-hover-zoom.mz-no-zoom {cursor: context-menu;}
-
-.DivHomeNomeProd .HomeNomeProd{display:none !important;}
-.DivHomeNomeProd{background:none !important;}
-
-.prof_geral{
-  display:block;
-  width:100%;
-  text-align: center;
-}
-
-.prof_geral .prof_curriculo{
-  line-height: 24px;
-  text-align: justify;
-  margin-bottom: 0.83em;
-}
+/*tirar ordenacao*/
+div#idPagProdTop {display: none;}
+/*esconder filtros profs lista*/
+.Fil1, .FilInfo1 { display: none;}
