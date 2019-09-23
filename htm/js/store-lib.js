@@ -1034,7 +1034,8 @@ function fnLoginShowUserName(user){
 }
 
 // Don't Go Popup
-if(FC$.Page=="Home" || FC$.Page=="Products"){
+// if(FC$.Page=="Home" || FC$.Page=="Products"){
+if(false){
   FCLib$.onReady(function(){
     if(FCLib$.GetID("overlay")){
       //Dynamic Don't Go Container
