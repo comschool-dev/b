@@ -198,6 +198,11 @@ function insertProfMiniCV(profName){
 		var profMiniCV = "Jornalista, palestrante, professor e consultor de mídias sociais. Já atuou na área financeira e de pesquisa iconográfica, antes de se dedicar integralmente à área digital. Atuou nos últimos 5 anos na estratégia digital de 16 marcas da Editora Globo e Edições Globo Condé Nast nas redes sociais. É coautor do ebook Para Entender as Mídias Sociais - vol. 2 e coorganizador do 3º volume. Entusiasta e especialista em mídias sociais, ministra cursos e palestras em diversas instituições e empresas, como Mercedes-Benz, Rede Globo, Facebook, TRE Minas, entre outras, além de palestrar em eventos relacionados ao universo digital como RD Summit, Social Media Week, Share, Content Summit, entre outros. É especialista e entusiasta da rede social profissional LinkedIn e professor convidado na Faculdade Cásper Líbero, IAB Brasil, ComSchool e SENAC, em São Paulo, para ministrar oficinas que ensinam os usuários a tirarem o máximo de proveito dessa rede social profissional e criador do grupo LinkedIn Brasil ? De A a Z, no Facebook, considerado o maior do mundo em língua portuguesa com foco em discutir assuntos relacionados à rede. Numa pesquisa divulgada no Paraná, Cristiano foi indicado como um dos principais influenciadores sobre mídias sociais do país, e em novembro/2015 foi premiado como Profissional Destaque no Ano na categoria Fomento do Mercado no Prêmio Share Social Media 2015."
 	}
     
+  
+  
+      if(profName == "Cynthia Prado"){
+		var profMiniCV = "Solution Engineer na Oracle e Embaixadora do Mulheres no E-commerce, Cynthia tem 20 anos de experiência em Design Digital e 14 anos em Ecommerce (B2B e B2C).Premiada pelo Prêmio ABComm em 2019 duas vezes premiada pelo \?Talento Awards\? da Unilever.Também trabalhou em empresas como Kalunga, Somlivre, Centauro e Videolar."
+	}
 
     
     
@@ -948,6 +953,14 @@ function insertProfMiniCV(profName){
 
     if(profName == "Perla Amabile"){
 		var profMiniCV = "Perla é especialista em comportamento do consumidor e estratégias de branding e marketing, atuando hoje como Gerente de Planejamento Estratégico na SapientNitro, agência multinacional do Publicis Groupe, além de gerir um projeto pessoal, a start up Bicicletando. Atua há 13 anos no mercado, passando os últimos 10 anos em agências de marketing e publicidade, tendo se destacado em estratégias digitais e inovação. É publicitária, com MBA em Ciências do Consumo, pós-graduação em Criação Publicitária e especialização em Neurociências aplicada ao Consumo, Programação Neurolinguística (PNL), Marketing Digital e Ecommerce. É palestrante em eventos do setor, como: Social Media Brasil, Universidade Anhembi Morumbi, Faculdade Sumaré, Faculdade Zumbi dos Palmares, além de já ter mediado round tables no Ecommerce Brasil. Também é professora do curso de Comportamento do Consumidor promovido pela Media Education, hub de conteúdo sênior que há mais de 7 anos compartilha conhecimento por meio de eventos e workshops."
+	}
+    
+
+    
+    
+
+    if(profName == "Rafael Bandoni"){
+		var profMiniCV = "Rafael Bandoni é publicitário de formação e pós graduando em comunicação e design digital pela ESPM - SP. Atua na área desde 2014 quando entrou em uma agência de comunicação digital e se apaixonou pela área. Atualmente trabalha na área de Marketing Intelligence da CI&T, responsável por mídia e performace e em sua carreira já atendeu clientes como John Deere, Farmina, Honda, Catupiry, AstraZeneca, Mann Filter, entre outros."
 	}
     
 
