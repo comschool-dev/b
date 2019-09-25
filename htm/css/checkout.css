@@ -216,7 +216,7 @@ select {min-height:27px}
 #idTxtComentsFC br:after {content: ' '}
 .FCRegisterChk {width:100%!important;}
 .FCFreightChk {width:100%!important;}
-#idCheckoutFC .EstDivParcels {width:100%;}
+#idCheckoutFC .EstDivParcels {width:98%;margin-left:0px!important;}
 #idCheckoutFC .EstDivParcels select {width:100%;}
 .FCCartChk {width:100%!important;}
 #idChkTagsCol2FC {position:relative !important; top: 0px !important;}
