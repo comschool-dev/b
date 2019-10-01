@@ -1,33 +1,35 @@
 <!-- Cursos Home -->
 <p19>
 <div id="ProdDestHome">
-<div class="DivHomeProd" <DataAttribute> id="DivProd<IDProduto>" onclick="NoCascate('<URLProd>');">
-  <div class="DivHomeImagemProd">
-    <div class="DivHomeNomeProd"><div class="HomeNomeProd"><NomeProd></div></div>
-    <img alt="<NomeProd>" src="<ImagemProdPri>">
+  <div class="DivHomeProd" <DataAttribute> id="DivProd<IDProduto>" >
+    <a href="<URLProd>">
+      <div class="DivHomeImagemProd">
+        <div class="DivHomeNomeProd"><div class="HomeNomeProd"><NomeProd></div></div>
+        <img alt="<NomeProd>" src="<ImagemProdPri>">
+      </div>
+      <div class="DivHomeDescProd"><DescricaoCurta></div>
+    </a>
+    <div id="DivHomeSelos">
+      <div class="DivSeloPresencial" id="DivSeloPresencial-<IDProduto>" style="display:none;"><img  src="<BaseLoja>images/ic_presencial.svg?cccfc=1" alt="Presencial" title="Presencial"></div>
+      <div class="DivSeloOnline" id="DivSeloOnline-<IDProduto>" style="display:none;"><img  src="<BaseLoja>images/ic_online_vivo.svg?cccfc=1" alt="Online Vivo" title="Online Vivo"></div>
+      <input type="text" value="<Adicional1Val>" id="add1val-<IDProduto>" style="display:none;">
+      <script>
+        if( document.getElementById('add1val-<IDProduto>').value.includes('Presencial') ){
+          document.getElementById('DivSeloPresencial-<IDProduto>').removeAttribute("style");
+        }
+        if( document.getElementById('add1val-<IDProduto>').value.includes('Online') ){
+          document.getElementById('DivSeloOnline-<IDProduto>').removeAttribute("style");
+        }
+      </script>
+    </div>
+    <a href="<URLProd>"><div class="DivHomeBtMore">Saiba Mais<img  src="<BaseLoja>images/ic_saibamais.svg?cccfc=1" alt="Saiba Mais" title="Saiba Mais"></div></a>
+    <div class="DivHomeBtWish"><wishlist></div>
   </div>
-  <div class="DivHomeDescProd"><DescricaoCurta></div>
-  <div id="DivHomeSelos">
-    <div class="DivSeloPresencial" id="DivSeloPresencial-<IDProduto>" style="display:none;"><img  src="<BaseLoja>images/ic_presencial.svg?cccfc=1" alt="Presencial" title="Presencial"></div>
-    <div class="DivSeloOnline" id="DivSeloOnline-<IDProduto>" style="display:none;"><img  src="<BaseLoja>images/ic_online_vivo.svg?cccfc=1" alt="Online Vivo" title="Online Vivo"></div>
-    <input type="text" value="<Adicional1Val>" id="add1val-<IDProduto>" style="display:none;">
-    <script>
-      if( document.getElementById('add1val-<IDProduto>').value.includes('Presencial') ){
-        document.getElementById('DivSeloPresencial-<IDProduto>').removeAttribute("style");
-      }
-      if( document.getElementById('add1val-<IDProduto>').value.includes('Online') ){
-        document.getElementById('DivSeloOnline-<IDProduto>').removeAttribute("style");
-      }
-    </script>
-  </div>
-  <div class="DivHomeBtMore">Saiba Mais<img  src="<BaseLoja>images/ic_saibamais.svg?cccfc=1" alt="Saiba Mais" title="Saiba Mais"></div>
-  <div class="DivHomeBtWish"><wishlist></div>
-</div>
-<script>
-FCLib$.onReady(function(){
-  sF$.fnShowProd(<PrecoNum>,<PrecoOri>,'<CodProd>',<MaxParcelasProdNum>,<IDProduto>)
-});
-</script>
+  <script>
+  FCLib$.onReady(function(){
+    sF$.fnShowProd(<PrecoNum>,<PrecoOri>,'<CodProd>',<MaxParcelasProdNum>,<IDProduto>)
+  });
+  </script>
 </div>
 </p19>
 

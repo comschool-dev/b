@@ -514,12 +514,13 @@ var bTemSub=false;
 <!-- Prod Lista -->
 <FormProd>
   <div class="DivListProd" <DataAttribute> id="DivProd<IDProduto>" onclick="NoCascate('<URLProd>');">
-    <div class="DivProductListProd">
-      <div class="DivListImagemProd">
-        <div class="DivHomeNomeProd"><div class="HomeNomeProd"><NomeProd></div></div>
-        <img src="<ImagemProdPri>" alt="<NomeProd>">
-      </div>
-      <div class="DivHomeDescProd"><DescricaoCurta></div>
+    	<a href="<URLProd>">
+	      <div class="DivListImagemProd">
+	        <div class="DivHomeNomeProd"><div class="HomeNomeProd"><NomeProd></div></div>
+	        <img src="<ImagemProdPri>" alt="<NomeProd>">
+	      </div>
+      	<div class="DivHomeDescProd"><DescricaoCurta></div>
+    	</a>
       <div id="DivHomeSelos">
         <div class="DivSeloPresencial" id="DivSeloPresencial-<IDProduto>" style="display:none;"><img  src="<BaseLoja>images/ic_presencial.svg?cccfc=1" alt="Presencial" title="Presencial"></div>
         <div class="DivSeloOnline" id="DivSeloOnline-<IDProduto>" style="display:none;"><img  src="<BaseLoja>images/ic_online_vivo.svg?cccfc=1" alt="Online Vivo" title="Online Vivo"></div>
@@ -533,7 +534,7 @@ var bTemSub=false;
 			    }
 			  </script>
       </div>
-      <div class="DivListBtMore">Saiba Mais<img  src="<BaseLoja>images/ic_saibamais.svg?cccfc=1" alt="Saiba Mais" title="Saiba Mais"></div>
+      <a href="<URLProd>"><div class="DivListBtMore">Saiba Mais<img  src="<BaseLoja>images/ic_saibamais.svg?cccfc=1" alt="Saiba Mais" title="Saiba Mais"></div></a>
       <div class="DivListBtWish"><wishlist></div>
    </div>
    <div id="zFProdSoldOut<IDProduto>"></div>
