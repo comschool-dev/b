@@ -103,10 +103,28 @@ ul.FCDescritorContent {margin:0;padding:0;}
 #DivShowCartOnPage{display:block!important;}
 
 /* Botoes de Acao */
-.fc-grid-add-to-cart-button{background:#23aee8;color:#ffffff; font-size:1rem; text-transform:uppercase;width:250px; height:27px; padding: 10px 0px 5px 0; position:relative;text-align:center;cursor:pointer; margin:10px 0 0 0; border-radius: 21px;-webkit-border-radius: 21px; -moz-border-radius: 21px;float:left;text-align:center;}
+.fc-grid-add-to-cart-button{
+    background:linear-gradient(to bottom,#F5C589,#ED9222);
+    color:#000; 
+    font-size:1.2rem; 
+    text-transform:uppercase;
+    width:250px; 
+    height:27px; 
+    padding: 10px 0px 5px 0; 
+    position:relative;
+    text-align:center;
+    cursor:pointer; 
+    margin:10px 0 0 0; 
+    border-radius: 21px;
+    -webkit-border-radius: 21px; 
+    -moz-border-radius: 21px;
+    float:left;
+    text-align:center;
+    border:solid 1px #a56616;
+}
 .fc-grid-add-to-cart-button b {font-weight:400;}
 .fc-grid-add-to-cart-button:before{content:"";background-image:url("../../images/iconcart_grid.svg");position:absolute;left:15px;top:5px;height:32px;width:32px;}
-.fc-grid-add-to-cart-button:hover{box-shadow:0 0 11px rgba(169,224,246,1);}
+.fc-grid-add-to-cart-button:hover{box-shadow:0 0 11px rgba(246,204,148,1);}
 .fc-grid-choose-options-button{background:#707070;color:#ffffff; font-size:1rem; text-transform:uppercase;width:250px; height:27px; padding: 10px 0px 5px 0; position:relative;text-align:center;cursor:pointer; margin:10px 0 0 0; border-radius: 21px;-webkit-border-radius: 21px; -moz-border-radius: 21px;float:left;text-align:center;}
 .fc-grid-choose-options-button b {font-weight:400;}
 .fc-grid-choose-options-button:hover{background:#878787;box-shadow:0 0 11px rgba(33,33,33,.3);}
