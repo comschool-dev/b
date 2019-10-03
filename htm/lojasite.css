@@ -163,7 +163,7 @@ a.shop-list-action{display:flex;display:-webkit-flex;align-items:center;-webkit-
 .HeaderMenuULFC li a{color:#555555;text-decoration:none;padding:0 15px 3px 0}
 .HeaderMenuULFC li a:hover{color:#da151d; background:url('../images/header-menu-over.png') no-repeat bottom left;}
 .header-mainbar-links2 {display:none;}
-#header-mainbar-whatsapp {border: 1px solid #1bd741; border-radius: 20px; width: 155px; height: 38px; background:#ffffff; display:flex;display:-webkit-flex; margin:0 28px 0 0; cursor:pointer;}
+#header-mainbar-whatsapp {border: 1px solid #1bd741; border-radius: 20px; width: 155px; height: 38px; background:#1bd741; display:flex;display:-webkit-flex; margin:0 28px 0 0; cursor:pointer;}
 #header-mainbar-whatsapp:hover{box-shadow:0 0 10px rgba(27,215,65,0.6);}
 #header-mainbar-whatsapp .bt1-whatsapp {border:0;}
 #header-mainbar-whatsapp .bt2-whatsapp {display:none; border:0;}
