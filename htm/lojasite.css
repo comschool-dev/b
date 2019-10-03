@@ -999,11 +999,11 @@ p.zFNotFoundContinue{font-size:0.9rem;margin:30px auto;}
 
   /* Header - barratopo.htm */
   .header-space-top {padding-top:65px}
-  .HeaderMainbar{height:70px;margin:auto;box-shadow:0 2px 5px rgba(0,0,0,.10)}
+  .HeaderMainbar{height:70px;margin:auto;box-shadow:0 2px 5px rgba(0,0,0,.10);}
   .header-mainbar-container {margin: 0 25px; height: 70px;}
   .header-mainbar-container-menu {display:none;}
   .header-mainbar-flex-logo a img{max-height:45px}
-  #header-mainbar-whatsapp {border: 0; border-radius: 0; width: 25px; align-items:center;}
+  #header-mainbar-whatsapp {border: 0; border-radius: 0; width: 25px; align-items:center; background:transparent !important;}
   #header-mainbar-whatsapp:hover {box-shadow: none;}
   #header-mainbar-whatsapp .bt1-whatsapp {display:none;}
   #header-mainbar-whatsapp .bt2-whatsapp {display: block; border: 0; padding:2px 0 0 0;}
@@ -1101,7 +1101,7 @@ p.zFNotFoundContinue{font-size:0.9rem;margin:30px auto;}
 
 @media only screen and (max-width:1023px) {
   /* Header */
-  .HeaderMainbar {box-shadow:none; border-bottom: 1px solid #efefef; position: static;}
+  .HeaderMainbar {box-shadow:none; border-bottom: 1px solid #efefef;  position:fixed; top:0;}
   .header-space-top {displayl:none; padding-top: 0;}
   .header-mainbar-container {width: 94%; margin: 0 auto;}
   .header-mainbar-container-menu {visibility:visible; display:flex; align-items:center; -webkit-align-items:center; position:relative;}
@@ -1233,7 +1233,7 @@ p.zFNotFoundContinue{font-size:0.9rem;margin:30px auto;}
 
 @media only screen and (max-width:670px){
   /* Header */
-  #header-mainbar-whatsapp {margin: 0 20px 0 0;}
+  #header-mainbar-whatsapp {margin: 0 20px 0 0; background:transparent !important;}
   #header-mainbar-container-search {margin: 0 20px 0 0;}
   
   /* Botoes Categorias Home */
