@@ -477,6 +477,23 @@ input#det-product-tab1:checked + label#det-product-tab1-label,input#det-product-
 	.det-product-form .det-product-form-aviso2 {font-size: 14px;}
 	.det-product-form-iframe {width:100%; height:820px;}
 }
+
+.btn-fale{
+  width: 225px;
+  height: 30px;
+  border: 1px solid #da151d;
+  border-radius: 21px;
+  background-color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  color: #da151d;
+  padding: 9px 10px 1px 10px;
+  cursor: pointer;
+}
+
+.btn-fale:hover{
+  box-shadow:0 0 11px rgba(223,23,31,1);
+}
 </style>
 
 <link href="<PathTo file="htm/css/fc_grid_v1.css">" rel="stylesheet" type="text/css">
@@ -597,8 +614,15 @@ sF$.fnGetProductSoldOutID(<IDProduto>,<Estoque>);
         <script>FCLib$.onReady(function(){sF$.fnMostraDescontoProdDet(<PrecoNum>);});</script>
       </p>
 	      <div class="FCGridMain" id="idMainGridFC_<IDProduto>"></div>
-	      <!-- WhatsApp -->
-	      <div class="zFBotWhatsAlign"><a href="https://api.whatsapp.com/send?phone=5511970843186&text=Ol%C3%A1,%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20os%20cursos%20da%20ComSchool."><div class="zFBotWhatsApp">Fale por WhatsApp</div></a></div>
+	      <!-- WhatsApp --
+	      <div class="zFBotWhatsAlign"><a href="https://api.whatsapp.com/send?phone=5511970843186&text=Ol%C3%A1,%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20os%20cursos%20da%20ComSchool."><div class="zFBotWhatsApp">Fale por WhatsApp</div></a></div>-->
+        <div class="zFBotWhatsAlign">
+          <a href="#bloco-form">
+            <div class="btn-fale">
+              Fale com um consultor!
+            </div>
+          </a>
+        </div>
     	</div>
       <!-- Calculo Frete -->
       <div class="FreightContainerFC" id="det-zipcode-container"><div id="ShowCEP<IDProduto>"></div></div>
@@ -617,11 +641,11 @@ sF$.fnGetProductSoldOutID(<IDProduto>,<Estoque>);
 
   </div>
 </div>
-
+<!--
 <div class="det-product-comments-geral">
   <div class="TitulosDet">Opini&atilde;o dos Alunos</div>
   <div class="det-product-comments"><Comments></div>
-</div>
+</div>-->
 
 <!-- inserir novos conteúdos aqui-->
 <div class="det-product-icones">
@@ -637,7 +661,7 @@ sF$.fnGetProductSoldOutID(<IDProduto>,<Estoque>);
   </div>
 </div>
 
-<div class="det-product-form-geral">
+<div class="det-product-form-geral" id="bloco-form">
   <div class="det-product-form-photo"><div class="det-product-form-aviso">Se preferir, envie um e-mail para <a href="mailto:contato@comschool.com.br">contato@comschool.com.br</a> ou entre em contato no Tel.: (11) 4766-9000.</div><img src="<PathTo file="images/foto_form_det.jpg">" alt="Preencha o formulário para receber mais informações ou uma proposta do treinamento de seu interesse." ></div>
   <div class="det-product-form">
     <div class="TitulosDet">Preencha o formulário para receber mais informações ou uma proposta do treinamento de seu interesse.</div>
