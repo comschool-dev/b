@@ -264,7 +264,7 @@ function insertProfMiniCV(profName){
     
 
     if(profName == "Douglas Martineli"){
-		var profMiniCV = "Supervisor de Mídia Digital na Tribal Worldwide, está há mais de sete anos trabalhando com comunicação e marketing, ajudando pequenas e grandes marcas a encontrarem as melhores soluções para seus negócios através de estratégias de marketing digital. Cursou Publicidade e Propaganda e é autor do e-book \"5 Pilares do E-commerce: Reestruturando o modelo de operações da sua loja virtual\", material gratuito destinado a micro e pequenos empreendedores."
+		var profMiniCV = "Supervisor de Mídia Online na Isobar, está há mais de oito anos trabalhando com comunicação e marketing, ajudando pequenas e grandes marcas a encontrarem as melhores soluções para seus negócios através de estratégias de marketing digital. Ao longo da carreira já atendeu marcas como Chevrolet, Santander, Senac, Sufresh, José Cuervo, entre outras."
 	}
     
 
@@ -329,6 +329,14 @@ function insertProfMiniCV(profName){
 
     if(profName == "Erick Massa Sprengel"){
 		var profMiniCV = "Formado em Engenharia da Computação na USP. Atualmente é Engenheiro de Android na LG Eletronics.Experiência de 6 anos em desenvolvimento de sistemas mobile. Tendo trabalhado em projetos como Fábrica de Aplicativos, Tokio Marine, BB Seguros 360, PeggTaxi, Aquii, JZ Resgate, CBF, MovistarOn, entre outros.Atuando na concepção do produto, modelagem do sistema (arquitetura) e desenvolvimento (Android e backend)"
+	}
+    
+
+    
+    
+
+    if(profName == "Ezinete Gomes"){
+		var profMiniCV = "Professora do Curso de Marketing Digital Avançado Analista Sênior de Business Intelligence na Blinks, atuou como Analista de Tecnologias para Marketing na \"Meskla Digital\" e na ?Marketing Tech?, onde foi responsável pela implementação e gestão de tags via Google Tag Manager, desenvolvimento de dashboards via Google Data Studio, soluções programáticas com Scripts do AdWords, ferramentas e automatizações via Google Sheets. 3° lugar no Torneio SEMCITEC de Programação, Analista de BI na Jotacom Comunicação entre outras experiências na área."
 	}
     
 
@@ -959,6 +967,13 @@ function insertProfMiniCV(profName){
     
     
 
+    if(profName == "Pierre Jacquin"){
+		var profMiniCV = "Professor do Curso de Logística no E-commerce Atualmente exerce a função de Diretor Executivo da \"Intelipost\". 7 anos de atuação na \"Accenture\", em cargos como Diretor de Vendas Estratégicas, Gestor de Vendas Estratégicas e Diretor de Vendas LATAM. Co-Fundador da Charles Legend. Experiência em Vendas, estratégias go-to-market e Customer Relationship Management."
+	}
+
+    
+    
+
     if(profName == "Rafael Bandoni"){
 		var profMiniCV = "Rafael Bandoni é publicitário de formação e pós graduando em comunicação e design digital pela ESPM - SP. Atua na área desde 2014 quando entrou em uma agência de comunicação digital e se apaixonou pela área. Atualmente trabalha na área de Marketing Intelligence da CI&T, responsável por mídia e performace e em sua carreira já atendeu clientes como John Deere, Farmina, Honda, Catupiry, AstraZeneca, Mann Filter, entre outros."
 	}
@@ -993,6 +1008,14 @@ function insertProfMiniCV(profName){
 
     if(profName == "Raphael Penna"){
 		var profMiniCV = "Comecei no Marketing Digital na área de serviços ao cliente, também trabalhei em gerenciamento de projetos, Business Intelligence, CRO e desenvolvendo uma nova unidade de negócios na Jussi para consultoria digital. Agora trabalho na Samsung em um projeto de transformação digital, gerenciando o ecossistema Martech (DMP, DSP, Adserver, CRM, Analytics, testes AB e outras ferramentas), experiência digital, análise de negócios e análise de jornada digital para desempenho em todos os pontos de contato com usuários / consumidores, marketing orientado por dados.Como agência trabalhei com mais de 30 marcas, entre elas: Boticário, Itaú, Brastemp, Cônsul, Redecard, Honda, Motorola, Kroton, Ambev, Carrefour, Adidas, Localiza, Unidas, Sanofi, Easynvest, B.blend, etc."
+	}
+    
+
+    
+    
+
+    if(profName == "Raquel Bersano"){
+		var profMiniCV = "Professora do Curso de Marketing Digital É Fundadora e Consultora em Marketing Digital da \"Inspire Digital\". Especialista em Marketing Digital e Inbound Marketing. Atuou como Gerente de Processos e Marketing Digital na \"CPTarget Inteligência Online\", onde foi responsável pelo planejamento e gestão do processo de desenvolvimento de páginas e peças digitais, criação de conceito e briefing, estudo da concorrência, follow-up com fornecedores, interface com áreas internas, criação de fluxos de processos para o gerenciamento de atividades envolvendo a área comercial, operacional e de tecnologia, dentre outras funções. Pós-graduação em administração de empresas na FGV e especialização, neurociência e tecnologia aplicada no Mackenzie."
 	}
     
 
@@ -1252,6 +1275,12 @@ function insertProfMiniCV(profName){
 	}
     
 
+    
+    
+
+    if(profName == "Wesley Muniz"){
+		var profMiniCV = "Atua no momento como Gerente de Business Intelligence (BI) no Banco Bradesco, dando também suporte para o digital e planejamentos de UX, e redes sociais como Facebook, Instagram, LinkdIn, Youtube e Twitter. Exerceu na \"ID\TBWA\" a função de Coordenador de BI e Analista Sênior de BI na \"CUBOCC\". Graduado no curso de Data Science e Big Data Analytics no Instituto Massachusetts de Tecnologia e no curso de Comunicação em Social Media com foco em estratégias. Bacharel em Comunicação Social no Centro Universitário FIEO."
+	}
     
     
 
