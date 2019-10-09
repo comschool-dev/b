@@ -180,6 +180,12 @@ ul.FCDescritorContent {margin:0;padding:0;}
 #prof0, #prof1, #prof2, #prof3, #prof4, #prof5, #prof6, #prof7, #prof8, #prof9, #prof10 {font-size:1.1rem; font-weight:700; margin:20px 0 0 0;}
 
 
+@media only screen and (max-width:1367px){
+    .zFBotWhatsAlign {
+        top:10px !important;
+    }
+}
+
 @media only screen and (max-width:1024px){
 .FCBoxGridBuy .FCStepGridNumber{margin-top:0;}
 /* Steps VP */
