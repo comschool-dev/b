@@ -1125,7 +1125,7 @@ p.zFNotFoundContinue{font-size:0.9rem;margin:30px auto;}
 
   /*CONTENT*/
 
-  .middle-container{
+  .middle-container, #FC-ShowHomeBanners {
     margin-top:90px !important;
   }
   
