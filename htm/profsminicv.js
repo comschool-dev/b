@@ -767,6 +767,14 @@ function insertProfMiniCV(profName){
     
     
 
+    if(profName == "Luiz Clerc"){
+		var profMiniCV = "É jornalista, sócio e diretor da Medialogue, uma agência digital full service que desenvolve pesquisas exclusivas e campanhas que ajudam a desvendar e ampliar o papel da internet e das mídias sociais na vida de empresas, personalidades, políticos, ONGs e outras instituições. Também é co-fundador e diretor da Análise Editorial, editora especializada em publicações segmentadas. Por quase 20 anos trabalhou nas mais importantes redações do Brasil. Foi editor executivo da Revista Exame e editor de Brasil da revista Veja, as duas publicações da Editora Abril, e repórter político da da Folha de São Paulo, onde iniciou sua carreira como trainee. É formado em Jornalismo e Direito. Desenvolveu inúmeros sites e portais para a internet, criou várias publicações de sucesso e atuou como consultor para empresários e políticos."
+	}
+    
+
+    
+    
+
     if(profName == "Luiz Dias"){
 		var profMiniCV = "Luiz Dias é Diretor de E-Commerce da EZ COMMERCE, graduado em Publicidade e Marketing na Univ. Anhembi Morumbi e em Direito na FMU. Iniciou a carreira trabalhando com criação e usabilidade em agências de publicidade e marketing. No Comércio Eletrônico ingressou em 2007 no Gimba.com, varejista de Informática e Material para Escritório, ainda como Diretor de Arte e Criação, onde também acumulou a função de Coordenador de Marketing. Em 2009 assumiu as atividades como Gestor de E-commerce na Centauro, maior varejista de artigos esportivos da América Latina. No fim de 2010 incorporou a função de Gerente Geral de E-Commerce na Paquetá Esportes. Em Janeiro de 2012 assumiu como Gerente Geral de E-Commerce na Connect Parts, maior loja online de acessórios automotivos da América Latina. Tem em seu portfólio consultorias para as lojas virtuais CorpoIdeal.com.br, Lebes.com.br, LojaSilva.com.br, MariaPresenteira.com.br e My Shop Brasil, entre outras. Palestrante em diversos eventos do setor. Autor de artigos para o jornal O Estado de São Paulo, Revista WIDE, Mundo do Marketing e Webinsider/UOL, entre outros."
 	}
