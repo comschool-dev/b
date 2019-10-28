@@ -1,0 +1,63 @@
+<div id="tabs">
+    <input id="tab1" type="radio" name="tabs" checked><label for="tab1">Descrição</label>	
+    <input id="tab2" type="radio" name="tabs"><label for="tab2">Programa</label>
+    <input id="tab3" type="radio" name="tabs"><label for="tab3">Professores</label>
+    <section id="content1">		
+        <h1><strong>Curso de Comunicação Empresarial</strong></h1>
+        <p>
+            A comunicação é uma das principais chaves para o sucesso, tanto pessoal, quanto no mundo corporativo. Gerir pessoas e conviver com elas, exige mais do que apenas simpatia e ser bem-visto em seu meio. Uma empresa, independente de seu tamanho atual, precisa ter sua comunicação interna alinhada de maneira assertiva, até mesmo por uma questão de identidade externa de marca.  
+        </p>
+        <p>
+            Existem diversas maneiras e ferramentas de comunicação que colaboram com o sucesso de uma companhia, o engajamento eficiente para o público, vem após a definição de um propósito comum entre a equipe, estando preparada para as situações adversas do dia a dia, com soluções práticas que podem vir a otimizar o tempo de trabalho, trazendo assim uma melhor performance de seus funcionários e consequentemente da empresa. 
+        </p>
+        <p>
+            No curso de Comunicação Empresarial, você aprende estratégias para a gestão de uma equipe rica em comprometimento. 
+        </p>
+        <h2>Objetivos do Curso de Comunicação Empresarial</h2>
+        <p>
+            &#8226; Compreender e influenciar pessoas buscando seu máximo desenvolvimento<br />
+            &#8226; Aprimorar técnicas para um melhor engajamento e relacionamento interpessoal<br />            
+            &#8226; Desenvolver a comunicação assertiva dentro de uma empresa, de maneira individual e conjunta.<br />            
+            &#8226; O impacto do feedback nas organizações
+        </p>
+        <h2>Carga horária</h2>
+        <p>8 horas</p>
+    </section>
+    <section id="content2">
+        <h2>Conteúdo Programático do Curso de Comunicação Empresarial</h2>
+        <p>
+            &#8226; A empatia e os componentes da comunicação não violenta;<br />
+            &#8226; A cultura organizacional e a comunicação interna;<br />
+            &#8226; Modelo PERMA: emoção positiva, engajamento, relacionamento, proposito e realizações.<br />
+            &#8226; Postura positiva de aprendizagem e o feedback<br />
+            &#8226; Diferenças entre a comunicação assertiva e comunicação sistêmica<br />
+            &#8226; Cinco chaves de engajamento: significado, autonomia, crescimento, impacto e conexões<br />
+            &#8226; Técnica da maiêutica e a escuta ativa<br />
+            &#8226; Metamodelo de linguagem
+        </p>
+    </section>
+    <section id="content3">
+        <div id="det-product-profs-tab">
+            <div id="showProfs"><h2>Relação dos Professores do Curso</h2></div>
+            <script src="<baseloja>htm/profsminicv.js"></script>
+            <script>
+                var oProdFilters= <ProdFiltersJS>; //json com os filtros
+                if(typeof(oProdFilters)=="object"){
+                var opFil=oProdFilters.pFil; //array com os filtros
+                if(typeof(opFil)=="object"){
+                    opFil.forEach(function(item){
+                    if(item.name=="Professores" && item.image!=undefined){
+                        var profNames = item.value.split(",")
+                        var profImage = item.image.split(",")
+                        var showProfsDiv = document.getElementById('showProfs');
+                        profImage.forEach(function(item,index){
+                        showProfsDiv.innerHTML += "<div id='prof"+index+"'><img src='<baseloja>prod/"+item+"'>"+profNames[index]+"</div><p>"+insertProfMiniCV(profNames[index])+"</p>"
+                        });
+                    }
+                    });
+                }
+                }
+            </script>
+        </div>
+    </section>
+</div>
