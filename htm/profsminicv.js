@@ -82,6 +82,14 @@ function insertProfMiniCV(profName){
     
     
 
+    if(profName == "Angela Bueno"){
+		var profMiniCV = "Sócia e fundadora da empresa Emana Consultoria, graduada em Moda, com Pós-graduação em Moda e Estilo (SENAC). Possui Especialização em Consultoria de Imagem e Estilo, e Coloração Pessoal pela Belas Artes. Além de ministrar Workshops e palestrar sobre moda, comportamento e estilo."
+	}
+    
+
+    
+    
+
     if(profName == "Angelo Vicente"){
 		var profMiniCV = "Engenheiro de Produção ? UFSCAR (2008), pós graduado em Logística Empresarial pela Escola Politécnica da Universidade de São Paulo (2010), MBA em Finanças pela Insper (2012), membro do Conselho de Curadoria da Ecommerce Brasil (2017-2018), 6 Anos de Experiência com Ecommerce (Fundador do Site Ecadeiras e Sócio da SELIA Fullcommerce) e 5 Anos de experiência de trabalho no exterior em multinacionais na área de Supply Chain."
 	}
@@ -311,6 +319,14 @@ function insertProfMiniCV(profName){
     
     
 
+    if(profName == "Elisa Malheiros"){
+		var profMiniCV = "Graduada em Comunicação Social, Pós-graduada em Comunicação com o Mercado pela ESPM e especialista em Consultoria de Imagem e Estilo (Belas Artes). Elisa possui vasto conhecimento no mercado corporativo, atuando em diversas áreas. São 12 anos de experiência nacional e Internacional, em cidades como Nova York, Barcelona e Cidade do México. Atualmente é sócia e fundadora da Emana Consultoria."
+	}
+    
+
+    
+    
+
     if(profName == "Eliziane Lettieri Vezzosi"){
 		var profMiniCV = "Relações Públicas com especialização em Marketing Estratégico e Gestão.Experiência de mais de 10 anos em Marketing, Eventos Corporativos e Projetos Digitais no Brasil, Austrália e Inglaterra. Passagem pelas empresas XP Investimento, ODIG, PipeRun, Arkadin e atualmente é Partner Success Manager na Dinamize.Pesquisadora das temáticas de Marketing Digital, Customer Experience e Aprendizagem Organizacional."
 	}
@@ -399,6 +415,14 @@ function insertProfMiniCV(profName){
     
     
 
+    if(profName == "Felipe Magalhães Bonel"){
+		var profMiniCV = "Profissional de tecnologia e comunicação. Formado em Multimeios pela Pontifícia Universidade Católica de São Paulo, já atou com projetos de inteligência artificial para companhias como Motorola, Gol, Nextel, Votorantim Metais e Telefônica/Vivo. É especialista em User Experience Conversacional e gestão de produtos digitais."
+	}
+    
+
+    
+    
+
     if(profName == "Felipe Moimaz"){
 		var profMiniCV = "Formado em Análise e Desenvolvimento de Sistema pela Universidade Paulista. No Walmart.com desde 2013, atuou na quebra de paradigmas na migração do e-commerce para o Marketplace e na construção, desenvolvimento e implementação do novo modelo de marketplace para o varejista. Teve a participação no desenvolvimento e implementação do Marketplace na VTEX, uma das maiores plataformas do mundo. Atualmente, como Coordenador de Marketplace, participa das principais decisões da companhia, sempre com foco na inovação e melhoria continua, como, por exemplo, na criação do modelo Laboratório Walmart, que tem foco em auxiliar os lojistas que estão integrando suas lojas com o Marketplace do Walmart.com, prestando uma consultoria completa, desde a integração até o início das vendas no canal."
 	}
@@ -433,6 +457,14 @@ function insertProfMiniCV(profName){
 
     if(profName == "Fernanda Bittencourt"){
 		var profMiniCV = "Especialista em conteúdo para redes sociais com foco em resultados há 7 anos.Foco do seu trabalho é coordenar e executar redes sociais empresariais, criando um plano de conteúdo para publicações diárias.O foco do trabalho é entender cada cliente e como seu segmento se comporta na internet. Com essa experiência, ficou fácil observar que cada universo precisa de uma estratégia para otimizar seus processos, produtos e serviços para poder aproveitar o que o digital tem de melhor.Formada pela Universidade Tuiuti do Paraná | Curitiba como Bacharel em Marketing e também como Designer Gráfico pela AICA - Autralian College of Arts | Gold Coast -Austrália.Trabalhou como Coordenadora de Marketing Digital na empresa Mormaii e hoje é emprendedora no segmento digital em Santa Catarina."
+	}
+    
+
+    
+    
+
+    if(profName == "Fernanda Dutra"){
+		var profMiniCV = "Especialista em Comunicação, sócia diretora da Flyflow, professora, palestrante e coach. Formada em Administração e Artes Plásticas e Pós-graduada em Gestão Estratégica de Pessoas e Marketing pela Universidade Presbiteriana Mackenzie. Possui diversos certificados profissionais, entre eles de Coaching e Gestão Estratégica em Neurobusiness."
 	}
     
 
@@ -745,6 +777,14 @@ function insertProfMiniCV(profName){
 
     if(profName == "Lisandra Maioli"){
 		var profMiniCV = "Jornalista graduada pela Universidade Metodista (2000), pós-graduada em Jornalismo Cultural e Multimídia pela PUC-SP (2004) e em Mídias Interativas pelo Senac São Paulo (2006), Certificado em Marketing pela UC Berkeley (2013) e em Marketing com foco em Mídias Sociais pela UCLA (2014), curso de extensão em Mídias Sociais para B2B pela Stanford University (2012), e de UX Research pela NNielsen (2012). Com mais de 10 anos de experiência em Comunicação Digital (User Experience, Mídias Sociais, Estratégia de Marketing Digital, Webwriting, Coordenação e Desenvolvimento de Projetos e de Produtos para Mídias Digitais) com passagens pelos portais iG, Lance!net, e Terra Network, pelas agências de Marketing Digital e-bit e Medcenter Solutions, pelas agências de comunicação corporativa Máquina da Notícia e CDN Digital, além do Senac São Paulo, em Comunicação Digital da área de Desenvolvimento Social. Depois de colaborar na área de UX de uma startup em São Francisco (USA) e para a agência de eventos internacionais Wish Marketing and Events, atualmente é responsável pelo mercado de língua Portuguesa da Talenthouse.com, empresa sediada em Los Angeles (EUA). Responsável pelo desenvolvimento e coordenação do curso de pós-graduação em Mídias Digitais e Interativas no Senac Rio de Janeiro e do desenvolvimento da pós-graduação em Mídias Sociais também para o Senac Rio de Janeiro. Além de autora do capítulo \"Webwriting\" do e-book \"Para entender as Mídias Sociais\"; e do capítulo \"UX com foco em Alta Performance\" do livro \"Marketing Digital de Alta Performance\" - Ed. ComSchool, 2016."
+	}
+    
+
+    
+    
+
+    if(profName == "Lucimar Delarolli"){
+		var profMiniCV = "Mestranda em Gestão do Conhecimento (Universidad de Léon-Espanha) com MBA em Gestão de Recursos Humanos na PUC-RJ. Bacharel e Licenciada em Psicologia na Universidade Gama Filho e Pós-graduada em Gestão de Pessoas, também pela PUC-RJ. Possui amplo conhecimento e mais de 25 anos de experiência em posições de Business Partner em empresas multinacionais, ONG e Consultoria, Gestão de Pessoas e em Especialização em Desenvolvimento Humano. Além de professora dos cursos de Pós-graduação nos MBAs de Marketing da ESPM e Gestão de Negócios do IBMEC."
 	}
     
 
