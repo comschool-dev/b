@@ -177,78 +177,78 @@ jQuery(document).ready(function ($) {
 
 
     $('body').append("<style>" +
-        ".agenda-blackfriday .ProductList #FilCatClose, .ProductList #ProductsFilterFC {display:none;}" +
-        ".agenda-blackfriday .ProductList #idPaginationProdFC {display:none;}" +
-        ".agenda-blackfriday .ProductList .FCProdSty4 {padding:40px 60px;}" +
-        ".agenda-blackfriday .ProductList #idTxtIntroFoundProdsFC {display:flex; display:-webkit-flex; justify-content:center; -webkit-justify-content:center; margin-bottom:40px !important; font-family:'Roboto',arial,verdana; font-size:24px; font-weight:700;}" +
-        ".agenda-blackfriday .ProductList .FCProdSty4 #idTxtIntroFoundProdsFC:before {content:'Próximos Cursos'}" +
-        ".agenda-blackfriday .ProductList .FCProdSty4 #idFoundFC, .ProductList .FCProdSty4 #idPageCountFC {display:none;}" +
-        ".agenda-blackfriday .DivListProd {width: 100%; height: auto; padding: 30px 0; margin: 20px 0 0 0; border-bottom:1px solid #f0f0f0; cursor:pointer; }" +
-        ".agenda-blackfriday .ListProductStyleProd {width: 100%; min-height: 80px; padding: 0; transition:all 0.3s ease; display: -ms-flexbox; display: -webkit-flex; display: flex; }" +
-        ".agenda-blackfriday .ListProductStyleProd .DivListProductStyleSpy, .ListProductStyleProd .DivListProductStyleReview, .ListProductStyleProd .DivListProductStyleSpy, .ListProductStyleProd .DivListDate {display:block;}" +
-        ".agenda-blackfriday .ListProductStyleProd .DivListProductStyleDet {display:block; background:#ffffff; clear:both; border-radius: 20px; -webkit-border-radius: 20px; -moz-border-radius: 20px; width:130px; height:20px; -webkit-box-shadow: 0 0 5px 0 rgba(0,0,0,.25); -moz-box-shadow: 0 0 5px 0 rgba(0,0,0,.25); box-shadow: 0 0 5px 0 rgba(0,0,0,.25);}" +
-        ".agenda-blackfriday .ListProductStyleProd a .DivListProductStyleDet {font-family:'Roboto',arial,verdana;font-size:16px; font-weight:700; color:#da151d; text-align: center;}" +
-        ".agenda-blackfriday .ListProductStyleProd .ListProductStyleNomeProd {margin:1px 0 0 0; font-size: 18px;}" +
-        ".agenda-blackfriday .ListProductStyleProd .ListProductStyleDesc {margin:15px 0 0 0; font-size: 14px;}" +
-        ".agenda-blackfriday .ListProductStyleProd .DivListDate {width: 18%; margin-left:2%; font-size: 18px; display:flex; display:-webkit-flex; align-items:center; -webkit-align-items:center; justify-content:flex-start; -webkit-justify-content:flex-start;}" +
-        ".agenda-blackfriday .ListProductStyleProd .DivListDesc {width: 60%;}" +
-        ".agenda-blackfriday .ListProductStyleProd .DivListMore {width: 18%; margin-right:2%; display:flex; display:-webkit-flex; align-items:center; -webkit-align-items:center; justify-content:flex-end; -webkit-justify-content:flex-end; font-family:'Roboto',arial,verdana;}" +
-        ".agenda-blackfriday a .DivListProductStyleDet {padding:10px;}" +
-        ".agenda-blackfriday .estNextPageButFC span {display: none;}" +
-        ".agenda-blackfriday .estNextPageButFC:after {content: 'VER MAIS CURSOS';}" +
-        ".agenda-blackfriday .hideFromList {display: none;}" +
-        ".agenda-blackfriday .listClass {color: #fff; background:#707070; text-align: center; display: inline-block; padding: 2px 5px; margin-bottom: 5px; font-size:12px; text-transform:uppercase;}" +
-        ".agenda-blackfriday .redCat{background:#da151d}" +
-        ".agenda-blackfriday .blueCat{background:#23aee8}" +
-        ".agenda-blackfriday .greenCat{background:#569c58}" +
-        ".agenda-blackfriday .goldCat{background:#d0b500}" +
-        ".agenda-blackfriday .buttons {border-bottom:1px solid #da151d;}" +
-        ".agenda-blackfriday .offbutton {font-family:'Roboto',arial,verdana; font-size: 18px; color:#707070; background: #fff; height: 72px; border:0; padding:0 15px;}" +
-        ".agenda-blackfriday .onbutton {font-family:'Roboto',arial,verdana; font-size: 18px; color: #ffffff; background: #da151d; height: 72px; border:0; padding:0 15px;}" +
+        "#agenda-blackfriday .ProductList #FilCatClose, .ProductList #ProductsFilterFC {display:none;}" +
+        "#agenda-blackfriday .ProductList #idPaginationProdFC {display:none;}" +
+        "#agenda-blackfriday .ProductList .FCProdSty4 {padding:40px 60px;}" +
+        "#agenda-blackfriday .ProductList #idTxtIntroFoundProdsFC {display:flex; display:-webkit-flex; justify-content:center; -webkit-justify-content:center; margin-bottom:40px !important; font-family:'Roboto',arial,verdana; font-size:24px; font-weight:700;}" +
+        "#agenda-blackfriday .ProductList .FCProdSty4 #idTxtIntroFoundProdsFC:before {content:'Próximos Cursos'}" +
+        "#agenda-blackfriday .ProductList .FCProdSty4 #idFoundFC, .ProductList .FCProdSty4 #idPageCountFC {display:none;}" +
+        "#agenda-blackfriday .DivListProd {width: 100%; height: auto; padding: 30px 0; margin: 20px 0 0 0; border-bottom:1px solid #f0f0f0; cursor:pointer; }" +
+        "#agenda-blackfriday .ListProductStyleProd {width: 100%; min-height: 80px; padding: 0; transition:all 0.3s ease; display: -ms-flexbox; display: -webkit-flex; display: flex; }" +
+        "#agenda-blackfriday .ListProductStyleProd .DivListProductStyleSpy, .ListProductStyleProd .DivListProductStyleReview, .ListProductStyleProd .DivListProductStyleSpy, .ListProductStyleProd .DivListDate {display:block;}" +
+        "#agenda-blackfriday .ListProductStyleProd .DivListProductStyleDet {display:block; background:#ffffff; clear:both; border-radius: 20px; -webkit-border-radius: 20px; -moz-border-radius: 20px; width:130px; height:20px; -webkit-box-shadow: 0 0 5px 0 rgba(0,0,0,.25); -moz-box-shadow: 0 0 5px 0 rgba(0,0,0,.25); box-shadow: 0 0 5px 0 rgba(0,0,0,.25);}" +
+        "#agenda-blackfriday .ListProductStyleProd a .DivListProductStyleDet {font-family:'Roboto',arial,verdana;font-size:16px; font-weight:700; color:#da151d; text-align: center;}" +
+        "#agenda-blackfriday .ListProductStyleProd .ListProductStyleNomeProd {margin:1px 0 0 0; font-size: 18px;}" +
+        "#agenda-blackfriday .ListProductStyleProd .ListProductStyleDesc {margin:15px 0 0 0; font-size: 14px;}" +
+        "#agenda-blackfriday .ListProductStyleProd .DivListDate {width: 18%; margin-left:2%; font-size: 18px; display:flex; display:-webkit-flex; align-items:center; -webkit-align-items:center; justify-content:flex-start; -webkit-justify-content:flex-start;}" +
+        "#agenda-blackfriday .ListProductStyleProd .DivListDesc {width: 60%;}" +
+        "#agenda-blackfriday .ListProductStyleProd .DivListMore {width: 18%; margin-right:2%; display:flex; display:-webkit-flex; align-items:center; -webkit-align-items:center; justify-content:flex-end; -webkit-justify-content:flex-end; font-family:'Roboto',arial,verdana;}" +
+        "#agenda-blackfriday a .DivListProductStyleDet {padding:10px;}" +
+        "#agenda-blackfriday .estNextPageButFC span {display: none;}" +
+        "#agenda-blackfriday .estNextPageButFC:after {content: 'VER MAIS CURSOS';}" +
+        "#agenda-blackfriday .hideFromList {display: none;}" +
+        "#agenda-blackfriday .listClass {color: #fff; background:#707070; text-align: center; display: inline-block; padding: 2px 5px; margin-bottom: 5px; font-size:12px; text-transform:uppercase;}" +
+        "#agenda-blackfriday .redCat{background:#da151d}" +
+        "#agenda-blackfriday .blueCat{background:#23aee8}" +
+        "#agenda-blackfriday .greenCat{background:#569c58}" +
+        "#agenda-blackfriday .goldCat{background:#d0b500}" +
+        "#agenda-blackfriday .buttons {border-bottom:1px solid #da151d;}" +
+        "#agenda-blackfriday .offbutton {font-family:'Roboto',arial,verdana; font-size: 18px; color:#707070; background: #fff; height: 72px; border:0; padding:0 15px;}" +
+        "#agenda-blackfriday .onbutton {font-family:'Roboto',arial,verdana; font-size: 18px; color: #ffffff; background: #da151d; height: 72px; border:0; padding:0 15px;}" +
         "@media only screen and (max-width:900px) {" +
-        ".agenda-blackfriday .ProductList .FCProdSty4 {padding: 40px 40px;}" +
-        ".agenda-blackfriday .ListProductStyleProd .DivListDate {width: 18%; margin-left: 0; margin-right:2%}" +
-        ".agenda-blackfriday .ListProductStyleProd .DivListMore {width: 18%; margin-left: 2%; margin-right:0; justify-content: flex-start; -webkit-justify-content: flex-start;}" +
-        ".agenda-blackfriday .ListProductStyleProd a .DivListProductStyleDet {font-size: 14px; width: 100%;}" +
+        "#agenda-blackfriday .ProductList .FCProdSty4 {padding: 40px 40px;}" +
+        "#agenda-blackfriday .ListProductStyleProd .DivListDate {width: 18%; margin-left: 0; margin-right:2%}" +
+        "#agenda-blackfriday .ListProductStyleProd .DivListMore {width: 18%; margin-left: 2%; margin-right:0; justify-content: flex-start; -webkit-justify-content: flex-start;}" +
+        "#agenda-blackfriday .ListProductStyleProd a .DivListProductStyleDet {font-size: 14px; width: 100%;}" +
         "}" +
         "@media only screen and (max-width:768px) {" +
-        ".agenda-blackfriday .ProductList .FCProdSty4 {padding: 20px 40px 40px 40px;}" +
-        ".agenda-blackfriday .ListProductStyleProd .DivListDesc {width: 68%;}" +
-        ".agenda-blackfriday .ListProductStyleProd .DivListMore {width: 10%; justify-content: center; -webkit-justify-content: center;}" +
-        ".agenda-blackfriday .ListProductStyleProd a .DivListProductStyleDet {text-indent: -9999px; line-height: 0; font-size: 20px; width: 40px; height: 34px; padding: 6px 0 0 0;}" +
-        ".agenda-blackfriday .ListProductStyleProd a .DivListProductStyleDet:after {content:'+'; text-indent: 0; line-height: initial; display:block;}" +
+        "#agenda-blackfriday .ProductList .FCProdSty4 {padding: 20px 40px 40px 40px;}" +
+        "#agenda-blackfriday .ListProductStyleProd .DivListDesc {width: 68%;}" +
+        "#agenda-blackfriday .ListProductStyleProd .DivListMore {width: 10%; justify-content: center; -webkit-justify-content: center;}" +
+        "#agenda-blackfriday .ListProductStyleProd a .DivListProductStyleDet {text-indent: -9999px; line-height: 0; font-size: 20px; width: 40px; height: 34px; padding: 6px 0 0 0;}" +
+        "#agenda-blackfriday .ListProductStyleProd a .DivListProductStyleDet:after {content:'+'; text-indent: 0; line-height: initial; display:block;}" +
         "}" +
         "@media only screen and (max-width:670px) {" +
-        ".agenda-blackfriday .ListProductStyleProd .DivListDate {width: 20%; font-size: 16px;}" +
-        ".agenda-blackfriday .ListProductStyleProd .DivListDesc {width: 66%;}" +
-        ".agenda-blackfriday .ListProductStyleProd .ListProductStyleNomeProd {margin: 3px 0 0 0; font-size: 16px;}" +
+        "#agenda-blackfriday .ListProductStyleProd .DivListDate {width: 20%; font-size: 16px;}" +
+        "#agenda-blackfriday .ListProductStyleProd .DivListDesc {width: 66%;}" +
+        "#agenda-blackfriday .ListProductStyleProd .ListProductStyleNomeProd {margin: 3px 0 0 0; font-size: 16px;}" +
         "}" +
         "@media only screen and (max-width:640px) {" +
-        ".agenda-blackfriday .offbutton {font-size: 16px;}" +
-        ".agenda-blackfriday .onbutton {font-size: 16px;}" +
+        "#agenda-blackfriday .offbutton {font-size: 16px;}" +
+        "#agenda-blackfriday .onbutton {font-size: 16px;}" +
         "}" +
         "@media only screen and (max-width:600px) {" +
-        ".agenda-blackfriday .DivListProd {margin: 15px 0 0 0; padding: 20px 0;}" +
-        ".agenda-blackfriday .ListProductStyleProd .DivListDate {width: 24%;}" +
-        ".agenda-blackfriday .ListProductStyleProd .DivListDesc {width: 60%;}" +
-        ".agenda-blackfriday .offbutton {font-size: 16px; background: #f7f7f7; color:#707070; padding: 10px 0; width: 45%; border: 0; border-radius: 20px; height: 40px; margin: 0 2% 15px 2%;}" +
-        ".agenda-blackfriday .onbutton {font-size: 16px; background: #da151d; color:#ffffff; padding: 10px 0; width: 45%; border: 0; border-radius: 20px; height: 40px; margin: 0 2% 15px 2%;}" +
+        "#agenda-blackfriday .DivListProd {margin: 15px 0 0 0; padding: 20px 0;}" +
+        "#agenda-blackfriday .ListProductStyleProd .DivListDate {width: 24%;}" +
+        "#agenda-blackfriday .ListProductStyleProd .DivListDesc {width: 60%;}" +
+        "#agenda-blackfriday .offbutton {font-size: 16px; background: #f7f7f7; color:#707070; padding: 10px 0; width: 45%; border: 0; border-radius: 20px; height: 40px; margin: 0 2% 15px 2%;}" +
+        "#agenda-blackfriday .onbutton {font-size: 16px; background: #da151d; color:#ffffff; padding: 10px 0; width: 45%; border: 0; border-radius: 20px; height: 40px; margin: 0 2% 15px 2%;}" +
         "}" +
         "@media only screen and (max-width:480px) {" +
-        ".agenda-blackfriday .offbutton {font-size: 14px;}" +
-        ".agenda-blackfriday .onbutton {font-size: 14px;}" +
-        ".agenda-blackfriday .DivListProd {margin: 0 0 0 0; padding: 20px 0; height: 120px;}" +
-        ".agenda-blackfriday .ListProductStyleProd {flex-wrap: wrap;}" +
-        ".agenda-blackfriday .ListProductStyleProd .DivListDate {width: 100%; margin: 0 0 10px 0; font-size:14px;}" +
-        ".agenda-blackfriday .ListProductStyleProd .DivListDesc {width: 76%;}" +
-        ".agenda-blackfriday .ListProductStyleProd .ListProductStyleNomeProd {margin: 3px 0 0 0; font-size: 14px;}" +
-        ".agenda-blackfriday .ListProductStyleProd .DivListMore {width: 20%; margin-left: 4%;}" +
-        ".agenda-blackfriday .EstProdFilterFC {font-size: 14px;}" +
+        "#agenda-blackfriday .offbutton {font-size: 14px;}" +
+        "#agenda-blackfriday .onbutton {font-size: 14px;}" +
+        "#agenda-blackfriday .DivListProd {margin: 0 0 0 0; padding: 20px 0; height: 120px;}" +
+        "#agenda-blackfriday .ListProductStyleProd {flex-wrap: wrap;}" +
+        "#agenda-blackfriday .ListProductStyleProd .DivListDate {width: 100%; margin: 0 0 10px 0; font-size:14px;}" +
+        "#agenda-blackfriday .ListProductStyleProd .DivListDesc {width: 76%;}" +
+        "#agenda-blackfriday .ListProductStyleProd .ListProductStyleNomeProd {margin: 3px 0 0 0; font-size: 14px;}" +
+        "#agenda-blackfriday .ListProductStyleProd .DivListMore {width: 20%; margin-left: 4%;}" +
+        "#agenda-blackfriday .EstProdFilterFC {font-size: 14px;}" +
         "}" +
         "@media only screen and (max-width:380px) {" +
-        ".agenda-blackfriday .ProductList .FCProdSty4 {padding: 20px;}" +
+        "#agenda-blackfriday .ProductList .FCProdSty4 {padding: 20px;}" +
         "}" +
-        ".agenda-blackfriday .loading-agenda { width: 100%; text-align: center; padding: 30px 0 0; }" +
+        "#agenda-blackfriday .loading-agenda { width: 100%; text-align: center; padding: 30px 0 0; }" +
         "</style>");
 
 })
