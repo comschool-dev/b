@@ -33,7 +33,7 @@ function getDateFormat(){
 
 jQuery(document).ready(function ($) {
 
-    window.id_container = '#idFCContent';
+    window.id_container = '#agenda-blackfriday';
 
 
     $(window.id_container).append('<h3 class="loading-agenda">Carregando agenda...</h3>');
