@@ -113,14 +113,14 @@ jQuery(document).ready(function ($) {
 
         var htmlNav = '<div class="buttons">';
         for (x in window.cidades) {
-            var classhtml = x == 'sao-paulo' ? 'onbutton' : 'offbutton';
+            var classhtml = x == 'so-paulo' ? 'onbutton' : 'offbutton';
             htmlNav += '<button data-cidade="' + x + '" class="filtro-cidade ' + classhtml + ' ' + x + '">' + window.cidades[x] + '</button>';
         }
         htmlNav += '</div>';
 
         var containerHtml = '<div>';
         for (x in window.cidades) {
-            var display = x == 'sao-paulo' ? 'block' : 'none';
+            var display = x == 'so-paulo' ? 'block' : 'none';
             containerHtml += '<div style="display:' + display + ';" id="box-' + x + '" class="box-cidade">';
 
             for (y in window.agenda_master) {
