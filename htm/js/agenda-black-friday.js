@@ -1,16 +1,15 @@
 function slugCustom(str) {
     str = str.replace(/^\s+|\s+$/g, '');
     str = str.toLowerCase();
-
-    var from = "Ã£Ã Ã¡Ã¤Ã¢?Ã¨Ã©Ã«ÃªÃ¬Ã­Ã¯Ã®ÃµÃ²Ã³Ã¶Ã´Ã¹ÃºÃ¼Ã»Ã±Ã§Â·_,:;";
+    var from = "ãàáäâ?èéëêìíïîõòóöôùúüûñç·_,:;";
     var to = "aaaaaeeeeeiiiiooooouuuunc-----";
     for (var i = 0, l = from.length; i < l; i++) {
         str = str.replace(from.charAt(i), to.charAt(i));
     }
 
-    str = str.replace(/[^a-z0-9 -]/g, '')
-        .replace(/\s+/g, '-')
-        .replace(/-+/g, '-');
+    str = str.replace(/[^a-z0-9 -]/g, '') 
+        .replace(/\s+/g, '-') 
+        .replace(/-+/g, '-'); 
 
     return str;
 };
@@ -19,7 +18,7 @@ function slugCustom(str) {
 function getDateFormat(){
     var today = new Date();
     var dd = today.getDate();
-    var mm = today.getMonth() + 1;
+    var mm = today.getMonth() + 1; 
 
     var yyyy = today.getFullYear();
 
@@ -34,7 +33,7 @@ function getDateFormat(){
 
 jQuery(document).ready(function ($) {
 
-    window.id_container = '#agenda-blackfriday';
+    window.id_container = '#idFCContent';
 
 
     $(window.id_container).append('<h3 class="loading-agenda">Carregando agenda...</h3>');
@@ -113,14 +112,14 @@ jQuery(document).ready(function ($) {
 
         var htmlNav = '<div class="buttons">';
         for (x in window.cidades) {
-            var classhtml = x == 'so-paulo' ? 'onbutton' : 'offbutton';
+            var classhtml = x == 'sao-paulo' ? 'onbutton' : 'offbutton';
             htmlNav += '<button data-cidade="' + x + '" class="filtro-cidade ' + classhtml + ' ' + x + '">' + window.cidades[x] + '</button>';
         }
         htmlNav += '</div>';
 
         var containerHtml = '<div>';
         for (x in window.cidades) {
-            var display = x == 'so-paulo' ? 'block' : 'none';
+            var display = x == 'sao-paulo' ? 'block' : 'none';
             containerHtml += '<div style="display:' + display + ';" id="box-' + x + '" class="box-cidade">';
 
             for (y in window.agenda_master) {
@@ -181,7 +180,7 @@ jQuery(document).ready(function ($) {
         "#agenda-blackfriday .ProductList #idPaginationProdFC {display:none;}" +
         "#agenda-blackfriday .ProductList .FCProdSty4 {padding:40px 60px;}" +
         "#agenda-blackfriday .ProductList #idTxtIntroFoundProdsFC {display:flex; display:-webkit-flex; justify-content:center; -webkit-justify-content:center; margin-bottom:40px !important; font-family:'Roboto',arial,verdana; font-size:24px; font-weight:700;}" +
-        "#agenda-blackfriday .ProductList .FCProdSty4 #idTxtIntroFoundProdsFC:before {content:'PrÃ³ximos Cursos'}" +
+        "#agenda-blackfriday .ProductList .FCProdSty4 #idTxtIntroFoundProdsFC:before {content:'Próximos Cursos'}" +
         "#agenda-blackfriday .ProductList .FCProdSty4 #idFoundFC, .ProductList .FCProdSty4 #idPageCountFC {display:none;}" +
         "#agenda-blackfriday .DivListProd {width: 100%; height: auto; padding: 30px 0; margin: 20px 0 0 0; border-bottom:1px solid #f0f0f0; cursor:pointer; }" +
         "#agenda-blackfriday .ListProductStyleProd {width: 100%; min-height: 80px; padding: 0; transition:all 0.3s ease; display: -ms-flexbox; display: -webkit-flex; display: flex; }" +
