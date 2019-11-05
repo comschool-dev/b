@@ -1,26 +1,24 @@
 function slugCustom(str) {
-    str = str.replace(/^\s+|\s+$/g, ''); // trim
+    str = str.replace(/^\s+|\s+$/g, '');
     str = str.toLowerCase();
-
-    // remove accents, swap Ò for n, etc
     var from = "„‡·‰‚?ËÈÎÍÏÌÔÓıÚÛˆÙ˘˙¸˚ÒÁ∑_,:;";
     var to = "aaaaaeeeeeiiiiooooouuuunc-----";
     for (var i = 0, l = from.length; i < l; i++) {
         str = str.replace(from.charAt(i), to.charAt(i));
     }
 
-    str = str.replace(/[^a-z0-9 -]/g, '') // remove invalid chars
-        .replace(/\s+/g, '-') // collapse whitespace and replace by -
-        .replace(/-+/g, '-'); // collapse dashes
+    str = str.replace(/[^a-z0-9 -]/g, '')
+        .replace(/\s+/g, '-')
+        .replace(/-+/g, '-');
 
     return str;
 };
 
 
-function getDateFormat(){
+function getDateFormat() {
     var today = new Date();
     var dd = today.getDate();
-    var mm = today.getMonth() + 1; //January is 0!
+    var mm = today.getMonth() + 1;
 
     var yyyy = today.getFullYear();
 
@@ -30,7 +28,7 @@ function getDateFormat(){
     if (mm < 10) {
         mm = '0' + mm;
     }
-    return yyyy+''+mm+''+dd;
+    return yyyy + '' + mm + '' + dd;
 }
 
 jQuery(document).ready(function ($) {
@@ -61,7 +59,7 @@ jQuery(document).ready(function ($) {
                 data_format = data_format.split('/');
                 data_format = data_format.reverse();
                 data_format = data_format.join('');
-                if(parseInt(getDateFormat()) < parseInt(data_format)){
+                if (parseInt(getDateFormat()) < parseInt(data_format)) {
                     window.cidades[slugCustom($(this).children('filtro[nome="Cidade"]').text())] = ($(this).children('filtro[nome="Cidade"]').text());
                     window.agenda_master.push({
                         id_produto: $(this).children('id_produto').text(),
@@ -79,7 +77,7 @@ jQuery(document).ready(function ($) {
                         preco_normal: $(this).children('preco_normal').text(),
                         imagem: $(this).children('imagem').text(),
                         categoria: $(this).children('categoria').text(),
-                        id_unique: slugCustom($(this).children('descritor[nome="Data"]').text()+$(this).children('descritor[nome="Hora"]').text()+$(this).children('descricao').text()),
+                        id_unique: slugCustom($(this).children('descritor[nome="Data"]').text() + $(this).children('descritor[nome="Hora"]').text() + $(this).children('descricao').text()),
                     });
                 }
 
@@ -87,14 +85,14 @@ jQuery(document).ready(function ($) {
         })
 
         //remove os duplicados
-        for (x in window.agenda_master){
+        for (x in window.agenda_master) {
             var item = window.agenda_master[x];
-            if(item){
-                for (y in window.agenda_master){
+            if (item) {
+                for (y in window.agenda_master) {
                     var verifica = window.agenda_master[y];
-                    if(verifica){
-                        if (item.id_produto != verifica.id_produto && item.id_unique == verifica.id_unique){
-                            item.tipo += '/'+verifica.tipo;
+                    if (verifica) {
+                        if (item.id_produto != verifica.id_produto && item.id_unique == verifica.id_unique) {
+                            item.tipo += '/' + verifica.tipo;
                             window.agenda_master[y] = null;
                         }
                     }
@@ -113,47 +111,79 @@ jQuery(document).ready(function ($) {
         });
 
         var htmlNav = '<div class="buttons">';
+        htmlNav += '<button data-cidade="all" class="filtro-cidade onbutton all">Todos</button>';
         for (x in window.cidades) {
-            var classhtml = x == 'sao-paulo' ? 'onbutton' : 'offbutton';
+            var classhtml = x == 'all' ? 'onbutton' : 'offbutton';
             htmlNav += '<button data-cidade="' + x + '" class="filtro-cidade ' + classhtml + ' ' + x + '">' + window.cidades[x] + '</button>';
         }
+
         htmlNav += '</div>';
 
         var containerHtml = '<div>';
         for (x in window.cidades) {
-            var display = x == 'sao-paulo' ? 'block' : 'none';
+            var display = x == 'all' ? 'block' : 'none';
             containerHtml += '<div style="display:' + display + ';" id="box-' + x + '" class="box-cidade">';
 
             for (y in window.agenda_master) {
                 var item = window.agenda_master[y];
 
-                if(!item) continue;
+                if (!item) continue;
 
                 if (item.cidade_class == x) {
                     var classCategoria = 'redCat';
-                    if(item.categoria == 'Cursos Marketing Digital') classCategoria = 'greenCat';
-                    if(item.categoria == 'Cursos Midias Sociais') classCategoria = 'blueCat';
-                    if(item.categoria == 'Cursos Comportamentais') classCategoria = 'goldCat';
+                    if (item.categoria == 'Cursos Marketing Digital') classCategoria = 'greenCat';
+                    if (item.categoria == 'Cursos Midias Sociais') classCategoria = 'blueCat';
+                    if (item.categoria == 'Cursos Comportamentais') classCategoria = 'goldCat';
 
                     containerHtml += '<div class="DivListProd">' +
                         '<div class="ListProductStyleProd">' +
-                        '<div class="DivListDate"><span data-js="data-descr">'+item.data+'</span></div>' +
+                        '<div class="DivListDate"><span data-js="data-descr">' + item.data + '</span></div>' +
                         '<div class="DivListDesc">' +
-                        '<div class="listClass Cursos E-commerce '+classCategoria+'">'+item.categoria+'</div>' +
-                        '<div class="ListProductStyleNomeProd" >'+item.titulo+'</div>' +
-                        '<div class="tipoDescr"><b>Tipo: </b>'+item.tipo+'</div>' +
-                        '<div ><ul class="EstProdFilterFC"><li class="EstFilterItemFC"><ul><li class="EstFilterLabel1FC">Cidade</li><li class="EstFilterValueFC">'+item.cidade+'</li></ul></li></ul></div>' +
+                        '<div class="listClass Cursos E-commerce ' + classCategoria + '">' + item.categoria + '</div>' +
+                        '<div class="ListProductStyleNomeProd" >' + item.titulo + '</div>' +
+                        '<div class="tipoDescr"><b>Tipo: </b>' + item.tipo + '</div>' +
+                        '<div ><ul class="EstProdFilterFC"><li class="EstFilterItemFC"><ul><li class="EstFilterLabel1FC">Cidade</li><li class="EstFilterValueFC">' + item.cidade + '</li></ul></li></ul></div>' +
                         '</div>' +
-                        '<div class="DivListMore"><a href="/listaprodutos.asp?idloja=40121&amp;idproduto='+item.id_produto+'" target="_top"><div class="DivListProductStyleDet">VEJA MAIS</div></a></div>' +
+                        '<div class="DivListMore"><a href="/listaprodutos.asp?idloja=40121&amp;idproduto=' + item.id_produto + '" target="_top"><div class="DivListProductStyleDet">VEJA MAIS</div></a></div>' +
                         '</div>' +
                         '</div>';
                 }
             }
 
             containerHtml += '</div>';
+
+
+
+        }
+
+        ///GERAL
+        containerHtml += '<div style="display:block" id="box-all" class="box-cidade">';
+        for (y in window.agenda_master) {
+            var item = window.agenda_master[y];
+            if (!item) continue;
+
+            var classCategoria = 'redCat';
+            if (item.categoria == 'Cursos Marketing Digital') classCategoria = 'greenCat';
+            if (item.categoria == 'Cursos Midias Sociais') classCategoria = 'blueCat';
+            if (item.categoria == 'Cursos Comportamentais') classCategoria = 'goldCat';
+
+            containerHtml += '<div class="DivListProd">' +
+                '<div class="ListProductStyleProd">' +
+                '<div class="DivListDate"><span data-js="data-descr">' + item.data + '</span></div>' +
+                '<div class="DivListDesc">' +
+                '<div class="listClass Cursos E-commerce ' + classCategoria + '">' + item.categoria + '</div>' +
+                '<div class="ListProductStyleNomeProd" >' + item.titulo + '</div>' +
+                '<div class="tipoDescr"><b>Tipo: </b>' + item.tipo + '</div>' +
+                '<div ><ul class="EstProdFilterFC"><li class="EstFilterItemFC"><ul><li class="EstFilterLabel1FC">Cidade</li><li class="EstFilterValueFC">' + item.cidade + '</li></ul></li></ul></div>' +
+                '</div>' +
+                '<div class="DivListMore"><a href="/listaprodutos.asp?idloja=40121&amp;idproduto=' + item.id_produto + '" target="_top"><div class="DivListProductStyleDet">VEJA MAIS</div></a></div>' +
+                '</div>' +
+                '</div>';
         }
         containerHtml += '</div>';
+        ///FIM GERAL
 
+        containerHtml += '</div>';
 
         $(window.id_container).append(htmlNav);
         $(window.id_container).append(containerHtml);
@@ -169,12 +199,13 @@ jQuery(document).ready(function ($) {
     });
 
 
-    $(document).on('click','.filtro-cidade',function () {
+    $(document).on('click', '.filtro-cidade', function () {
         $('.filtro-cidade').addClass('offbutton').removeClass('onbutton');
         $(this).removeClass('offbutton').addClass('onbutton');
-        $('.box-cidade').css({'display':'none'});
-        $('#box-'+$(this).data('cidade')).css({'display':'block'});
+        $('.box-cidade').css({'display': 'none'});
+        $('#box-' + $(this).data('cidade')).css({'display': 'block'});
     });
+
 
 
     $('body').append("<style>" +
