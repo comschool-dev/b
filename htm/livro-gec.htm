@@ -1,48 +1,18 @@
 <div id="tabs">
-<input id="tab5" type="radio" name="tabs" checked>
-<label for="tab5">DescriÃ§Ã£o do curso</label><input id="tab6" type="radio" name="tabs">
-  <label for="tab6">Professores</label><section id="content5">
-<h1><span >Livro Gerente de E-commerce</span></h1>
-<p><span ><img title="Livro de ecommerce: Gerente de Ecommerce" src="https://www.ecommerceschool.com.br/images/livro-ecommerce-gerentes-de-ecommerce.jpg" alt="Livro de ecommerce: Gerente de Ecommerce" width="500" height="354" /></span></p>
-<p><span >O livro <strong>Gerente de E-commerce</strong> Ã© uma coletÃ¢nea de experiÃªncias, ideias, estratÃ©gias e dicas de 18 profissionais especialistas em comÃ©rcio eletrÃ´nico. A Ãºnica publicaÃ§Ã£o do mercado brasileiro que se aprofunda no tema comÃ©rcio eletrÃ´nico e traz embasamento teÃ³rico e prÃ¡tico dos autores.</span></p>
-
-<p><span >Segundo Mauricio Salvador, organizador do livro: "Â€ÂœPercebi que o comÃ©rcio eletrÃ´nico muda a vida das pessoas de forma inspiradora. Desde que fundei a ComSchool, vi muita gente mudar para um emprego melhor ou abrir o prÃ³prio negÃ³cio, graÃ§as aos nossos cursos. Ver tantas histÃ³rias bacanas me motivou a investir em conhecimento para esse mercado. Ao perceber a demanda e ver que eu estava tÃ£o prÃ³ximo de um time de craques dispostos a disseminar conhecimento, nos unimos e comeÃ§amos o livro"Â€Â.</span></p>
-
-<p><span >Ainda de acordo com Salvador, um dos grandes motivos da falta de sucesso ao montar uma operaÃ§Ã£o de comÃ©rcio eletrÃ´nico Ã© que o empreendedor brasileiro tem o perfil de comeÃ§ar a operar na prÃ¡tica antes de buscar conhecimento e se aprofundar sobre o assunto. O livro preenche uma lacuna no meio acadÃªmico das Ã¡reas de marketing e administraÃ§Ã£o, para que profissionais do mercado conheÃ§am como pensam alguns dos nomes mais influentes do segmento. </span></p>
-
-<p><span >"O livro Ã© feito por quem trabalha com e-commerce e jÃ¡ realizou grandes projetos. Se a pessoa for abrir uma loja virtual ou jÃ¡ trabalha na Ã¡rea e quiser melhorar a sua operaÃ§Ã£o, certamente vai extrair boas ideias e dicas. AlÃ©m disso, estudantes que precisam escrever trabalhos acadÃªmicos sobre comÃ©rcio eletrÃ´nico e marketing digital, agora poderÃ£o referenciar autores de qualidade"Â€Â, diz Mauricio Salvador.</span></p>
-
-<p><span >Livro: Â€Âœ<strong>Gerente de E-commerce</strong>Â€Â â€“ OrganizaÃ§Ã£o Mauricio Salvador</span></p>
-<p><span >PÃ¡ginas: 376</span></p>
-<p><span >Editora: Editora ComSchool</span></p>
-<p><span >Ano: 2013</span></p>
-<p><span >Autores: Alexandre Miranda, Caio Tozzini, Daniel Bento, Denis Andrade, Fabio Pereira, Felipe Morais, Fernando Mansano, Gustavo Santos, Jacob Andre Gomes, JoÃ£o Ramirez, Marcelo Goberto, Marcelo GuimarÃ£es, Marcos Almeida, Mauricio Grandeza, Mauricio Salvador, Pedro Guasti, Ricardo Zacho, Roberto Lagares, Rodrigo Maruxo e Solange Oliveira.</span></p>
-
-<p><span >Veja aqui todos os <a title="Curso de ecommerce" href="https://www.comschool.com.br/cursos-de-e-commerce/"><strong>cursos de e-commerce</strong></a> da ComSchool.</span></p>
-</section>
-<section id="content6">
-
-<div id="det-product-profs-tab">
-
-  <div id="showProfs"><h2>RelaÃ§Ã£o dos Professores do Curso</h2></div>
-    <script src="<baseloja>htm/profsminicv.js"></script>
-    <script>
-        var oProdFilters= <ProdFiltersJS>; //json com os filtros
-        if(typeof(oProdFilters)=="object"){
-          var opFil=oProdFilters.pFil; //array com os filtros
-          if(typeof(opFil)=="object"){
-            opFil.forEach(function(item){
-              if(item.name=="Professores" && item.image!=undefined){
-                var profNames = item.value.split(",")
-                var profImage = item.image.split(",")
-                var showProfsDiv = document.getElementById('showProfs');
-                profImage.forEach(function(item,index){
-                  showProfsDiv.innerHTML += "<div id='prof"+index+"'><img src='<baseloja>prod/"+item+"'>"+profNames[index]+"</div><p>"+insertProfMiniCV(profNames[index])+"</p>"
-                });
-              }
-            });
-          }
-        }
-    </script>
+  <input id="tab5" type="radio" name="tabs" checked>
+  <label for="tab5">Descrição do curso</label><input id="tab6" type="radio" name="tabs">
+  <section id="content5">
+  <h1><span >Livro Gerente de E-commerce</span></h1>
+    <p><span ><img title="Livro de ecommerce: Gerente de Ecommerce" src="https://i.comschool.com.br/site-comschool/livro-ecommerce-gerentes-de-ecommerce.jpg" alt="Livro de ecommerce: Gerente de Ecommerce" width="500" height="354" /></span></p>
+    <p><span >O livro <strong>Gerente de E-commerce</strong> é uma coletânea de experiências, ideias, estratégias e dicas de 18 profissionais especialistas em comércio eletrônico. A única publicação do mercado brasileiro que se aprofunda no tema comércio eletrônico e traz embasamento teórico e prático dos autores.</span></p>  
+    <p><span >Segundo Mauricio Salvador, organizador do livro: "€œPercebi que o comércio eletrônico muda a vida das pessoas de forma inspiradora. Desde que fundei a ComSchool, vi muita gente mudar para um emprego melhor ou abrir o próprio negócio, graças aos nossos cursos. Ver tantas histórias bacanas me motivou a investir em conhecimento para esse mercado. Ao perceber a demanda e ver que eu estava tão próximo de um time de craques dispostos a disseminar conhecimento, nos unimos e começamos o livro"€.</span></p>  
+    <p><span >Ainda de acordo com Salvador, um dos grandes motivos da falta de sucesso ao montar uma operação de comércio eletrônico é que o empreendedor brasileiro tem o perfil de começar a operar na prática antes de buscar conhecimento e se aprofundar sobre o assunto. O livro preenche uma lacuna no meio acadêmico das áreas de marketing e administração, para que profissionais do mercado conheçam como pensam alguns dos nomes mais influentes do segmento. </span></p>  
+    <p><span >"O livro é feito por quem trabalha com e-commerce e já realizou grandes projetos. Se a pessoa for abrir uma loja virtual ou já trabalha na área e quiser melhorar a sua operação, certamente vai extrair boas ideias e dicas. Além disso, estudantes que precisam escrever trabalhos acadêmicos sobre comércio eletrônico e marketing digital, agora poderão referenciar autores de qualidade"€, diz Mauricio Salvador.</span></p>  
+    <p><span >Livro: €œ<strong>Gerente de E-commerce</strong>€ ? Organização Mauricio Salvador</span></p>
+    <p><span >Páginas: 376</span></p>
+    <p><span >Editora: Editora ComSchool</span></p>
+    <p><span >Ano: 2013</span></p>
+    <p><span >Autores: Alexandre Miranda, Caio Tozzini, Daniel Bento, Denis Andrade, Fabio Pereira, Felipe Morais, Fernando Mansano, Gustavo Santos, Jacob Andre Gomes, João Ramirez, Marcelo Goberto, Marcelo Guimarães, Marcos Almeida, Mauricio Grandeza, Mauricio Salvador, Pedro Guasti, Ricardo Zacho, Roberto Lagares, Rodrigo Maruxo e Solange Oliveira.</span></p>  
+    <p><span >Veja aqui todos os <a title="Curso de ecommerce" href="https://www.comschool.com.br/cursos-de-e-commerce/"><strong>cursos de e-commerce</strong></a> da ComSchool.</span></p>
+  </section>
 </div>
-  </section></div>
