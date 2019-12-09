@@ -807,11 +807,6 @@ function insertProfMiniCV(profName){
     
     
 
-    if(profName == "Luiz Clerc"){
-		var profMiniCV = "Palestrante, Coaching e especialista em desenvolvimento humano das pessoas. Economista, formado pela Cândido Mendes/RJ, especialização no APG - Programa de Gestão Avançada realizado na Amana-Key e MBA Executivo concluído no INSPER/SP. 31 anos de atuação no Mercado Financeiro sempre em empresas de grande porte e multinacionais, sendo 15 anos na função de Superintendente Comercial, especialista em Vendas e no Varejo, atuando com equipes de vendas multidisciplinares e multifuncionais."
-	}
-    
-
     
     
 
