@@ -1,7 +1,7 @@
 function slugCustom(str) {
     str = str.replace(/^\s+|\s+$/g, '');
     str = str.toLowerCase();
-    var from = "ãàáäâ?èéëêìíïîõòóöôùúüûñç·_,:;";
+    var from = "ï¿½ï¿½ï¿½ï¿½ï¿½?ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½_,:;";
     var to = "aaaaaeeeeeiiiiooooouuuunc-----";
     for (var i = 0, l = from.length; i < l; i++) {
         str = str.replace(from.charAt(i), to.charAt(i));
@@ -33,7 +33,7 @@ function getDateFormat() {
 
 jQuery(document).ready(function ($) {
 
-    window.id_container = '#idFCContent';
+    window.id_container = '#agenda-home';
 
 
     $(window.id_container).append('<h3 class="loading-agenda">Carregando agenda...</h3>');
@@ -233,7 +233,7 @@ jQuery(document).ready(function ($) {
         ".ProductList #idPaginationProdFC {display:none;}" +
         ".ProductList .FCProdSty4 {padding:40px 60px;}" +
         ".ProductList #idTxtIntroFoundProdsFC {display:flex; display:-webkit-flex; justify-content:center; -webkit-justify-content:center; margin-bottom:40px !important; font-family:'Roboto',arial,verdana; font-size:24px; font-weight:700;}" +
-        ".ProductList .FCProdSty4 #idTxtIntroFoundProdsFC:before {content:'Próximos Cursos'}" +
+        ".ProductList .FCProdSty4 #idTxtIntroFoundProdsFC:before {content:'Prï¿½ximos Cursos'}" +
         ".ProductList .FCProdSty4 #idFoundFC, .ProductList .FCProdSty4 #idPageCountFC {display:none;}" +
         ".DivListProd {width: 100%; height: auto; padding: 30px 0; margin: 20px 0 0 0; border-bottom:1px solid #f0f0f0; cursor:pointer; }" +
         ".ListProductStyleProd {width: 100%; min-height: 80px; padding: 0; transition:all 0.3s ease; display: -ms-flexbox; display: -webkit-flex; display: flex; }" +
