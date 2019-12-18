@@ -3,7 +3,7 @@
 if(FC$.Page!="Checkout"){
   var iFormaPagto="<IDFormaPagamento>";
   
-  if(iFormaPagto=="3"){ /*Cartão de crédito*/
+  if(iFormaPagto=="3"){ /*CartÃ£o de crÃ©dito*/
     var sFormaPagto="<FormaPagamento> (<TipoCartao>)"
     setTimeout("document.getElementById('idDadosPagtoTitFC').innerHTML='<td class=EstTabTopo colspan=2 align=center>Forma de pagamento</td>';",100); /*Altera titulo da parte inferior dos dados para pagamento */
     }
@@ -12,10 +12,26 @@ if(FC$.Page!="Checkout"){
     setTimeout("document.getElementById('idDadosPagtoTitFC').style.display='none';",100); /*Altera titulo da parte inferior dos dados para pagamento */
   }
   
-  var sDadosPagto="<br><br><table width=97% align=center class=EstTabPedido><tr height=25><td class=EstTabPedidoTit align=center>Dados para pagamento</td></tr><tr><td align=center><br><span id=EstNomePagto>"+ sFormaPagto +"</span><br><br>"+ document.getElementById('idDadosPagtoFC').innerHTML +"</td></tr></table>"; /*Instruções e botão para pagamento*/
+  var sDadosPagto="<br><br><table width=97% align=center class=EstTabPedido><tr height=25><td class=EstTabPedidoTit align=center>Dados para pagamento</td></tr><tr><td align=center><br><span id=EstNomePagto>"+ sFormaPagto +"</span><br><br>"+ document.getElementById('idDadosPagtoFC').innerHTML +"</td></tr></table>"; /*InstruÃ§Ãµes e botÃ£o para pagamento*/
   var sBannerEbit="";  /*Banner do e-bit */
   
   setTimeout("document.getElementById('idDadosPagtoFC').innerHTML='';",10); /*Remove da parte inferior os dados para pagamento */
-  setTimeout("document.getElementById('idTopoConfirmacaoFC').innerHTML=sDadosPagto+sBannerEbit+'<br><br><span class=Titulos>Informações do seu pedido:</span>';",10);  /*Insere no topo da página de pedido confirmado as instruções para pagamento + banner do ebit */
+  setTimeout("document.getElementById('idTopoConfirmacaoFC').innerHTML=sDadosPagto+sBannerEbit+'<br><br><span class=Titulos>InformaÃ§Ãµes do seu pedido:</span>';",10);  /*Insere no topo da pÃ¡gina de pedido confirmado as instruÃ§Ãµes para pagamento + banner do ebit */
 }
+</script>
+
+<script type="text/javascript">
+  window._st_account = 533;
+  window._cv_data = {
+    'order_id': {{NumPedido}},      // NÃºmero do pedido
+    'valor': {{TotalSemFrete}}          // Valor do pedido
+  };
+  (function () {
+    var ss = document.createElement('script');
+    ss.type = 'text/javascript';
+    ss.async = true;
+    ss.src = '//app.shoptarget.com.br/js/tracking.js';
+    var sc = document.getElementsByTagName('script')[0];
+    sc.parentNode.insertBefore(ss, sc);
+  })();
 </script>
