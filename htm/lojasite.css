@@ -290,6 +290,7 @@ button {cursor: pointer; outline-color: transparent; outline-style: none;}
   background:#f5f5f5;
 }
 #agenda-home{
+  background:#FFF;
   margin: 30px;
   border-radius: 20px;
   padding: 30px;

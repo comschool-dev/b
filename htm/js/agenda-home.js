@@ -241,7 +241,7 @@ jQuery(document).ready(function ($) {
         ".ListProductStyleProd .DivListProductStyleDet {display:block; background:#ffffff; clear:both; border-radius: 20px; -webkit-border-radius: 20px; -moz-border-radius: 20px; width:130px; height:20px; -webkit-box-shadow: 0 0 5px 0 rgba(0,0,0,.25); -moz-box-shadow: 0 0 5px 0 rgba(0,0,0,.25); box-shadow: 0 0 5px 0 rgba(0,0,0,.25);}" +
         ".ListProductStyleProd a .DivListProductStyleDet {font-family:'Roboto',arial,verdana;font-size:16px; font-weight:700; color:#da151d; text-align: center;}" +
         ".ListProductStyleProd .ListProductStyleNomeProd {margin:1px 0 0 0; font-size: 18px;}" +
-        ".ListProductStyleProd .ListProductStyleNomeProd a {text-decoration:none;}" +
+        ".ListProductStyleProd .ListProductStyleNomeProd a {color:#707070; text-decoration:none;}" +
         ".ListProductStyleProd .ListProductStyleDesc {margin:15px 0 0 0; font-size: 14px;}" +
         ".ListProductStyleProd .DivListDate {width: 18%; margin-left:2%; font-size: 18px; display:flex; display:-webkit-flex; align-items:center; -webkit-align-items:center; justify-content:flex-start; -webkit-justify-content:flex-start;}" +
         ".ListProductStyleProd .DivListDesc {width: 60%;}" +
