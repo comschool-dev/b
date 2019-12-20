@@ -19,3 +19,19 @@ if(FC$.Page!="Checkout"){
   setTimeout("document.getElementById('idTopoConfirmacaoFC').innerHTML=sDadosPagto+sBannerEbit+'<br><br><span class=Titulos>Informações do seu pedido:</span>';",10);  /*Insere no topo da página de pedido confirmado as instruções para pagamento + banner do ebit */
 }
 </script>
+
+<script type="text/javascript">
+  window._st_account = 533;
+  window._cv_data = {
+    'order_id': {{NumPedido}},      // Número do pedido
+    'valor': {{TotalSemFrete}}          // Valor do pedido
+  };
+  (function () {
+    var ss = document.createElement('script');
+    ss.type = 'text/javascript';
+    ss.async = true;
+    ss.src = '//app.shoptarget.com.br/js/tracking.js';
+    var sc = document.getElementsByTagName('script')[0];
+    sc.parentNode.insertBefore(ss, sc);
+  })();
+</script>
