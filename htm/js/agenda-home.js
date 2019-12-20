@@ -1,7 +1,7 @@
 function slugCustom(str) {
     str = str.replace(/^\s+|\s+$/g, '');
     str = str.toLowerCase();
-    var from = "ï¿½ï¿½ï¿½ï¿½ï¿½?ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½_,:;";
+    var from = "ãàáäâ?èéëêìíïîõòóöôùúüûñç·_,:;";
     var to = "aaaaaeeeeeiiiiooooouuuunc-----";
     for (var i = 0, l = from.length; i < l; i++) {
         str = str.replace(from.charAt(i), to.charAt(i));
@@ -145,7 +145,7 @@ jQuery(document).ready(function ($) {
                         '<div class="DivListDate"><span data-js="data-descr">' + item.data + '</span></div>' +
                         '<div class="DivListDesc">' +
                         '<div class="listClass Cursos E-commerce ' + classCategoria + '">' + item.categoria + '</div>' +
-                        '<div class="ListProductStyleNomeProd" >' + item.titulo + '</div>' +
+                        '<div class="ListProductStyleNomeProd" ><a href="/listaprodutos.asp?idloja=40121&amp;idproduto=' + item.id_produto + '" target="_top">' + item.titulo + '</a></div>' +
                         '<div class="tipoDescr"><b>Tipo: </b>' + item.tipo + '</div>' +
                         '<div ><ul class="EstProdFilterFC"><li class="EstFilterItemFC"><ul><li class="EstFilterLabel1FC">Cidade</li><li class="EstFilterValueFC">' + item.cidade + '</li></ul></li></ul></div>' +
                         '</div>' +
@@ -192,7 +192,7 @@ jQuery(document).ready(function ($) {
                 '<div class="DivListDate"><span data-js="data-descr">' + item.data + '</span></div>' +
                 '<div class="DivListDesc">' +
                 '<div class="listClass Cursos E-commerce ' + classCategoria + '">' + item.categoria + '</div>' +
-                '<div class="ListProductStyleNomeProd" >' + item.titulo + '</div>' +
+                '<div class="ListProductStyleNomeProd" ><a href="/listaprodutos.asp?idloja=40121&amp;idproduto=' + item.id_produto + '" target="_top">' + item.titulo + '</a></div>' +
                 '<div class="tipoDescr"><b>Tipo: </b>' + item.tipo + '</div>' +
                 '<div ><ul class="EstProdFilterFC"><li class="EstFilterItemFC"><ul><li class="EstFilterLabel1FC">Cidade</li><li class="EstFilterValueFC">' + item.cidade + '</li></ul></li></ul></div>' +
                 '</div>' +
@@ -241,6 +241,7 @@ jQuery(document).ready(function ($) {
         ".ListProductStyleProd .DivListProductStyleDet {display:block; background:#ffffff; clear:both; border-radius: 20px; -webkit-border-radius: 20px; -moz-border-radius: 20px; width:130px; height:20px; -webkit-box-shadow: 0 0 5px 0 rgba(0,0,0,.25); -moz-box-shadow: 0 0 5px 0 rgba(0,0,0,.25); box-shadow: 0 0 5px 0 rgba(0,0,0,.25);}" +
         ".ListProductStyleProd a .DivListProductStyleDet {font-family:'Roboto',arial,verdana;font-size:16px; font-weight:700; color:#da151d; text-align: center;}" +
         ".ListProductStyleProd .ListProductStyleNomeProd {margin:1px 0 0 0; font-size: 18px;}" +
+        ".ListProductStyleProd .ListProductStyleNomeProd a {text-decoration:none;}" +
         ".ListProductStyleProd .ListProductStyleDesc {margin:15px 0 0 0; font-size: 14px;}" +
         ".ListProductStyleProd .DivListDate {width: 18%; margin-left:2%; font-size: 18px; display:flex; display:-webkit-flex; align-items:center; -webkit-align-items:center; justify-content:flex-start; -webkit-justify-content:flex-start;}" +
         ".ListProductStyleProd .DivListDesc {width: 60%;}" +
@@ -269,6 +270,7 @@ jQuery(document).ready(function ($) {
         ".ListProductStyleProd .DivListMore {width: 10%; justify-content: center; -webkit-justify-content: center;}" +
         ".ListProductStyleProd a .DivListProductStyleDet {text-indent: -9999px; line-height: 0; font-size: 20px; width: 40px; height: 34px; padding: 6px 0 0 0;}" +
         ".ListProductStyleProd a .DivListProductStyleDet:after {content:'+'; text-indent: 0; line-height: initial; display:block;}" +
+        ".filtro-cidade.all {width:100%;}" +
         "}" +
         "@media only screen and (max-width:670px) {" +
         ".ListProductStyleProd .DivListDate {width: 20%; font-size: 16px;}" +
