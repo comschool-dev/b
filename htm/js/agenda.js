@@ -1,7 +1,7 @@
 function slugCustom(str) {
     str = str.replace(/^\s+|\s+$/g, '');
     str = str.toLowerCase();
-    var from = "габдв?ийлкмнпохтуцфщъьысз·_,:;";
+    var from = "пїЅпїЅпїЅпїЅпїЅ?пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ_,:;";
     var to = "aaaaaeeeeeiiiiooooouuuunc-----";
     for (var i = 0, l = from.length; i < l; i++) {
         str = str.replace(from.charAt(i), to.charAt(i));
@@ -59,7 +59,7 @@ jQuery(document).ready(function ($) {
                 data_format = data_format.split('/');
                 data_format = data_format.reverse();
                 data_format = data_format.join('');
-                if (parseInt(getDateFormat()) < parseInt(data_format)) {
+                if (parseInt(getDateFormat()) <= parseInt(data_format)) {
                     window.cidades[slugCustom($(this).children('filtro[nome="Cidade"]').text())] = ($(this).children('filtro[nome="Cidade"]').text());
                     window.agenda_master.push({
                         id_produto: $(this).children('id_produto').text(),
@@ -213,7 +213,7 @@ jQuery(document).ready(function ($) {
         ".ProductList #idPaginationProdFC {display:none;}" +
         ".ProductList .FCProdSty4 {padding:40px 60px;}" +
         ".ProductList #idTxtIntroFoundProdsFC {display:flex; display:-webkit-flex; justify-content:center; -webkit-justify-content:center; margin-bottom:40px !important; font-family:'Roboto',arial,verdana; font-size:24px; font-weight:700;}" +
-        ".ProductList .FCProdSty4 #idTxtIntroFoundProdsFC:before {content:'Prуximos Cursos'}" +
+        ".ProductList .FCProdSty4 #idTxtIntroFoundProdsFC:before {content:'PrпїЅximos Cursos'}" +
         ".ProductList .FCProdSty4 #idFoundFC, .ProductList .FCProdSty4 #idPageCountFC {display:none;}" +
         ".DivListProd {width: 100%; height: auto; padding: 30px 0; margin: 20px 0 0 0; border-bottom:1px solid #f0f0f0; cursor:pointer; }" +
         ".ListProductStyleProd {width: 100%; min-height: 80px; padding: 0; transition:all 0.3s ease; display: -ms-flexbox; display: -webkit-flex; display: flex; }" +

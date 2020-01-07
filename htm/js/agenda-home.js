@@ -1,7 +1,7 @@
 function slugCustom(str) {
     str = str.replace(/^\s+|\s+$/g, '');
     str = str.toLowerCase();
-    var from = "габдв?ийлкмнпохтуцфщъьысз·_,:;";
+    var from = "пїЅпїЅпїЅпїЅпїЅ?пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ_,:;";
     var to = "aaaaaeeeeeiiiiooooouuuunc-----";
     for (var i = 0, l = from.length; i < l; i++) {
         str = str.replace(from.charAt(i), to.charAt(i));
@@ -59,7 +59,7 @@ jQuery(document).ready(function ($) {
                 data_format = data_format.split('/');
                 data_format = data_format.reverse();
                 data_format = data_format.join('');
-                if (parseInt(getDateFormat()) < parseInt(data_format)) {
+                if (parseInt(getDateFormat()) <= parseInt(data_format)) {
                     window.cidades[slugCustom($(this).children('filtro[nome="Cidade"]').text())] = ($(this).children('filtro[nome="Cidade"]').text());
                     window.agenda_master.push({
                         id_produto: $(this).children('id_produto').text(),
