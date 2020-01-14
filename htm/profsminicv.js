@@ -583,7 +583,7 @@ function insertProfMiniCV(profName){
     
     
 
-    if(profName == "Helio Tadeu Brogna Coelho"){
+    if(profName == "Helio Tadeu Brogna Coelho Zwicker" || profName == "Helio Tadeu Brogna Coelho"){
 		var profMiniCV = "Advogado, pós-graduado em Direito e Tecnologia da Informação pela Universidade de São Paulo. Diretor Jurídico da Associação Brasileira de Comércio Eletrônico ? ABCOMM. Sócio do escritório Terras Coelho Advogados. Atua em defesa de grandes empresas de tecnologia em todo o território nacional."
 	}
     
