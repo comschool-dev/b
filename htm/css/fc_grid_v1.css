@@ -177,7 +177,7 @@ ul.FCDescritorContent {margin:0;padding:0;}
 #showProfs b {font-size:1.2rem; font-weight:700;}
 #showProfs img {width:60px; margin:0 10px 0 0; vertical-align: middle; border:none; border-radius:5px; -webkit-border-radius:5px; -moz-border-radius:5px;}
 #showProfs p {font-size: 1rem; margin-block-start: 0.8rem; margin-block-end: 0.8rem;}
-#prof0, #prof1, #prof2, #prof3, #prof4, #prof5, #prof6, #prof7, #prof8, #prof9, #prof10 {font-size:1.1rem; font-weight:700; margin:20px 0 0 0;}
+#prof0, #prof1, #prof2, #prof3, #prof4, #prof5, #prof6, #prof7, #prof8, #prof9, #prof10, #prof11, #prof12, #prof13, #prof14, #prof15, #prof16, #prof17, #prof18, #prof19, #prof20, #prof21, #prof22, #prof23, #prof24, #prof25  {font-size:1.1rem; font-weight:700; margin:20px 0 0 0;}
 
 @media only screen and (max-width:1024px){
 .FCBoxGridBuy .FCStepGridNumber{margin-top:0;}
