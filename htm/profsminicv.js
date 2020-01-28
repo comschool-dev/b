@@ -1334,11 +1334,27 @@ function insertProfMiniCV(profName){
 	}
     
 
-    
-    
-
     if(profName == "Xico Graziano"){
 		var profMiniCV = "Francisco Graziano Neto, Xico Graziano, é Engenheiro Agrônomo, Mestre em Economia Agrária e Doutor em Administração. Professor de MBA da FGV/SP e lecionou na Unesp/Jaboticabal. Ocupou vários cargos públicos, no Governo de São Paulo e no Governo Federal. Foi Deputado Federal pelo PSDB/SP entre 1998 e 2006.Consultor em organização, marketing de agronegócios e sustentabilidade, conferencista e escritor, publicou 10 livros sobre questões agrárias, meio ambiente e política. Sócio-diretor da ePoliticsGraziano, consultoria especializada em posicionamento digital.Na campanha presidencial de 2010, Xico Graziano foi coordenador da â??Proposta Serraâ? , plataforma colaborativa do programa de governo. Em 2014, gerenciou e operou parte da campanha digital de Aécio Neves. Consultor de várias campanhas municipais em 2016, é responsável pelo canal Observador Político."
+	}
+    
+
+    if(profName == "Wellington Silva"){
+		var profMiniCV = "Trabalha a 6 anos com Digital Analytics e CRO (Conversion Rate Optimization); Esteve na liderança do time de Métricas da Intuitive e PMWEB; Criou e liderou a squad de CRO da Netshoes; É Cofundador e CEO da Rocket Labs e atualmente trabalha com Digital Analytics para o time de Data & Insights no Santander; Toda a sua experiencia foi construída para entender o comportamento dos usuários com dados quantitativos em diversos tipos de negócios, sejam eles e-commerce, financeiras, institucional, etc."
+	}
+    
+
+    if(profName == "Mayra Prado"){
+		var profMiniCV = "Graduada em Comunicação Social - Publicidade e Propaganda (SENAC), além de diversos cursos de especialização na área. Atuo há mais de 9 anos sendo desses 4 anos na área de programática, tendo passado por empresas como: Buscapé, Netshoes, Portal iG e Affiperf. Já atuou junto a grandes clientes como: TIM, CAOA Hyundai, Emirates, Globo Internacional, Swarovski, Wyndham Brasil, Fox Films, Fox Channels, Sanofi, Unimed, MoneyGram, Medquímica, AACD, Divena Autos, MoneyGram, Cidade Jardim, Gerencianet. Atualmente coordena o time de Data e Performance da Z+ na gestão operacional (Mídia Programática, Search & Display, Social) e gestão de dados (Reports, Dashboards)."
+	}
+    
+
+    if(profName == "Raphael Almeida"){
+		var profMiniCV = "Nos seus anos como especialista de e-commerce, ele ganhou experiência sólida em gestão de canais digitais de empresas, com responsabilidade sobre marketing e vendas, projetos, lanejamentos estratégicos e operações em e-commerce, portais digitais, CRM, Jornada do Cliente (EX/UI) focado em conversão. Mais recentemente, é responsável como Coordenador de Desenvolvimento e Inovação na Movida. A frente das unidades de negócio Seminovos Movida, GTF Movida e consultor de e-commerce de novos produtos com foco em possibilidades de aumento de ROI e conversão."
+	}
+
+    if(profName == "Simone Sguerri"){
+		var profMiniCV = "Publicitária, especializada em marketing estratégico e mídias sociais. Possui 18 anos de experiência em Publicidade e Marketing, sendo os últimos 6 anos atuando no mercado de mídias sociais como consultora em empresas, palestrante e professora. Há 3 anos fundou a agência de Mídias Sociais e Digitais Bubble Digital em São Paulo, onde atua como diretora estratégica atendendo clientes em todo Brasil com a gestão profissional de suas redes sociais e performance de anúncios."
 	}
     
 
