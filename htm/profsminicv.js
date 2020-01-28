@@ -1334,11 +1334,39 @@ function insertProfMiniCV(profName){
 	}
     
 
-    
-    
-
     if(profName == "Xico Graziano"){
 		var profMiniCV = "Francisco Graziano Neto, Xico Graziano, é Engenheiro Agrônomo, Mestre em Economia Agrária e Doutor em Administração. Professor de MBA da FGV/SP e lecionou na Unesp/Jaboticabal. Ocupou vários cargos públicos, no Governo de São Paulo e no Governo Federal. Foi Deputado Federal pelo PSDB/SP entre 1998 e 2006.Consultor em organização, marketing de agronegócios e sustentabilidade, conferencista e escritor, publicou 10 livros sobre questões agrárias, meio ambiente e política. Sócio-diretor da ePoliticsGraziano, consultoria especializada em posicionamento digital.Na campanha presidencial de 2010, Xico Graziano foi coordenador da â??Proposta Serraâ? , plataforma colaborativa do programa de governo. Em 2014, gerenciou e operou parte da campanha digital de Aécio Neves. Consultor de várias campanhas municipais em 2016, é responsável pelo canal Observador Político."
+	}
+    
+
+    if(profName == "Wellington Silva"){
+		var profMiniCV = "Trabalha a 6 anos com Digital Analytics e CRO (Conversion Rate Optimization); Esteve na liderança do time de Métricas da Intuitive e PMWEB; Criou e liderou a squad de CRO da Netshoes; É Cofundador e CEO da Rocket Labs e atualmente trabalha com Digital Analytics para o time de Data & Insights no Santander; Toda a sua experiencia foi construída para entender o comportamento dos usuários com dados quantitativos em diversos tipos de negócios, sejam eles e-commerce, financeiras, institucional, etc."
+	}
+    
+
+    if(profName == "Mayra Prado"){
+		var profMiniCV = "Graduada em Comunicação Social - Publicidade e Propaganda (SENAC), além de diversos cursos de especialização na área. Atuo há mais de 9 anos sendo desses 4 anos na área de programática, tendo passado por empresas como: Buscapé, Netshoes, Portal iG e Affiperf. Já atuou junto a grandes clientes como: TIM, CAOA Hyundai, Emirates, Globo Internacional, Swarovski, Wyndham Brasil, Fox Films, Fox Channels, Sanofi, Unimed, MoneyGram, Medquímica, AACD, Divena Autos, MoneyGram, Cidade Jardim, Gerencianet. Atualmente coordena o time de Data e Performance da Z+ na gestão operacional (Mídia Programática, Search & Display, Social) e gestão de dados (Reports, Dashboards)."
+	}
+    
+
+    if(profName == "Raphael Almeida"){
+		var profMiniCV = "Nos seus anos como especialista de e-commerce, ele ganhou experiência sólida em gestão de canais digitais de empresas, com responsabilidade sobre marketing e vendas, projetos, lanejamentos estratégicos e operações em e-commerce, portais digitais, CRM, Jornada do Cliente (EX/UI) focado em conversão. Mais recentemente, é responsável como Coordenador de Desenvolvimento e Inovação na Movida. A frente das unidades de negócio Seminovos Movida, GTF Movida e consultor de e-commerce de novos produtos com foco em possibilidades de aumento de ROI e conversão."
+	}
+
+    if(profName == "Simone Sguerri"){
+		var profMiniCV = "Publicitária, especializada em marketing estratégico e mídias sociais. Possui 18 anos de experiência em Publicidade e Marketing, sendo os últimos 6 anos atuando no mercado de mídias sociais como consultora em empresas, palestrante e professora. Há 3 anos fundou a agência de Mídias Sociais e Digitais Bubble Digital em São Paulo, onde atua como diretora estratégica atendendo clientes em todo Brasil com a gestão profissional de suas redes sociais e performance de anúncios."
+	}
+
+    if(profName == "Vanessa Reis"){
+		var profMiniCV = "Vanessa Reis é Coordenadora de Operações da Goomark, com vasta experiência em obtenção de resultados para pequenas e médias empresas dos mais diversos segmentos através do marketing digital e da metodologia PDCA. Já atuou na área de marketing de conteúdo, Inbound Marketing, SEO e Google Ads. Formada em Comunicação Social - Publicidade e Propaganda, possui pós-graduação em Gestão de Projetos pela FGV e cursa MBA em Gestão de Mídias Digitais e Inteligência de Negócios pela ESPM."
+	}
+
+    if(profName == "Paulo Filho"){
+		var profMiniCV = "Head de Data na &ldquo;Gauge &#45; Digital Consulting&rdquo;. Especialista em planejamento estrat&eacute;gico, Cria&ccedil;&atilde;o de Dashboards, Integra&ccedil;&atilde;o de dados, Programa&ccedil;&atilde;o HTML, Business Intelligence, Gest&atilde;o de equipes de Web Analytics, Vendas, Web Tagging. Atuou como Diretor de Dados e Intelig&ecirc;ncia no Grupo Havas Brasil e como Coordenador de Business Intelligence (BI) na &ldquo;AFFIPERF&rdquo;. Curso Superior de Tecnologia em Processos Gerencias na FGV e MBA Big Data (Data Science) na FIAP."
+	}
+
+    if(profName == "Raquel Bernaso"){
+		var profMiniCV = "&Eacute; Fundadora e Consultora em Marketing Digital da &ldquo;Inspire Digital&rdquo;. Especialista em Marketing Digital e Inbound Marketing. Atuou como Gerente de Processos e Marketing Digital na &ldquo;CPTarget Intelig&ecirc;ncia Online&rdquo;, onde foi respons&aacute;vel pelo planejamento e gest&atilde;o do processo de desenvolvimento de p&aacute;ginas e pe&ccedil;as digitais, cria&ccedil;&atilde;o de conceito e briefing, estudo da concorr&ecirc;ncia, follow-up com fornecedores, interface com &aacute;reas internas, cria&ccedil;&atilde;o de fluxos de processos para o gerenciamento de atividades envolvendo a &aacute;rea comercial, operacional e de tecnologia, dentre outras fun&ccedil;&otilde;es. P&oacute;s-gradua&ccedil;&atilde;o em administra&ccedil;&atilde;o de empresas na FGV e especializa&ccedil;&atilde;o, neuroci&ecirc;ncia e tecnologia aplicada no Mackenzie."
 	}
     
 
