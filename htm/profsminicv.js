@@ -1356,6 +1356,18 @@ function insertProfMiniCV(profName){
     if(profName == "Simone Sguerri"){
 		var profMiniCV = "Publicitária, especializada em marketing estratégico e mídias sociais. Possui 18 anos de experiência em Publicidade e Marketing, sendo os últimos 6 anos atuando no mercado de mídias sociais como consultora em empresas, palestrante e professora. Há 3 anos fundou a agência de Mídias Sociais e Digitais Bubble Digital em São Paulo, onde atua como diretora estratégica atendendo clientes em todo Brasil com a gestão profissional de suas redes sociais e performance de anúncios."
 	}
+
+    if(profName == "Vanessa Reis"){
+		var profMiniCV = "Vanessa Reis é Coordenadora de Operações da Goomark, com vasta experiência em obtenção de resultados para pequenas e médias empresas dos mais diversos segmentos através do marketing digital e da metodologia PDCA. Já atuou na área de marketing de conteúdo, Inbound Marketing, SEO e Google Ads. Formada em Comunicação Social - Publicidade e Propaganda, possui pós-graduação em Gestão de Projetos pela FGV e cursa MBA em Gestão de Mídias Digitais e Inteligência de Negócios pela ESPM."
+	}
+
+    if(profName == "Paulo Filho"){
+		var profMiniCV = "Head de Data na &ldquo;Gauge &#45; Digital Consulting&rdquo;. Especialista em planejamento estrat&eacute;gico, Cria&ccedil;&atilde;o de Dashboards, Integra&ccedil;&atilde;o de dados, Programa&ccedil;&atilde;o HTML, Business Intelligence, Gest&atilde;o de equipes de Web Analytics, Vendas, Web Tagging. Atuou como Diretor de Dados e Intelig&ecirc;ncia no Grupo Havas Brasil e como Coordenador de Business Intelligence (BI) na &ldquo;AFFIPERF&rdquo;. Curso Superior de Tecnologia em Processos Gerencias na FGV e MBA Big Data (Data Science) na FIAP."
+	}
+
+    if(profName == "Raquel Bernaso"){
+		var profMiniCV = "&Eacute; Fundadora e Consultora em Marketing Digital da &ldquo;Inspire Digital&rdquo;. Especialista em Marketing Digital e Inbound Marketing. Atuou como Gerente de Processos e Marketing Digital na &ldquo;CPTarget Intelig&ecirc;ncia Online&rdquo;, onde foi respons&aacute;vel pelo planejamento e gest&atilde;o do processo de desenvolvimento de p&aacute;ginas e pe&ccedil;as digitais, cria&ccedil;&atilde;o de conceito e briefing, estudo da concorr&ecirc;ncia, follow-up com fornecedores, interface com &aacute;reas internas, cria&ccedil;&atilde;o de fluxos de processos para o gerenciamento de atividades envolvendo a &aacute;rea comercial, operacional e de tecnologia, dentre outras fun&ccedil;&otilde;es. P&oacute;s-gradua&ccedil;&atilde;o em administra&ccedil;&atilde;o de empresas na FGV e especializa&ccedil;&atilde;o, neuroci&ecirc;ncia e tecnologia aplicada no Mackenzie."
+	}
     
 
     
