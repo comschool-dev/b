@@ -165,18 +165,6 @@ function insertProfMiniCV(profName){
     if(profName == "Caroline Rembowski"){
 		var profMiniCV = "Experiência de 11 anos na área de Marketing e Comunicação, em empresas multinacionais de grande e médio porte, agências digitais, veículos de internet, e-commerce e mobile. Responsável pelo marketing online da Fnac e atualmente liderando a equipe de e-commerce da Etna."
 	}
-    
-
-    
-    
-
-    if(profName == "Cesário Carvalho"){
-		var profMiniCV = "Trabalho como Educador, Especialista de SEO, Search Marketing e desenvolvimento Font-end desde 2008.Em minha formação como indivíduo tive a oportunidade de trabalhar com ótimos profissionais, cursar muitos diferenciados cursos e trocar experiências e conhecimentos com quem faz de verdade a internet no Brasil."
-	}
-    
-
-    
-    
 
     if(profName == "Christopher Neiverth"){
 		var profMiniCV = "Conhecido como Mago do E-commerce, Christopher é um profissional executivo há 11 anos no mercado online voltado ao Varejo, E-commerce e ao Digital, que ama vendas, inovação e tecnologia, apaixonado pela experiência do consumidor, garantindo que a experiência dele seja a melhor em qualquer canal de venda e de atendimento. Um growth hacking por natureza! Atuação em mais de 9 e-commerceâ??s com profundos conhecimentos em operações e integrações que envolvem ERPâ??s corporativos e legados. Experiência em gestão omnichannel, know-how em faturamento acima de milhões, controles orçamentários e especialista em otimização de processos para melhoria de eficiência. Formado em Sistemas para Internet, com um MBA em Finanças, Marketing e Empreendedorismo e outro MBA em Marketing Digital com ênfase em Comércio Eletrônico. Foi escolhido como um dos 5 melhores profissionais do país 2 vezes, na categoria Marketing em Vendas em 2012 e em Operações em 2017 pelo grupo E-commerce Brasil. Atualmente é Head de E-commerce na Le Postiche."
