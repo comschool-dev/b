@@ -775,26 +775,10 @@ function insertProfMiniCV(profName){
     if(profName == "Lisandra Maioli"){
 		var profMiniCV = "Jornalista graduada pela Universidade Metodista (2000), pós-graduada em Jornalismo Cultural e Multimídia pela PUC-SP (2004) e em Mídias Interativas pelo Senac São Paulo (2006), Certificado em Marketing pela UC Berkeley (2013) e em Marketing com foco em Mídias Sociais pela UCLA (2014), curso de extensão em Mídias Sociais para B2B pela Stanford University (2012), e de UX Research pela NNielsen (2012). Com mais de 10 anos de experiência em Comunicação Digital (User Experience, Mídias Sociais, Estratégia de Marketing Digital, Webwriting, Coordenação e Desenvolvimento de Projetos e de Produtos para Mídias Digitais) com passagens pelos portais iG, Lance!net, e Terra Network, pelas agências de Marketing Digital e-bit e Medcenter Solutions, pelas agências de comunicação corporativa Máquina da Notícia e CDN Digital, além do Senac São Paulo, em Comunicação Digital da área de Desenvolvimento Social. Depois de colaborar na área de UX de uma startup em São Francisco (USA) e para a agência de eventos internacionais Wish Marketing and Events, atualmente é responsável pelo mercado de língua Portuguesa da Talenthouse.com, empresa sediada em Los Angeles (EUA). Responsável pelo desenvolvimento e coordenação do curso de pós-graduação em Mídias Digitais e Interativas no Senac Rio de Janeiro e do desenvolvimento da pós-graduação em Mídias Sociais também para o Senac Rio de Janeiro. Além de autora do capítulo \"Webwriting\" do e-book \"Para entender as Mídias Sociais\"; e do capítulo \"UX com foco em Alta Performance\" do livro \"Marketing Digital de Alta Performance\" - Ed. ComSchool, 2016."
 	}
-    
-
-    
-    
-
+	
     if(profName == "Lucimar Delarolli"){
 		var profMiniCV = "Mestranda em Gestão do Conhecimento (Universidad de Léon-Espanha) com MBA em Gestão de Recursos Humanos na PUC-RJ. Bacharel e Licenciada em Psicologia na Universidade Gama Filho e Pós-graduada em Gestão de Pessoas, também pela PUC-RJ. Possui amplo conhecimento e mais de 25 anos de experiência em posições de Business Partner em empresas multinacionais, ONG e Consultoria, Gestão de Pessoas e em Especialização em Desenvolvimento Humano. Além de professora dos cursos de Pós-graduação nos MBAs de Marketing da ESPM e Gestão de Negócios do IBMEC."
 	}
-    
-
-    
-    
-
-    if(profName == "Lucas Torres"){
-		var profMiniCV = "Produtor de conteúdo para o YouTube desde 2016. Com vocabulário didático, seu canal apresenta conteúdo de cunho cultural e vlog pessoal, voltado ao consumidor comum de mídias. Especializado em cinema, não cinéfilo, sua abordagem mais simples é capaz de trazer uma análise completa e acessível aos interessados no assunto. Seu canal atingiu 40 mil inscritos e mais de 4 milhões de visualizações no primeiro ano."
-	}
-    
-
-    
-    
 
     if(profName == "Luís Felipe Cota"){
 		var profMiniCV = "Sócio e cofundador da Goomark, maior agência de marketing digital para PMEs do Brasil, tem centenas de cases de sucesso atendendo com nível global de qualidade centenas de pequenas e médias empresas, também é palestrante nos principais eventos de marketing digital."
