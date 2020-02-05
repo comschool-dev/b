@@ -161,8 +161,6 @@ jQuery(document).ready(function ($) {
 
         }
 
-        console.log(window.agenda_master);
-
 
         var dataLimite = new Date();
         dataLimite = dataLimite.getFullYear()+''+dataLimite.getMonth()+''+( dataLimite.getDate() + 7 )
@@ -203,6 +201,7 @@ jQuery(document).ready(function ($) {
         containerHtml += '</div>';
         ///FIM GERAL
 
+        containerHtml += '<a href="/agenda-cursos-comschool" target="_blank"><div class="iframeButAll" style="margin:100px auto 0 auto !important; width:400px; max-width:100%;">Veja nossa Agenda Completa</div></a>';
         containerHtml += '</div>';
 
         $(window.id_container).append(htmlNav);
