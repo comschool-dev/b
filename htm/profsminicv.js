@@ -1340,6 +1340,14 @@ function insertProfMiniCV(profName){
     if(profName == "Raquel Bernaso"){
 		var profMiniCV = "&Eacute; Fundadora e Consultora em Marketing Digital da &ldquo;Inspire Digital&rdquo;. Especialista em Marketing Digital e Inbound Marketing. Atuou como Gerente de Processos e Marketing Digital na &ldquo;CPTarget Intelig&ecirc;ncia Online&rdquo;, onde foi respons&aacute;vel pelo planejamento e gest&atilde;o do processo de desenvolvimento de p&aacute;ginas e pe&ccedil;as digitais, cria&ccedil;&atilde;o de conceito e briefing, estudo da concorr&ecirc;ncia, follow-up com fornecedores, interface com &aacute;reas internas, cria&ccedil;&atilde;o de fluxos de processos para o gerenciamento de atividades envolvendo a &aacute;rea comercial, operacional e de tecnologia, dentre outras fun&ccedil;&otilde;es. P&oacute;s-gradua&ccedil;&atilde;o em administra&ccedil;&atilde;o de empresas na FGV e especializa&ccedil;&atilde;o, neuroci&ecirc;ncia e tecnologia aplicada no Mackenzie."
 	}
+
+    if(profName == "Milton Oyas"){
+		var profMiniCV = "Consultor, Palestrante e Facilitador para Treinamento Corporativo. Bacharel em Administração de Empresas - Pós Graduado em Marketing e Gestão Ambiental. Experiência de 21 anos nas áreas de Vendas e Marketing, em empresas de diversos segmentos, ocupando cargos de liderança e execução, tendo trabalhado profissionalmente como Fornecedor, Distribuidor e Comprador."
+	}
+
+    if(profName == "Claudio Zanutim"){
+		var profMiniCV = "Autor, Professor, Comunicador, Palestrante e Trainer Internacional. Mestre em Administração de Empresas e Gestão de Pessoas pela Unesp, MBA´s em Administração Estratégica, Mercadologia e Gestão de Pessoas. Experiência de mais de 32 anos atuando em Varejo, Industria e no Universo Acadêmico. Também fui empreendedor: dono de fábrica e 6 lojas em shopping centers."
+	}
     
 
     
