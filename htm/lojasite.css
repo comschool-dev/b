@@ -1603,3 +1603,6 @@ div#idPagProdTop {display: none;}
 .conteudo-curso ul li{
   margin-left:20px;
 }
+.conteudo-curso img, .conteudo-curso iframe{
+  max-width:100% !important;
+}
