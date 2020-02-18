@@ -269,7 +269,7 @@ jQuery(document).ready(function ($) {
         "@media only screen and (max-width:480px) {" +
         ".offbutton {font-size: 14px;}" +
         ".onbutton {font-size: 14px;}" +
-        ".DivListProd {margin: 0 0 0 0; padding: 20px 0; height: 120px;}" +
+        ".DivListProd {margin: 0 0 0 0; padding: 20px 0;}" +
         ".ListProductStyleProd {flex-wrap: wrap;}" +
         ".ListProductStyleProd .DivListDate {width: 100%; margin: 0 0 10px 0; font-size:14px;}" +
         ".ListProductStyleProd .DivListDesc {width: 76%;}" +

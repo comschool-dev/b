@@ -165,18 +165,6 @@ function insertProfMiniCV(profName){
     if(profName == "Caroline Rembowski"){
 		var profMiniCV = "Experiência de 11 anos na área de Marketing e Comunicação, em empresas multinacionais de grande e médio porte, agências digitais, veículos de internet, e-commerce e mobile. Responsável pelo marketing online da Fnac e atualmente liderando a equipe de e-commerce da Etna."
 	}
-    
-
-    
-    
-
-    if(profName == "Cesário Carvalho"){
-		var profMiniCV = "Trabalho como Educador, Especialista de SEO, Search Marketing e desenvolvimento Font-end desde 2008.Em minha formação como indivíduo tive a oportunidade de trabalhar com ótimos profissionais, cursar muitos diferenciados cursos e trocar experiências e conhecimentos com quem faz de verdade a internet no Brasil."
-	}
-    
-
-    
-    
 
     if(profName == "Christopher Neiverth"){
 		var profMiniCV = "Conhecido como Mago do E-commerce, Christopher é um profissional executivo há 11 anos no mercado online voltado ao Varejo, E-commerce e ao Digital, que ama vendas, inovação e tecnologia, apaixonado pela experiência do consumidor, garantindo que a experiência dele seja a melhor em qualquer canal de venda e de atendimento. Um growth hacking por natureza! Atuação em mais de 9 e-commerceâ??s com profundos conhecimentos em operações e integrações que envolvem ERPâ??s corporativos e legados. Experiência em gestão omnichannel, know-how em faturamento acima de milhões, controles orçamentários e especialista em otimização de processos para melhoria de eficiência. Formado em Sistemas para Internet, com um MBA em Finanças, Marketing e Empreendedorismo e outro MBA em Marketing Digital com ênfase em Comércio Eletrônico. Foi escolhido como um dos 5 melhores profissionais do país 2 vezes, na categoria Marketing em Vendas em 2012 e em Operações em 2017 pelo grupo E-commerce Brasil. Atualmente é Head de E-commerce na Le Postiche."
@@ -775,26 +763,10 @@ function insertProfMiniCV(profName){
     if(profName == "Lisandra Maioli"){
 		var profMiniCV = "Jornalista graduada pela Universidade Metodista (2000), pós-graduada em Jornalismo Cultural e Multimídia pela PUC-SP (2004) e em Mídias Interativas pelo Senac São Paulo (2006), Certificado em Marketing pela UC Berkeley (2013) e em Marketing com foco em Mídias Sociais pela UCLA (2014), curso de extensão em Mídias Sociais para B2B pela Stanford University (2012), e de UX Research pela NNielsen (2012). Com mais de 10 anos de experiência em Comunicação Digital (User Experience, Mídias Sociais, Estratégia de Marketing Digital, Webwriting, Coordenação e Desenvolvimento de Projetos e de Produtos para Mídias Digitais) com passagens pelos portais iG, Lance!net, e Terra Network, pelas agências de Marketing Digital e-bit e Medcenter Solutions, pelas agências de comunicação corporativa Máquina da Notícia e CDN Digital, além do Senac São Paulo, em Comunicação Digital da área de Desenvolvimento Social. Depois de colaborar na área de UX de uma startup em São Francisco (USA) e para a agência de eventos internacionais Wish Marketing and Events, atualmente é responsável pelo mercado de língua Portuguesa da Talenthouse.com, empresa sediada em Los Angeles (EUA). Responsável pelo desenvolvimento e coordenação do curso de pós-graduação em Mídias Digitais e Interativas no Senac Rio de Janeiro e do desenvolvimento da pós-graduação em Mídias Sociais também para o Senac Rio de Janeiro. Além de autora do capítulo \"Webwriting\" do e-book \"Para entender as Mídias Sociais\"; e do capítulo \"UX com foco em Alta Performance\" do livro \"Marketing Digital de Alta Performance\" - Ed. ComSchool, 2016."
 	}
-    
-
-    
-    
-
+	
     if(profName == "Lucimar Delarolli"){
 		var profMiniCV = "Mestranda em Gestão do Conhecimento (Universidad de Léon-Espanha) com MBA em Gestão de Recursos Humanos na PUC-RJ. Bacharel e Licenciada em Psicologia na Universidade Gama Filho e Pós-graduada em Gestão de Pessoas, também pela PUC-RJ. Possui amplo conhecimento e mais de 25 anos de experiência em posições de Business Partner em empresas multinacionais, ONG e Consultoria, Gestão de Pessoas e em Especialização em Desenvolvimento Humano. Além de professora dos cursos de Pós-graduação nos MBAs de Marketing da ESPM e Gestão de Negócios do IBMEC."
 	}
-    
-
-    
-    
-
-    if(profName == "Lucas Torres"){
-		var profMiniCV = "Produtor de conteúdo para o YouTube desde 2016. Com vocabulário didático, seu canal apresenta conteúdo de cunho cultural e vlog pessoal, voltado ao consumidor comum de mídias. Especializado em cinema, não cinéfilo, sua abordagem mais simples é capaz de trazer uma análise completa e acessível aos interessados no assunto. Seu canal atingiu 40 mil inscritos e mais de 4 milhões de visualizações no primeiro ano."
-	}
-    
-
-    
-    
 
     if(profName == "Luís Felipe Cota"){
 		var profMiniCV = "Sócio e cofundador da Goomark, maior agência de marketing digital para PMEs do Brasil, tem centenas de cases de sucesso atendendo com nível global de qualidade centenas de pequenas e médias empresas, também é palestrante nos principais eventos de marketing digital."
@@ -1367,6 +1339,14 @@ function insertProfMiniCV(profName){
 
     if(profName == "Raquel Bernaso"){
 		var profMiniCV = "&Eacute; Fundadora e Consultora em Marketing Digital da &ldquo;Inspire Digital&rdquo;. Especialista em Marketing Digital e Inbound Marketing. Atuou como Gerente de Processos e Marketing Digital na &ldquo;CPTarget Intelig&ecirc;ncia Online&rdquo;, onde foi respons&aacute;vel pelo planejamento e gest&atilde;o do processo de desenvolvimento de p&aacute;ginas e pe&ccedil;as digitais, cria&ccedil;&atilde;o de conceito e briefing, estudo da concorr&ecirc;ncia, follow-up com fornecedores, interface com &aacute;reas internas, cria&ccedil;&atilde;o de fluxos de processos para o gerenciamento de atividades envolvendo a &aacute;rea comercial, operacional e de tecnologia, dentre outras fun&ccedil;&otilde;es. P&oacute;s-gradua&ccedil;&atilde;o em administra&ccedil;&atilde;o de empresas na FGV e especializa&ccedil;&atilde;o, neuroci&ecirc;ncia e tecnologia aplicada no Mackenzie."
+	}
+
+    if(profName == "Milton Oyas"){
+		var profMiniCV = "Consultor, Palestrante e Facilitador para Treinamento Corporativo. Bacharel em Administração de Empresas - Pós Graduado em Marketing e Gestão Ambiental. Experiência de 21 anos nas áreas de Vendas e Marketing, em empresas de diversos segmentos, ocupando cargos de liderança e execução, tendo trabalhado profissionalmente como Fornecedor, Distribuidor e Comprador."
+	}
+
+    if(profName == "Claudio Zanutim"){
+		var profMiniCV = "Autor, Professor, Comunicador, Palestrante e Trainer Internacional. Mestre em Administração de Empresas e Gestão de Pessoas pela Unesp, MBA´s em Administração Estratégica, Mercadologia e Gestão de Pessoas. Experiência de mais de 32 anos atuando em Varejo, Industria e no Universo Acadêmico. Também fui empreendedor: dono de fábrica e 6 lojas em shopping centers."
 	}
     
 
