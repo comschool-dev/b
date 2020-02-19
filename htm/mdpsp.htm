@@ -75,6 +75,39 @@
 <input id="tab4" type="radio" name="tabs"><label for="tab4">Dúvidas</label>
 <input id="tab5" type="radio" name="tabs"><label for="tab5">Depoimentos</label>
 <input id="tab6" type="radio" name="tabs"><label for="tab6">In Company</label>
+
+
+
+
+
+<!---------------- Sessão (ABA) - PROFESSORES ---------------->
+<section id="content3">
+    <div id="det-product-profs-tab">
+        <div id="showProfs">
+            <h2>Relação dos Professores do Curso</h2>
+        </div>
+        <script src="<baseloja>htm/profsminicv.js"></script>
+        <script>
+            var oProdFilters= <ProdFiltersJS>;
+            if(typeof(oProdFilters)=="object"){
+            var opFil=oProdFilters.pFil;
+            if(typeof(opFil)=="object"){
+                opFil.forEach(function(item){
+                if(item.name=="Professores" && item.image!=undefined){
+                    var profNames = item.value.split(",")
+                    var profImage = item.image.split(",")
+                    var showProfsDiv = document.getElementById('showProfs');
+                    profImage.forEach(function(item,index){
+                    showProfsDiv.innerHTML += "<div id='prof"+index+"'><img src='<baseloja>prod/"+item+"'>"+profNames[index]+"</div><p>"+insertProfMiniCV(profNames[index])+"</p>"
+                    });
+                }
+                })
+            }
+            }
+        </script>
+    </div>
+</section>
+
 	
 
 <!---------------- Sessão (ABA) - DESCRIÇÃO ---------------->
@@ -500,34 +533,6 @@
 </section>
 
 
-
-<!---------------- Sessão (ABA) - PROFESSORES ---------------->
-<section id="content3">
-    <div id="det-product-profs-tab">
-        <div id="showProfs">
-            <h2>Relação dos Professores do Curso</h2>
-        </div>
-        <script src="<baseloja>htm/profsminicv.js"></script>
-        <script>
-            var oProdFilters= <ProdFiltersJS>;
-            if(typeof(oProdFilters)=="object"){
-            var opFil=oProdFilters.pFil;
-            if(typeof(opFil)=="object"){
-                opFil.forEach(function(item){
-                if(item.name=="Professores" && item.image!=undefined){
-                    var profNames = item.value.split(",")
-                    var profImage = item.image.split(",")
-                    var showProfsDiv = document.getElementById('showProfs');
-                    profImage.forEach(function(item,index){
-                    showProfsDiv.innerHTML += "<div id='prof"+index+"'><img src='<baseloja>prod/"+item+"'>"+profNames[index]+"</div><p>"+insertProfMiniCV(profNames[index])+"</p>"
-                    });
-                }
-                })
-            }
-            }
-        </script>
-    </div>
-</section>
 
 
 <!---------------- Sessão (ABA) - DÚVIDAS ---------------->
