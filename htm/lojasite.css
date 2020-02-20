@@ -1577,23 +1577,23 @@ div#idPagProdTop {display: none;}
 .conteudo-curso h1{
   color:#333;
   font-size: 20px !important;
-  text-transform: capitalize;
+  text-transform: none !important;
   text-align: center;
 }
 .conteudo-curso h2{
   color:#666;
   font-size: 18px !important;
-  text-transform: capitalize;
+  text-transform: none !important;
 }
 .conteudo-curso h3{
   color:#666;
   font-size: 16px !important;
-  text-transform: capitalize;
+  text-transform: none !important;
 }
 .conteudo-curso h4{
   color:#666;
   font-size: 14px !important;
-  text-transform: capitalize;
+  text-transform: none !important;
   font-weight: bold;
 }
 .conteudo-curso p i{
