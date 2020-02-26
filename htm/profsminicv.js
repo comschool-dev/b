@@ -1348,8 +1348,26 @@ function insertProfMiniCV(profName){
     if(profName == "Claudio Zanutim"){
 		var profMiniCV = "Autor, Professor, Comunicador, Palestrante e Trainer Internacional. Mestre em Administração de Empresas e Gestão de Pessoas pela Unesp, MBA´s em Administração Estratégica, Mercadologia e Gestão de Pessoas. Experiência de mais de 32 anos atuando em Varejo, Industria e no Universo Acadêmico. Também fui empreendedor: dono de fábrica e 6 lojas em shopping centers."
 	}
-    
 
-    
+    if(profName == "Gabriela Santana"){
+		var profMiniCV = "A mais de 13 anos atuando na área de marketing, publicidade e comunicação com experiências multinacionais, startups tecnológicas, agências de publicidade e marketing digital. Atuo com o mercado Latino americano, com projetos de lançamentos de mercados e expansão. Com um perfil 360, acumulo em minha carreira conhecimentos em diversas frentes do marketing: institucional, brand marketing, marketing de produto, endomarketing, marketing de performance, estratégias de campanhas e propagandas online e off-line, lançamentos de produtos, geração de lead, automação de marketing, web analytics, redes sociais, inbound marketing, conteúdo, criação, promoções, eventos e gestão de equipe multidiciplinar. Hoje lidero uma equipe de growth marketing focada em realizar experimentos de marketing baseado no processo de growth hacking focando performance e incremento de receita sustentável."
+	}
+
+    if(profName == "Fares Hid Saba"){
+		var profMiniCV = "Sou especialista em UX (user experience) e trabalho com foco em toda a experiência do cliente, desde o processo de imersão e definição estratégica, passando por todas as análises quantitativas e qualitativas do negócio, geração de ideias e planejamento de produtos, prototipação da solução, validação através de testes de usabilidade, implementação da solução e melhoria contínua de indicadores. Participei do concepção e evolução de portais de grandes empresas, destacando-se Credicard, Cetelem, Porto Seguro e, mais recentemente, do Banco Santander Brasil. Atualmente estou a frente de uma equipe de 18 pessoas, entre designers, researchers, frontend developers, PMs, POs e generalistas, responsável pela equalização de experiência multicanal em todo o ciclo de vida do cliente bancário, desde a conquista, cross/up sell, relacionamento digital, autoatendimento, reconquista, governança de identidade visual e inovação digital."
+	}
+
+    if(profName == "Guilherme Martins"){
+		var profMiniCV = "Guilherme atua na área tributária desde 2006, dispondo de ampla experiência em consultoria e contencioso administrativo em tributos indiretos e questões aduaneiras. Antes de se tornar sócio do MIRANDA JUNQUEIRA MARTINS ADVOGADOS, trabalhou em alguns dos maiores escritórios de advocacia do Brasil. Como Diretor Jurídico da ABComm, Guilherme foi responsável pela elaboração de projetos de lei em matéria tributária relacionados ao comércio eletrônico e pela condução de Ações Coletivas, de abrangência e repercussão nacionais, visando resguardar os direitos e interesses do Setor. Guilherme também é palestrante e articulista sobre temas relacionados ao Direito Tributário."
+	}
+
+    if(profName == "Denise Salvador"){
+		var profMiniCV = "Especialista com mais de 30 anos atuando em Educação Corporativa,  tanto na coordenação quanto na instrutória de programas e cursos com foco  técnico e comportamentais. Destaque para desenvolvimento de líderes, equipes de vendas e atendimento. Trajetória em empresas no ramo financeiro (Fininvest) , varejo (Grupo Carrefour), de saúde (Lab Helion Povoa), gás (SHV Gas) e Mineração (Vale) onde atua hoje na posição de  Master HR Training and Development . Graduação em Psicologia, com Pós graduação em RH | Pontifícia Universidade Católica- RJ"
+	}
+
+    if(profName == "Pedro Chiamulera"){
+		var profMiniCV = "Fundou a ClearSale em 2001 para ser uma empresa de gestão de riscos que trata a fraude, e tudo o que a envolve, de forma revolucionária. Dessa forma, a ClearSale se tornou líder e referência de mercado, sendo reconhecida como autoridade em prevenção a fraudes nos mais diversos segmentos. Formado em Ciência da Computação pela universidade Point Loma Nazarene, em San Diego, nos EUA, Pedro é ex-atleta e competiu no atletismo em duas Olimpíadas representando o Brasil. Empreendedor entusiasmado, Pedro sabe aplicar a disciplina do esporte ao mundo corporativo, principalmente no que diz respeito à superação dos próprios limites."
+	}    
+	
 	return profMiniCV;
 }
