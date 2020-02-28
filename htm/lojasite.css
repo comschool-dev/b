@@ -1606,3 +1606,13 @@ div#idPagProdTop {display: none;}
 .conteudo-curso img, .conteudo-curso iframe{
   max-width:100% !important;
 }
+
+.conteudo-curso .imagem-center{
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+}
+
+.conteudo-curso .imagem-center img{
+  margin: 0 auto;
+}
