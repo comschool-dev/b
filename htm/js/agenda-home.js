@@ -38,7 +38,7 @@ jQuery(document).ready(function ($) {
 
     $(window.id_container).append('<h3 class="loading-agenda">Carregando agenda...</h3>');
 
-    var url_xml = 'https://www.comschool.com.br/xml-products.ehc?format=0&exibedescricao=1';
+    var url_xml = 'https://loja-42025.lojavirtualfc.com.br/xml-products.ehc?format=0&exibedescricao=1';
     window.agenda_master = [];
     window.cidades = [];
     var request = $.ajax({
