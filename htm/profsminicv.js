@@ -841,7 +841,7 @@ function insertProfMiniCV(profName){
     
 
     if(profName == "Marcos Juncken"){
-		var profMiniCV = "Crescimento hacker apaixonado por dados, comportamento do consumidor, motociclismo e esportes ao ar livre. Formado em marketing pela Universidade de São Paulo (USP), também participei de um programa executivo na Ohio University. Sou aprendiz ao longo da vida e possuo habilidades em ciência de dados, programação e neurociência. Além de empreendedora, sou consultora de marketing e trabalhei em empresas competitivas e impactantes como Udacity e Fundação Estudar."
+		var profMiniCV = "Growth hacker apaixonado por dados, comportamento do consumidor, motociclismo e esportes ao ar livre. Formado em marketing pela Universidade de São Paulo (USP), também participei de um programa executivo na Ohio University. Sou aprendiz ao longo da vida e possuo habilidades em ciência de dados, programação e neurociência. Além de empreendedora, sou consultora de marketing e trabalhei em empresas competitivas e impactantes como Udacity e Fundação Estudar."
 	}
     
 
