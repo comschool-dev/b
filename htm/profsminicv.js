@@ -186,14 +186,6 @@ function insertProfMiniCV(profName){
 		var profMiniCV = "É formado em Design Gráfico pela UCS e possui MBA em Gestão Empresarial pela Unisinos. Atua desde 2008 em operações de e-commerce, onde se especializou em marketing digital de performance. Atualmente é coordenador de marketing digital no Grupo Dass atuando com marcas globais como Fila e Umbro.Possui forte entendimento de SEM, SEO, Display, Retargeting, E-mail Marketing e Mídias Sociais, não só para a exposição da marca e para gerar tráfego, mas também para acelerar as vendas."
 	}
     
-
-    
-    
-
-    if(profName == "Cristiano Santos"){
-		var profMiniCV = "Jornalista, palestrante, professor e consultor de mídias sociais. Já atuou na área financeira e de pesquisa iconográfica, antes de se dedicar integralmente à área digital. Atuou nos últimos 5 anos na estratégia digital de 16 marcas da Editora Globo e Edições Globo Condé Nast nas redes sociais. É coautor do ebook Para Entender as Mídias Sociais - vol. 2 e coorganizador do 3º volume. Entusiasta e especialista em mídias sociais, ministra cursos e palestras em diversas instituições e empresas, como Mercedes-Benz, Rede Globo, Facebook, TRE Minas, entre outras, além de palestrar em eventos relacionados ao universo digital como RD Summit, Social Media Week, Share, Content Summit, entre outros. É especialista e entusiasta da rede social profissional LinkedIn e professor convidado na Faculdade Cásper Líbero, IAB Brasil, ComSchool e SENAC, em São Paulo, para ministrar oficinas que ensinam os usuários a tirarem o máximo de proveito dessa rede social profissional e criador do grupo LinkedIn Brasil ? De A a Z, no Facebook, considerado o maior do mundo em língua portuguesa com foco em discutir assuntos relacionados à rede. Numa pesquisa divulgada no Paraná, Cristiano foi indicado como um dos principais influenciadores sobre mídias sociais do país, e em novembro/2015 foi premiado como Profissional Destaque no Ano na categoria Fomento do Mercado no Prêmio Share Social Media 2015."
-	}
-    
   
   
       if(profName == "Cynthia Prado"){
