@@ -250,13 +250,13 @@ jQuery(document).ready(function ($) {
         ".estNextPageButFC:after {content: 'VER MAIS CURSOS';}" +
         ".hideFromList {display: none;}" +
         ".listClass {color: #fff; background:#707070; text-align: center; display: inline-block; padding: 2px 5px; margin-bottom: 5px; font-size:12px; text-transform:uppercase;}" +
-        ".redCat{background:#da151d}" +
-        ".blueCat{background:#23aee8}" +
-        ".greenCat{background:#569c58}" +
+        ".redCat{background:#008C61}" +
+        ".blueCat{background:#F7343E}" +
+        ".greenCat{background:#2C60C6}" +
         ".goldCat{background:#d0b500}" +
-        ".buttons {border-bottom:1px solid #da151d;}" +
+        ".buttons {border-bottom:1px solid #FFD400;}" +
         ".offbutton {font-family:'Roboto',arial,verdana; font-size: 18px; color:#707070; background: #fff; height: 72px; border:0; padding:0 15px;}" +
-        ".onbutton {font-family:'Roboto',arial,verdana; font-size: 18px; color: #ffffff; background: #da151d; height: 72px; border:0; padding:0 15px;}" +
+        ".onbutton {font-family:'Roboto',arial,verdana; font-size: 18px; color: #ffffff; background: #FFD400; height: 72px; border:0; padding:0 15px;}" +
         "@media only screen and (max-width:900px) {" +
         ".ProductList .FCProdSty4 {padding: 40px 40px;}" +
         ".ListProductStyleProd .DivListDate {width: 18%; margin-left: 0; margin-right:2%}" +
