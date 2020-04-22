@@ -20,6 +20,7 @@
       padding: 10px 20px;
       border-radius: 25px;
       display: inline;
+      cursor: pointer;
     }
     #veja-mais img{
       margin-left:10px;
@@ -30,7 +31,7 @@
     .ativos{
       margin-bottom:50px;
     }
-    .titulo-antigos{
+    .titulo-passados{
       display: inline-block;
       width: 100%;
       padding: 30px 0px;
@@ -43,7 +44,7 @@
 <div class="institut_geral">
   <div class="institut_conteudo">
     <div class="container">
-      <div class="row ativos">
+      <div class="row">
         <div class="col-4">
           <h1>Eventos<br />Comschool</h1>          
         </div>
@@ -56,7 +57,7 @@
           </p>
         </div>
       </div>
-      <div class="row">
+      <div class="row ativos">
         <div class="col-3">
           <div id="ProdDestHome">
             <div class="DivHomeProd" id="DivProd6510382">
@@ -349,5 +350,6 @@
 <script>
   $( "#veja-mais" ).click(function() {
     $( "#antigos" ).slideDown();
+    $( this ).fadeOut();
   });
   </script>
