@@ -175,7 +175,7 @@ a.shop-list-action{display:flex;display:-webkit-flex;align-items:center;-webkit-
 .header-mainbar-flex-search{margin:6px 0 0 10px;}
 .header-mainbar-flex-search button{background-color:transparent;background-repeat:no-repeat;border:none;cursor:pointer;overflow:hidden;outline:none;padding:0;vertical-align: middle;}
 .header-mainbar-flex-search .InputTextBusca{width:80%; height:26px; outline-color:transparent; outline-style:none; padding:0; margin:0; border:0; border-radius:0; background-color:#ffffff; font-family:'Roboto',arial,verdana; font-size:14px; color:#555555}
-#header-mainbar-salavirtual {background: #FFD400; color: #fff; font-size: 14px; display:flex;display:-webkit-flex; align-items: center; -webkit-align-items: center; justify-content: center; -webkit-justify-content: center; width: 140px; height: 40px; border: none; border-radius: 20px; margin: 0 0 0 28px;}
+#header-mainbar-salavirtual {background: #FFD400; color: #000; font-size: 14px; display:flex;display:-webkit-flex; align-items: center; -webkit-align-items: center; justify-content: center; -webkit-justify-content: center; width: 140px; height: 40px; border: none; border-radius: 20px; margin: 0 0 0 28px;}
 #header-mainbar-salavirtual img {margin:0 6px 0 0;}
 #header-mainbar-salavirtual:hover{box-shadow:0 0 10px rgba(255,212,0,0.6);}
 
