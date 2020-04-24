@@ -28,7 +28,13 @@
     #antigos{
       display: none;
     }
-    .ativos{
+    #antigos{
+      display: none;
+    }
+    #antigos .row{
+      margin-bottom: 50px;
+    }
+    #ativos{
       margin-bottom:50px;
     }
     .titulo-passados{
@@ -71,6 +77,8 @@
       margin-top: 10px;
       text-align: center;
       width: 100%;
+      height: 70px;
+      line-height: 18px;
     }
 
     .card .data h3{
@@ -134,7 +142,7 @@
           </p>
         </div>
       </div>
-      <div class="container ativos">
+      <div class="container" id="#ativos">
         <div class="row">
           <div class="col-3">
             <div class="card">
@@ -175,7 +183,7 @@
           </div>
         </div>
       </div>
-      <div class="container antigos">
+      <div class="container" id="antigos">
         <div class="row">
             <div class="col-3">
               <div class="card">
