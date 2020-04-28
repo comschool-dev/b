@@ -42,7 +42,7 @@
     .titulo-passados{
       display: inline-block;
       width: 100%;
-      padding: 30px 0px;
+      padding: 30px 0px; 
       background: #FFD400;
       text-align: center;
       margin-top: 50px;
@@ -540,45 +540,60 @@
       </div>
       <div class="modal-body">
         <!--FORM 1-->
-          <!-- Change or deletion of the name attributes in the input tag will lead to empty values on record submission-->
-          <form action='https://forms.zohopublic.com/comschool1/form/LPEventosParte1/formperma/tNG7hnd4cFuOh6FVyZizu0J9W6dF61KGiIV7Guag8xg/htmlRecords/submit' name='form' id='form1' method='POST' accept-charset='UTF-8' enctype='multipart/form-data'>
+
+
+
+
+        <!-- Change or deletion of the name attributes in the input tag will lead to empty values on record submission-->
+        <form action='https://forms.zohopublic.com/comschool1/form/LPEventosParte1/formperma/tNG7hnd4cFuOh6FVyZizu0J9W6dF61KGiIV7Guag8xg/htmlRecords/submit' name='form' id='form1' method='POST' accept-charset='UTF-8' enctype='multipart/form-data'>
           <input type="hidden" name="zf_referrer_name" value=""><!-- To Track referrals , place the referrer name within the " " in the above hidden input field -->
           <input type="hidden" name="zf_redirect_url" value=""><!-- To redirect to a specific page after record submission , place the respective url within the " " in the above hidden input field -->
           <input type="hidden" name="zc_gad" value=""><!-- If GCLID is enabled in Zoho CRM Integration, click details of AdWords Ads will be pushed to Zoho CRM -->
-          <!--Single Line-->
-          <label>Nome 
-          <em>*</em>
-          </label>
-          <input  type="text" name="SingleLine" value="" fieldType=1 maxlength="255" />
-          <!--Single Line-->
-          <label>Sobrenome 
-          <em>*</em>
-          </label>
-          <input  type="text" name="SingleLine1" value="" fieldType=1 maxlength="255" />
-          <!--Email-->
-          <label>E-mail 
-          <em>*</em>
-          </label>
-          <input type="text" maxlength="255" name="Email" value="" fieldType=9 />
-          <!--Phone-->
-          <label>Whatsapp com DDD
-          <em>*</em>
-          </label>
-          <input type="text" compname="PhoneNumber" name="PhoneNumber_countrycode" phoneFormat="1" isCountryCodeEnabled=false maxlength="20" value="" fieldType=11 id="international_PhoneNumber_countrycode" />
-          <label>Number</label>
-          <!--Single Line-->
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="nome">Nome</label>
+              <input  type="text" class="form-control" name="SingleLine" value="" fieldType=1 maxlength="255" />
+            </div>
+            <div class="form-group col-md-6">
+              <label for="nome">Sobrenome</label>
+              <input  type="text" class="form-control" name="SingleLine1" value="" fieldType=1 maxlength="255" />
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="email">E-mail:</label>
+              <input type="text" class="form-control" maxlength="255" name="Email" value="" fieldType=9 />
+            </div>
+            <div class="form-group col-md-6">
+              <label for="inputPassword4">Whatsapp com DDD</label>
+              <input type="text" class="form-control" compname="PhoneNumber" name="PhoneNumber_countrycode" phoneFormat="1" isCountryCodeEnabled=false maxlength="20" value="" fieldType=11 id="international_PhoneNumber_countrycode" />
+            </div>
+          </div>
+          <button type="submit"><em>Enviar</em></button>
+        </form>
+
+
+
+
+
+
+
+
+
+        
+
+          <!--Single Line--
           <label>Input 
           </label>
-          <input  type="text" name="SingleLine2" value="" fieldType=1 maxlength="255" />
-          <!--Single Line-->
+          <!--<input  type="text" name="SingleLine2" value="" fieldType=1 maxlength="255" />-->
+          <!--Single Line--
           <label>Origem 
           </label>
-          <input  type="text" name="SingleLine3" value="eventos" fieldType=1 maxlength="255" />
-          <!--Single Line-->
+          <!--<input  type="text" name="SingleLine3" value="eventos" fieldType=1 maxlength="255" />-->
+          <!--Single Line--
           <label>Detalhe-Origem 
           </label>
-          <input  type="text" name="SingleLine4" value="eventos" fieldType=1 maxlength="255" />
-          <button type="submit"><em>Submit</em></button></form>
+          <!--<input  type="text" name="SingleLine4" value="eventos" fieldType=1 maxlength="255" />-->
         <!--FIM ORM 1-->
 
 
