@@ -629,8 +629,14 @@
               <input  type="text" name="SingleLine" value="" fieldType=1 maxlength="255" />
             </div>
             <div class="form-group col-md-6">
+              <label for="nome">Área de Atuação</label>
+              <input  type="text" name="SingleLine" value="" fieldType=1 maxlength="255" />
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group col-md-6">
               <label for="nome">Cargo</label>
-              <select name="Dropdown">
+              <select name="Dropdown" class="form-control">
                 <option selected="true" value="-Select-">-Select-</option>
                 <option value="Analista">Analista</option>
                 <option value="Aposentado">Aposentado</option>
@@ -650,15 +656,9 @@
                 <option value="Outros">Outros</option>
               </select>
             </div>
-          </div>
-          <div class="form-row">
             <div class="form-group col-md-6">
-              <label for="nome">Área de Atuação</label>
-              <input  type="text" name="SingleLine" value="" fieldType=1 maxlength="255" />
-            </div>
-            <div class="form-group col-md-6">
-              <label for="nome">Empresa</label>
-              <select name="Dropdown1"><option selected="true" value="-Select-">-Select-</option>
+              <label for="nome">Tipo de Empresa</label>
+              <select name="Dropdown1" class="form-control"><option selected="true" value="-Select-">-Select-</option>
               <option value="Agencias&#x20;ou&#x20;Publicidade&#x20;ou&#x20;Marketing">Agencias ou Publicidade ou Marketing</option>
               <option value="Agricultura&#x20;ou&#x20;Mineracao">Agricultura ou Mineracao</option>
               <option value="Alimentos&#x20;e&#x20;Bebidas">Alimentos e Bebidas</option>
@@ -701,30 +701,6 @@
               </select>
             </div>
           </div>
-          <div class="form-row">
-            <div class="form-group col-md-6">
-              <label for="nome">Cargo</label>
-              <select name="Dropdown">
-                <option selected="true" value="-Select-">-Select-</option>
-                <option value="Analista">Analista</option>
-                <option value="Aposentado">Aposentado</option>
-                <option value="Assistente">Assistente</option>
-                <option value="Consultor">Consultor</option>
-                <option value="Dona&#x20;de&#x20;casa">Dona de casa</option>
-                <option value="Empregado">Empregado</option>
-                <option value="Empresario">Empresario</option>
-                <option value="Estagiario&#x20;ou&#x20;Trainee">Estagiario ou Trainee</option>
-                <option value="Estudante">Estudante</option>
-                <option value="Funcionario&#x20;Publico">Funcionario Publico</option>
-                <option value="Gerente">Gerente</option>
-                <option value="Nao&#x20;Trabalha">Nao Trabalha</option>
-                <option value="Presidente&#x20;ou&#x20;Diretor">Presidente ou Diretor</option>
-                <option value="Profissional&#x20;Liberal">Profissional Liberal</option>
-                <option value="Supervisor&#x20;ou&#x20;Chefia">Supervisor ou Chefia</option>
-                <option value="Outros">Outros</option>
-              </select>
-            </div>
-          </div>
           <button type="submit"><em>Enviar 2</em></button>
         </form>
           <!--Single Line--
@@ -750,7 +726,7 @@
             </div>
             <div class="form-group col-md-6">
               <label for="nome">Estado</label>
-              <select name="Dropdown"><option selected="true" value="-Select-">-Select-</option>
+              <select name="Dropdown" class="form-control"><option selected="true" value="-Select-">-Select-</option>
               <option value="AL">AL</option>
               <option value="AM">AM</option>
               <option value="AP">AP</option>
