@@ -137,6 +137,21 @@
       margin-top: 50px;
       margin-bottom: 50px;
     }
+
+    form button{
+      background:#000;
+      font-size: 14px;
+      text-transform: uppercase;
+      text-align: center;
+      color: #FFD400;
+      transition: .3;
+    }
+
+    form button:hover{
+      background-color: transparent;
+      border:solid 2px rgb(0, 0, 0);
+      color:#000;
+    }
   </style>
 
 <div class="institut_geral">
@@ -552,21 +567,21 @@
           <div class="form-row">
             <div class="form-group col-md-6">
               <label for="nome">Nome</label>
-              <input  type="text" class="form-control" name="SingleLine" value="" fieldType=1 maxlength="255" />
+              <input  type="text" class="form-control" required name="SingleLine" value="" fieldType=1 maxlength="255" />
             </div>
             <div class="form-group col-md-6">
               <label for="nome">Sobrenome</label>
-              <input  type="text" class="form-control" name="SingleLine1" value="" fieldType=1 maxlength="255" />
+              <input  type="text" class="form-control" required name="SingleLine1" value="" fieldType=1 maxlength="255" />
             </div>
           </div>
           <div class="form-row">
             <div class="form-group col-md-6">
               <label for="email">E-mail:</label>
-              <input type="text" class="form-control" maxlength="255" name="Email" value="" fieldType=9 />
+              <input type="text" class="form-control" maxlength="255" required name="Email" value="" fieldType=9 />
             </div>
             <div class="form-group col-md-6">
               <label for="inputPassword4">Whatsapp com DDD</label>
-              <input type="text" class="form-control" compname="PhoneNumber" name="PhoneNumber_countrycode" phoneFormat="1" isCountryCodeEnabled=false maxlength="20" value="" fieldType=11 id="international_PhoneNumber_countrycode" />
+              <input type="text" class="form-control" compname="PhoneNumber" required name="PhoneNumber_countrycode" phoneFormat="1" isCountryCodeEnabled=false maxlength="20" value="" fieldType=11 id="international_PhoneNumber_countrycode" />
             </div>
           </div>
           <button type="submit"><em>Enviar</em></button>
