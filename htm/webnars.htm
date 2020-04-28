@@ -619,176 +619,215 @@
           <input type="hidden" name="zf_referrer_name" value=""><!-- To Track referrals , place the referrer name within the " " in the above hidden input field -->
           <input type="hidden" name="zf_redirect_url" value=""><!-- To redirect to a specific page after record submission , place the respective url within the " " in the above hidden input field -->
           <input type="hidden" name="zc_gad" value=""><!-- If GCLID is enabled in Zoho CRM Integration, click details of AdWords Ads will be pushed to Zoho CRM -->
-          <h2>LP-Eventos-Parte-2</h2>
-          <p></p>
-          <!--Email-->
-          <label>E-mail 
-          <em>*</em>
-          </label>
-          <input type="text" maxlength="255" name="Email" value="" fieldType=9 />
-          <!--Single Line-->
-          <label>Empresa 
-          <em>*</em>
-          </label>
-          <input  type="text" name="SingleLine" value="" fieldType=1 maxlength="255" />
-          <!--Dropdown-->
-          <label>Cargo
-          <em>*</em>
-          </label>
-          <select name="Dropdown"><option selected="true" value="-Select-">-Select-</option>
-          <option value="Analista">Analista</option>
-          <option value="Aposentado">Aposentado</option>
-          <option value="Assistente">Assistente</option>
-          <option value="Consultor">Consultor</option>
-          <option value="Dona&#x20;de&#x20;casa">Dona de casa</option>
-          <option value="Empregado">Empregado</option>
-          <option value="Empresario">Empresario</option>
-          <option value="Estagiario&#x20;ou&#x20;Trainee">Estagiario ou Trainee</option>
-          <option value="Estudante">Estudante</option>
-          <option value="Funcionario&#x20;Publico">Funcionario Publico</option>
-          <option value="Gerente">Gerente</option>
-          <option value="Nao&#x20;Trabalha">Nao Trabalha</option>
-          <option value="Presidente&#x20;ou&#x20;Diretor">Presidente ou Diretor</option>
-          <option value="Profissional&#x20;Liberal">Profissional Liberal</option>
-          <option value="Supervisor&#x20;ou&#x20;Chefia">Supervisor ou Chefia</option>
-          <option value="Outros">Outros</option>
-          </select>
-          <!--Dropdown-->
-          <label>Área de Atuação
-          <em>*</em>
-          </label>
-          <select name="Dropdown1"><option selected="true" value="-Select-">-Select-</option>
-          <option value="Agencias&#x20;ou&#x20;Publicidade&#x20;ou&#x20;Marketing">Agencias ou Publicidade ou Marketing</option>
-          <option value="Agricultura&#x20;ou&#x20;Mineracao">Agricultura ou Mineracao</option>
-          <option value="Alimentos&#x20;e&#x20;Bebidas">Alimentos e Bebidas</option>
-          <option value="Arte&#x20;e&#x20;Antiguidades">Arte e Antiguidades</option>
-          <option value="Artigos&#x20;Religiosos">Artigos Religiosos</option>
-          <option value="Automoveis&#x20;e&#x20;Pecas">Automoveis e Pecas</option>
-          <option value="Bancos&#x20;e&#x20;Financeiras">Bancos e Financeiras</option>
-          <option value="Bebes&#x20;e&#x20;Cia">Bebes e Cia</option>
-          <option value="Brinquedos&#x20;e&#x20;Games">Brinquedos e Games</option>
-          <option value="Casa&#x20;e&#x20;Decoracao">Casa e Decoracao</option>
-          <option value="Comercio&#x20;Exterior">Comercio Exterior</option>
-          <option value="Construcao&#x20;e&#x20;Ferramentas">Construcao e Ferramentas</option>
-          <option value="Conteudo&#x20;Digital">Conteudo Digital</option>
-          <option value="Cosmeticos&#x20;e&#x20;Perfumaria&#x20;ou&#x20;Cuidados&#x20;Pessoais">Cosmeticos e Perfumaria ou Cuidados Pessoais</option>
-          <option value="Educacao&#x20;e&#x20;Universidade">Educacao e Universidade</option>
-          <option value="Eletronicos&#x20;e&#x20;Eletrodomesticos">Eletronicos e Eletrodomesticos</option>
-          <option value="Entretenimento">Entretenimento</option>
-          <option value="Esporte&#x20;e&#x20;Lazer">Esporte e Lazer</option>
-          <option value="Flores&#x20;e&#x20;Cestas&#x20;e&#x20;Presentes">Flores e Cestas e Presentes</option>
-          <option value="Governo&#x20;e&#x20;Setor&#x20;Publico">Governo e Setor Publico</option>
-          <option value="Imoveis">Imoveis</option>
-          <option value="Industria">Industria</option>
-          <option value="Informatica">Informatica</option>
-          <option value="Joalheria">Joalheria</option>
-          <option value="Livros&#x20;e&#x20;Jornais&#x20;ou&#x20;Revistas">Livros e Jornais ou Revistas</option>
-          <option value="Logistica">Logistica</option>
-          <option value="Loja&#x20;de&#x20;departamentos">Loja de departamentos</option>
-          <option value="Midia&#x20;e&#x20;Editorial&#x20;ou&#x20;Comunicacoes">Midia e Editorial ou Comunicacoes</option>
-          <option value="Moda&#x20;e&#x20;Acessorios">Moda e Acessorios</option>
-          <option value="Musica">Musica</option>
-          <option value="Org.&#x20;Sem&#x20;Fins&#x20;Lucrativos">Org. Sem Fins Lucrativos</option>
-          <option value="Pet&#x20;Shop">Pet Shop</option>
-          <option value="Plataformas&#x20;de&#x20;Ecommerce">Plataformas de Ecommerce</option>
-          <option value="Saude">Saude</option>
-          <option value="Servicos">Servicos</option>
-          <option value="Sex&#x20;Shop">Sex Shop</option>
-          <option value="Telefonia&#x20;e&#x20;Celulares">Telefonia e Celulares</option>
-          <option value="Viagens&#x20;e&#x20;Turismo">Viagens e Turismo</option>
-          <option value="Outros">Outros</option>
-          </select>
-          <!--Single Line-->
+          <div class="form-row">
+            <div class="form-group col-md-6 d-none">
+              <label for="nome">Email</label>
+              <input  type="text" name="SingleLine" value="" fieldType=1 maxlength="255" />
+            </div>
+            <div class="form-group col-md-6">
+              <label for="nome">Empresa</label>
+              <input  type="text" name="SingleLine" value="" fieldType=1 maxlength="255" />
+            </div>
+            <div class="form-group col-md-6">
+              <label for="nome">Cargo</label>
+              <select name="Dropdown">
+                <option selected="true" value="-Select-">-Select-</option>
+                <option value="Analista">Analista</option>
+                <option value="Aposentado">Aposentado</option>
+                <option value="Assistente">Assistente</option>
+                <option value="Consultor">Consultor</option>
+                <option value="Dona&#x20;de&#x20;casa">Dona de casa</option>
+                <option value="Empregado">Empregado</option>
+                <option value="Empresario">Empresario</option>
+                <option value="Estagiario&#x20;ou&#x20;Trainee">Estagiario ou Trainee</option>
+                <option value="Estudante">Estudante</option>
+                <option value="Funcionario&#x20;Publico">Funcionario Publico</option>
+                <option value="Gerente">Gerente</option>
+                <option value="Nao&#x20;Trabalha">Nao Trabalha</option>
+                <option value="Presidente&#x20;ou&#x20;Diretor">Presidente ou Diretor</option>
+                <option value="Profissional&#x20;Liberal">Profissional Liberal</option>
+                <option value="Supervisor&#x20;ou&#x20;Chefia">Supervisor ou Chefia</option>
+                <option value="Outros">Outros</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="nome">Área de Atuação</label>
+              <input  type="text" name="SingleLine" value="" fieldType=1 maxlength="255" />
+            </div>
+            <div class="form-group col-md-6">
+              <label for="nome">Empresa</label>
+              <select name="Dropdown1"><option selected="true" value="-Select-">-Select-</option>
+              <option value="Agencias&#x20;ou&#x20;Publicidade&#x20;ou&#x20;Marketing">Agencias ou Publicidade ou Marketing</option>
+              <option value="Agricultura&#x20;ou&#x20;Mineracao">Agricultura ou Mineracao</option>
+              <option value="Alimentos&#x20;e&#x20;Bebidas">Alimentos e Bebidas</option>
+              <option value="Arte&#x20;e&#x20;Antiguidades">Arte e Antiguidades</option>
+              <option value="Artigos&#x20;Religiosos">Artigos Religiosos</option>
+              <option value="Automoveis&#x20;e&#x20;Pecas">Automoveis e Pecas</option>
+              <option value="Bancos&#x20;e&#x20;Financeiras">Bancos e Financeiras</option>
+              <option value="Bebes&#x20;e&#x20;Cia">Bebes e Cia</option>
+              <option value="Brinquedos&#x20;e&#x20;Games">Brinquedos e Games</option>
+              <option value="Casa&#x20;e&#x20;Decoracao">Casa e Decoracao</option>
+              <option value="Comercio&#x20;Exterior">Comercio Exterior</option>
+              <option value="Construcao&#x20;e&#x20;Ferramentas">Construcao e Ferramentas</option>
+              <option value="Conteudo&#x20;Digital">Conteudo Digital</option>
+              <option value="Cosmeticos&#x20;e&#x20;Perfumaria&#x20;ou&#x20;Cuidados&#x20;Pessoais">Cosmeticos e Perfumaria ou Cuidados Pessoais</option>
+              <option value="Educacao&#x20;e&#x20;Universidade">Educacao e Universidade</option>
+              <option value="Eletronicos&#x20;e&#x20;Eletrodomesticos">Eletronicos e Eletrodomesticos</option>
+              <option value="Entretenimento">Entretenimento</option>
+              <option value="Esporte&#x20;e&#x20;Lazer">Esporte e Lazer</option>
+              <option value="Flores&#x20;e&#x20;Cestas&#x20;e&#x20;Presentes">Flores e Cestas e Presentes</option>
+              <option value="Governo&#x20;e&#x20;Setor&#x20;Publico">Governo e Setor Publico</option>
+              <option value="Imoveis">Imoveis</option>
+              <option value="Industria">Industria</option>
+              <option value="Informatica">Informatica</option>
+              <option value="Joalheria">Joalheria</option>
+              <option value="Livros&#x20;e&#x20;Jornais&#x20;ou&#x20;Revistas">Livros e Jornais ou Revistas</option>
+              <option value="Logistica">Logistica</option>
+              <option value="Loja&#x20;de&#x20;departamentos">Loja de departamentos</option>
+              <option value="Midia&#x20;e&#x20;Editorial&#x20;ou&#x20;Comunicacoes">Midia e Editorial ou Comunicacoes</option>
+              <option value="Moda&#x20;e&#x20;Acessorios">Moda e Acessorios</option>
+              <option value="Musica">Musica</option>
+              <option value="Org.&#x20;Sem&#x20;Fins&#x20;Lucrativos">Org. Sem Fins Lucrativos</option>
+              <option value="Pet&#x20;Shop">Pet Shop</option>
+              <option value="Plataformas&#x20;de&#x20;Ecommerce">Plataformas de Ecommerce</option>
+              <option value="Saude">Saude</option>
+              <option value="Servicos">Servicos</option>
+              <option value="Sex&#x20;Shop">Sex Shop</option>
+              <option value="Telefonia&#x20;e&#x20;Celulares">Telefonia e Celulares</option>
+              <option value="Viagens&#x20;e&#x20;Turismo">Viagens e Turismo</option>
+              <option value="Outros">Outros</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="nome">Cargo</label>
+              <select name="Dropdown">
+                <option selected="true" value="-Select-">-Select-</option>
+                <option value="Analista">Analista</option>
+                <option value="Aposentado">Aposentado</option>
+                <option value="Assistente">Assistente</option>
+                <option value="Consultor">Consultor</option>
+                <option value="Dona&#x20;de&#x20;casa">Dona de casa</option>
+                <option value="Empregado">Empregado</option>
+                <option value="Empresario">Empresario</option>
+                <option value="Estagiario&#x20;ou&#x20;Trainee">Estagiario ou Trainee</option>
+                <option value="Estudante">Estudante</option>
+                <option value="Funcionario&#x20;Publico">Funcionario Publico</option>
+                <option value="Gerente">Gerente</option>
+                <option value="Nao&#x20;Trabalha">Nao Trabalha</option>
+                <option value="Presidente&#x20;ou&#x20;Diretor">Presidente ou Diretor</option>
+                <option value="Profissional&#x20;Liberal">Profissional Liberal</option>
+                <option value="Supervisor&#x20;ou&#x20;Chefia">Supervisor ou Chefia</option>
+                <option value="Outros">Outros</option>
+              </select>
+            </div>
+          </div>
+          <button type="submit"><em>Enviar 2</em></button>
+        </form>
+          <!--Single Line--
           <label>Input 
           </label>
           <input  type="text" name="SingleLine1" value="" fieldType=1 maxlength="255" />
-          <button type="submit"><em>Submit</em></button></form>
         <!--FIM FORM 2-->
 
 
         <!--FORM 3-->
+
+
+
           <!-- Change or deletion of the name attributes in the input tag will lead to empty values on record submission-->
-          <form action='https://forms.zohopublic.com/comschool1/form/LPEventosParte3/formperma/A4G7CoK58eK3PePdL8XQL_N6J2UXL9d0myeKGKzB-fQ/htmlRecords/submit' name='form' id='form3' method='POST' accept-charset='UTF-8' enctype='multipart/form-data'>
-            <input type="hidden" name="zf_referrer_name" value=""><!-- To Track referrals , place the referrer name within the " " in the above hidden input field -->
-            <input type="hidden" name="zf_redirect_url" value=""><!-- To redirect to a specific page after record submission , place the respective url within the " " in the above hidden input field -->
-            <input type="hidden" name="zc_gad" value=""><!-- If GCLID is enabled in Zoho CRM Integration, click details of AdWords Ads will be pushed to Zoho CRM -->
-            <h2>LP-Eventos-Parte-3</h2>
-            <p></p>
-            <!--Email-->
-            <label>E-mail 
-            <em>*</em>
-            </label>
-            <input type="text" maxlength="255" name="Email" value="" fieldType=9 />
-            <!--Dropdown-->
-            <label>Estado
-            <em>*</em>
-            </label>
-            <select name="Dropdown"><option selected="true" value="-Select-">-Select-</option>
-            <option value="AL">AL</option>
-            <option value="AM">AM</option>
-            <option value="AP">AP</option>
-            <option value="BA">BA</option>
-            <option value="CE">CE</option>
-            <option value="DF">DF</option>
-            <option value="ES">ES</option>
-            <option value="GO">GO</option>
-            <option value="MA">MA</option>
-            <option value="MG">MG</option>
-            <option value="MS">MS</option>
-            <option value="MT">MT</option>
-            <option value="PA">PA</option>
-            <option value="PE">PE</option>
-            <option value="PB">PB</option>
-            <option value="PI">PI</option>
-            <option value="PR">PR</option>
-            <option value="RJ">RJ</option>
-            <option value="RN">RN</option>
-            <option value="RO">RO</option>
-            <option value="RR">RR</option>
-            <option value="RS">RS</option>
-            <option value="SC">SC</option>
-            <option value="SE">SE</option>
-            <option value="SP">SP</option>
-            <option value="TO">TO</option>
-            <option value="Outro&#x20;Pais">Outro Pais</option>
-            </select>
-            <!--Radio-->
-            <label>Tem E-commerce
-            <em>*</em>
-            </label>
-            <input type="radio" id="Radio_1" name="Radio" value="Sim">
-            <label for="Radio_1" >Sim</label>
-            <input type="radio" id="Radio_2" name="Radio" value="N&atilde;o">
-            <label for="Radio_2" >N&atilde;o</label>
-            <!--Radio-->
-            <label>Possui interesse em saber mais sobre E-commerce?
-            <em>*</em>
-            </label>
-            <input type="radio" id="Radio1_1" name="Radio1" value="Sim">
-            <label for="Radio1_1" >Sim</label>
-            <input type="radio" id="Radio1_2" name="Radio1" value="N&atilde;o">
-            <label for="Radio1_2" >N&atilde;o</label>
-            <!--Radio-->
-            <label>Possui interesse em saber mais sobre Marketing Digital?
-            </label>
-            <input type="radio" id="Radio2_1" name="Radio2" value="Sim">
-            <label for="Radio2_1" >Sim</label>
-            <input type="radio" id="Radio2_2" name="Radio2" value="N&atilde;o">
-            <label for="Radio2_2" >N&atilde;o</label>
-            <!--Radio-->
-            <label>Possui interesse em saber mais sobre Mídias Sociais?
-            <em>*</em>
-            </label>
-            <input type="radio" id="Radio3_1" name="Radio3" value="Sim">
-            <label for="Radio3_1" >Sim</label>
-            <input type="radio" id="Radio3_2" name="Radio3" value="N&atilde;o">
-            <label for="Radio3_2" >N&atilde;o</label>
-            <!--Single Line-->
+        <form action='https://forms.zohopublic.com/comschool1/form/LPEventosParte3/formperma/A4G7CoK58eK3PePdL8XQL_N6J2UXL9d0myeKGKzB-fQ/htmlRecords/submit' name='form' id='form3' method='POST' accept-charset='UTF-8' enctype='multipart/form-data'>
+          <input type="hidden" name="zf_referrer_name" value=""><!-- To Track referrals , place the referrer name within the " " in the above hidden input field -->
+          <input type="hidden" name="zf_redirect_url" value=""><!-- To redirect to a specific page after record submission , place the respective url within the " " in the above hidden input field -->
+          <input type="hidden" name="zc_gad" value=""><!-- If GCLID is enabled in Zoho CRM Integration, click details of AdWords Ads will be pushed to Zoho CRM -->
+          <div class="form-row">
+            <div class="form-group col-md-6 d-none">
+              <label for="nome">E-mail</label>
+              <input type="text" maxlength="255" name="Email" value="" fieldType=9 />
+            </div>
+            <div class="form-group col-md-6">
+              <label for="nome">Estado</label>
+              <select name="Dropdown"><option selected="true" value="-Select-">-Select-</option>
+              <option value="AL">AL</option>
+              <option value="AM">AM</option>
+              <option value="AP">AP</option>
+              <option value="BA">BA</option>
+              <option value="CE">CE</option>
+              <option value="DF">DF</option>
+              <option value="ES">ES</option>
+              <option value="GO">GO</option>
+              <option value="MA">MA</option>
+              <option value="MG">MG</option>
+              <option value="MS">MS</option>
+              <option value="MT">MT</option>
+              <option value="PA">PA</option>
+              <option value="PE">PE</option>
+              <option value="PB">PB</option>
+              <option value="PI">PI</option>
+              <option value="PR">PR</option>
+              <option value="RJ">RJ</option>
+              <option value="RN">RN</option>
+              <option value="RO">RO</option>
+              <option value="RR">RR</option>
+              <option value="RS">RS</option>
+              <option value="SC">SC</option>
+              <option value="SE">SE</option>
+              <option value="SP">SP</option>
+              <option value="TO">TO</option>
+              <option value="Outro&#x20;Pais">Outro Pais</option>
+              </select>
+            </div>
+            <div class="form-group col-md-6">
+              <label for="temecommerce">Tem E-commerce:</label>
+              <input type="radio" id="Radio_1" name="Radio" value="Sim">
+              <label for="Radio_1" >Sim</label>
+              <input type="radio" id="Radio_2" name="Radio" value="N&atilde;o">
+              <label for="Radio_2" >N&atilde;o</label>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="inputPassword4">Possui interesse em saber mais sobre E-commerce?</label>
+              <input type="radio" id="Radio1_1" name="Radio1" value="Sim">
+              <label for="Radio1_1" >Sim</label>
+              <input type="radio" id="Radio1_2" name="Radio1" value="N&atilde;o">
+              <label for="Radio1_2" >N&atilde;o</label>
+            </div>
+            <div class="form-group col-md-6">
+              <label for="inputPassword4">Possui interesse em saber mais sobre Marketing Digital?</label>
+              <input type="radio" id="Radio2_1" name="Radio2" value="Sim">
+              <label for="Radio2_1" >Sim</label>
+              <input type="radio" id="Radio2_2" name="Radio2" value="N&atilde;o">
+              <label for="Radio2_2" >N&atilde;o</label>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="inputPassword4">Possui interesse em saber mais sobre Mídias Sociais?</label>
+              <input type="radio" id="Radio3_1" name="Radio3" value="Sim">
+              <label for="Radio3_1" >Sim</label>
+              <input type="radio" id="Radio3_2" name="Radio3" value="N&atilde;o">
+              <label for="Radio3_2" >N&atilde;o</label>
+            </div>
+            <div class="form-group col-md-6">
+              <label for="inputPassword4">Possui interesse em saber mais sobre Marketing Digital?</label>
+              <input type="radio" id="Radio2_1" name="Radio2" value="Sim">
+              <label for="Radio2_1" >Sim</label>
+              <input type="radio" id="Radio2_2" name="Radio2" value="N&atilde;o">
+              <label for="Radio2_2" >N&atilde;o</label>
+            </div>
+          </div>
+          <button type="submit"><em>Enviar</em></button>
+        </form>
+        
+            <!--Single Line
             <label>Input 
             <em>*</em>
             </label>
-            <input  type="text" name="SingleLine" value="" fieldType=1 maxlength="255" />
-            <button type="submit"><em>Submit</em></button></form>
+            <input  type="text" name="SingleLine" value="" fieldType=1 maxlength="255" />-->
         <!--FIM FORM 3-->
       </div>
     </div>
