@@ -221,6 +221,7 @@ jQuery(document).ready(function ($) {
         ".ListProductStyleProd .DivListProductStyleDet {display:block; background:#ffffff; clear:both; border-radius: 20px; -webkit-border-radius: 20px; -moz-border-radius: 20px; width:130px; height:20px; -webkit-box-shadow: 0 0 5px 0 rgba(0,0,0,.25); -moz-box-shadow: 0 0 5px 0 rgba(0,0,0,.25); box-shadow: 0 0 5px 0 rgba(0,0,0,.25);}" +
         ".ListProductStyleProd a .DivListProductStyleDet {font-family:'Roboto',arial,verdana;font-size:16px; font-weight:700; color:#da151d; text-align: center;}" +
         ".ListProductStyleProd .ListProductStyleNomeProd {margin:1px 0 0 0; font-size: 18px;}" +
+        ".ListProductStyleProd .ListProductStyleNomeProd a {color:#707070; text-decoration:none;}" +
         ".ListProductStyleProd .ListProductStyleDesc {margin:15px 0 0 0; font-size: 14px;}" +
         ".ListProductStyleProd .DivListDate {width: 18%; margin-left:2%; font-size: 18px; display:flex; display:-webkit-flex; align-items:center; -webkit-align-items:center; justify-content:flex-start; -webkit-justify-content:flex-start;}" +
         ".ListProductStyleProd .DivListDesc {width: 60%;}" +
@@ -230,13 +231,13 @@ jQuery(document).ready(function ($) {
         ".estNextPageButFC:after {content: 'VER MAIS CURSOS';}" +
         ".hideFromList {display: none;}" +
         ".listClass {color: #fff; background:#707070; text-align: center; display: inline-block; padding: 2px 5px; margin-bottom: 5px; font-size:12px; text-transform:uppercase;}" +
-        ".redCat{background:#da151d}" +
-        ".blueCat{background:#23aee8}" +
-        ".greenCat{background:#569c58}" +
+        ".redCat{background:#008C61}" +
+        ".blueCat{background:#F7343E}" +
+        ".greenCat{background:#2C60C6}" +
         ".goldCat{background:#d0b500}" +
-        ".buttons {border-bottom:1px solid #da151d;}" +
+        ".buttons {border-bottom:1px solid #FFD400;}" +
         ".offbutton {font-family:'Roboto',arial,verdana; font-size: 18px; color:#707070; background: #fff; height: 72px; border:0; padding:0 15px;}" +
-        ".onbutton {font-family:'Roboto',arial,verdana; font-size: 18px; color: #ffffff; background: #da151d; height: 72px; border:0; padding:0 15px;}" +
+        ".onbutton {font-family:'Roboto',arial,verdana; font-size: 18px; color: #ffffff; background: #FFD400; height: 72px; border:0; padding:0 15px;}" +
         "@media only screen and (max-width:900px) {" +
         ".ProductList .FCProdSty4 {padding: 40px 40px;}" +
         ".ListProductStyleProd .DivListDate {width: 18%; margin-left: 0; margin-right:2%}" +
@@ -249,6 +250,7 @@ jQuery(document).ready(function ($) {
         ".ListProductStyleProd .DivListMore {width: 10%; justify-content: center; -webkit-justify-content: center;}" +
         ".ListProductStyleProd a .DivListProductStyleDet {text-indent: -9999px; line-height: 0; font-size: 20px; width: 40px; height: 34px; padding: 6px 0 0 0;}" +
         ".ListProductStyleProd a .DivListProductStyleDet:after {content:'+'; text-indent: 0; line-height: initial; display:block;}" +
+        ".filtro-cidade.all {width:100%;}" +
         "}" +
         "@media only screen and (max-width:670px) {" +
         ".ListProductStyleProd .DivListDate {width: 20%; font-size: 16px;}" +
@@ -269,7 +271,7 @@ jQuery(document).ready(function ($) {
         "@media only screen and (max-width:480px) {" +
         ".offbutton {font-size: 14px;}" +
         ".onbutton {font-size: 14px;}" +
-        ".DivListProd {margin: 0 0 0 0; padding: 20px 0;}" +
+        ".DivListProd {margin: 0 0 0 0; padding: 20px 0; }" +
         ".ListProductStyleProd {flex-wrap: wrap;}" +
         ".ListProductStyleProd .DivListDate {width: 100%; margin: 0 0 10px 0; font-size:14px;}" +
         ".ListProductStyleProd .DivListDesc {width: 76%;}" +

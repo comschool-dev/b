@@ -175,9 +175,13 @@ a.shop-list-action{display:flex;display:-webkit-flex;align-items:center;-webkit-
 .header-mainbar-flex-search{margin:6px 0 0 10px;}
 .header-mainbar-flex-search button{background-color:transparent;background-repeat:no-repeat;border:none;cursor:pointer;overflow:hidden;outline:none;padding:0;vertical-align: middle;}
 .header-mainbar-flex-search .InputTextBusca{width:80%; height:26px; outline-color:transparent; outline-style:none; padding:0; margin:0; border:0; border-radius:0; background-color:#ffffff; font-family:'Roboto',arial,verdana; font-size:14px; color:#555555}
-#header-mainbar-salavirtual {background: #23aee8; color: #fff; font-size: 14px; display:flex;display:-webkit-flex; align-items: center; -webkit-align-items: center; justify-content: center; -webkit-justify-content: center; width: 140px; height: 40px; border: none; border-radius: 20px; margin: 0 0 0 28px;}
+#header-mainbar-salavirtual {background: #FFD400; color: #000; font-size: 14px; display:flex;display:-webkit-flex; align-items: center; -webkit-align-items: center; justify-content: center; -webkit-justify-content: center; width: 140px; height: 40px; border: none; border-radius: 20px; margin: 0 0 0 28px;}
 #header-mainbar-salavirtual img {margin:0 6px 0 0;}
-#header-mainbar-salavirtual:hover{box-shadow:0 0 10px rgba(35,174,232,0.6);}
+#header-mainbar-salavirtual:hover{box-shadow:0 0 10px rgba(255,212,0,0.6);}
+
+.st1 {
+  fill: none;
+}
 
 /* Header SideNav - Menu Mobile */
 .header-sidenav {height:100%;width:290px;position:fixed;top:0;left:-290px;background-color:#fff;overflow-x:hidden;transition:0.5s;z-index:999999}
@@ -187,7 +191,7 @@ div.closebtn{cursor:pointer}
 .header-sidenav-link {border-bottom:1px solid #e2e2e2; min-height:20px; padding:15px 0 15px 20px; text-decoration:none; font-size:16px; line-height:20px; color:#707070; display:block; transition:0.3s}
 .header-sidenav-link:hover,.offcanvas a:focus {color:#555}
 .header-sidenav-sala-virtual {border-bottom:1px solid #e2e2e2; min-height:20px; padding:15px 0 15px 50px; text-decoration:none; font-size:18px; font-weight:700; line-height:28px; color:#23AEE8; display:block; transition:0.3s; background:url('../images/ic_menu_sala_virtual.svg') no-repeat left top scroll;}
-.header-sidenav-sala_virtual:hover {color:#23AEE8}
+.header-sidenav-sala_virtual:hover {color:#000}
 .header-sidenav-phone {border-bottom:1px solid #e2e2e2; min-height:20px; padding:15px 0 15px 50px; text-decoration:none; font-size:16px; line-height:28px; color:#707070; display:block; transition:0.3s; background:url('../images/ic_menu_fone.svg') no-repeat left top scroll; background-color:#f7f7f7;}
 .header-sidenav-phone:hover {color:#555}
 .header-sidenav-whats {border-bottom:1px solid #e2e2e2; min-height:20px; padding:15px 0 15px 50px; text-decoration:none; font-size:16px; line-height:20px; color:#ffffff; display:block; transition:0.3s; background:url('../images/ic_menu_whatsapp.svg') no-repeat left top scroll; background-color:#1bd741;}
@@ -238,9 +242,12 @@ h1.MainHomeBoxTitFC-line:before,h1.MainHomeBoxTitFC-line:after{background-color:
 h1.MainHomeBoxTitFC-line:before{right:0.5em;margin-left:-50%}
 h1.MainHomeBoxTitFC-line:after{left:0.5em;margin-right:-50%}
 .MainHomeBoxTitFC1, .MainHomeBoxTitFC2, .MainHomeBoxTitFC3 {display:flex;display:-webkit-flex; justify-content: space-between; -webkit-justify-content: space-between; align-items: center; -webkit-align-items: center; max-width:1306px; margin:30px auto 20px auto; padding:0 0 5px 0;}
-.MainHomeBoxTitFC1 {border-bottom:2px solid #569c58;}
-.MainHomeBoxTitFC2 {border-bottom:2px solid #da151d;}
-.MainHomeBoxTitFC3 {border-bottom:2px solid #23aee8;}
+.MainHomeBoxTitFC1 {border-bottom:2px solid #2C60C6;}
+.MainHomeBoxTitFC1 h2{color: #2C60C6;}
+.MainHomeBoxTitFC2 {border-bottom:2px solid #008C61;}
+.MainHomeBoxTitFC2 h2{color: #008C61;}
+.MainHomeBoxTitFC3 {border-bottom:2px solid #F7343E;}
+.MainHomeBoxTitFC3 h2{color: #F7343E;}
 .MainHomeSubTitFC {max-width:1306px; margin:80px auto 0 auto; text-align:center;}
 .MainHomeSubTitFC2 {max-width:1306px; margin:20px auto; text-align:center;}
 .MainHomeSeeMore {display:flex;display:-webkit-flex; align-items: center; -webkit-align-items: center; font-size:14px; color:#707070; cursor:pointer;}
@@ -328,24 +335,24 @@ button {cursor: pointer; outline-color: transparent; outline-style: none;}
 .zf-home-cursos br {display:none;}
 .zf-home-cursos1, .zf-home-cursos2, .zf-home-cursos3, .zf-home-cursos4 {display: flex; display:-webkit-flex; align-items: center; -webkit-align-items: center; justify-content: center;  -webkit-justify-content: center; background:#fff; color:#707070;  width: 23%; height:46px; border-radius:23px; cursor:pointer;}
 /* Botao Cursos 1 */
-.zf-home-cursos1 {border:1px solid #569c58;}
-.zf-home-cursos1 svg {fill:#569c58; margin:0 7px 0 0;}
-.zf-home-cursos1:hover {background: #569c58; color:#fff; box-shadow:0 0 11px rgba(86,156,88,.7);}
+.zf-home-cursos1 {border:1px solid #2C60C6;}
+.zf-home-cursos1 svg {fill:#2C60C6; margin:0 7px 0 0; width:27px; height:27px;}
+.zf-home-cursos1:hover {background: #2C60C6; color:#fff; box-shadow:0 0 11px rgba(46,96,198,.7);}
 .zf-home-cursos1:hover svg {fill:#ffffff}
 /* Botao Cursos 2 */
-.zf-home-cursos2 {border:1px solid #da151d;}
-.zf-home-cursos2 svg {fill:#da151d; margin:0 7px 0 0;}
-.zf-home-cursos2:hover{background: #da151d; color:#fff; box-shadow:0 0 11px rgba(218,21,29,.7);}
+.zf-home-cursos2 {border:1px solid #008C61;}
+.zf-home-cursos2 svg {fill:#008C61; margin:0 7px 0 0; width:27px; height:27px;}
+.zf-home-cursos2:hover{background: #008C61; color:#fff; box-shadow:0 0 11px rgba(0,140,97,.7);}
 .zf-home-cursos2:hover svg {fill:#ffffff}
 /* Botao Cursos 3 */
-.zf-home-cursos3 {border:1px solid #23aee8;}
-.zf-home-cursos3 svg {fill:#23aee8; margin:0 7px 0 0;}
-.zf-home-cursos3:hover{background: #23aee8; color:#fff; box-shadow:0 0 11px rgba(35,174,232,.7);}
+.zf-home-cursos3 {border:1px solid #F7343E;}
+.zf-home-cursos3 svg {fill:#F7343E; margin:0 7px 0 0; width:27px; height:27px;}
+.zf-home-cursos3:hover{background: #F7343E; color:#fff; box-shadow:0 0 11px rgba(247,52,62,.7);}
 .zf-home-cursos3:hover svg {fill:#ffffff}
 /* Botao Cursos 4 */
-.zf-home-cursos4 {border:1px solid #d0b500;}
-.zf-home-cursos4 svg {fill:#d0b500; margin:0 7px 0 0;}
-.zf-home-cursos4:hover{background: #d0b500; color:#fff; box-shadow:0 0 11px rgba(208,181,0,.7);}
+.zf-home-cursos4 {border:1px solid #FF6F27;}
+.zf-home-cursos4 svg {fill:#FF6F27; margin:0 7px 0 0; width:27px; height:27px;}
+.zf-home-cursos4:hover{background: #FF6F27; color:#fff; box-shadow:0 0 11px rgba(255,111,39,.7);}
 .zf-home-cursos4:hover svg {fill:#ffffff}
 
 /* Aside */
