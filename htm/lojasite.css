@@ -175,9 +175,13 @@ a.shop-list-action{display:flex;display:-webkit-flex;align-items:center;-webkit-
 .header-mainbar-flex-search{margin:6px 0 0 10px;}
 .header-mainbar-flex-search button{background-color:transparent;background-repeat:no-repeat;border:none;cursor:pointer;overflow:hidden;outline:none;padding:0;vertical-align: middle;}
 .header-mainbar-flex-search .InputTextBusca{width:80%; height:26px; outline-color:transparent; outline-style:none; padding:0; margin:0; border:0; border-radius:0; background-color:#ffffff; font-family:'Roboto',arial,verdana; font-size:14px; color:#555555}
-#header-mainbar-salavirtual {background: #FFD400; color: #fff; font-size: 14px; display:flex;display:-webkit-flex; align-items: center; -webkit-align-items: center; justify-content: center; -webkit-justify-content: center; width: 140px; height: 40px; border: none; border-radius: 20px; margin: 0 0 0 28px;}
+#header-mainbar-salavirtual {background: #FFD400; color: #000; font-size: 14px; display:flex;display:-webkit-flex; align-items: center; -webkit-align-items: center; justify-content: center; -webkit-justify-content: center; width: 140px; height: 40px; border: none; border-radius: 20px; margin: 0 0 0 28px;}
 #header-mainbar-salavirtual img {margin:0 6px 0 0;}
 #header-mainbar-salavirtual:hover{box-shadow:0 0 10px rgba(255,212,0,0.6);}
+
+.st1 {
+  fill: none;
+}
 
 /* Header SideNav - Menu Mobile */
 .header-sidenav {height:100%;width:290px;position:fixed;top:0;left:-290px;background-color:#fff;overflow-x:hidden;transition:0.5s;z-index:999999}
@@ -332,22 +336,22 @@ button {cursor: pointer; outline-color: transparent; outline-style: none;}
 .zf-home-cursos1, .zf-home-cursos2, .zf-home-cursos3, .zf-home-cursos4 {display: flex; display:-webkit-flex; align-items: center; -webkit-align-items: center; justify-content: center;  -webkit-justify-content: center; background:#fff; color:#707070;  width: 23%; height:46px; border-radius:23px; cursor:pointer;}
 /* Botao Cursos 1 */
 .zf-home-cursos1 {border:1px solid #2C60C6;}
-.zf-home-cursos1 svg {fill:#2C60C6; margin:0 7px 0 0;}
+.zf-home-cursos1 svg {fill:#2C60C6; margin:0 7px 0 0; width:27px; height:27px;}
 .zf-home-cursos1:hover {background: #2C60C6; color:#fff; box-shadow:0 0 11px rgba(46,96,198,.7);}
 .zf-home-cursos1:hover svg {fill:#ffffff}
 /* Botao Cursos 2 */
 .zf-home-cursos2 {border:1px solid #008C61;}
-.zf-home-cursos2 svg {fill:#008C61; margin:0 7px 0 0;}
+.zf-home-cursos2 svg {fill:#008C61; margin:0 7px 0 0; width:27px; height:27px;}
 .zf-home-cursos2:hover{background: #008C61; color:#fff; box-shadow:0 0 11px rgba(0,140,97,.7);}
 .zf-home-cursos2:hover svg {fill:#ffffff}
 /* Botao Cursos 3 */
 .zf-home-cursos3 {border:1px solid #F7343E;}
-.zf-home-cursos3 svg {fill:#F7343E; margin:0 7px 0 0;}
+.zf-home-cursos3 svg {fill:#F7343E; margin:0 7px 0 0; width:27px; height:27px;}
 .zf-home-cursos3:hover{background: #F7343E; color:#fff; box-shadow:0 0 11px rgba(247,52,62,.7);}
 .zf-home-cursos3:hover svg {fill:#ffffff}
 /* Botao Cursos 4 */
 .zf-home-cursos4 {border:1px solid #FF6F27;}
-.zf-home-cursos4 svg {fill:#FF6F27; margin:0 7px 0 0;}
+.zf-home-cursos4 svg {fill:#FF6F27; margin:0 7px 0 0; width:27px; height:27px;}
 .zf-home-cursos4:hover{background: #FF6F27; color:#fff; box-shadow:0 0 11px rgba(255,111,39,.7);}
 .zf-home-cursos4:hover svg {fill:#ffffff}
 

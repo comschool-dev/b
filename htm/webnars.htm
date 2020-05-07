@@ -1,0 +1,788 @@
+
+    
+<head>
+  <title>Eventos de E-commerce</title>
+  <meta name="description" content="Os principais eventos e datas comemorativas no e-commerce do Brasil. Saiba quais eventos de e-commerce estão em alta e quando acontecem. Quais as principais dat"/> 
+  <meta name="abstract" content="Cursos de Marketing Digital e Cursos de E-commerce"/>
+  <meta name="author" content="ComSchool - Cursos de Marketing Digital e Cursos de E-commerce"/>
+</head>
+<link rel="stylesheet" href="<baseloja>htm/css/intitucionais.css" media="screen">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <style>
+    #veja-mais{
+      background:#000;
+      font-size: 14px;
+      text-transform: uppercase;
+      text-align: center;
+      color: #FFD400;
+      margin: 15px auto;
+      padding: 10px 20px;
+      border-radius: 25px;
+      display: inline;
+      cursor: pointer;
+    }
+    #veja-mais img{
+      margin-left:10px;
+    }
+    #ativos{
+      display: none !important;
+    }
+    #antigos{
+      display: block;
+      margin-top: 124px;
+      transition: 1s;
+    }
+    #antigos .row-bloco{
+      margin-bottom: 50px;
+    }
+    #ativos{
+      margin-bottom:50px;
+    }
+    .titulo-passados{
+      display: inline-block;
+      width: 100%;
+      padding: 30px 0px; 
+      background: #FFD400;
+      text-align: center;
+      margin-top: 50px;
+      margin-bottom: 50px;
+      margin-left: 0;
+    }
+    .titulo-passados h2{
+      color:#000;
+      text-transform: uppercase;
+
+    }
+
+    .card{
+      cursor: pointer;
+      height: auto;
+      -webkit-box-shadow: 0 0 7px 0 rgba(0,0,0,.25);
+      -moz-box-shadow: 0 0 7px 0 rgba(0,0,0,.25);
+      box-shadow: 0 0 7px 0 rgba(0,0,0,.25);
+      transition: .3s;
+    }
+
+    .card:hover{
+      -webkit-box-shadow: 0 0 7px 0 rgba(218, 21, 29);
+      -moz-box-shadow: 0 0 7px 0 rgba(218, 21, 29);
+      box-shadow: 0 0 7px 0 rgba(218, 21, 29);
+    }
+
+    .card .imagem{
+      width: 100%;
+      overflow: hidden;
+      display: flex;
+      display: -webkit-flex;
+      align-items: flex-end;
+      -webkit-align-item: flex-end;
+    }
+
+    .card .titulo h2{
+      display: inline-block;
+      font-size:18px;
+      font-weight: bold;
+      margin-top: 10px;
+      text-align: center;
+      width: 100%;
+      height: 70px;
+      line-height: 18px;
+    }
+
+    .card .data h3{
+      font-size: 24px;
+      color: #000;
+      margin: 10px -15px 0 0;
+      height: 80px;
+      text-align: center;
+    }
+
+    .card .texto{
+      text-align: left;
+      font-size: 14px;
+      line-height: 16px;
+      color: #707070;
+      margin: 10px 0;
+      height: 80px;
+      overflow: hidden;
+    }
+
+    .card .btn-assine{
+      display: inline-block;
+      width: 100%;
+      text-align: center;
+    }
+
+    .card .btn-inscreva{
+      font-size: 14px;
+      text-transform: uppercase;
+      text-align: center;
+      color: rgb(255, 255, 255);
+      background-color: rgb(218, 21, 29);
+      width: 150px;
+      margin: 5px auto 20px auto;
+      padding: 5px 10px;
+      border-radius: 18px;
+      border:solid 2px rgb(255, 255, 255);
+      transition: .3s;
+    }
+
+    .card .btn-inscreva:hover{
+      background-color: transparent;
+      border:solid 2px rgb(218, 21, 29);
+      color:#000;
+    }
+    .row-btn{
+      margin-top: 50px;
+      margin-bottom: 50px;
+    }
+
+    form button{
+      background:#000;
+      font-size: 14px;
+      text-transform: uppercase;
+      text-align: center;
+      color: #FFD400;
+      transition: .3;
+    }
+
+    form button:hover{
+      background-color: transparent;
+      border:solid 2px rgb(0, 0, 0);
+      color:#000;
+    }
+  </style>
+
+<div class="institut_geral">
+  <div class="institut_conteudo">
+    <div class="container">
+      <div class="row">
+        <div class="col-4">
+          <h1>Eventos<br />Comschool</h1>          
+        </div>
+        <div class="col-8">
+          <p>
+            Os Cursos de Marketing Digital da ComSchool são os únicos no Brasil com foco em Alta Performance. Cursos de Marketing Digital onde você aprende na prática a configurar campanhas, gerar e analisar relatórios personalizados, capturar mais leads para sua empresa e aumentar o Retorno sobre o Investimento nas campanhas de marketing online.
+          </p>
+          <p>
+            Na ComSchool você pode fazer os Cursos de Marketing Digital na modalidade presencial ou assistir ao vivo pela Internet. Os cursos de Marketing Digital tem Certificados Reconhecidos pela Associação Brasileira de Comércio Eletrônico, ABComm. Também são os únicos cursos que dão direito a você usar o Selo Profissional de Marketing Digital Certificado.
+          </p>
+        </div>
+      </div>
+      <!--<div class="container" id="#ativos">
+        <div class="row">
+          <div class="col-3">
+            <div class="card">
+              <div class="container">
+                <div class="row">
+                  <div class="imagem">
+                    <img alt="Evento Vendas no WhatsApp" src="../lojas/00040121/prod/Como-abrir-um-ecommerce-e-vender-mais-pela-internet.jpg">
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-12">
+                    <div class="titulo">
+                      <h2>Empreendedorismo Digital: Dicas, estratégias e oportunidades</h2> 
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-3 data">
+                    <h3>abr<br />28</h3>
+                  </div>
+                  <div class="col-9">
+                    <div class="texto">
+                      Quer abrir um negócio online? Aprenda dicas, estratégias e veja oportunidades na live.
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-12">
+                    <a class="btn-assine" data-toggle="modal" data-target="#modalform" data-origem="eventos" data-input="" data-detalhe-origem="estratategias-whatsapp" data-href="https://vimeo.com/408602517/e4f38c50d2">
+                      <div class="btn-inscreva">
+                        Inscreva-se!
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row row-btn d-none">
+        <div class="col-12 text-center">
+          <div id="veja-mais">
+            veja os eventos anteriores<img src="../lojas/00040121/images/ic_saibamais.svg?cccfc=1" alt="Saiba Mais" title="Saiba Mais">
+          </div>
+        </div>
+      </div>-->
+      <div class="container" id="antigos">
+        <div class="row titulo-passados">
+          <div class="col-12 text-center">
+            <h2>eventos passados</h2>
+          </div>
+        </div>
+        <div class="row row-bloco">
+            <!--<div class="col-3">
+              <div class="card">
+                <div class="container">
+                  <div class="row">
+                    <div class="imagem">
+                      <img alt="Evento Vendas no WhatsApp" src="../lojas/00040121/prod/Como-abrir-um-ecommerce-e-vender-mais-pela-internet.jpg">
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-12">
+                      <div class="titulo">
+                        <h2>Empreendedorismo Digital: Dicas, estratégias e oportunidades</h2> 
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-3 data">
+                      <h3>abr<br />28</h3>
+                    </div>
+                    <div class="col-9">
+                      <div class="texto">
+                        Quer abrir um negócio online? Aprenda dicas, estratégias e veja oportunidades na live.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-12">
+                      <a class="btn-assine" data-toggle="modal" data-target="#modalform" data-origem="eventos" data-input="" data-detalhe-origem="estratategias-whatsapp" data-href="https://vimeo.com/408602517/e4f38c50d2">
+                        <div class="btn-inscreva">
+                          Inscreva-se!
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-3">
+              <div class="card">
+                <div class="container">
+                  <div class="row">
+                    <div class="imagem">
+                      <img alt="Evento Vendas no WhatsApp" src="../lojas/00040121/prod/Vendas-e-delivery-para-Bares-Restaurantes-e-Padarias-Por-onde-comecar.jpg">
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-12">
+                      <div class="titulo">
+                        <h2>Como bares, restaurantes e padarias podem sobreviver à crise</h2> 
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-3 data">
+                      <h3>abr<br />24</h3>
+                    </div>
+                    <div class="col-9">
+                      <div class="texto">
+                        Veja opções para que bares, restaurante e padarias seguirem vendendo. Descubra quais são!
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-12">
+                      <a class="btn-assine" data-toggle="modal" data-target="#modalform" data-origem="eventos" data-input="restaurantesSobreviver" data-detalhe-origem="restaurantes-sobreviver-crise" data-href="https://vimeo.com/XXXXXX">
+                        <div class="btn-inscreva">
+                          Inscreva-se!
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>-->
+            <div class="col-3">
+              <div class="card">
+                <div class="container">
+                  <div class="row">
+                    <div class="imagem">
+                      <img alt="Evento Vendas no WhatsApp" src="../lojas/00040121/prod/Como-levar-uma-operacao-fisica-pro-online.jpg">
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-12">
+                      <div class="titulo">
+                        <h2>Estratégias e ferramentas para que sua loja virtual siga vendendo</h2> 
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-3 data">
+                      <h3>abr<br />23</h3>
+                    </div>
+                    <div class="col-9">
+                      <div class="texto">
+                        Nessa live explicamos práticas para que seu negócio online siga vendendo. Saiba quais são elas!
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-12">
+                      <a class="btn-assine" data-origem="eventos" data-input="estrategiasVendendo" data-detalhe-origem="estrategias-siga-vendendo" data-href="https://vimeo.com/411535621/a7f39f80a9X">
+                        <div class="btn-inscreva">
+                          Inscreva-se!
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-3">
+              <div class="card">
+                <div class="container">
+                  <div class="row">
+                    <div class="imagem">
+                      <img alt="Evento Vendas no WhatsApp" src="../lojas/00040121/prod/Estrategias-de-vendas-pelo-whats-para-bares-restaurantes-e-padarias.jpg">
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-12">
+                      <div class="titulo">
+                        <h2>Estratégias de vendas pelo WhatsApp Para Bares, Restaurantes e Padarias</h2> 
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-3 data">
+                      <h3>abr<br />15</h3>
+                    </div>
+                    <div class="col-9">
+                      <div class="texto">
+                        Saiba como usar essa ferramenta como aliada em suas vendas tirando melhor proveito.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-12">
+                      <a class="btn-assine" data-origem="eventos" data-input="estrategiasWhatsapp" data-detalhe-origem="estratategias-whatsapp" data-href="https://vimeo.com/408602517/e4f38c50d2">
+                        <div class="btn-inscreva">
+                          Inscreva-se!
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          <div class="col-3">
+            <div class="card">
+              <div class="container">
+                <div class="row">
+                  <div class="imagem">
+                    <img alt="Evento Vendas no WhatsApp" src="../lojas/00040121/prod/Semana-Aceleracao-Digital.jpg">
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-12">
+                    <div class="titulo">
+                      <h2>Semana da Aceleração</h2> 
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-3 data">
+                    <h3>abr<br />13</h3>
+                  </div>
+                  <div class="col-9">
+                    <div class="texto">
+                      As palestras da Semana da Aceleração Digital ficaram gravadas. Inscreva-se e veja os conteúdos.
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-12">
+                    <a class="btn-assine" data-origem="eventos" data-input="aceleracao" data-detalhe-origem="aceleracao-202004" data-href="https://vimeo.com/showcase/7041924">
+                      <div class="btn-inscreva">
+                        Inscreva-se!
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="card">
+              <div class="container">
+                <div class="row">
+                  <div class="imagem">
+                    <img alt="Evento Vendas no WhatsApp" src="../lojas/00040121/prod/Como-usar-o-Digital-para-nao-cair-as-vendas.jpg">
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-12">
+                    <div class="titulo">
+                      <h2>Como usar o Digital para não cair as vendas</h2> 
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-3 data">
+                    <h3>mar<br />23</h3>
+                  </div>
+                  <div class="col-9">
+                    <div class="texto">
+                      Conheça dicas práticas e saiba Como usar o Digital para não cair as vendas. Veja o webinar.
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-12">
+                    <a class="btn-assine" data-origem="eventos" data-input="digitalVendas" data-detalhe-origem="digital-nao-cair-vendas" data-href="https://vimeo.com/410780620/59d8b87a45">
+                      <div class="btn-inscreva">
+                        Inscreva-se!
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="card">
+              <div class="container">
+                <div class="row">
+                  <div class="imagem">
+                    <img alt="Evento Mulheres do Mercado Digital" src="../lojas/00040121/prod/Semana-da-Mulher.jpg">
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-12">
+                    <div class="titulo">
+                      <h2>Mulheres do Mercado Digital</h2> 
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-3 data">
+                    <h3>mar<br />10</h3>
+                  </div>
+                  <div class="col-9">
+                    <div class="texto">
+                      Perdeu a Semana Mulheres do Mercado Digital? O evento ficou gravado. Faça sua inscrição e assista!
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-12">
+                    <a class="btn-assine" data-origem="eventos" data-input="mulheresDigital" data-detalhe-origem="mulheres-digital" data-href="https://vimeo.com/showcase/7042082">
+                      <div class="btn-inscreva">
+                        Inscreva-se!
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="card">
+              <div class="container">
+                <div class="row">
+                  <div class="imagem">
+                    <img alt="Evento Vendas no WhatsApp" src="../lojas/00040121/prod/evento-vendas-whatsapp.jpg">
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-12">
+                    <div class="titulo">
+                      <h2>Vendas via WhatsApp</h2> 
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-3 data">
+                    <h3>fev<br />11</h3>
+                  </div>
+                  <div class="col-9">
+                    <div class="texto">
+                      Assista ao evento Vendas via WhatsApp e saiba como ter melhores resultados neste canal.
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-12">
+                    <a class="btn-assine" data-origem="eventos" data-input="vendasWhatsapp" data-detalhe-origem="vendas-via-whatsapp" data-href="https://vimeo.com/showcase/7041902">
+                      <div class="btn-inscreva">
+                        Inscreva-se!
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>    
+
+<script src="https://pontocode.com.br/cs-eventos.js"></script>
+    
+<script>
+  $( "#veja-mais" ).click(function() {
+    $( "#antigos" ).slideDown();
+    $( this ).fadeOut();
+  });
+</script>
+
+<!-- Modal -->
+<div class="modal fade" id="modalform" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Inscreva-se!</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <!--FORM 1n-->
+        <!-- Change or deletion of the name attributes in the input tag will lead to empty values on record submission-->
+        <form action='https://forms.zohopublic.com/comschool1/form/LPEventosParte1/formperma/tNG7hnd4cFuOh6FVyZizu0J9W6dF61KGiIV7Guag8xg/htmlRecords/submit' name='form' id='form1' method='POST' accept-charset='UTF-8' enctype='multipart/form-data'>
+          <input type="hidden" name="zf_referrer_name" value=""><!-- To Track referrals , place the referrer name within the " " in the above hidden input field -->
+          <input type="hidden" name="zf_redirect_url" value=""><!-- To redirect to a specific page after record submission , place the respective url within the " " in the above hidden input field -->
+          <input type="hidden" name="zc_gad" value=""><!-- If GCLID is enabled in Zoho CRM Integration, click details of AdWords Ads will be pushed to Zoho CRM -->
+          <div class="form-row">
+            <div class="form-group d-none">
+              <label for="nome">Input</label>
+              <input  type="text" name="SingleLine5" value="" fieldType=1 maxlength="255" />
+            </div>
+            <div class="form-group col-md-6 d-none">
+              <label for="nome">Origem</label>
+              <input  type="text" class="form-control" name="SingleLine3" value="" fieldType=1 maxlength="255" />
+            </div>
+            <div class="form-group col-md-6 d-none">
+              <label for="nome">Detalhe Origem</label>
+              <input  type="text" class="form-control" name="SingleLine4" value="" fieldType=1 maxlength="255" />
+            </div>
+            <div class="form-group col-md-6">
+              <label for="nome">Nome</label>
+              <input  type="text" class="form-control" required name="SingleLine" value="" fieldType=1 maxlength="255" />
+            </div>
+            <div class="form-group col-md-6">
+              <label for="nome">Sobrenome</label>
+              <input  type="text" class="form-control" required name="SingleLine1" value="" fieldType=1 maxlength="255" />
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="email">E-mail:</label>
+              <input type="text" class="form-control" maxlength="255" required name="Email" value="" fieldType=9 />
+            </div>
+            <div class="form-group col-md-6">
+              <label for="inputPassword4">Whatsapp com DDD</label>
+              <input type="text" class="form-control" compname="PhoneNumber" required name="PhoneNumber_countrycode" phoneFormat="1" isCountryCodeEnabled=false maxlength="20" value="" fieldType=11 id="international_PhoneNumber_countrycode" />
+            </div>
+          </div>
+          <button type="submit"><em>Enviar</em></button>
+        </form>
+        <!--FIM ORM 1-->
+
+
+
+        <!--FORM 2-->
+          <!-- Change or deletion of the name attributes in the input tag will lead to empty values on record submission-->
+          <form action='https://forms.zohopublic.com/comschool1/form/LPEventosParte2/formperma/gcC2m3l5g5NnaGjodRWdt_6BcwR_8QBzW4MhR9PYyuY/htmlRecords/submit' name='form' id='form2' method='POST' accept-charset='UTF-8' enctype='multipart/form-data'>
+          <input type="hidden" name="zf_referrer_name" value=""><!-- To Track referrals , place the referrer name within the " " in the above hidden input field -->
+          <input type="hidden" name="zf_redirect_url" value=""><!-- To redirect to a specific page after record submission , place the respective url within the " " in the above hidden input field -->
+          <input type="hidden" name="zc_gad" value=""><!-- If GCLID is enabled in Zoho CRM Integration, click details of AdWords Ads will be pushed to Zoho CRM -->
+          <div class="form-row">
+            <div class="form-group col-md-6 d-none">
+              <label for="nome">Email</label>
+              <input  type="text" class="form-control" name="Email" value="" fieldType=1 maxlength="255" />
+            </div>
+            <div class="form-group col-md-6 d-none">
+              <label for="nome">Input</label>
+              <input  type="text" class="form-control" name="SingleLine1" value="" fieldType=1 maxlength="255" />
+            </div>
+            <div class="form-group col-md-6">
+              <label for="nome">Empresa</label>
+              <input  type="text" class="form-control" name="SingleLine" value="" fieldType=1 maxlength="255" />
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="nome">Cargo</label>
+              <select name="Dropdown" class="form-control">
+                <option selected="true" value="-Select-">-Select-</option>
+                <option value="Analista">Analista</option>
+                <option value="Aposentado">Aposentado</option>
+                <option value="Assistente">Assistente</option>
+                <option value="Consultor">Consultor</option>
+                <option value="Dona&#x20;de&#x20;casa">Dona de casa</option>
+                <option value="Empregado">Empregado</option>
+                <option value="Empresario">Empresario</option>
+                <option value="Estagiario&#x20;ou&#x20;Trainee">Estagiario ou Trainee</option>
+                <option value="Estudante">Estudante</option>
+                <option value="Funcionario&#x20;Publico">Funcionario Publico</option>
+                <option value="Gerente">Gerente</option>
+                <option value="Nao&#x20;Trabalha">Nao Trabalha</option>
+                <option value="Presidente&#x20;ou&#x20;Diretor">Presidente ou Diretor</option>
+                <option value="Profissional&#x20;Liberal">Profissional Liberal</option>
+                <option value="Supervisor&#x20;ou&#x20;Chefia">Supervisor ou Chefia</option>
+                <option value="Outros">Outros</option>
+              </select>
+            </div>
+            <div class="form-group col-md-6">
+              <label for="nome">Tipo de Empresa</label>
+              <select name="Dropdown1" class="form-control"><option selected="true" value="-Select-">-Select-</option>
+              <option value="Agencias&#x20;ou&#x20;Publicidade&#x20;ou&#x20;Marketing">Agencias ou Publicidade ou Marketing</option>
+              <option value="Agricultura&#x20;ou&#x20;Mineracao">Agricultura ou Mineracao</option>
+              <option value="Alimentos&#x20;e&#x20;Bebidas">Alimentos e Bebidas</option>
+              <option value="Arte&#x20;e&#x20;Antiguidades">Arte e Antiguidades</option>
+              <option value="Artigos&#x20;Religiosos">Artigos Religiosos</option>
+              <option value="Automoveis&#x20;e&#x20;Pecas">Automoveis e Pecas</option>
+              <option value="Bancos&#x20;e&#x20;Financeiras">Bancos e Financeiras</option>
+              <option value="Bebes&#x20;e&#x20;Cia">Bebes e Cia</option>
+              <option value="Brinquedos&#x20;e&#x20;Games">Brinquedos e Games</option>
+              <option value="Casa&#x20;e&#x20;Decoracao">Casa e Decoracao</option>
+              <option value="Comercio&#x20;Exterior">Comercio Exterior</option>
+              <option value="Construcao&#x20;e&#x20;Ferramentas">Construcao e Ferramentas</option>
+              <option value="Conteudo&#x20;Digital">Conteudo Digital</option>
+              <option value="Cosmeticos&#x20;e&#x20;Perfumaria&#x20;ou&#x20;Cuidados&#x20;Pessoais">Cosmeticos e Perfumaria ou Cuidados Pessoais</option>
+              <option value="Educacao&#x20;e&#x20;Universidade">Educacao e Universidade</option>
+              <option value="Eletronicos&#x20;e&#x20;Eletrodomesticos">Eletronicos e Eletrodomesticos</option>
+              <option value="Entretenimento">Entretenimento</option>
+              <option value="Esporte&#x20;e&#x20;Lazer">Esporte e Lazer</option>
+              <option value="Flores&#x20;e&#x20;Cestas&#x20;e&#x20;Presentes">Flores e Cestas e Presentes</option>
+              <option value="Governo&#x20;e&#x20;Setor&#x20;Publico">Governo e Setor Publico</option>
+              <option value="Imoveis">Imoveis</option>
+              <option value="Industria">Industria</option>
+              <option value="Informatica">Informatica</option>
+              <option value="Joalheria">Joalheria</option>
+              <option value="Livros&#x20;e&#x20;Jornais&#x20;ou&#x20;Revistas">Livros e Jornais ou Revistas</option>
+              <option value="Logistica">Logistica</option>
+              <option value="Loja&#x20;de&#x20;departamentos">Loja de departamentos</option>
+              <option value="Midia&#x20;e&#x20;Editorial&#x20;ou&#x20;Comunicacoes">Midia e Editorial ou Comunicacoes</option>
+              <option value="Moda&#x20;e&#x20;Acessorios">Moda e Acessorios</option>
+              <option value="Musica">Musica</option>
+              <option value="Org.&#x20;Sem&#x20;Fins&#x20;Lucrativos">Org. Sem Fins Lucrativos</option>
+              <option value="Pet&#x20;Shop">Pet Shop</option>
+              <option value="Plataformas&#x20;de&#x20;Ecommerce">Plataformas de Ecommerce</option>
+              <option value="Saude">Saude</option>
+              <option value="Servicos">Servicos</option>
+              <option value="Sex&#x20;Shop">Sex Shop</option>
+              <option value="Telefonia&#x20;e&#x20;Celulares">Telefonia e Celulares</option>
+              <option value="Viagens&#x20;e&#x20;Turismo">Viagens e Turismo</option>
+              <option value="Outros">Outros</option>
+              </select>
+            </div>
+          </div>
+          <button type="submit"><em>Enviar 2</em></button>
+        </form>
+        <!--FIM FORM 2-->
+
+
+        <!--FORM 3-->
+
+
+
+          <!-- Change or deletion of the name attributes in the input tag will lead to empty values on record submission-->
+        <form action='https://forms.zohopublic.com/comschool1/form/LPEventosParte3/formperma/A4G7CoK58eK3PePdL8XQL_N6J2UXL9d0myeKGKzB-fQ/htmlRecords/submit' name='form' id='form3' method='POST' accept-charset='UTF-8' enctype='multipart/form-data'>
+          <input type="hidden" name="zf_referrer_name" value=""><!-- To Track referrals , place the referrer name within the " " in the above hidden input field -->
+          <input type="hidden" name="zf_redirect_url" value=""><!-- To redirect to a specific page after record submission , place the respective url within the " " in the above hidden input field -->
+          <input type="hidden" name="zc_gad" value=""><!-- If GCLID is enabled in Zoho CRM Integration, click details of AdWords Ads will be pushed to Zoho CRM -->
+          <div class="form-row">
+            <div class="form-group col-md-6 d-none">
+              <label for="nome">E-mail</label>
+              <input type="text" maxlength="255" name="Email" value="" fieldType=9 />
+            </div>
+            <div class="form-group col-md-6 d-none">
+              <label for="nome">Input</label>
+              <input  type="text" name="SingleLine" value="" fieldType=1 maxlength="255" />
+            </div>
+            <div class="form-group col-md-6">
+              <label for="nome">Estado</label>
+              <select name="Dropdown" class="form-control"><option selected="true" value="-Select-">-Select-</option>
+              <option value="AL">AL</option>
+              <option value="AM">AM</option>
+              <option value="AP">AP</option>
+              <option value="BA">BA</option>
+              <option value="CE">CE</option>
+              <option value="DF">DF</option>
+              <option value="ES">ES</option>
+              <option value="GO">GO</option>
+              <option value="MA">MA</option>
+              <option value="MG">MG</option>
+              <option value="MS">MS</option>
+              <option value="MT">MT</option>
+              <option value="PA">PA</option>
+              <option value="PE">PE</option>
+              <option value="PB">PB</option>
+              <option value="PI">PI</option>
+              <option value="PR">PR</option>
+              <option value="RJ">RJ</option>
+              <option value="RN">RN</option>
+              <option value="RO">RO</option>
+              <option value="RR">RR</option>
+              <option value="RS">RS</option>
+              <option value="SC">SC</option>
+              <option value="SE">SE</option>
+              <option value="SP">SP</option>
+              <option value="TO">TO</option>
+              <option value="Outro&#x20;Pais">Outro Pais</option>
+              </select>
+            </div>
+            <div class="form-group col-md-6">
+              <label for="temecommerce">Tem E-commerce:</label>
+              <input type="radio"  class="form-control" id="Radio_1" name="Radio" value="Sim">
+              <label for="Radio_1" >Sim</label>
+              <input type="radio"  class="form-control" id="Radio_2" name="Radio" value="N&atilde;o">
+              <label for="Radio_2" >N&atilde;o</label>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="inputPassword4">Possui interesse em saber mais sobre E-commerce?</label>
+              <input type="radio"  class="form-control" id="Radio1_1" name="Radio1" value="Sim">
+              <label for="Radio1_1" >Sim</label>
+              <input type="radio"  class="form-control" id="Radio1_2" name="Radio1" value="N&atilde;o">
+              <label for="Radio1_2" >N&atilde;o</label>
+            </div>
+            <div class="form-group col-md-6">
+              <label for="inputPassword4">Possui interesse em saber mais sobre Marketing Digital?</label>
+              <input type="radio"  class="form-control" id="Radio2_1" name="Radio2" value="Sim">
+              <label for="Radio2_1" >Sim</label>
+              <input type="radio"  class="form-control" id="Radio2_2" name="Radio2" value="N&atilde;o">
+              <label for="Radio2_2" >N&atilde;o</label>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="inputPassword4">Possui interesse em saber mais sobre Mídias Sociais?</label>
+              <input type="radio"  class="form-control" id="Radio3_1" name="Radio3" value="Sim">
+              <label for="Radio3_1" >Sim</label>
+              <input type="radio"  class="form-control" id="Radio3_2" name="Radio3" value="N&atilde;o">
+              <label for="Radio3_2" >N&atilde;o</label>
+            </div>
+            <div class="form-group col-md-6">
+              <label for="inputPassword4">Possui interesse em saber mais sobre Marketing Digital?</label>
+              <input type="radio"  class="form-control" id="Radio2_1" name="Radio2" value="Sim">
+              <label for="Radio2_1" >Sim</label>
+              <input type="radio"  class="form-control" id="Radio2_2" name="Radio2" value="N&atilde;o">
+              <label for="Radio2_2" >N&atilde;o</label>
+            </div>
+          </div>
+          <button type="submit"><em>Enviar</em></button>
+        </form>
+        <!--FIM FORM 3-->
+      </div>
+    </div>
+  </div>
+</div>
