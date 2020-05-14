@@ -59,7 +59,7 @@ function insertProfMiniCV(profName){
     
 
     if(profName == "André Santos"){
-		var profMiniCV = "Formado pela Universidade Estácio de Sá em Administração de Empresas, MBA em Marketing e Vendas pela FGV. Já capacitou cerca de 30.000 empreendedores em eventos como Ciclo MPE.Net, SEBRAE, Primeiro E-commerce e Universidade MercadoLivre. Fundador do site EcommercePME, uma plataforma de conteúdo que visa capacitar médios e pequenos empreendedores que desejam adquirir conhecimento em comércio eletrônico e inserir suas empresa na nova economia digital."
+		var profMiniCV = "MBA em Marketing e Vendas pela FGV-SP, já capacitou cerca de 100.000 empreendedores em eventos como Ciclo MPE-net, SEBRAE, Feira do Empreendedor, Primeiro E-commerce, Universidade MercadoLivre e MERCADO LIVRE EXPERIENCE em 2016, 2017 e 2018 e 2019, um dos maiores mentores na formação de novos vendedores na plataforma, há mais de 12 anos no Mercado Livre.Fundador do site E-commerce PME e André Santos Play"
 	}
     
 
