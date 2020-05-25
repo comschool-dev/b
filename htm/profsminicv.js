@@ -59,7 +59,7 @@ function insertProfMiniCV(profName){
     
 
     if(profName == "André Santos"){
-		var profMiniCV = "Formado pela Universidade Estácio de Sá em Administração de Empresas, MBA em Marketing e Vendas pela FGV. Já capacitou cerca de 30.000 empreendedores em eventos como Ciclo MPE.Net, SEBRAE, Primeiro E-commerce e Universidade MercadoLivre. Fundador do site EcommercePME, uma plataforma de conteúdo que visa capacitar médios e pequenos empreendedores que desejam adquirir conhecimento em comércio eletrônico e inserir suas empresa na nova economia digital."
+		var profMiniCV = "MBA em Marketing e Vendas pela FGV-SP, já capacitou cerca de 100.000 empreendedores em eventos como Ciclo MPE-net, SEBRAE, Feira do Empreendedor, Primeiro E-commerce, Universidade MercadoLivre e MERCADO LIVRE EXPERIENCE em 2016, 2017 e 2018 e 2019, um dos maiores mentores na formação de novos vendedores na plataforma, há mais de 12 anos no Mercado Livre.Fundador do site E-commerce PME e André Santos Play"
 	}
     
 
@@ -237,6 +237,13 @@ function insertProfMiniCV(profName){
 
     if(profName == "Denis Smetana"){
 		var profMiniCV = "Engenheiro Químico formado pela Poli-USP, tendo estudado em Hamburg/Alemanha em 2001 com bolsa de estuado da Capes-DAAD.Possui MBA Executivo pelo Insper e especialização em estratégia digital por Harvard.Foi executivo no planejamento financeiro da Cetelem Financeira (atual BNP Personal Finance). Em 2008 iniciou a carreira na internet como executivo no BuscaPé Financial Services, área do BuscaPé responsável por meios de pagamentos e que tinha sob sua gestão a Pagamento Digital (atual PayU) e FCcontrol, chegando a Gerente Geral desta unidade de negócios. Em seguida foi responsável pelo planejamento financeiro do iG, sendo que neste período foi board advisor no Moip. Foi CFO da unidade do Ideaisnet que gerenciava as empresas de ecommerce do grupo: Ciashop, Moip e Zura. Retornou ao mercado financeiro como CFO da Click Promotora de Crédito Consignado, empresa com aporte do Pine River Capital Management, e que adquiriu e gerenciou a carteira de créditos consignado de INSS do Banco Cacique. Atualmente é CFO da Rakuten Brasil e ministra os cursos de meios de pagamentos e fraudes na Comschool."
+	}
+
+    
+    
+
+    if(profName == "Denis Strum"){
+		var profMiniCV = "Profissional com mais de 12 anos de experiência atuando com marketing. Vivência como cliente e fornecedor de comunicação e marketing. Últimos 6 anos atuando com Marketing Digital e E-commerce. Experiência com implementação de projetos digitais, incluindo posicionamento de marca, planejamento estratégico e Growth Hacking (SEO, SEM, CRM, Social Midia, e todas as demais estrategias para crescimento do tráfego e conversão. Especializações: métricas no marketing digital, planejamento de marketing, gestão de equipe e branding."
 	}
     
 
@@ -840,8 +847,23 @@ function insertProfMiniCV(profName){
     
     
 
+    if(profName == "Mariana Castriota"){
+		var profMiniCV = "Gerente de e-commerce sênior especializada no desenvolvimento de novos negócios, marketplace, fulfillment serviços e inovação. Com MBA em andamento e Marketing pela FGV e pós-graduada em Gestão de Negócios com Ênfase em Marketing, pela ESPM (SP), formada em Física pela UNESP. Hoje, trabalha o Magazine Luiza, com passagens também por Ricardo Eletro, Infracommerce, Grupo Estado, Schumann e Martins."
+	}
+    
+
+    
+    
+
     if(profName == "Mário Guimarães"){
 		var profMiniCV = "Com mais de 15 anos de experiência em negócios online, Mário Guimarães iniciou na área de Design e Produção Digitale migrou para o e-Commerce misturando o know-how em Media com o E-Business. Dos diversos clientes atendindoscom treinamentos, consultorias e desenvolvimento e tecnologia, estão:SONY, Brasil CT (Disney e Mattel), Connect Parts, Grupo Birô (Biroshop, Post2B e Buy2B), Whirlpool (Brastemp e Consul),Multilaser, Semp Toshiba, Carrera (GM Chevrolet), Mormaii, QualitySP, H2O Purificadores, Mega Mamute, Máquina de Vendas(Ricardo Eletro), Assurant, SP Auto Peças, Mercado do Mecânico, Decor Peças, LOI Brasil, 00K e-Business Tools, Centauro... Hoje dedica a carreira em aplicar e-Consulting em e-commerce, treinamentos, outsourcing para Aplicativos comoProduct Manager/Owner e Pesquisa e Desenvolvimento."
+	}
+
+    
+    
+
+    if(profName == "Mário Melo"){
+		var profMiniCV = "10 anos trabalhando com projetos de SEO. Experiência em empresas como Globo.com, VivaReal, Petlove, Catho, Descomplica, Canaltech e atualmente atuando como Especialista SEO da XP Investimentos."
 	}
     
 
