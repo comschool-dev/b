@@ -142,7 +142,7 @@ jQuery(document).ready(function ($) {
 
                     containerHtml += '<div class="DivListProd">' +
                         '<div class="ListProductStyleProd">' +
-                        '<div class="DivListDate"><span data-js="data-descr">' + item.data + '</span></div>' +
+                        '<div class="DivListDate"><span data-js="data-descr"><a href="/listaprodutos.asp?idloja=40121&amp;idproduto=' + item.id_produto + '" target="_top">' + item.data + '</a></span></div>' +
                         '<div class="DivListDesc">' +
                         '<div class="listClass Cursos E-commerce ' + classCategoria + '">' + item.categoria + '</div>' +
                         '<div class="ListProductStyleNomeProd" ><a href="/listaprodutos.asp?idloja=40121&amp;idproduto=' + item.id_produto + '" target="_top">' + item.titulo + '</a></div>' +
@@ -187,7 +187,7 @@ jQuery(document).ready(function ($) {
 
             containerHtml += '<div class="DivListProd">' +
                 '<div class="ListProductStyleProd">' +
-                '<div class="DivListDate"><span data-js="data-descr">' + item.data + '</span></div>' +
+                '<div class="DivListDate"><span data-js="data-descr"><a href="/listaprodutos.asp?idloja=40121&amp;idproduto=' + item.id_produto + '" target="_top">' + item.data + '</a></span></div>' +
                 '<div class="DivListDesc">' +
                 '<div class="listClass Cursos E-commerce ' + classCategoria + '">' + item.categoria + '</div>' +
                 '<div class="ListProductStyleNomeProd" ><a href="/listaprodutos.asp?idloja=40121&amp;idproduto=' + item.id_produto + '" target="_top">' + item.titulo + '</a></div>' +
@@ -243,6 +243,7 @@ jQuery(document).ready(function ($) {
         ".ListProductStyleProd .ListProductStyleNomeProd a {color:#707070; text-decoration:none;}" +
         ".ListProductStyleProd .ListProductStyleDesc {margin:15px 0 0 0; font-size: 14px;}" +
         ".ListProductStyleProd .DivListDate {width: 18%; margin-left:2%; font-size: 18px; display:flex; display:-webkit-flex; align-items:center; -webkit-align-items:center; justify-content:flex-start; -webkit-justify-content:flex-start;}" +
+        ".ListProductStyleProd .DivListDate a{text-decoration:none !important;}" +
         ".ListProductStyleProd .DivListDesc {width: 60%;}" +
         ".ListProductStyleProd .DivListMore {width: 18%; margin-right:2%; display:flex; display:-webkit-flex; align-items:center; -webkit-align-items:center; justify-content:flex-end; -webkit-justify-content:flex-end; font-family:'Roboto',arial,verdana;}" +
         "a .DivListProductStyleDet {padding:10px;}" +
