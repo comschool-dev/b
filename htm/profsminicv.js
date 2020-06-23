@@ -943,7 +943,7 @@ function insertProfMiniCV(profName){
     
 
     if(profName == "Patricia Knipl"){
-		var profMiniCV = "15 anos de experiência adquirida em empresas de médio e grande porte em diferentes segmentos do Varejo (Convencional e E-Commerce).Responsável por validar processos de impacto nas áreas de Operações e Delivery, controle e análise de produtos em estoque com giro acima de 60 dias de cobertura, controle de estoque e de produtos em consignação, controle do recebimento de mercadorias com divergências contratuais de compra e consignação.Atuação na área Comercial, em negociações diretas com grandes e pequenos fornecedores, para a devolução de produtos com baixo giro e novos produtos em consignação, bem como a redução de reclamações de clientes melhorando a comunicação com foco na qualidade e atendimento ao cliente. Experiência em implantação de loja online e mapeamento de processos, coordenou os testes em ambiente de homologação suporte ao tombamento de sistemas em produção."
+		var profMiniCV = "Profissional com mais de 20 anos de experiência no e-commerce em empresas de diferentes segmentos do varejo, como Submarino, B2W, Netshoes, Fnac e Electrolux.  Com experiência em implantação de loja online e omnichannel, atualmente atua em inovação, e-commerce e digital na Varejista Ikesaki."
 	}
     
 
