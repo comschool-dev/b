@@ -419,7 +419,7 @@ function insertProfMiniCV(profName){
     
 
     if(profName == "Felipe Orlando Marti"){
-		var profMiniCV = "Administrador, profissional com mais de 17 anos de experiência em marketing e vendas com atuação nas áreas de operação off-line, gestão em negócios B2B e B2C de alta rentabilidade, e-commerce, marketing digital, outbound marketing, trade marketing, parcerias e live marketing. Com histórico de empresas como Saraiva, Vivo, Buscapé, Ricardo Eletro e Gregory."
+		var profMiniCV = "Profissional com mais de 19 anos de experiência em marketing e vendas com atuação nas áreas de operação off-line, gestão em negócios B2B e B2C de alta rentabilidade, e-commerce, marketing digital, outbound marketing, trade marketing, parcerias e live marketing. Com histórico de empresas como Saraiva, Vivo, Buscapé, Ricardo Eletro, Gregory Modas e atualmente na Unilever."
 	}
     
 
