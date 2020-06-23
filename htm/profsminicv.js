@@ -1381,6 +1381,26 @@ function insertProfMiniCV(profName){
 
     if(profName == "Pedro Chiamulera"){
 		var profMiniCV = "Fundou a ClearSale em 2001 para ser uma empresa de gestão de riscos que trata a fraude, e tudo o que a envolve, de forma revolucionária. Dessa forma, a ClearSale se tornou líder e referência de mercado, sendo reconhecida como autoridade em prevenção a fraudes nos mais diversos segmentos. Formado em Ciência da Computação pela universidade Point Loma Nazarene, em San Diego, nos EUA, Pedro é ex-atleta e competiu no atletismo em duas Olimpíadas representando o Brasil. Empreendedor entusiasmado, Pedro sabe aplicar a disciplina do esporte ao mundo corporativo, principalmente no que diz respeito à superação dos próprios limites."
+	} 
+
+    if(profName == "Felipe Magalhães"){
+		var profMiniCV = "Profissional de tecnologia e produtos, professor, palestrante e especialista em interfaces conversacionais. Graduado em Comunicação e Multimeios pela PUC-SP, atua há 9 anos no mercado de produto e conteúdo digital, sendo que os últimos 3 foram dedicados à construção de bots com inteligência artificial para clientes como Vivo, Motorola, GOL, Nextel, Grupo Votorantim e outros. Atualmente, escreve para a Chatbot's Life e para a Bots Brasil, além de ser curador de conteúdo da VUI Design BR."
+	} 
+
+    if(profName == "Rodrigo Botinhão"){
+		var profMiniCV = "Com mais de 8 anos de experiência com Marketing Digital, atuando com e-commerce e serviços. Conhecimentos em canais de aquisição (SEO, SEM, Social Media, Affiliates, Email Marketing), Plataformas de comércio eletrônico, Análise e mensuração de resultados."
+	} 
+
+    if(profName == "Raphael Ferrari"){
+		var profMiniCV = "Sócio e Diretor na Agência Sanders Digital com mais de 9 anos de experiência em e-commerce e marketing digital, com participação em mais de 200 lojas implantadas. Entre elas: Danone, Suvinil, Zelo, Chevrolet, Santa Luzia, Arcelor Mittal, Pierre Cardin, Essilor, New Era, Probel e Tena. Consultor e mentor de Marketing Digital, Inbound, CRM, CRO e E-commerce em players de diversos segmentos do mercado."
+	} 
+
+    if(profName == "Naya Whitaker"){
+		var profMiniCV = "Jornalista fascinada por comunicação, atuo há 7 anos em marketing digital. Crio estratégias customer centric, produzindo conteúdo para social media e outros canais - dentro e fora da tela, na frente e atrás das câmeras. Cocriadora do projeto Nós, mulheres investidoras, na Easynvest."
+	} 
+
+    if(profName == "Fabiano Donadon"){
+		var profMiniCV = "Apaixonado pelo que faz, lidera a área digital da Johnson & Johnson Vision Care como Gerente de Marketing Digital da América Latina. Possui ampla experiência em Marketing, CRM, Mídias Sociais, gestão de PR, e-trade e E-Commerce, aplicados em empresas como Philips, Panasonic, Colgate-Palmolive, HP, Secretaria da Fazenda, entre outras. Vencedor de diversos prêmios de transformação digital pelas empresas que passou. Formado em Publicidade e Propaganda pelo Mackenzie, MBA em Gestão Estratégica e Econômica de Projetos pela FGV, e Especialização em Digital Marketing pela Columbia Business School. Curioso por natureza e nerd por opção, entusiasmado por resultados e líder de coração, Fabiano vem trazendo para o mundo real as oportunidades que o e-mundo oferece, ajudando os dispostos a aprender a mergulhar no mundo da web."
 	}    
 	
 	return profMiniCV;
