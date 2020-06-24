@@ -403,7 +403,7 @@ function insertProfMiniCV(profName){
     
 
     if(profName == "Felipe Magalhães Bonel"){
-		var profMiniCV = "Profissional de tecnologia e comunicação. Formado em Multimeios pela Pontifícia Universidade Católica de São Paulo, já atou com projetos de inteligência artificial para companhias como Motorola, Gol, Nextel, Votorantim Metais e Telefônica/Vivo. É especialista em User Experience Conversacional e gestão de produtos digitais."
+		var profMiniCV = "Profissional de tecnologia e produtos, professor, palestrante e especialista em interfaces conversacionais. Graduado em Comunicação e Multimeios pela PUC-SP, atua há 9 anos no mercado de produto e conteúdo digital, sendo que os últimos 3 foram dedicados à construção de bots com inteligência artificial para clientes como Vivo, Motorola, GOL, Nextel, Grupo Votorantim e outros. Atualmente, escreve para a Chatbot's Life e para a Bots Brasil, além de ser curador de conteúdo da VUI Design BR."
 	}
     
 
@@ -1381,10 +1381,6 @@ function insertProfMiniCV(profName){
 
     if(profName == "Pedro Chiamulera"){
 		var profMiniCV = "Fundou a ClearSale em 2001 para ser uma empresa de gestão de riscos que trata a fraude, e tudo o que a envolve, de forma revolucionária. Dessa forma, a ClearSale se tornou líder e referência de mercado, sendo reconhecida como autoridade em prevenção a fraudes nos mais diversos segmentos. Formado em Ciência da Computação pela universidade Point Loma Nazarene, em San Diego, nos EUA, Pedro é ex-atleta e competiu no atletismo em duas Olimpíadas representando o Brasil. Empreendedor entusiasmado, Pedro sabe aplicar a disciplina do esporte ao mundo corporativo, principalmente no que diz respeito à superação dos próprios limites."
-	} 
-
-    if(profName == "Felipe Magalhães"){
-		var profMiniCV = "Profissional de tecnologia e produtos, professor, palestrante e especialista em interfaces conversacionais. Graduado em Comunicação e Multimeios pela PUC-SP, atua há 9 anos no mercado de produto e conteúdo digital, sendo que os últimos 3 foram dedicados à construção de bots com inteligência artificial para clientes como Vivo, Motorola, GOL, Nextel, Grupo Votorantim e outros. Atualmente, escreve para a Chatbot's Life e para a Bots Brasil, além de ser curador de conteúdo da VUI Design BR."
 	} 
 
     if(profName == "Rodrigo Botinhão"){
