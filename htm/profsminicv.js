@@ -522,14 +522,6 @@ function insertProfMiniCV(profName){
     
     
 
-    if(profName == "German Quiroga"){
-		var profMiniCV = "German Quiroga é Engenheiro Eletrônico pelo IME. MBA em Sistemas Digitais pela Universidade Federal de São Paulo. Fundador e CEO da TV1. Fundador, CIO e CMO da Americanas.com. Fundador, CIO e CMO na eHub. CEO do Ponto Frio.com. Foi CEO da Cnove, segundo maior conglomerado de comércio eletrônico no Brasil, que reúne marcas tais como Extra, Pão de Açucar, Casas Bahia e Ponto Frio."
-	}
-    
-
-    
-    
-
     if(profName == "Gilberto Dimenstein"){
 		var profMiniCV = "Gilberto Dimenstein ganhou todos os principais prêmios destinados a jornalistas e escritores. Foi acadêmico-visitante no programa de direitos humano da Universidade de Columbia (Nova York). Integrou a incubadora de projetos sociais de Universidade Harvard. Atualmente coordena o Catraca Livre, escolhido, em 2013, por um júri formado por especialistas em tecnologia da informação da Universidade de Oxford, BBC e Financial Times, uma das 100 mais inspiradoras inovações digitais para a mudança social."
 	}
