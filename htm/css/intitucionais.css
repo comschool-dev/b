@@ -29,3 +29,7 @@
 @media screen and (min-width: 1024px) {
 	.preVideo {width: 60%;margin: 0 auto;}
 }
+
+.pg-formas-de-pagamento{
+	background:red;
+}
