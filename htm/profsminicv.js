@@ -1391,5 +1391,13 @@ function insertProfMiniCV(profName){
 		var profMiniCV = "Apaixonado pelo que faz, lidera a área digital da Johnson & Johnson Vision Care como Gerente de Marketing Digital da América Latina. Possui ampla experiência em Marketing, CRM, Mídias Sociais, gestão de PR, e-trade e E-Commerce, aplicados em empresas como Philips, Panasonic, Colgate-Palmolive, HP, Secretaria da Fazenda, entre outras. Vencedor de diversos prêmios de transformação digital pelas empresas que passou. Formado em Publicidade e Propaganda pelo Mackenzie, MBA em Gestão Estratégica e Econômica de Projetos pela FGV, e Especialização em Digital Marketing pela Columbia Business School. Curioso por natureza e nerd por opção, entusiasmado por resultados e líder de coração, Fabiano vem trazendo para o mundo real as oportunidades que o e-mundo oferece, ajudando os dispostos a aprender a mergulhar no mundo da web."
 	}    
 	
+    if(profName == "Denise Moraes"){
+		var profMiniCV = " Consultora & Coach com 15 anos de atuação nas Áreas de Gestão de Cultura Organizacional, Desenvolvimento de Liderança e Team building. Ampla experiência em Coaching Executivo & Mentoring, Assessoria Estratégica e Assessment de Lideranças.Certificação como Practitioner nas metodologias globais: O Elemento Humano® (LHEP), LIFO® (LMP) e Barrett® (CTT). Certificação em Coaching Executivo e RH Estratégico. Instituto Marcondes de Tecnologia.Certificação em Coaching & Mentoring Instituto Holos ? certificado pelo International Coaching Federation (ICF)."
+	}
+
+	if(profName == "Marcela Azevedo"){
+		var profMiniCV = "10 anos de experiência profissional, tendo ocupado cargos como Gerente de Recursos Humanos e HRBP, atuou de forma generalista em diferentes empresas e segmentos. Hoje está à frente da MF Consultoria de Recursos Humanos. Possui formação em Psicologia, com especialização em Gestão Estratégica de Pessoas, e formação em Planejamento Estratégico, Professional Coaching e Management 3.0. Nos últimos anos acumulou certificações para atuar na transformação das organizações em People Analytics, Gestão de Mudanças - HUCMI, Agile HR Practitioner e Agile Coach."
+	}
+
 	return profMiniCV;
 }
