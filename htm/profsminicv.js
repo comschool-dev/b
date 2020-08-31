@@ -1399,5 +1399,13 @@ function insertProfMiniCV(profName){
 		var profMiniCV = "10 anos de experiência profissional, tendo ocupado cargos como Gerente de Recursos Humanos e HRBP, atuou de forma generalista em diferentes empresas e segmentos. Hoje está à frente da MF Consultoria de Recursos Humanos. Possui formação em Psicologia, com especialização em Gestão Estratégica de Pessoas, e formação em Planejamento Estratégico, Professional Coaching e Management 3.0. Nos últimos anos acumulou certificações para atuar na transformação das organizações em People Analytics, Gestão de Mudanças - HUCMI, Agile HR Practitioner e Agile Coach."
 	}
 
+	if(profName == "Caroline Marques"){
+		var profMiniCV = "Formada em Administração. Possui experiência comercial em grandes indústrias; além de já ter se aventurado pelo mundo do empreendedorismo; e nos últimos anos tem se especializado nas vendas de varejo através da venda online. Practitioner em PNL, alinha as técnicas para uma melhor comunicação com foco em resultados. Atualmente, trabalha em uma Joint Venture desenvolvendo e inserindo o marketplace B2C na vida dos varejistas de material de construção. Outras empresas pela qual já passou: Michelin, B2W (Americanas, Shoptime e Submarino), Carrefour e L?Oréal."
+	}
+
+	if(profName == "Renato Balma"){
+		var profMiniCV = "Atua no momento como Gerente de Marketplace na Inovakasa, com amplo domínio em SEO, cadastro de produtos, prospecção, gestão comercial, estratégias de vendas, plataformas, integrações e CRM. Graduado em Administração de Empresas, com Pós Graduação / MBA em Marketing Digital pela Faculdade Impacta de Tecnologia e especializações em CX e omminichanel. Possui 12 anos de experiência em E-commerce / Marketplace, atuando por 08 anos na Via Varejo. Além disso, trabalhou como consultor ou gerenciou projetos de Marketplace em empresas como Soulmkt, Madel, WAW Design, JP Imports, Store Mania, Inonni entre outras..."
+	}
+
 	return profMiniCV;
 }
