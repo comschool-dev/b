@@ -490,7 +490,7 @@ a:hover .icon-share-wishlist-off-det-product {background:url("../images/wishlist
 .FCCartContainer {position:relative;font-size:14px}
 .FCCart #FCCartRightSummary .FCCartPriceValue,.FCCart  #FCCartRightSummary .FCCartPriceValue .FCCurrencyLabel {color:#23aee8; font-weight:700}
 .FCCart #FCCartTotalCalc {color:#23aee8; font-size:16px; font-weight:700}
-.FCCart #FCCartSubtotalPrice {color:#23aee8; font-size:16px; font-weight:700; display:none;}
+.FCCart #FCCartSubtotalPrice {color:#23aee8; font-size:16px; font-weight:700;}
 .FCCart #FCCartSubtotalPrice .FCCurrencyLabel {color:#23aee8; font-size:14px; font-weight:700}
 .FCCart #FCCartSubtotals {font-weight:700;}
 .FCCart #FCCartSubtotals .FCCurrencyLabel {font-weight:700;}
