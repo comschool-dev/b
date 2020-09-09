@@ -59,8 +59,9 @@
 }
 @media screen and (max-width: 768px) {
 	.pg-formas-de-pagamento .tipos-formas-pagamento .bloco{
-		width:95% !important;
-	}}
+		width:92% !important;
+		margin:30px auto;
+	}
 }
 
 .pg-formas-de-pagamento .tipos-formas-pagamento .bloco h3{
