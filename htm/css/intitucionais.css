@@ -56,7 +56,7 @@
 	border-radius: 20px;
 	padding:20px;
 }
-}
+
 @media screen and (max-width: 1024px) {
 	.pg-formas-de-pagamento .tipos-formas-pagamento .bloco{
 		width:92% !important;
