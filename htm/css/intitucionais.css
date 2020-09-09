@@ -36,14 +36,25 @@
 
 .pg-formas-de-pagamento .tipos-formas-pagamento{
 	background:#FFE200;
+	padding:30px 0px 30px 30px;
 }
 
 .pg-formas-de-pagamento .tipos-formas-pagamento img{
 	max-height: 40px;
+	margin-bottom:15px;
 }
 
 .pg-formas-de-pagamento .tipos-formas-pagamento .bloco{
 	background:white;
+	max-width: 30% !important;
+	margin-right: 2%;
+	border-radius: 20px;
+	padding:20px;
+}
+
+.pg-formas-de-pagamento .tipos-formas-pagamento .bloco h2{
+	margin-top:50px;
+	margin-bottom:50px;
 }
 
 .pg-formas-de-pagamento .btn-consultor{
