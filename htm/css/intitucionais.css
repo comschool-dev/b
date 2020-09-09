@@ -42,14 +42,19 @@
 	max-height: 40px;
 }
 
+.pg-formas-de-pagamento .tipos-formas-pagamento .bloco{
+	background:white;
+}
+
 .pg-formas-de-pagamento .btn-consultor{
     font-size: 18px;
     text-transform: uppercase;
     text-align: center;
     color: #ffffff;
     background-color: #da151d;
-    margin: 5px auto 0 auto;
-    padding: 5px 20px;
-    border-radius: 15px;
-    float: none;
+    margin: 25px auto 0 auto;
+    padding: 15px 40px;
+    border-radius: 30px;
+	float: none;
+	display: table;
 }
