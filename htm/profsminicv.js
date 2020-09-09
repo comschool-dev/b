@@ -727,14 +727,6 @@ function insertProfMiniCV(profName){
     
     
 
-    if(profName == "Levi Lopes"){
-		var profMiniCV = "Profissional de Marketing Digital, Palestrante e Professor de ??Excelência no Atendimento e SAC 3.0?? na ComSchool onde lidera a área de Customer Experience e Customer Success.Graduado em Marketing e pós graduando em Customer Centric Marketing pela ESPM. Há 10 anos atua com negociação, excelência no atendimento e nos últimos 3 desenvolve estratégias no segmento de educação digital."
-	}
-    
-
-    
-    
-
     if(profName == "Lilian Gonçalves"){
 		var profMiniCV = "Atualmente, é responsável pelo time Editorial de links patrocinados do Yahoo! Search Marketing, onde ingressou em 2005. É autora do livro Neuromarketing Aplicado à Redação Publicitária ? Descubra como atingir o subconsciente do seu consumidor, publicado pela Novatec Editora em Julho de 2013. Pós-graduada em Comunicação e Marketing pela Fundação Cásper Líbero e graduada em Jornalismo pela Faculdades Integradas Alcântara Machado (FIAM/FAAM), conta com mais de 10 anos de experiência em Internet. Trabalhou como repórter e fechadora do Jornal da Tarde, do Grupo Estado, tendo contribuído com reportagens para as editorias Cidades e Turismo."
 	}
