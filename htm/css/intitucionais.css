@@ -57,7 +57,7 @@
 	padding:20px;
 }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
 	.pg-formas-de-pagamento .tipos-formas-pagamento .bloco{
 		width:92% !important;
 		margin:30px auto;
