@@ -1399,7 +1399,7 @@ function insertProfMiniCV(profName){
 		var profMiniCV = "Atua no momento como Gerente de Marketplace na Inovakasa, com amplo domínio em SEO, cadastro de produtos, prospecção, gestão comercial, estratégias de vendas, plataformas, integrações e CRM. Graduado em Administração de Empresas, com Pós Graduação / MBA em Marketing Digital pela Faculdade Impacta de Tecnologia e especializações em CX e omminichanel. Possui 12 anos de experiência em E-commerce / Marketplace, atuando por 08 anos na Via Varejo. Além disso, trabalhou como consultor ou gerenciou projetos de Marketplace em empresas como Soulmkt, Madel, WAW Design, JP Imports, Store Mania, Inonni entre outras..."
 	}
 
-	if(profName == "Thais Steremberg"){
+	if(profName == "Thais Sterenberg"){
 		var profMiniCV = "Com mais de 6 anos de mercado, sou publicitária de formação e pós-graduada em Marketing e Comunicação Digital pela ESPM. Com especialização em Growth Hacking, trabalhei em empresas como Danone e Nestlé nas áreas de marketing de produto, marketing digital e de conteúdo. Depois de anos na indústria, optei por seguir um novo rumo e atualmente sou Head de Marketing e Growth na Fix, startup de tecnologia e serviços em crescimento acelerado. Em paralelo, iniciei a Autonomy, uma consultoria focada em capacitar pequenos empreendedores a estruturarem e gerirem a área de marketing de seus negócios incorporando princípios de growth."
 	}
 
