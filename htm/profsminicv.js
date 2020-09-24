@@ -1407,6 +1407,14 @@ function insertProfMiniCV(profName){
 		var profMiniCV = "Formado em Publicidade e Propaganda, baiano, um lifelong learner, com ampla experiencia em Marketing Digital e Growth em empresas startups . Atualmente atuo como Growth e Marketing Coordinator na Omnibees uma multinacional do setor hoteleiro."
 	}
 
+	if(profName == "Alexandre Moron"){
+		var profMiniCV = "Formado em Engenharia pela UNISANTA e com MBA em Marketing pela USP, possui sua vivência digital voltada às novas operações de marketplace e à digitalização de novos entrantes do modelo de plataforma, passando pelo marketplace Dafiti Group (Dafiti, Kanui e Tricae) e atualmente no Magalu Marketplace respondendo pelas parcerias comerciais com plataformas de tecnologia e instituições de formação integradas ao negócio. É também porta-voz do Magalu em eventos direcionados aos novos negócios."
+	}
+
+	if(profName == "Ricardo Santana"){
+		var profMiniCV = "Head de e-commerce, Consultor Certificado MercadoLivre Silver, Diretor executivo ComEcomm - SP, Palestrante e-commerce Brasil, Pós graduado Mba Marketing Digital FGV, atuando 27 no mercado automotivo concessionários Toyota, Bmw, nas areas de pós vendas, importação e prestação de serviços, digitalizando 02 fabricas de peças automotivas e conduzindo suas operações para o digital, implantação de 4 lojas oficiais no MercadoLivre."
+	}
+
 
 	return profMiniCV;
 }
