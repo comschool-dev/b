@@ -1415,6 +1415,10 @@ function insertProfMiniCV(profName){
 		var profMiniCV = "Head de e-commerce, Consultor Certificado MercadoLivre Silver, Diretor executivo ComEcomm - SP, Palestrante e-commerce Brasil, Pós graduado Mba Marketing Digital FGV, atuando 27 no mercado automotivo concessionários Toyota, Bmw, nas areas de pós vendas, importação e prestação de serviços, digitalizando 02 fabricas de peças automotivas e conduzindo suas operações para o digital, implantação de 4 lojas oficiais no MercadoLivre."
 	}
 
+	if(profName == "Gustavo Chapchap"){
+		var profMiniCV = "Graduado em Marketing, trabalha com comunicação há mais de 20 anos e com e-commerce desde 2006. Redigiu o projeto que originou o Dia do Profissional Digital #404DigitalDay aprovado no plenário da Câmara Municipal da Cidade de São Paulo em 2014. É líder do comitê de e-Commerce da ABRADi (Associação Brasileira dos Agentes Digitais), atua como CMO na JET e-business. Em 2019 foi premiado como MVP no Fórum E-Commerce Brasil."
+	}
+	
 
 	return profMiniCV;
 }
