@@ -3,9 +3,9 @@
 <div id="tabs" class="conteudo-curso">
 <input id="tab1" type="radio" name="tabs" checked><label for="tab1">Descrição</label>
 <!--<input id="tab2" type="radio" name="tabs"><label for="tab2">Programa</label>-->
-<!--<input id="tab3" type="radio" name="tabs"><label for="tab3">Professores</label>-->
-<input id="tab2" type="radio" name="tabs"><label for="tab2">Dúvidas</label>
-<input id="tab3" type="radio" name="tabs"><label for="tab3">Depoimentos</label>
+<input id="tab2" type="radio" name="tabs"><label for="tab2">Professores</label>
+<input id="tab3" type="radio" name="tabs"><label for="tab3">Dúvidas</label>
+<input id="tab4" type="radio" name="tabs"><label for="tab4">Depoimentos</label>
 <!-- <input id="tab6" type="radio" name="tabs"><label for="tab6">In Company</label> -->
 
 
@@ -431,37 +431,36 @@ vendem, é certo que seu cliente está no WhatsApp e  gostaria de receber contatos
 
 
 <!---------------------------------------------------------- Sessão (ABA) - PROFESSORES ---------------------------------------------------------->
-<!--<section id="content3">
+<section id="content2">
     <div id="det-product-profs-tab">
         <div id="showProfs">
             <h2>Relação dos Professores do Curso</h2>
         </div>
         <script src="<baseloja>htm/profsminicv.js"></script>
-        <script>
-            var oProdFilters= <ProdFiltersJS>;
-            if(typeof(oProdFilters)=="object"){
-            var opFil=oProdFilters.pFil;
-            if(typeof(opFil)=="object"){
-                opFil.forEach(function(item){
-                if(item.name=="Professores" && item.image!=undefined){
-                    var profNames = item.value.split(",")
-                    var profImage = item.image.split(",")
-                    var showProfsDiv = document.getElementById('showProfs');
-                    profImage.forEach(function(item,index){
-                    showProfsDiv.innerHTML += "<div id='prof"+index+"'><img src='<baseloja>prod/"+item+"'>"+profNames[index]+"</div><p>"+insertProfMiniCV(profNames[index])+"</p>"
-                    });
+            <script>
+                var oProdFilters= <ProdFiltersJS>;
+                if(typeof(oProdFilters)=="object"){
+                var opFil=oProdFilters.pFil;
+                if(typeof(opFil)=="object"){
+                    opFil.forEach(function(item){
+                    if(item.name=="Professores" && item.image!=undefined){
+                        var profNames = item.value.split(",")
+                        var profImage = item.image.split(",")
+                        var showProfsDiv = document.getElementById('showProfs');
+                        profImage.forEach(function(item,index){
+                        showProfsDiv.innerHTML += "<div id='prof"+index+"'><img src='<baseloja>prod/"+item+"'>"+profNames[index]+"</div><p>"+insertProfMiniCV(profNames[index])+"</p>"
+                        });
+                    }
+                    })
                 }
-                })
-            }
-            }
-        </script>
+                }
+            </script>
     </div>
 </section>
 
--->
 
 <!---------------------------------------------------------- Sessão (ABA) - DÚVIDAS ---------------------------------------------------------->
-<section id="content2">
+<section id="content3">
     <h2>Tire aqui suas dúvidas sobre o curso de Curso de E-commerce na Prática:</h2>
 
     <h3> O que é E-commerce? </h3>
@@ -478,7 +477,7 @@ vendem, é certo que seu cliente está no WhatsApp e  gostaria de receber contatos
 
 
 <!---------------------------------------------------------- Sessão (ABA) - DEPOIMENTOS ---------------------------------------------------------->
-<section id="content3">
+<section id="content4">
     <h2>Depoimentos do Curso de E-commerce na Prática: Como Abrir uma Loja Virtual </h2>
 
     <p> A seguir, alguns depoimentos de alunos que fizeram o curso.</p>
