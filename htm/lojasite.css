@@ -1861,7 +1861,17 @@ h1,h2,h3,h4,h5,h6{
   display: inline-block;
   margin-top: 10%;
   padding:30px;
+  position: relative;
 
+}
+
+#popup-whats form .fechar{
+  padding: 20px;
+  font-size: 40px;
+  border-radius: 20px;
+  position: absolute;
+  top: -10px;
+  right: -10px;
 }
 
 #popup-whats form input, #popup-whats form label{
