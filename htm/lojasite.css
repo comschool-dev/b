@@ -1858,13 +1858,17 @@ h1,h2,h3,h4,h5,h6{
   border-radius: 10px;
   display: inline-block;
   margin-top: 10%;
-  text-align: left;
   padding:30px;
+
 }
 
 #popup-whats form input, #popup-whats form label{
+  text-align: left;
   width:100%;
-  margin-top:30px;
+}
+
+#popup-whats form input{
+  margin-bottom: 30px;
 }
 
 #popup-whats form h3{
@@ -1872,11 +1876,14 @@ h1,h2,h3,h4,h5,h6{
   padding: 10px 0;
   background: #214b42;
   color:#FFF;
+  text-align: center;
 }
 
 #popup-whats form button{
   background: #214b42;
   color:#FFF;
   margin: 0 auto;
+  padding: 15px;
+  border:none;
 }
 
