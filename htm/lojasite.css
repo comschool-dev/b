@@ -1840,3 +1840,20 @@ body{
 h1,h2,h3,h4,h5,h6{
   font-family: 'chapeauregular' !important;
 }
+
+
+#popup-whats {
+  position: absolute;
+  z-index: 999999;
+  width: 100%;
+  height: 100vh;
+  background: rgba(0,0,0,.6);
+  text-align: center;
+}
+
+#popup-whats form{
+  width:400px;
+  background: white;
+  border-radius: 10px;
+  display: inline-block;
+}
