@@ -1864,4 +1864,19 @@ h1,h2,h3,h4,h5,h6{
 
 #popup-whats form input, #popup-whats form label{
   width:100%;
+  margin-top:30px;
 }
+
+#popup-whats form h3{
+  width:100%;
+  padding: 10px 0;
+  background: #214b42;
+  color:#FFF;
+}
+
+#popup-whats form button{
+  background: #214b42;
+  color:#FFF;
+  margin: 0 auto;
+}
+
