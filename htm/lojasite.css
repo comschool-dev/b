@@ -1849,6 +1849,7 @@ h1,h2,h3,h4,h5,h6{
   height: 100vh;
   background: rgba(0,0,0,.6);
   text-align: center;
+  top:0;
 }
 
 #popup-whats form{
@@ -1856,4 +1857,12 @@ h1,h2,h3,h4,h5,h6{
   background: white;
   border-radius: 10px;
   display: inline-block;
+  margin-top: 10%;
+  text-align: left;
+}
+
+#popup-whats form input{
+  width:75%;
+  float:right;
+  margin-right: 10%;
 }
