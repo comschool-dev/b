@@ -1866,8 +1866,11 @@ h1,h2,h3,h4,h5,h6{
 }
 
 #popup-whats form .fechar{
-  padding: 20px;
-  font-size: 40px;
+  background: #4b953b;
+  color:#FFF;
+  width: 37px;
+  height: 37px;
+  font-size: 25px;
   border-radius: 20px;
   position: absolute;
   top: -10px;
