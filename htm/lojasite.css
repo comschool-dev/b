@@ -1843,18 +1843,20 @@ h1,h2,h3,h4,h5,h6{
 
 
 #popup-whats {
-  position: absolute;
+  position: fixed;
   z-index: 999999;
   width: 100%;
   height: 100vh;
   background: rgba(0,0,0,.6);
   text-align: center;
   top:0;
+  left: 0;
+  display: none;
 }
 
 #popup-whats form{
   width:400px;
-  background: white;
+  background: #e6ded6;
   border-radius: 10px;
   display: inline-block;
   margin-top: 10%;
@@ -1872,17 +1874,8 @@ h1,h2,h3,h4,h5,h6{
   margin-bottom: 10px;
 }
 
-#popup-whats form h3{
-  width:100%;
-  padding: 10px 0;
-  background: #214b42;
-  color:#FFF;
-  margin-bottom: 10px;
-  text-align: center;
-}
-
 #popup-whats form button{
-  background: #214b42;
+  background: #4b953b;
   color:#FFF;
   margin: 0 auto;
   padding: 10px 15px;
