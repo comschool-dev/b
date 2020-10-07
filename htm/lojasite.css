@@ -1859,10 +1859,9 @@ h1,h2,h3,h4,h5,h6{
   display: inline-block;
   margin-top: 10%;
   text-align: left;
+  padding:30px;
 }
 
-#popup-whats form input{
-  width:75%;
-  float:right;
-  margin-right: 10%;
+#popup-whats form input, #popup-whats form label{
+  width:100%;
 }
