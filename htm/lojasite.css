@@ -1897,3 +1897,26 @@ h1,h2,h3,h4,h5,h6{
   border:none;
 }
 
+/* Cookie Warning */
+body.cookiewarning{}
+body div.cookiewarning{display:none}
+body.cookiewarning div.cookiewarning{display:block;position:fixed;bottom:0;width:100%;z-index:999991;background-color:rgba(0,0,0,.95);color:white}
+.cookiewarning-position{max-width:1306px;padding:15px 18%}
+.cookiewarning-position h4{margin:1.33em 0;padding:0}
+.cookiewarning-position p{font-size:0.9rem;margin:1em 0;}
+.cookiewarning-position p a{text-decoration:underline;color:#ffffff}
+.cookiewarning-btn{background:#178239;color:#ffffff;padding:5px 35px;text-align:center;text-decoration:none;font-size:1rem;border-radius:2px;cursor:pointer;}
+body .removecookie{display:inline-block}
+body.cookiewarning .removecookie{display:none}
+.cookiewarning-position-btn{display:flex;display:-webkit-flex;flex-flow:row wrap;-webkit-flex-flow:row wrap;justify-content:space-evenly;-webkit-justify-content:space-evenly;align-items:center;-webkit-align-items:center;}
+/* Custom Cookie Policy */
+.Cookiepolicy00Page .left-bar{min-height:20px!important;display:none;}
+.fc-custom-cookie-policy-container{max-width:1224px;text-align:center;margin:0 auto;}
+.fc-custom-cookie-policy-content{text-align:left;}
+.fc-custom-cookie-policy-content p{font-size:1rem;margin:1em 0;padding:0}
+.fc-custom-cookie-policy-content h5{margin:1.67em 0!important;padding:0!important}
+@media only screen and (max-width:1024px){
+/* Cookie Warning */
+.cookiewarning-position{max-width:1306px;padding:15px 5%!important}
+}
+

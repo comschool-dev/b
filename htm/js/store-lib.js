@@ -8,7 +8,7 @@ var iDescontoAvista=0;
 
 //Informe abaixo os juros para parcelamento em 1x, 2x, 3x, etc.
 var Juros=new Array();
-Juros[0]=0; //1x (à vista)
+Juros[0]=0; //1x (ï¿½ vista)
 Juros[1]=0; //2x
 Juros[2]=0; //3x
 Juros[3]=0; //4x
@@ -180,7 +180,7 @@ var sF$=(function(){
     if(oBadge){
       var sBadges="";
       if(oBadge.hasAttribute("data-sale") && OriginalPrice>Price)sBadges+="<div id='badgeProm"+ ProductID +"' class='fc-badge-product-sale' title='Oferta'><span>-" + fnGetSale() + "%</span></div>";
-      //if(oBadge.hasAttribute("data-release"))sBadges+="<div class='fc-badge-product-release' title='Lançamento'>&#10033;</div>";
+      //if(oBadge.hasAttribute("data-release"))sBadges+="<div class='fc-badge-product-release' title='Lanï¿½amento'>&#10033;</div>";
       //if(oBadge.hasAttribute("data-highlight"))sBadges+="<div class='fc-badge-product-highlight' title='Destaque'>&#9755;</div>";
       if(sBadges!="")oBadge.innerHTML+="<div class='fc-badge-product-principal'>"+ sBadges +"</div>";
     }
@@ -806,7 +806,7 @@ function showDivFilter() {
   }
 }
 
-/* Inserção de Texto no final das Categorias */
+/* Inserï¿½ï¿½o de Texto no final das Categorias */
 function CategoryDescription(){
     var d = document.querySelector(".category-description");
     if (d && typeof d != "undefined") {
@@ -1073,7 +1073,7 @@ if(false){
       DontGoBtnClose:FC$.PathImg +"botdontgoclose.svg?cccfc=1", //Close button
       DontGoBanner:FC$.PathImg +"bannerpopupdontgo.jpg?cccfc=1", //Banner
       DontGoLink:FCLib$.uk("url-sale"), //Link
-      DontGoAltParam:"UM DESCONTO ESPECIAL PARA VOCÊ!"}, //Alt Param
+      DontGoAltParam:"UM DESCONTO ESPECIAL PARA VOCï¿½!"}, //Alt Param
       "DontGoCookie"); //Cookie name
     }
   });
@@ -1787,3 +1787,43 @@ var Cart$=(function(){
 
 })();
 
+/* Cookie Policy Footer Warning */
+function fnCookieWarning(){
+  function createCookie(name, value, days){
+  if(days){
+  var date=new Date();
+  date.setTime(date.getTime()+(days*24*60*60*1000));
+  var expires="; expires="+ date.toGMTString();
+  }else var expires="";
+  document.cookie=name +"="+ value + expires +"; path=/";
+  }
+  function readCookie(name){
+  var nameEQ=name +"=",
+  ca=document.cookie.split(';');
+  for(var i=0;i<ca.length;i++){
+  var c=ca[i];
+  while(c.charAt(0)==' ')c=c.substring(1,c.length);
+  if(c.indexOf(nameEQ)==0)return c.substring(nameEQ.length,c.length);
+  }
+  return null;
+  }
+  function eraseCookie(name){createCookie(name,"",-1);}
+  var cookieBody=document.getElementsByTagName("BODY")[0],
+  cookieLaw=document.getElementById("cookie-law"),
+  cookieURL=document.getElementById("cookie-url"),
+  cookieName="cookiewarning",
+  cookieWarning=document.createElement("div."+ cookieName);
+  function setCookieWarning(active){(!!active)?cookieBody.classList.add(cookieName):cookieBody.classList.remove(cookieName);}
+  cookieURL.href="/page,arq,cookie-policy-"+ ("0"+FC$.Language).slice(-2) +".htm,cookie";
+  cookieLaw.addEventListener("click", function(){
+  createCookie(cookieName,1,365)
+  setCookieWarning(false);
+  });
+  if(readCookie(cookieName)!=1)setCookieWarning(true);
+  function removeMe(){
+  eraseCookie(cookieName);
+  setCookieWarning(false);
+  }
+  }
+
+  
