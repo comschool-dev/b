@@ -1419,6 +1419,11 @@ function insertProfMiniCV(profName){
 		var profMiniCV = "Graduado em Marketing, trabalha com comunicação há mais de 20 anos e com e-commerce desde 2006. Redigiu o projeto que originou o Dia do Profissional Digital #404DigitalDay aprovado no plenário da Câmara Municipal da Cidade de São Paulo em 2014. É líder do comitê de e-Commerce da ABRADi (Associação Brasileira dos Agentes Digitais), atua como CMO na JET e-business. Em 2019 foi premiado como MVP no Fórum E-Commerce Brasil."
 	}
 	
+	if(profName == "Marcos Potasz"){
+		var profMiniCV = "Head de Marketing Digital na ComSchool. Bacharelado em Sistema de Informação na Universidade Presbiteriana Mackenzie. MBA em Marketing Digital pela ESPM. Atuou em Marketing com empresas de diversos segmentos como sócio durante 5 anos em agência de Marketing Digital. Especialista em criação de campanhas digitais e divulgação no Google Ads e Facebook Ads. Vasto conhecimento nas ferramentas de Google Analytics e Google Data Studio com objetivo de gerar relatórios e dashboards personalizados."
+	}
+
+
 
 	return profMiniCV;
 }
