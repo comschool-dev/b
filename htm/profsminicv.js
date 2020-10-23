@@ -58,14 +58,6 @@ function insertProfMiniCV(profName){
     
     
 
-    if(profName == "André Santos"){
-		var profMiniCV = "MBA em Marketing e Vendas pela FGV-SP, já capacitou cerca de 100.000 empreendedores em eventos como Ciclo MPE-net, SEBRAE, Feira do Empreendedor, Primeiro E-commerce, Universidade MercadoLivre e MERCADO LIVRE EXPERIENCE em 2016, 2017 e 2018 e 2019, um dos maiores mentores na formação de novos vendedores na plataforma, há mais de 12 anos no Mercado Livre.Fundador do site E-commerce PME e André Santos Play"
-	}
-    
-
-    
-    
-
     if(profName == "André Tavares"){
 		var profMiniCV = "Profissional com mais de 10 anos de experiência no mercado de marketing online e comunicação, trabalha há 6 anos no Peixe Urbano, onde passou por áreas como produção, criação e produto. Atualmente é Coordenador de Marketing e é responsável pelas áreas de e-mail e redes sociais da empresa. É formado em Publicidade e Propaganda, tem especializações em Marketing Digital (Infnet e M2BRNET) e Criação (ESPM), e MBA em Marketing (FGV). Na sua trajetória, pode trabalhar com empresas dos mais variados segmentos, como varejo, petróleo e gás, educação, saúde e moda, além de ter trabalho no exterior (Angola)."
 	}
@@ -485,15 +477,6 @@ function insertProfMiniCV(profName){
     if(profName == "Franklin Bravos"){
 		var profMiniCV = "Franklin Bravos é graduado em Física pela USP e técnico em Processamento de Dados pela Unicamp. Trabalha com tecnologia e internet desde 1998, tendo atuado em grandes empresas como: IG, Odonto Prev, Liberty Seguros e Net.Atualmente é sócio na Signativa, uma das mais conceituadas empresa brasileiras especializada em desenvolvimento Magento. Responsável em ampliar a atuação da empresa em todo Brasil. Professor na ComSchool nos cursos de Magento e também atua em treinamentos e consultorias para grandes clientes e marcas, como Hering, Imaginarium, Brandili, Melissa, Natura, Fischer, Futura Saúde e Amigão Calçados."
 	}
-    
-
-    
-    
-
-    if(profName == "Gabriel Lima"){
-		var profMiniCV = "Mestre em Business Administration pelo Instituto Insper. Graduado em Marketing com foco em Estratégias e Comunicação pela ESPM. Autor do livro \"Comércio Eletrônico: Melhores Práticas do Mercado Brasileiro\" pela Editora ComSchool. Foi Analista no Citibank e Gerente de Marketing no Submarino Finanças. CEO e Founder na eNext, consultoria especializada em projetos de e-commerce que já atendeu empresas tais como Sephora, Canal Concept, NK Store, Alekta, DPaschoal, Farm, Mash, Colombo, Staples, Gallerist, Centauro, Schutz, Raia Drogasil, Enjoei, Telhanorte, Restoque, OQVestir e Livraria Cultura, entre outras."
-	}
-    
 
     
     
@@ -1221,14 +1204,6 @@ function insertProfMiniCV(profName){
     
     
 
-    if(profName == "Thiago Pereira"){
-		var profMiniCV = "Thiago Pereira é gerente geral de e-commerce das Lojas Marisa. Formado em Administração pela Universidade Paulista, com extensão em International Business pela Kentucky University. Obteve especialização em programação web, pós em e-Business e MBA em Marketing pela Fundação Getúlio Vargas (FGV). Com passagens pela Motorola, Bosch, Lucent, Avon, Johnson&Johnson e outros, se especializou em modelos de negócios baseados na web."
-	}
-    
-
-    
-    
-
     if(profName == "Thiago Veras"){
 		var profMiniCV = "Mais de 14 anos de experiência em multinacionais, com atuação nas áreas de treinamento e desenvolvimento. Foco em processos e soluções de Cultura Organizacional, Employer Branding, Diversidade, Onboarding, Gestão de Desempenho, Aprendizagem & Educação, Sucessão, Reconhecimento e Recompensa e Endomarketing. Graduado na USP. Pós-graduado em Sociopsicologia pela FESPSP.Foi Gerente de Treinamento & Desenvolvimento Organizacional na Netshoes, onde coordenou o ciclo do processo das Melhores Para se Trabalhar da VOCÊ SA, que resultou no quinto ano da conquista do prêmio e primeiro lugar no segmento de e-commerce. Também foi Gerente de Educação Corporativa na Natura e Técnico de Sistemas de Gestão na Mercedes-Benz do Brasil. Atualmente estrutura a área de Recursos Humanos da Empiricus Research."
 	}
@@ -1339,10 +1314,6 @@ function insertProfMiniCV(profName){
 		var profMiniCV = "&Eacute; Fundadora e Consultora em Marketing Digital da &ldquo;Inspire Digital&rdquo;. Especialista em Marketing Digital e Inbound Marketing. Atuou como Gerente de Processos e Marketing Digital na &ldquo;CPTarget Intelig&ecirc;ncia Online&rdquo;, onde foi respons&aacute;vel pelo planejamento e gest&atilde;o do processo de desenvolvimento de p&aacute;ginas e pe&ccedil;as digitais, cria&ccedil;&atilde;o de conceito e briefing, estudo da concorr&ecirc;ncia, follow-up com fornecedores, interface com &aacute;reas internas, cria&ccedil;&atilde;o de fluxos de processos para o gerenciamento de atividades envolvendo a &aacute;rea comercial, operacional e de tecnologia, dentre outras fun&ccedil;&otilde;es. P&oacute;s-gradua&ccedil;&atilde;o em administra&ccedil;&atilde;o de empresas na FGV e especializa&ccedil;&atilde;o, neuroci&ecirc;ncia e tecnologia aplicada no Mackenzie."
 	}
 
-    if(profName == "Milton Oyas"){
-		var profMiniCV = "Consultor, Palestrante e Facilitador para Treinamento Corporativo. Bacharel em Administração de Empresas - Pós Graduado em Marketing e Gestão Ambiental. Experiência de 21 anos nas áreas de Vendas e Marketing, em empresas de diversos segmentos, ocupando cargos de liderança e execução, tendo trabalhado profissionalmente como Fornecedor, Distribuidor e Comprador."
-	}
-
     if(profName == "Claudio Zanutim"){
 		var profMiniCV = "Autor, Professor, Comunicador, Palestrante e Trainer Internacional. Mestre em Administração de Empresas e Gestão de Pessoas pela Unesp, MBA´s em Administração Estratégica, Mercadologia e Gestão de Pessoas. Experiência de mais de 32 anos atuando em Varejo, Industria e no Universo Acadêmico. Também fui empreendedor: dono de fábrica e 6 lojas em shopping centers."
 	}
@@ -1362,10 +1333,6 @@ function insertProfMiniCV(profName){
     if(profName == "Denise Salvador"){
 		var profMiniCV = "Especialista com mais de 30 anos atuando em Educação Corporativa,  tanto na coordenação quanto na instrutória de programas e cursos com foco  técnico e comportamentais. Destaque para desenvolvimento de líderes, equipes de vendas e atendimento. Trajetória em empresas no ramo financeiro (Fininvest) , varejo (Grupo Carrefour), de saúde (Lab Helion Povoa), gás (SHV Gas) e Mineração (Vale) onde atua hoje na posição de  Master HR Training and Development . Graduação em Psicologia, com Pós graduação em RH | Pontifícia Universidade Católica- RJ"
 	}
-
-    if(profName == "Pedro Chiamulera"){
-		var profMiniCV = "Fundou a ClearSale em 2001 para ser uma empresa de gestão de riscos que trata a fraude, e tudo o que a envolve, de forma revolucionária. Dessa forma, a ClearSale se tornou líder e referência de mercado, sendo reconhecida como autoridade em prevenção a fraudes nos mais diversos segmentos. Formado em Ciência da Computação pela universidade Point Loma Nazarene, em San Diego, nos EUA, Pedro é ex-atleta e competiu no atletismo em duas Olimpíadas representando o Brasil. Empreendedor entusiasmado, Pedro sabe aplicar a disciplina do esporte ao mundo corporativo, principalmente no que diz respeito à superação dos próprios limites."
-	} 
 
     if(profName == "Rodrigo Botinhão"){
 		var profMiniCV = "Com mais de 8 anos de experiência com Marketing Digital, atuando com e-commerce e serviços. Conhecimentos em canais de aquisição (SEO, SEM, Social Media, Affiliates, Email Marketing), Plataformas de comércio eletrônico, Análise e mensuração de resultados."
