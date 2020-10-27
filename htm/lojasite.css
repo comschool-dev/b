@@ -1900,10 +1900,10 @@ h1,h2,h3,h4,h5,h6{
 /* Cookie Warning */
 body.cookiewarning{}
 body div.cookiewarning{display:none}
-body.cookiewarning div.cookiewarning{display:block;position:fixed;bottom:0;width:100%;z-index:999991;background-color:rgba(0,0,0,.95);color:white}
+body.cookiewarning div.cookiewarning{display:block;position:fixed;bottom:0;width:100%;z-index:999991;background-color:rgba(0,0,0,.75);color:white}
 .cookiewarning-position{max-width:1306px;padding:15px 18%}
 .cookiewarning-position h4{margin:1.33em 0;padding:0}
-.cookiewarning-position p{font-size:0.9rem;margin:1em 0;}
+.cookiewarning-position p{font-size:0.9rem;margin:1em 0; display: block; float: left; width: 80%; margin-top: 0;}
 .cookiewarning-position p a{text-decoration:underline;color:#ffffff}
 .cookiewarning-btn{background:#178239;color:#ffffff;padding:5px 35px;text-align:center;text-decoration:none;font-size:1rem;border-radius:2px;cursor:pointer;}
 body .removecookie{display:inline-block}
