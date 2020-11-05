@@ -26,6 +26,10 @@ function insertProfMiniCV(profName){
     
     
 
+    if(profName == "Anderson Nakandakare"){
+		var profMiniCV = "Profissional há mais de 16 anos no mercado digital atuando com marketing, gestão de produtos digitais e e-commerce, Anderson tem experiência em empresas multinacionais de diversos segmentos e especialidade em gestão e implantação de canais de venda digitais liderando iniciativas em diversas disciplinas no Brasil e no exterior. É formado em Publicidade, com pós-graduação em Logística, MBA em administração e profissional certificado pela Scrum Alliance."
+	}
+
     if(profName == "Anderson Palma"){
 		var profMiniCV = "Co-Fundador do Growth Labs, o primeiro laboratório de experimentos de Growth Hacking do país e responde pelo Growth Hacking de empresas como Superlógica e PJBank. Publicitário de formação, Palma se envolve com Growth Hacking desde 2014, mas trabalha com Marketing Tradicional e Digital a mais de 15 anos, acumulando experiências em Agências de Publicidade, Startups e Empresas, tanto aqui no Brasil quanto no exterior, além de ter atendido marcas como Itaú Financiamentos, Decathlon e Shell. Mentor no Founder Institute, Professor e Palestrante, Palma é especialista em relacionamento e comunicação em funis automatizados de alto impacto de Marketing H2H."
 	}
@@ -547,6 +551,11 @@ function insertProfMiniCV(profName){
 	}
     
 
+    if(profName == "Hermes Augusto"){
+		var profMiniCV = "Publicitário e especialista em SEO com mais de 8 anos de experiência. Já realizou projetos de SEO para as maiores marcas do Brasil pelas agências Jüssi e Cadastra, além de ter sido head de SEO das empresas Webmotors, BTG Pactual e Genial Investimentos."
+	}
+    
+
     
     
 
@@ -600,6 +609,11 @@ function insertProfMiniCV(profName){
 
     if(profName == "João Ramirez"){
 		var profMiniCV = "Empreendedor, especialista em lançar e identificar oportunidades digitais, com mais de 16 anos de experiência no mercado online brasileiro. Co-fundador do ClickOn, um dos líderes do mercado brasileiro de compras coletivas. Co-fundador do Migux, maior rede social construída no Brasil, líder no segmento infantil. Consultor de negócios digitais em Games Sociais, E-Commerce, Telefonia Móvel e Transmídia. Consultor-voluntário do Teleton, da AACD, em campanhas de arrecadação de recursos pela Web e telefonia celular. Consultor do Instituto Socioambiental e da Federação das Organizações Indígenas do Rio Negro, em projetos de inclusão digital e bons usos da Web. Foi estrategista digital da campanha de Marina Silva à Presidência da República. É pioneiro do UOL, maior portal em língua não-inglesa do mundo. Na pré-história da Internet, foi responsável pela primeira transmissão ao vivo de um show pela Web no Brasil."
+	}
+    
+
+    if(profName == "Jonas Lima"){
+		var profMiniCV = "Trabalhou no Support do Google Ads Brasil por quase 4 anos ajudando anunciantes do Brasil e Portugal a aumentar a performance das suas campanhas. Treinou mais de 200 funcionários no Google, no processo de capacitação e Onboarding. No Mercado Publicitário, compôs o time de performance do Banco BMG, Banco 24Horas, Sleep House, Swarovski Latam, Tena e agora com a Claro como Supervisor de Performance na Agência ID/TBWA."
 	}
     
 
@@ -699,6 +713,11 @@ function insertProfMiniCV(profName){
 	}
     
 
+    if(profName == "Leandro Santiago"){
+		var profMiniCV = "Gerente de Canais Digitais no Santander e formado em Sistemas de Informação com Mestrado em Informática atuando  há mais de 9 anos na área de métricas digitais, web analytics e business intelligence. Já passou por empresas como: Band, AgênciaClick, JWT (J. Walter Thompson), Whirlpool (Brastemp, Consul, KitchenAid e Compra Certa) e Magazine Luiza. Co-autor do livro Qualidade da Interação de Sistemas e Novas Abordagens para Avaliação."
+	}
+    
+
     
     
 
@@ -744,6 +763,11 @@ function insertProfMiniCV(profName){
 
     if(profName == "Luiz Clerc"){
 		var profMiniCV = "Palestrante, Coaching e especialista em desenvolvimento humano das pessoas. Economista, formado pela Cândido Mendes/RJ, especialização no APG - Programa de Gestão Avançada realizado na Amana-Key e MBA Executivo concluído no INSPER/SP. 31 anos de atuação no Mercado Financeiro sempre em empresas de grande porte e multinacionais, sendo 15 anos na função de Superintendente Comercial, especialista em Vendas e no Varejo, atuando com equipes de vendas multidisciplinares e multifuncionais."
+	}
+    
+
+    if(profName == "Luis Augusto"){
+		var profMiniCV = "20 anos de experiência com logística, com maior foco em transportes, distribuição last mile e armazenagem no e-commerce. Desenvolvimento e implementação de projetos de redesenho e ampliação de malhas logísticas. Planejamento e execução de operações especiais, como Black Friday."
 	}
     
 
@@ -918,7 +942,7 @@ function insertProfMiniCV(profName){
     
 
     if(profName == "Paulo Dornelas"){
-		var profMiniCV = "Um grande entusiasta do mundo digital e suas oportunidades de negócio.Certificado em web analytics e e-commerce pela Escuela de organización industrial da Espanha, Produto, marca e serviços pela FGV Brazil, além de marketing digital pela IAB Spain.Atuou como analista de qualidade em projetos da Google para small bussiness da América latina, atuou na área de mídia, prestando serviços para empresas como Ultragaz, Grow e Citroën.Hoje é Coordenador de Web analytics na agência IDTBWA."
+		var profMiniCV = "Certificado em web analytics e e-commerce pela Escuela de organización industrial da Espanha, Produto, marca e serviços pela FGV Brazil, além de marketing digital pela IAB Spain. Atuou como analista de qualidade em projetos do Google para empresas SMB da América latina, atuei na área de mídia online e offline, planejando e supervisionando ações para empresas como Ultragaz, Mitsubishi, Citroën, Bosh, Perdigão, Net e Sodexo. Hoje sou Media / Web analytics Manager, Professor e Palestrante na área de BI e Mídia"
 	}
     
 
