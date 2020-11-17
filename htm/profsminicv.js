@@ -185,7 +185,7 @@ function insertProfMiniCV(profName){
   
   
       if(profName == "Cynthia Prado"){
-		var profMiniCV = "Solution Engineer na Oracle e Embaixadora do Mulheres no E-commerce, Cynthia tem 20 anos de experiência em Design Digital e 14 anos em Ecommerce (B2B e B2C).Premiada pelo Prêmio ABComm em 2019 duas vezes premiada pelo \?Talento Awards\? da Unilever.Também trabalhou em empresas como Kalunga, Somlivre, Centauro e Videolar."
+		var profMiniCV = "Solution Engineer na Oracle e Embaixadora do Mulheres no E-commerce, Cynthia tem 20 anos de experiência em Design Digital e 14 anos em Ecommerce (B2B e B2C). Premiada pelo Prêmio ABComm em 2019 duas vezes premiada pelo Talento Awards da Unilever.Também trabalhou em empresas como Kalunga, Somlivre, Centauro e Videolar."
 	}
 
     
@@ -1412,6 +1412,10 @@ function insertProfMiniCV(profName){
 	
 	if(profName == "Marcos Potasz"){
 		var profMiniCV = "Head de Marketing Digital na ComSchool. Bacharelado em Sistema de Informação na Universidade Presbiteriana Mackenzie. MBA em Marketing Digital pela ESPM. Atuou em Marketing com empresas de diversos segmentos como sócio durante 5 anos em agência de Marketing Digital. Especialista em criação de campanhas digitais e divulgação no Google Ads e Facebook Ads. Vasto conhecimento nas ferramentas de Google Analytics e Google Data Studio com objetivo de gerar relatórios e dashboards personalizados."
+	}
+
+	if(profName == "Stephanie Santos"){
+		var profMiniCV = "Formada em Publicidade e Propaganda com ênfase em Mídias Digitais pela Unicuritiba. Trabalha com Web Analytics desde 2014, começou sua carreira em agência, onde permaneceu até o começo de 2017, durante esse período atendeu os mais diversos segmentos e clientes como: TIM (Telecom Italia), Nestlé e Shell.Hoje atua como especialista em Web Analytics no Peixe Urbano / Groupon Latam, focada principalmente em análise, construção e automatização de relatórios."
 	}
 
 
