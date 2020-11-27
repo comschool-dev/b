@@ -1161,15 +1161,7 @@ function insertProfMiniCV(profName){
 	}
     
 
-    
-    
-
-    if(profName == "Samuel Gonsales"){
-		var profMiniCV = "Samuel Gonsales é especialista em Sistemas de Gestão Empresarial (ERP) e e-Commerce acumulando mais de 17 anos de experiência tendo participado de mais de 300 projetos de e-Commerce de expressivos players. MBA em Gestão de Negócio e Pós-graduado em Sistema Integrados de Gestão (ERP) - FIAP. Atua como Head of Products na Millennium Network, Professor Universitário no IBTA, Articulista de diversos portais e revistas e Palestrante nos principais eventos de e-Commerce e TI."
-	}
-    
-
-    
+  
     
 
     if(profName == "Sara Zimmermann"){
