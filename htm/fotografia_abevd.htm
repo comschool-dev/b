@@ -1,0 +1,151 @@
+<!-- Previous Udate: 10.09.2020 by Nilson -->
+<!-- Last Update: 06.11.2020 by Nilson -->
+
+<!---------------------------------------------------------- CONTROLE DE ABAS ---------------------------------------------------------->
+<div id="tabs" class="conteudo-curso">
+<input id="tab1" type="radio" name="tabs" checked><label for="tab1">Descrição</label>
+<input id="tab2" type="radio" name="tabs"><label for="tab2">Programa</label>
+<input id="tab3" type="radio" name="tabs"><label for="tab3">Professores</label>
+<!-- <input id="tab6" type="radio" name="tabs"><label for="tab6">In Company</label> -->
+
+
+
+<!---------------------------------------------------------- Sessão (ABA) - DESCRIÇÃO ---------------------------------------------------------->
+<section id="content1">
+
+    <!---------------------------------------------------------- NOME DO CURSO ---------------------------------------------------------->
+       <h1> Como fazer Fotos Profissionais dos Produtos</h1>
+
+
+
+    <!---------------------------------------------------------- DESCRIÇÃO DO CURSO ---------------------------------------------------------->
+       <p>
+        Hoje o meio digital se tornou uma das maiores fontes de ganhos na venda de produtos e isso se tornou um grande desafio para aqueles que resolvem adentrar a este mundo devido a grande concorrência que existe. 
+       </p>
+
+       <p>
+        . Por isso, uma foto bem produzida do seu produto é extremamente importante para o sucesso de sua venda. Assim, este curso tem por objetivo valorizar suas imagens, dando a elas o destaque necessário para promover o seu produto. 
+       </p>
+
+
+
+
+    <!---------------------------------------------------------- OBJETIVOS DO CURSO ---------------------------------------------------------->
+       <h2>Objetivos:</h2>
+          <ul>
+            <li>Prover noções sobre a fotografia</li>
+            <li>Prover noções sobre o uso de luz</li>
+            <li>Prover conhecimento para a montagem de um estúdio em casa</li>
+            <li>Prover conhecimento sobre imagens atraentes</li>
+            <li>Evitar erros comuns no momento da produção fotográfica</li>
+          </ul>
+
+
+
+    <!---------------------------------------------------------- CONTEÚDO PROGRAMÁTICO ---------------------------------------------------------->
+        <h2>Conteúdo Programático:</h2>
+           <ul>
+            <li> Introdução a Fotografia</li>
+            <li> Como Improvisar um Estúdio em Casa</li>
+            <li> Como Utilizar a Luz a seu favor</li>
+            <li> Dicas de Fotos Atrativas para Redes Sociais</li>
+            <li> Erros Comuns</li>            
+           </ul>
+
+        <p>Veja o conteúdo programático completo na aba <strong><input id="tab2" type="radio" name="tabs"><label for="tab2">Programa</label></strong>.</p>
+
+
+
+    <!---------------------------------------------------------- DURAÇÃO DO CURSO ---------------------------------------------------------->
+        <h2>Duração do Curso:</h2>
+           <p>
+               O curso de <strong> Como fazer Fotos Profissionais dos Produtos</strong> tem carga horária total de <strong> 60 </strong> minutos de muito conteúdo.
+           </p>
+
+
+
+    <!---------------------------------------------------------- PÚBLICO ALVO ---------------------------------------------------------->
+        <h2>Público Alvo:</h2>
+           <p> 
+             Vendedores de produtos ou serviços, que buscam entender como usar a internet e as ferramentas digitais para aumentar suas vendas.
+           </p>
+
+
+
+    <!---------------------------------------------------------- MATRÍCULA ---------------------------------------------------------->
+        <h2>Faça já a sua matrícula!</h2>
+            <p>
+               &#45; Clique no botão acima e dê um grande passo em sua carreira. Matricule-se com desconto a vista ou parcele no cartão. Se preferir, preencha o formulário abaixo e nossos consultores entrarão em contato para esclarecer suas dúvidas.<br /><br />
+               &#45; Se quiser conversar diretamente com nossos consultores, entre em contato por <strong>WHATSAPP</strong> clicando na opção abaixo:
+            </p> 
+            <p class="imagem-center"> 
+               <a href="https://api.whatsapp.com/send?1=pt_BR&phone=5511970843186" target="_blank"><img src="https://i.comschool.com.br/cursos-comschool.jpg" alt="Atendimento por WhatsApp, clique aqui"/></a>
+            </p> 
+
+
+
+
+</section>
+
+
+
+<!---------------------------------------------------------- Sessão (ABA) - CONTEÚDO PROGRAMÁTICO ---------------------------------------------------------->
+<section id="content2">
+    
+    <h2>Conteúdo Programático</h2>
+
+    <h4> Introdução a Fotografia</h4><ul>
+        <li>	Desenvolvimento da Imagem</li>
+        <li>	Tipos de Fotografia</li>
+        <li>	Equipamentos</li></ul>
+        
+        <h4> Como Improvisar um Estúdio em Casa</h4><ul>
+        <li>	Materiais</li>
+        <li>	Como montar seu estúdio</li></ul>
+        
+        <h4> Como Utilizar a Luz a seu favor</h4><ul>
+        <li>	Sobre a luz</li>
+        <li>	Como trabalhar a iluminação</li></ul>
+        
+        <h4> Dicas de Fotos Atrativas para Redes Sociais</h4><ul>
+        <li>	Fotografia</li>
+        <li>	Manipulação</li></ul>
+        
+        <h4> Erros Comuns</h4>
+        
+
+</section>
+
+
+
+<!---------------------------------------------------------- Sessão (ABA) - PROFESSORES ---------------------------------------------------------->
+<section id="content3">
+    <div id="det-product-profs-tab">
+        <div id="showProfs">
+            <h2>Relação dos Professores do Curso</h2>
+        </div>
+        <script src="<baseloja>htm/profsminicv.js"></script>
+        <script>
+            var oProdFilters= <ProdFiltersJS>;
+            if(typeof(oProdFilters)=="object"){
+            var opFil=oProdFilters.pFil;
+            if(typeof(opFil)=="object"){
+                opFil.forEach(function(item){
+                if(item.name=="Professores" && item.image!=undefined){
+                    var profNames = item.value.split(",")
+                    var profImage = item.image.split(",")
+                    var showProfsDiv = document.getElementById('showProfs');
+                    profImage.forEach(function(item,index){
+                    showProfsDiv.innerHTML += "<div id='prof"+index+"'><img src='<baseloja>prod/"+item+"'>"+profNames[index]+"</div><p>"+insertProfMiniCV(profNames[index])+"</p>"
+                    });
+                }
+                })
+            }
+            }
+        </script>
+    </div>
+</section>
+
+
+
+</div>
