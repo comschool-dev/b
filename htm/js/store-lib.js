@@ -1772,8 +1772,8 @@ var Cart$=(function(){
   }
 
   function fnMontaMaxParcelaCart(Valor){
-    if(iMaxParcels>1){return rk("side-cart-shopping-interest-10x") +" "+ FCLib$.formatMoney(CalculaParcelaJurosCompostos(Valor,10),FC$.Currency)};
-    //return rk("side-cart-shopping-interest-10x") +" "+ FCLib$.formatMoney(CalculaParcelaJurosCompostos(Valor,10),FC$.Currency);
+    //if(iMaxParcels>1){return rk("side-cart-shopping-interest-10x") +" "+ FCLib$.formatMoney(CalculaParcelaJurosCompostos(Valor,10),FC$.Currency)};
+    return rk("side-cart-shopping-interest-10x") +" "+ FCLib$.formatMoney(CalculaParcelaJurosCompostos(Valor,10),FC$.Currency);
     //return rk("side-cart-shopping-interest-10x") +" "+ FormatPrecoReais(CalculaParcelaJurosCompostos(Valor,10));
   }
 
