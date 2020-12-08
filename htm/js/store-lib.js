@@ -1775,7 +1775,7 @@ var Cart$=(function(){
     //if(iMaxParcels>1){return rk("side-cart-shopping-interest-10x") +" "+ FCLib$.formatMoney(CalculaParcelaJurosCompostos(Valor,10),FC$.Currency)};
     //Valor cursos abeved    
     if(Valor < 10){
-      return FCLib$.formatMoney(Valor),FC$.Currency;
+      return FormatPrice(Valor,FC$.Currency);
     }
     else{
       return rk("side-cart-shopping-interest-10x") +" "+ FCLib$.formatMoney(CalculaParcelaJurosCompostos(Valor,10),FC$.Currency);
