@@ -1555,7 +1555,7 @@ var Cart$=(function(){
   }
 
   function fnMontaMaxParcelaCart(Valor){
-    return("Em até 10x de "+ FormatPrecoReais(CalculaParcelaJurosCompostos(Valor,10)));
+    if(iMaxParcels>1){return("Em até 10x de "+ FormatPrecoReais(CalculaParcelaJurosCompostos(Valor,10)))};
   }
 
   return{
