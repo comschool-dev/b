@@ -920,6 +920,10 @@ function insertProfMiniCV(profName){
     if(profName == "Pablo Moura"){
 		var profMiniCV = "Profissional multidisciplinar com experiência em design estratégico, marketing digital e inovação. Trabalhou em empresas líderes em seus segmentos. Na TV Globo atuou na área de entretenimento, na Globo.com, na construção do portal de notícias e G1 e do Portal de Entretenimento, na Ogilvy Brasil construiu e liderou um time que participou ativamente de conquistas de um número recorde de prêmios em Cannes que contribuíram para o título de agência de ano. Atualmente no Itaú Unibanco, maior banco da América Latina, está focado no desenvolvimento de soluções de experiência digital para os clientes pessoa física, tanto mobile quanto em serviços de internet. Nesse desafio lidar uma equipe de 30 profissionais diretamente."
 	}
+
+    if(profName == "Paloma Cardoso"){
+		var profMiniCV = "Coordenadora Comercial B2C, palestrante e professora na ComSchool, 7 anos de experiência com área comercial. Formada em Publicidade e Propaganda possui especializações em Técnicas de Vendas, Marketing Digital, E-commerce, Mídias Sociais e CopyWriting."
+	}
     
 
     
