@@ -246,4 +246,24 @@
         </ul>
 
 </section>
+
+<script src="<baseloja>htm/profsminicv.js"></script>
+<script>
+    var oProdFilters= <ProdFiltersJS>;
+    if(typeof(oProdFilters)=="object"){
+    var opFil=oProdFilters.pFil;
+    if(typeof(opFil)=="object"){
+        opFil.forEach(function(item){
+        if(item.name=="Professores" && item.image!=undefined){
+            var profNames = item.value.split(",")
+            var profImage = item.image.split(",")
+            var showProfsDiv = document.getElementById('showProfs');
+            profImage.forEach(function(item,index){
+            showProfsDiv.innerHTML += "<div id='prof"+index+"'><img src='<baseloja>prod/"+item+"'>"+profNames[index]+"</div><p>"+insertProfMiniCV(profNames[index])+"</p>"
+            });
+        }
+        })
+    }
+    }
+</script>
 </div>
