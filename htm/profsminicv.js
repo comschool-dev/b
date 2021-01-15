@@ -46,14 +46,6 @@ function insertProfMiniCV(profName){
     
     
 
-    if(profName == "André Ferracini"){
-		var profMiniCV = "Mais de 17 anos de experiência no mercado de internet e tecnologia. Atualmente ocupo a posição de Chief Marketing Officer em uma startup de tecnologia que desenvolve uma plataforma de e-commerce voltada a oferecer ferramentas que viabilizam integrações de alto volume com market places e gerenciador completo de loja virtual com foco em Social Marketing. Paralelamente sou consultor de SEO, marketing digital e gestão de e-commerce para pequenas, médias e grandes empresas."
-	}
-    
-
-    
-    
-
     if(profName == "André Massa"){
 		var profMiniCV = "Empreendedor - Diretor de Novos Negócios - Sieve. É Mestre em Finanças e Controle Gerencial, COPPEAD/UFRJ, com Extensão de mestrado na ESSEC, Paris. Possui experiência em consultoria e investimentos em PE/VC. Senior Associate for Portfolio Development - Ideiasnet S.A. Incubadora de Empresas - COPPE/UFRJ. Senior Consultant - Sargas / Ernst & Young. Instituto Gênesis PUC-Rio. Engenheiro de Produção, PUC-Rio."
 	}
