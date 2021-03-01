@@ -1,0 +1,315 @@
+
+.incompany button{
+    padding:20px 40px;
+    font-family: 'chapeaubold' !important;
+    color:#FFF;
+    border:none;
+    text-transform:uppercase;
+    font-weight:bold;
+    font-size:20px;
+    border-radius:5px;
+}
+
+.btn-red{
+    background:#f5343e;
+}
+
+.btn-blue{
+    background:#224cba;
+}
+
+.incompany .topo{
+    background:url(https://i.comschool.com.br/site-comschool/arquivos-incompany/bg-topo.jpg) no-repeat top center;
+    height:720px;
+    color:#FFF;
+}
+
+.incompany .topo h1{
+    color:#FFF;
+    font-size:35px;
+    margin-top:70px;
+    padding:0 0 0 20px;
+    border-left:solid 3px #ffd200;
+}
+
+.incompany .topo h2{
+    color:#FFF;
+    font-size:55px;
+    margin-top:70px;
+    margin-bottom:40px;
+}
+
+.incompany .topo h2 span{
+    color:#ffd200;
+}
+
+.incompany .topo p{
+    font-size:20px;
+    margin-bottom:40px;
+    max-width:600px;
+}
+
+.incompany .metodologia{
+    background:black;
+    padding:0 30px;  
+}
+
+.incompany .metodologia h2{
+    color:#FFF;
+    font-size:55px;
+    margin-top:120px;
+    margin-bottom:100px;
+}
+
+.incompany .metodologia h2 span{
+    color:#ffd200;
+}
+
+.incompany .metodologia .col-4{
+    padding:0 30px;
+}
+
+.incompany .metodologia .col-4 h3{
+    color:#FFF;
+    margin:50px auto;
+}
+
+.incompany .metodologia .col-4 p{
+    color:#FFF;
+    font-size:20px;
+}
+
+.incompany .metodologia .col-4 button{
+    margin:80px auto;
+}
+
+.incompany .dados-amarelo{
+    padding:100px 0;
+    background:#ffd200;
+    text-align:center;
+}
+
+.incompany .dados-amarelo{
+    padding:60px 0;
+    background:#ffd200;
+    text-align:center;
+}
+
+.incompany .dados-amarelo .col-12{
+    padding-top:45px;
+}
+
+.incompany .dados-amarelo h3{
+    color:#000;
+    font-size:45px;
+    font-family: 'chapeauregular' !important;
+}
+
+.incompany .dados-amarelo h3 span{
+    font-size:75px;
+    font-family: 'chapeaubold' !important;
+}
+
+.incompany .academias {
+    background:url(https://i.comschool.com.br/site-comschool/arquivos-incompany/bg-academias.jpg) no-repeat bottom left;
+    padding:0px 70px;  
+}
+
+.incompany .academias h2{
+    color:#000;
+    font-size:55px;
+    margin:100px auto 100px 100px ;
+}
+
+.incompany .academias .col-4{
+    padding:50px 15px;
+}
+
+.incompany .academias .col-4 .card{
+    padding:40px 15px;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    border-bottom-left-radius:4px;
+    border-bottom-right-radius:4px;
+    border-color:#b1b1b1;
+}
+
+.incompany .academias .card h2{
+    color:#000;
+    font-size:25px;
+    margin:0 auto;
+    width:100%;
+    text-align:left;
+    height:80px;
+}
+
+.incompany .academias .card p{
+    font-size:18px;
+    max-width:350px;
+}
+
+.incompany .academias .btn-red{
+    margin:100px auto 60px auto;
+}
+
+.incompany .social-impact{
+    padding:60px;
+}
+
+.incompany .social-impact h2{
+    color:#000;
+    font-size:45px;
+    font-family: 'chapeauregular' !important;
+    margin:40px auto;
+}
+
+.incompany .social-impact p{
+    color:#000;
+    font-size:22px;
+    margin-bottom:50px;
+}
+
+.incompany .social-impact p{
+    color:#000;
+    font-size:22px;
+    margin-bottom:50px;
+}
+
+.incompany .game-comschool{
+    padding-bottom:100px;
+}
+
+.incompany .game-comschool .col-4{
+    padding-top:150px;
+}
+
+.incompany .game-comschool .col-8{
+    background:url(https://i.comschool.com.br/site-comschool/arquivos-incompany/dados.png) no-repeat top left;
+    padding-left:90px;
+    padding-top:90px;
+    text-align:left;
+}
+
+.incompany .game-comschool .col-8 h2{
+    color:#000;
+    font-size:45px;
+    font-family: 'chapeauregular' !important;
+    margin-bottom:50px;
+}
+
+.incompany .game-comschool .col-8 p{
+    font-size:25px;
+    line-height:30px;
+    margin-bottom:50px;
+}
+
+.incompany .depoimentos {
+    background: #f5f5f5;
+}
+
+.incompany .depoimentos h2{
+    font-size:55px;
+    margin-bottom:80px;
+}
+
+.incompany .depoimentos p{
+    font-size:25px;
+    margin-bottom:60px;
+    line-height:30px;
+}
+
+.incompany .depoimentos h3{
+    font-size:22px;
+    font-family: 'chapeaubold' !important;
+    margin-bottom:80px;
+}
+
+.incompany .clientes-parceiros{
+    background:#000;
+    padding:100px 100px;
+}
+
+.incompany .clientes-parceiros h2{
+    font-size:55px;
+    color:#FFF;
+    margin-bottom:80px;
+}
+
+.incompany .contato{
+    background:#FFF;
+    padding:100px 100px;
+}
+
+.incompany .contato h2{
+    font-size:55px;
+    color:#FFF;
+    margin-bottom:80px;
+}
+
+.incompany .editora{
+    background:#FFF;
+    padding:100px 100px;
+}
+
+.incompany .editora h2{
+    font-size:45px;
+    margin-bottom:30px;
+}
+
+.incompany .editora .col-12 h2{
+    margin-bottom:80px;
+}
+
+.incompany .editora p{
+    font-size:22px;
+    margin-bottom:30px;
+}
+
+.incompany .eventos{
+    background:#FFF;
+    padding:100px 100px;
+    background:url(https://i.comschool.com.br/site-comschool/arquivos-incompany/bg-academias.jpg) no-repeat bottom left;
+}
+
+.incompany .eventos .col-4 .card{
+    padding:150px 15px 0 15px;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    border-bottom-left-radius:4px;
+    border-bottom-right-radius:4px;
+    border-color:#b1b1b1;
+    background:#FFF;
+    margin-top:50px;
+}
+
+.incompany .eventos .card h2{
+    color:#000;
+    font-size:20px;
+    margin:0 auto;
+    width:100%;
+    text-align:left;
+    height:50px;
+}
+
+.incompany .eventos .card p{
+    font-size:20px;
+    margin-top:15px;
+}
+
+.incompany .eventos .card p strong{
+    font-size:25px;
+}
+
+.incompany .eventos .col-4 button{
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+    border-top-left-radius:4px;
+    border-top-right-radius:4px;
+    border-color:#b1b1b1;
+    background:#FFF;
+    color:#000;
+    font-size:20px;
+    margin-top:10px;
+    width:100%;
+    border:solid 1px #b1b1b1;
+}
