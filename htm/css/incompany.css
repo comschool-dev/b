@@ -235,6 +235,16 @@
     margin-bottom:80px;
 }
 
+.incompany .depoimentos .col-5{
+    min-height: 600px;
+}
+
+.incompany .depoimentos .col-5 h3{
+    position: absolute;
+    bottom:0;
+    left:0;
+}
+
 .incompany .clientes-parceiros{
     background:#000;
     padding:100px 100px;
@@ -253,7 +263,7 @@
 
 .incompany .contato h2{
     font-size:55px;
-    color:#FFF;
+    color:#000;
     margin-bottom:80px;
 }
 
