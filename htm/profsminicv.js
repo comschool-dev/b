@@ -1406,6 +1406,43 @@ function insertProfMiniCV(profName){
 		var profMiniCV = "Formada em Publicidade e Propaganda com ênfase em Mídias Digitais pela Unicuritiba. Trabalha com Web Analytics desde 2014, começou sua carreira em agência, onde permaneceu até o começo de 2017, durante esse período atendeu os mais diversos segmentos e clientes como: TIM (Telecom Italia), Nestlé e Shell.Hoje atua como especialista em Web Analytics no Peixe Urbano / Groupon Latam, focada principalmente em análise, construção e automatização de relatórios."
 	}
 
+	if(profName == "Anita Bataglin"){
+		var profMiniCV = "Com mais de dez anos de carreira no mercado digital, 1º lugar do prêmio ABCOMM 2020 na categoria Profissional de E-commerce, trabalha diretamente focada na gestão de e-commerce e transformação digital, desde a gestão comercial dos canais de venda até backoffice e entrega de experiência para os consumidores de grandes marcas de consumo, moda, beleza, e tech. Atualmente head de e-commerce na Synapcom."
+	}
+
+	if(profName == "Ederson Oliveira "){
+		var profMiniCV = "Pós graduado em marketing pela ESPM e extensão executiva pela FIA/USP. Especialista em aquisição B2B via Linkedin. Durante 8 anos liderou a Agência Blitz atendendo Google, Corinthians, Bacardi, Faber Castell, Vogue, Netshoes, Caixa e outras. Foi growh lead da Allpoints, maior programa de fidelidade para hotéis do mundo e PMO da Growth Masters. Atualmente é growth coordinator na Fix, uma startup de serviços imobiliários, founder da plataforma nocodefree.com e partner da Linked Leads, consultoria especializada em lead generation no LinkedIn."
+	}
+
+	if(profName == "Gabriela Novo"){
+		var profMiniCV = "Atua com comunicação há 7 anos, sendo que 5 deles em agência de publicidade. Mídia híbrida, mas com foco em digital. Sua experiência passa pelas práticas das plataformas SEM como Google Ads, DV360, Youtube e Bing Ads, Social em Facebook, Instagram, Twitter e Linkedin e ambientes de análise digital. Experiência com clientes de diversas industrias e perfis, pois acredita em gerar valor de negócio através da mídia."
+	}
+
+	if(profName == "Gabriel Queiroz"){
+		var profMiniCV = "Especialista em Marketing Digital; Gestão de campanhas de branding e performance; Campanhas de performance para lojas físicas; Elaboração de planejamento tático e estratégico; Gestão operacional; Prospecção e otimização de campanhas de mídia online;  Especialista em mídia online; Atendimento ao cliente com foco em negociação e resultados; Especialista Google Ads, Youtube, Facebook Ads, Analytics, Merchant Center, Bing Ads, Criteo, Shopback & Redes de Afiliados;Conhecimentos de mídia programática; Elaboração de dashboards de resultados automatizados e interativos; Negociação comercial c/ veículos digitais; Certificações Google Ads (Shopping, pesquisa, display, aplicativos, mensuração e vídeo)."
+	}
+	
+	if(profName == "Leonardo Azevedo"){
+		var profMiniCV = "Possui experiência em Contencioso Cível e é altamente qualificado em Direito Digital, Privacidade e Proteção de Dados Pessoais, bem como Direito do Consumidor. Representa empresas nacionais e multinacionais na resolução de litígios civis e consumeristas. Atua no âmbito consultivo para startups, na elaboração de pareceres sobre legalização dos jogos e na implementação de programas de conformidade com a Lei Geral de Proteção de Dados (LGPD), e também, presta assessoria a clientes perante a Justiça Desportiva, na prevenção e solução de litígios relacionados ao Direito do Consumidor perante o Poder Judiciário, e em procedimentos judiciais e arbitrais envolvendo questões de rescisão contratual."
+	}	
+
+	if(profName == "Luiza Fontana"){
+		var profMiniCV = "Com 12 anos de experiência em Digital e eCommmerce, sua carreira vem sendo pautada neste universo que está em constante mudança e da qual se assume uma grande apaixonada e entusiasta. Com passagens por empresas como Disney, Emirates Airlines, Philips e Reckitt Benckiser, atualmente atua como Gerente de eRetail B2C na Heineken, onde encabeça o desafio de acelerar as vendas do canal ao lado de um time multifuncional assim como aumentar a presença digital das marcas do grupo."
+	}	
+
+	if(profName == "Mauricio Grandeza"){
+		var profMiniCV = "Atualmente COO da Onofre Agora, com mais de 17 anos de experiência liderando operações de Ecommerce nacionais e multinacionais (Carrefour, Walmart, C&C, Mercadolivre e Stanley), com foco na gestão Omnichannel (Multicanalidade) ? interação das Lojas fisicas, Ecommerce, televendas, móbile, mídias sociais, marketplace e SAC. Possui MBA em Gestão Empresarial na Naippe/USP, Extensão em Estratégias Digitais para negócios na Columbia Business School, Pós-graduação em Marketing na ESPM e Graduado em Administração. É diretor-presidente da Aprovare ? Assocaição dos Profissionais do Varejo e foi eleito o Profissional do Ano ? Categoria Gestão & Estratégia, no 1º Fórum E-commerce Brasil em 2011."
+	}
+	
+	if(profName == "Tais Santos"){
+		var profMiniCV = "Possui mais de seis anos de experiência em Marketing de Performance, principalmente em Social Ads (Facebook, Instagram, LinkedIn e Twitter Ads). Atendeu grandes clientes do ramo de telco, automotivo, bancário entre outros. Com experiência em treinamento e desenvolvimento de equipes. Certificada BluePrint Media Buying Professional e Media Planning Professional."
+	}	
+
+	if(profName == "Thayan Rodrigues"){
+		var profMiniCV = "Publicitário com mais de 9 anos de experiência com marketing digital e 3 anos ministrando cursos e palestras sobre a área. Trabalhou em grandes agências do Paraná, como Mirum e Opúsmultipla, além de empresas de tecnologia e comunicação, como a Vhsys e Gazeta do Povo. Atualmente é Gerente Especialista em Google Ads na agência África. Já atendeu dezenas de clientes, como Itaú, Porto Seguro, Caixa Econômica, O Boticário, Nextel, entre outros."
+	}
+	
+	
 
 
 	return profMiniCV;
