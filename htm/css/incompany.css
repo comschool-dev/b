@@ -159,7 +159,7 @@
 }
 
 .incompany .academias .btn-red{
-    margin:100px auto 60px auto;
+    margin:60px auto;
 }
 
 .incompany .social-impact{
@@ -232,17 +232,18 @@
 .incompany .depoimentos h3{
     font-size:22px;
     font-family: 'chapeaubold' !important;
-    margin-bottom:80px;
+    margin-bottom:40px;
 }
 
 .incompany .depoimentos .col-5{
-    min-height: 600px;
+    min-height: 350px;
+    margin-bottom: 100px;
 }
 
 .incompany .depoimentos .col-5 h3{
     position: absolute;
     bottom:0;
-    left:0;
+    left:-50px;
 }
 
 .incompany .clientes-parceiros{
@@ -269,7 +270,7 @@
 
 .incompany .editora{
     background:#FFF;
-    padding:100px 100px;
+    padding:100px 0 50px 0;
 }
 
 .incompany .editora h2{
@@ -287,9 +288,9 @@
 }
 
 .incompany .eventos{
-    background:#FFF;
     padding:100px 100px;
     background:url(https://i.comschool.com.br/site-comschool/arquivos-incompany/bg-academias.jpg) no-repeat bottom left;
+    margin-bottom:-80px;
 }
 
 .incompany .eventos .col-4 .card{
