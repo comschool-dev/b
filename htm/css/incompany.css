@@ -1,4 +1,9 @@
-
+#idFCContent{
+    max-width: 100% !important;
+    width: 100% !important;
+    min-width: 100% !important;
+    margin: 0 auto !important;
+}
 .incompany button{
     padding:20px 40px;
     font-family: 'chapeaubold' !important;
