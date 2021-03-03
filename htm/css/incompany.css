@@ -241,12 +241,12 @@
     margin-bottom:40px;
 }
 
-.incompany .depoimentos .col-5{
+.incompany .depoimentos .col-sm-5{
     min-height: 350px;
     margin-bottom: 100px;
 }
 
-.incompany .depoimentos .col-5 h3{
+.incompany .depoimentos .col-sm-5 h3{
     position: absolute;
     bottom:0;
     left:-50px;
@@ -284,7 +284,7 @@
     margin-bottom:30px;
 }
 
-.incompany .editora .col-12 h2{
+.incompany .editora .col-11 h2{
     margin-bottom:80px;
 }
 
@@ -355,7 +355,10 @@
     .incompany .clientes-parceiros, .incompany .contato, .incompany .academias {
         padding:30px;
     }
-    .incompany .game-comschool .col-sm-8{
+    .incompany .game-comschool .col-6{
         margin-top:30px;
+    }
+    .incompany .dados-amarelo h3{
+        font-size: 30px;
     }
 }
