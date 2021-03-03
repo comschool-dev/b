@@ -73,6 +73,10 @@
     margin-bottom:100px;
 }
 
+.incompany .metodologia img{
+    max-width: 100%;
+}
+
 .incompany .metodologia h2 span{
     color:#ffd200;
 }
@@ -195,25 +199,25 @@
     padding-bottom:100px;
 }
 
-.incompany .game-comschool .col-4{
+.incompany .game-comschool .col-sm-4{
     padding-top:150px;
 }
 
-.incompany .game-comschool .col-8{
+.incompany .game-comschool .col-sm-8{
     background:url(https://i.comschool.com.br/site-comschool/arquivos-incompany/dados.png) no-repeat top left;
     padding-left:90px;
     padding-top:90px;
     text-align:left;
 }
 
-.incompany .game-comschool .col-8 h2{
+.incompany .game-comschool .col-sm-8 h2{
     color:#000;
     font-size:45px;
     font-family: 'chapeauregular' !important;
     margin-bottom:50px;
 }
 
-.incompany .game-comschool .col-8 p{
+.incompany .game-comschool .col-sm-8 p{
     font-size:25px;
     line-height:30px;
     margin-bottom:50px;
@@ -355,7 +359,7 @@
     .incompany .clientes-parceiros, .incompany .contato, .incompany .academias {
         padding:30px;
     }
-    .incompany .game-comschool .col-6{
+    .incompany .game-comschool .col-sm-8{
         margin-top:30px;
     }
     .incompany .dados-amarelo h3{
@@ -368,5 +372,6 @@
     .incompany .depoimentos .col-sm-5 h3{
         position: relative;
         text-align: center;
+        margin-top:30px;
     }
 }
