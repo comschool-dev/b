@@ -203,21 +203,21 @@
     padding-top:150px;
 }
 
-.incompany .game-comschool .col-sm-8{
+.incompany .game-comschool .col-sm-6{
     background:url(https://i.comschool.com.br/site-comschool/arquivos-incompany/dados.png) no-repeat top left;
     padding-left:90px;
     padding-top:90px;
     text-align:left;
 }
 
-.incompany .game-comschool .col-sm-8 h2{
+.incompany .game-comschool .col-sm-6 h2{
     color:#000;
     font-size:45px;
     font-family: 'chapeauregular' !important;
     margin-bottom:50px;
 }
 
-.incompany .game-comschool .col-sm-8 p{
+.incompany .game-comschool .col-sm-6 p{
     font-size:25px;
     line-height:30px;
     margin-bottom:50px;
