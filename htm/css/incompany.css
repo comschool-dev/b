@@ -24,8 +24,8 @@
 }
 
 .incompany{
-    margin-left: -40px;
-    margin-right: -40px;
+    margin-left: -15px;
+    margin-right: -15px;
 }
 
 .incompany .topo{
@@ -77,21 +77,21 @@
     color:#ffd200;
 }
 
-.incompany .metodologia .col-4{
+.incompany .metodologia .col-sm-4{
     padding:0 30px;
 }
 
-.incompany .metodologia .col-4 h3{
+.incompany .metodologia .col-sm-4 h3{
     color:#FFF;
     margin:50px auto;
 }
 
-.incompany .metodologia .col-4 p{
+.incompany .metodologia .col-sm-4 p{
     color:#FFF;
     font-size:20px;
 }
 
-.incompany .metodologia .col-4 button{
+.incompany .metodologia .col-sm-4 button{
     margin:80px auto;
 }
 
@@ -137,11 +137,11 @@
     margin:100px auto 100px 100px ;
 }
 
-.incompany .academias .col-4{
+.incompany .academias .col-sm-4{
     padding:50px 15px;
 }
 
-.incompany .academias .col-4 .card{
+.incompany .academias .col-sm-4 .card{
     padding:40px 15px;
     border-top-left-radius:10px;
     border-top-right-radius:10px;
@@ -340,4 +340,19 @@
     margin-top:10px;
     width:100%;
     border:solid 1px #b1b1b1;
+}
+@media only screen and (max-width: 600px) {
+    .incompany .academias h2 {
+        margin: 20px -15px;
+        font-size: 40px;
+        text-align: center;
+    }
+    .incompany .depoimentos h2, .incompany .clientes-parceiros h2, .incompany .contato h2 {
+        margin: 40px auto;
+        font-size: 40px;
+        text-align: center;
+    }
+    .incompany .clientes-parceiros, .incompany .contato {
+        padding:30px;
+    }
 }
