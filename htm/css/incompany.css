@@ -31,7 +31,8 @@
 .incompany .topo{
     background:url(https://i.comschool.com.br/site-comschool/arquivos-incompany/bg-topo.jpg) no-repeat top center;
     background-size: cover;
-    height:720px;
+    min-height:720px;
+    height:auto;
     color:#FFF;
 }
 
