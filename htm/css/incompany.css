@@ -361,4 +361,12 @@
     .incompany .dados-amarelo h3{
         font-size: 30px;
     }
+    .incompany .depoimentos .col-sm-5{
+        min-height: 200px;
+        margin-bottom: 20px;
+    }
+    .incompany .depoimentos .col-sm-5 h3{
+        position: relative;
+        text-align: center;
+    }
 }
