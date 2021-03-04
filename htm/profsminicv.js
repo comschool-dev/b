@@ -1442,7 +1442,13 @@ function insertProfMiniCV(profName){
 		var profMiniCV = "Publicitário com mais de 9 anos de experiência com marketing digital e 3 anos ministrando cursos e palestras sobre a área. Trabalhou em grandes agências do Paraná, como Mirum e Opúsmultipla, além de empresas de tecnologia e comunicação, como a Vhsys e Gazeta do Povo. Atualmente é Gerente Especialista em Google Ads na agência África. Já atendeu dezenas de clientes, como Itaú, Porto Seguro, Caixa Econômica, O Boticário, Nextel, entre outros."
 	}
 	
-	
+	if(profName == "Karina Kotake"){
+		var profMiniCV = "Com 10 anos de experiência na área de marketing, atua em projetos para empresas de médio e grande porte nos setores de bens de consumo, varejo e serviços: Nissan, Natura, Renner, Grupo Iguatemi, Grupo Inbrands, Grupo Arezzo & Co, Grupo Scalina, Amaro, Dafiti, entre outros. Fundadora de uma agência startup de marketing digital, considerada uma das 10 agências mais desejadas para se trabalhar (Trampos/2014) e com cases de sucesso nacionais e internacionais. Experiência internacional."
+	}	
+
+	if(profName == "Pablo Pazos"){
+		var profMiniCV = "Profissional formado em Relações Públicas pela UERJ, extensão em Business na Australia Pacific College e pós graduado em Marketing pelo Ibmec/RJ. Atua há 14 anos no ecommerce, com passagens por B2W, Dufry Duty Free, Ricardo Eletro e atualmente VTEX. Em 2012 lançou o OmniChannel da Ricardo Eletro iniciando as primeiras medidas para integração on e off como venda online nas lojas físicas, troca na loja, retira loja e ship from store."
+	}	
 
 
 	return profMiniCV;
