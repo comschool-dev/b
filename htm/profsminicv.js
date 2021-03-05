@@ -1450,6 +1450,10 @@ function insertProfMiniCV(profName){
 		var profMiniCV = "Profissional formado em Relações Públicas pela UERJ, extensão em Business na Australia Pacific College e pós graduado em Marketing pelo Ibmec/RJ. Atua há 14 anos no ecommerce, com passagens por B2W, Dufry Duty Free, Ricardo Eletro e atualmente VTEX. Em 2012 lançou o OmniChannel da Ricardo Eletro iniciando as primeiras medidas para integração on e off como venda online nas lojas físicas, troca na loja, retira loja e ship from store."
 	}	
 
+	if(profName == "Jeniffer Almeida"){
+		var profMiniCV = "Vasta experiência em Customer Experience, tendo atuado no Mercado Livre com BI, levantando dados de atendimento, analisando e propondo junto à gestão ajustes para sanar as maiores dores dos usuários. Também junto à área de User Experience (UX), foi responsável no Brasil pela parte de comunicação no projeto de Gestão de Conflitos (ODR), um dos cases de maior sucesso da companhia. Amplo conhecimento em onboarding, criação de tutoriais em diversos formatos, e-learnings e gestão de treinamentos. Atualmente é UX Writer Senior na B2W Digital, cuidando da comunicação de todo fluxo transacional do Pós-Compras nas marcas americanas e Sou Barato."
+	}	
+
 
 	return profMiniCV;
 }
