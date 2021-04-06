@@ -1454,6 +1454,10 @@ function insertProfMiniCV(profName){
 		var profMiniCV = "Vasta experiência em Customer Experience, tendo atuado no Mercado Livre com BI, levantando dados de atendimento, analisando e propondo junto à gestão ajustes para sanar as maiores dores dos usuários. Também junto à área de User Experience (UX), foi responsável no Brasil pela parte de comunicação no projeto de Gestão de Conflitos (ODR), um dos cases de maior sucesso da companhia. Amplo conhecimento em onboarding, criação de tutoriais em diversos formatos, e-learnings e gestão de treinamentos. Atualmente é UX Writer Senior na B2W Digital, cuidando da comunicação de todo fluxo transacional do Pós-Compras nas marcas americanas e Sou Barato."
 	}	
 
+	if(profName == "Yuri Leone"){
+		var profMiniCV = "Publicitário, 27 anos, MBA em Marketing Digital com mais de 6 anos de experiência no mercado do Digital, com passagem em diferentes segmentos, como: Mercado Financeiro, Varejo, Agência de Publicidade, Terceiro Setor e Tecnologia. Especialista em mídia de performance, alto conhecimento em réguas de comunicação, planejamento e estratégico de marketing digital, coordenação de equipe."
+	}	
+
 
 	return profMiniCV;
 }
