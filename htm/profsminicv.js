@@ -1458,6 +1458,13 @@ function insertProfMiniCV(profName){
 		var profMiniCV = "Publicitário, 27 anos, MBA em Marketing Digital com mais de 6 anos de experiência no mercado do Digital, com passagem em diferentes segmentos, como: Mercado Financeiro, Varejo, Agência de Publicidade, Terceiro Setor e Tecnologia. Especialista em mídia de performance, alto conhecimento em réguas de comunicação, planejamento e estratégico de marketing digital, coordenação de equipe."
 	}	
 
+	if(profName == "Andre Ferreira"){
+		var profMiniCV = "Relações públicas com especialização em marketing no varejo e apaixonado por conversas e por pessoas. Há 12 anos, ajuda marcas a construírem relacionamentos com seus públicos por meio da criação de conteúdo nos canais digitais. Consultor de comunicação e varejo, já criou campanhas de marketing e coordenou equipes de vendas e atendimento para negócios locais e e-commerce. Atualmente, como Head de Atendimento e Planejamento na Vibezz, atende grandes players nacionais do mercado de entretenimento.."
+	}	
+
+	if(profName == "Henrique Castro"){
+		var profMiniCV = "Formado em Marketing pela Anhembi Morumbi e extensão em Agile e Marketing Digital pela Columbia Business School e ESPM, é co-fundador e Head de Operações da Vibezz, startup de soluções e estratégias. Com experiências também no mercado de entretenimento, foi head de Marketing Digital na Cinépolis no Brasil durante 3 anos cuidando de conteúdos, ativações, campanhas, promoções, PR, Influência, Mídia, etc. Também assumiu a área de Digital na VELOX TICKETS durante quase 2 anos, expandindo parcerias, ações, PR, Analytics e eventos.."
+	}	
 
 	return profMiniCV;
 }
