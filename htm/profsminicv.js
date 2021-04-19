@@ -1466,5 +1466,11 @@ function insertProfMiniCV(profName){
 		var profMiniCV = "Formado em Marketing pela Anhembi Morumbi e extensão em Agile e Marketing Digital pela Columbia Business School e ESPM, é co-fundador e Head de Operações da Vibezz, startup de soluções e estratégias. Com experiências também no mercado de entretenimento, foi head de Marketing Digital na Cinépolis no Brasil durante 3 anos cuidando de conteúdos, ativações, campanhas, promoções, PR, Influência, Mídia, etc. Também assumiu a área de Digital na VELOX TICKETS durante quase 2 anos, expandindo parcerias, ações, PR, Analytics e eventos.."
 	}	
 
+	if(profName == "Alaina Paisan"){
+		var profMiniCV = "Com 12 anos de experiência no digital, é community manager na SMXP e account manager na Seu Agá. Formada em Comunicação Social pela PUC-Rio e pós-graduanda em gestão de projetos pela Trevisan Escola de Negócios, organizou ou palestrou em diversos eventos, incluindo duas edições do Social Media Week SP. Em busca da democratização do digital, atuou como mentora voluntária no Startup Weekend Woman, Forum Mulher Empreendedora, dentre outros."
+	}	
+
+
+
 	return profMiniCV;
 }
