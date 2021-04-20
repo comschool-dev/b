@@ -1470,6 +1470,9 @@ function insertProfMiniCV(profName){
 		var profMiniCV = "Com 12 anos de experiência no digital, é community manager na SMXP e account manager na Seu Agá. Formada em Comunicação Social pela PUC-Rio e pós-graduanda em gestão de projetos pela Trevisan Escola de Negócios, organizou ou palestrou em diversos eventos, incluindo duas edições do Social Media Week SP. Em busca da democratização do digital, atuou como mentora voluntária no Startup Weekend Woman, Forum Mulher Empreendedora, dentre outros."
 	}	
 
+	if(profName == "Ana Pio"){
+		var profMiniCV = "Especialista em eCommerce, canais digitais e business online, possui mais de 15 anos de experiência em Marketing Digital e Gestão de Ecommerce. Carreira desenvolvida no universo online em canais B2C, B2B e D2C, implantando, fazendo a gestão 360 e a escala do business online. Apaixonada por Transformação Digital & Cultural, o propósito é conectar! Pós Graduada em Comunicação e Marketing com Certificação em Gestão de Marketing Digital de Alta Performance e aprendizado Hands On ao longo da carreira. Atualmente, Executiva Sênior eCommerce na multinacional Reckitt e Embaixadora do Projeto Mulheres no eCommerce."
+	}	
 
 
 	return profMiniCV;
