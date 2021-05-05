@@ -1474,6 +1474,13 @@ function insertProfMiniCV(profName){
 		var profMiniCV = "Especialista em eCommerce, canais digitais e business online, possui mais de 15 anos de experiência em Marketing Digital e Gestão de Ecommerce. Carreira desenvolvida no universo online em canais B2C, B2B e D2C, implantando, fazendo a gestão 360 e a escala do business online. Apaixonada por Transformação Digital & Cultural, o propósito é conectar! Pós Graduada em Comunicação e Marketing com Certificação em Gestão de Marketing Digital de Alta Performance e aprendizado Hands On ao longo da carreira. Atualmente, Executiva Sênior eCommerce na multinacional Reckitt e Embaixadora do Projeto Mulheres no eCommerce."
 	}	
 
+	if(profName == "Helenice Moura"){
+		var profMiniCV = "Presidente do Comitê de líderes de e-commerce SP, co-fundadora da A Liga Digital, embaixadora do Mulheres no E-commerce, que reúne mais de 30 mil mulheres e professora de pós graduação na FIA e professora da ComSchool. É Google Partner desde 2008 e possui MBA em Business Intelligence pela FIAP. Além disso, possui especialização em Gerência Comercial pela FGV, é sócia fundadora de startups de Marketing Digital, atua neste segmento desde 2005. Teve passagens por grandes empresas, como Terra Empresas, Scup, Ativi e NoTopo. Foi responsável por criar estratégias para marcas, como Amend Cosméticos, Sky, Ticket, Any Any, Speedo, Abilio Diniz, Banco Carrefour, Atacadão, Mapfre e Braskem."
+	}	
+
+	if(profName == "Isabel Ananias){
+		var profMiniCV = "Graduada em Administração de empresas pelo Complexo Educacional FMU. Possui mais 10 anos de experiência em marketing digital. Passou por empresas como Buscapé Company e Grupo Minha Vida. Hoje é consultora de pequenas a grandes empresas, além de atuar no segmento da educação, como conteudista e tutora de turma realizando vídeoaulas e podcasts."
+	}
 
 	return profMiniCV;
 }
