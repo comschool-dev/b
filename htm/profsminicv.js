@@ -1454,6 +1454,33 @@ function insertProfMiniCV(profName){
 		var profMiniCV = "Vasta experiência em Customer Experience, tendo atuado no Mercado Livre com BI, levantando dados de atendimento, analisando e propondo junto à gestão ajustes para sanar as maiores dores dos usuários. Também junto à área de User Experience (UX), foi responsável no Brasil pela parte de comunicação no projeto de Gestão de Conflitos (ODR), um dos cases de maior sucesso da companhia. Amplo conhecimento em onboarding, criação de tutoriais em diversos formatos, e-learnings e gestão de treinamentos. Atualmente é UX Writer Senior na B2W Digital, cuidando da comunicação de todo fluxo transacional do Pós-Compras nas marcas americanas e Sou Barato."
 	}	
 
+	if(profName == "Yuri Leone"){
+		var profMiniCV = "Publicitário, 27 anos, MBA em Marketing Digital com mais de 6 anos de experiência no mercado do Digital, com passagem em diferentes segmentos, como: Mercado Financeiro, Varejo, Agência de Publicidade, Terceiro Setor e Tecnologia. Especialista em mídia de performance, alto conhecimento em réguas de comunicação, planejamento e estratégico de marketing digital, coordenação de equipe."
+	}	
+
+	if(profName == "Andre Ferreira"){
+		var profMiniCV = "Relações públicas com especialização em marketing no varejo e apaixonado por conversas e por pessoas. Há 12 anos, ajuda marcas a construírem relacionamentos com seus públicos por meio da criação de conteúdo nos canais digitais. Consultor de comunicação e varejo, já criou campanhas de marketing e coordenou equipes de vendas e atendimento para negócios locais e e-commerce. Atualmente, como Head de Atendimento e Planejamento na Vibezz, atende grandes players nacionais do mercado de entretenimento.."
+	}	
+
+	if(profName == "Henrique Castro"){
+		var profMiniCV = "Formado em Marketing pela Anhembi Morumbi e extensão em Agile e Marketing Digital pela Columbia Business School e ESPM, é co-fundador e Head de Operações da Vibezz, startup de soluções e estratégias. Com experiências também no mercado de entretenimento, foi head de Marketing Digital na Cinépolis no Brasil durante 3 anos cuidando de conteúdos, ativações, campanhas, promoções, PR, Influência, Mídia, etc. Também assumiu a área de Digital na VELOX TICKETS durante quase 2 anos, expandindo parcerias, ações, PR, Analytics e eventos.."
+	}	
+
+	if(profName == "Alaina Paisan"){
+		var profMiniCV = "Com 12 anos de experiência no digital, é community manager na SMXP e account manager na Seu Agá. Formada em Comunicação Social pela PUC-Rio e pós-graduanda em gestão de projetos pela Trevisan Escola de Negócios, organizou ou palestrou em diversos eventos, incluindo duas edições do Social Media Week SP. Em busca da democratização do digital, atuou como mentora voluntária no Startup Weekend Woman, Forum Mulher Empreendedora, dentre outros."
+	}	
+
+	if(profName == "Ana Pio"){
+		var profMiniCV = "Especialista em eCommerce, canais digitais e business online, possui mais de 15 anos de experiência em Marketing Digital e Gestão de Ecommerce. Carreira desenvolvida no universo online em canais B2C, B2B e D2C, implantando, fazendo a gestão 360 e a escala do business online. Apaixonada por Transformação Digital & Cultural, o propósito é conectar! Pós Graduada em Comunicação e Marketing com Certificação em Gestão de Marketing Digital de Alta Performance e aprendizado Hands On ao longo da carreira. Atualmente, Executiva Sênior eCommerce na multinacional Reckitt e Embaixadora do Projeto Mulheres no eCommerce."
+	}	
+
+	if(profName == "Helenice Moura"){
+		var profMiniCV = "Presidente do Comitê de líderes de e-commerce SP, co-fundadora da A Liga Digital, embaixadora do Mulheres no E-commerce, que reúne mais de 30 mil mulheres e professora de pós graduação na FIA e professora da ComSchool. É Google Partner desde 2008 e possui MBA em Business Intelligence pela FIAP. Além disso, possui especialização em Gerência Comercial pela FGV, é sócia fundadora de startups de Marketing Digital, atua neste segmento desde 2005. Teve passagens por grandes empresas, como Terra Empresas, Scup, Ativi e NoTopo. Foi responsável por criar estratégias para marcas, como Amend Cosméticos, Sky, Ticket, Any Any, Speedo, Abilio Diniz, Banco Carrefour, Atacadão, Mapfre e Braskem."
+	}	
+
+	if(profName == "Isabel Ananias){
+		var profMiniCV = "Graduada em Administração de empresas pelo Complexo Educacional FMU. Possui mais 10 anos de experiência em marketing digital. Passou por empresas como Buscapé Company e Grupo Minha Vida. Hoje é consultora de pequenas a grandes empresas, além de atuar no segmento da educação, como conteudista e tutora de turma realizando vídeoaulas e podcasts."
+	}
 
 	return profMiniCV;
 }
