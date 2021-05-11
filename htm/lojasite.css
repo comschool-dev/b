@@ -1030,7 +1030,7 @@ p.zFNotFoundContinue{font-size:0.9rem;margin:30px auto;}
   #header-mainbar-whatsapp .bt1-whatsapp {display:none;}
   #header-mainbar-whatsapp .bt2-whatsapp {display: block; border: 0; padding:2px 0 0 0;}
   #header-mainbar-whatsapp .bt2-whatsapp img {width:40px;}
-  #header-mainbar-whatsapp .link-whats {margin-right:10px;}
+  .link-whats {margin-right:10px;}
   #header-mainbar-container-search-result {display:none; position: absolute; top: 70px; left: 0; background-color:#fff; border-radius: 0; border-top: 1px solid #c7c7c7; border-left: 0; border-right: 0; border-bottom: 1px solid #c7c7c7; z-index:3;}
   #header-mainbar-container-search {display:block;}
   #header-mainbar-container-search-icon {display: block;}
