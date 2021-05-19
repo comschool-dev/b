@@ -1,29 +1,38 @@
 function insertProfMiniCV(profName){
     
-    
+
+
+    /* ------------------ PROFESSORES COM LETRA A ------------------ */
+
+
+	if(profName == "Ana Pio"){
+		var profMiniCV = "Especialista em eCommerce, canais digitais e business online, possui mais de 15 anos de experiência em Marketing Digital e Gestão de Ecommerce. Carreira desenvolvida no universo online em canais B2C, B2B e D2C, implantando, fazendo a gestão 360 e a escala do business online. Apaixonada por Transformação Digital & Cultural, o propósito é conectar! Pós Graduada em Comunicação e Marketing com Certificação em Gestão de Marketing Digital de Alta Performance e aprendizado Hands On ao longo da carreira. Atualmente, Executiva Sênior eCommerce na multinacional Reckitt e Embaixadora do Projeto Mulheres no eCommerce."
+	}	
+
+
+	if(profName == "Alaina Paisan"){
+		var profMiniCV = "Com 12 anos de experiência no digital, é community manager na SMXP e account manager na Seu Agá. Formada em Comunicação Social pela PUC-Rio e pós-graduanda em gestão de projetos pela Trevisan Escola de Negócios, organizou ou palestrou em diversos eventos, incluindo duas edições do Social Media Week SP. Em busca da democratização do digital, atuou como mentora voluntária no Startup Weekend Woman, Forum Mulher Empreendedora, dentre outros."
+	}	
+
 
     if(profName == "Alexandre Bissoli"){
 		var profMiniCV = "Advogado especialista em direito eleitoral e direito processual eleitoral é o sócio majoritário do escritório. Com vasta experiência no atendimento a agentes políticos e dirigentes partidários, coordena sua equipe jurídica para que possam entregar a seus clientes um trabalho de altíssima qualidade e efetividade, sempre tratando cada caso de forma individual e com toda a atenção necessária. Bissoli iniciou aos 16 anos sua relação com a política. Desde então ocupou várias funções de dirigente partidário, dentre as quais presidente municipal de partido, dirigente estadual e dirigente nacional. Também integrou coordenação de campanhas a prefeitos, deputados, senadores, governadores e presidentes. Na vida pública, passou por várias funções de destaque em todas as esferas da federação. Foi Diretor Geral de Câmara Municipal, Procurador Jurídico, Chefe de Gabinete de Deputado, Chefe de Gabinete de Liderança Partidária e Diretor Executivo de Empresa Pública.Hoje, pós-graduado nas áreas de direito eleitoral e improbidades administrativas, é um profissional qualificado pela vivência acadêmica e principalmente pela vasta experiência na vida pública e política. Discute as questões de seus clientes de forma estratégica e com conhecimento de causa, buscando sempre alcançar o melhor resultado possível para atender as demandas que lhe são confiadas. É palestrante, professor e consultor político com vivencia internacional. Morou no Canadá e na França, mas foi com o Professor Steve Jarding, da Harvard Kennedy School, que se qualificou em campaign management and political strategies. Atualmente, é membro do Internetional Visitor Leadership Program do Departamento de Estado do Governo Norte Americano, onde promove troca de conhecimentos e experiências nas áreas de direito eleitoral, político e público."
 	}
     
+  
+	if(profName == "Alexandre Moron"){
+		var profMiniCV = "Formado em Engenharia pela UNISANTA e com MBA em Marketing pela USP, possui sua vivência digital voltada às novas operações de marketplace e à digitalização de novos entrantes do modelo de plataforma, passando pelo marketplace Dafiti Group (Dafiti, Kanui e Tricae) e atualmente no Magalu Marketplace respondendo pelas parcerias comerciais com plataformas de tecnologia e instituições de formação integradas ao negócio. É também porta-voz do Magalu em eventos direcionados aos novos negócios."
+	}
 
-    
-    
 
     if(profName == "Alexandre Secco"){
 		var profMiniCV = "É jornalista, sócio e diretor da Medialogue, uma agência digital full service que desenvolve pesquisas exclusivas e campanhas que ajudam a desvendar e ampliar o papel da internet e das mídias sociais na vida de empresas, personalidades, políticos, ONGs e outras instituições. Também é co-fundador e diretor da Análise Editorial, editora especializada em publicações segmentadas. Por quase 20 anos trabalhou nas mais importantes redações do Brasil. Foi editor executivo da Revista Exame e editor de Brasil da revista Veja, as duas publicações da Editora Abril, e repórter político da da Folha de São Paulo, onde iniciou sua carreira como trainee. É formado em Jornalismo e Direito. Desenvolveu inúmeros sites e portais para a internet, criou várias publicações de sucesso e atuou como consultor para empresários e políticos."
 	}
     
-
-    
-    
-
+  
     if(profName == "Ana Paula Passarelli"){
 		var profMiniCV = "Gerente de Marketing - Mídias Sociais Dafiti. Especialista em marketing digital com 10 anos de experiência com o mercado de MODA. Começou em 2003 atuando em todo o processo industrial da moda (modelagem, criação e gerenciamento de produção). Em 2006, ampliou o portfolio e passou a atuar com comunicação de moda,campanhas e desfiles de grande porte, sendo responsável pelo desfile da EXPOVEST 2006. Desde 2010, se dedica ao mercado DIGITAL da moda e beleza. Fez gestão estratégica de mídias sociais na Setesys onde atendeu Khelf e D'pil Brasil. Em 2011 foi responsável pelo conteúdo digital e PR social na F.biz para Seda, Lux e TRESemmé. Assumiu em 2012 como Gerente Mídias Sociais na Dafiti para gerenciar Private Label e hoje é responsável por todo o núcleo de mídias sociais da marca. Produtora de conteúdo sobre moda e universo feminino para Rádio, TV, Impresso e Digital com oito anos de experiência."
 	}
-    
-
-    
     
 
     if(profName == "Anderson Nakandakare"){
@@ -35,23 +44,19 @@ function insertProfMiniCV(profName){
 	}
     
 
-    
-    
-
     if(profName == "André Bonanomi"){
 		var profMiniCV = "Sócio-fundador da A7B, agência especializada em marketing digital. Profissional certificado pelo programa Google Partners desde 2011, gerenciou mais de 6 milhões em verba de mídia digital no último ano. Atende clientes como Cadence, Oster, Cativa Store, Vida e Cor, Premier Shop e grandes players do e-commerce nacional."
 	}
     
 
-    
-    
+	if(profName == "Andre Ferreira"){
+		var profMiniCV = "Relações públicas com especialização em marketing no varejo e apaixonado por conversas e por pessoas. Há 12 anos, ajuda marcas a construírem relacionamentos com seus públicos por meio da criação de conteúdo nos canais digitais. Consultor de comunicação e varejo, já criou campanhas de marketing e coordenou equipes de vendas e atendimento para negócios locais e e-commerce. Atualmente, como Head de Atendimento e Planejamento na Vibezz, atende grandes players nacionais do mercado de entretenimento.."
+	}	
+
 
     if(profName == "André Massa"){
 		var profMiniCV = "Empreendedor - Diretor de Novos Negócios - Sieve. É Mestre em Finanças e Controle Gerencial, COPPEAD/UFRJ, com Extensão de mestrado na ESSEC, Paris. Possui experiência em consultoria e investimentos em PE/VC. Senior Associate for Portfolio Development - Ideiasnet S.A. Incubadora de Empresas - COPPE/UFRJ. Senior Consultant - Sargas / Ernst & Young. Instituto Gênesis PUC-Rio. Engenheiro de Produção, PUC-Rio."
 	}
-    
-
-    
     
 
     if(profName == "André Tavares"){
@@ -59,15 +64,9 @@ function insertProfMiniCV(profName){
 	}
     
 
-    
-    
-
     if(profName == "Andrei Scheiner"){
 		var profMiniCV = "Andrei Moletta Scheiner é Mestre em Comunicação Social (PUC/RJ), Especialista em Marketing Digital (ESPM/RJ) e Publicitário (ESPM/RJ). Pesquisador, consultor, palestrante e professor de branding, marketing, curadoria digital e tecnologias educacionais. Desenvolveu e liderou projetos para clientes de diversos setores e portes, como Vale (Brasil e Canadá), Diários Associados, Endesa Brasil, Operador Nacional do Sistema Elétrico (ONS), Embratel, Bradesco, Fundação Roberto Marinho, Petrobras, Grupo André Maggi, Fiocruz, ICOM/UNESCO, Infoglobo entre outras organizações. Desde 2011 é professor convidado do MBA da FGV Management (marketing e marketing digital) em diversas cidades do país. Possui mais de quatorze anos de experiência docente em cursos de graduação e pós-graduação de publicidade, jornalismo e marketing em diversas instituições de ensino."
 	}
-    
-
-    
     
 
     if(profName == "Angela Bueno"){
@@ -75,23 +74,19 @@ function insertProfMiniCV(profName){
 	}
     
 
-    
-    
-
     if(profName == "Angelo Vicente"){
 		var profMiniCV = "Engenheiro de Produção ? UFSCAR (2008), pós graduado em Logística Empresarial pela Escola Politécnica da Universidade de São Paulo (2010), MBA em Finanças pela Insper (2012), membro do Conselho de Curadoria da Ecommerce Brasil (2017-2018), 6 Anos de Experiência com Ecommerce (Fundador do Site Ecadeiras e Sócio da SELIA Fullcommerce) e 5 Anos de experiência de trabalho no exterior em multinacionais na área de Supply Chain."
 	}
     
+	
+	if(profName == "Anita Bataglin"){
+		var profMiniCV = "Com mais de dez anos de carreira no mercado digital, 1º lugar do prêmio ABCOMM 2020 na categoria Profissional de E-commerce, trabalha diretamente focada na gestão de e-commerce e transformação digital, desde a gestão comercial dos canais de venda até backoffice e entrega de experiência para os consumidores de grandes marcas de consumo, moda, beleza, e tech. Atualmente head de e-commerce na Synapcom."
+	}
 
-    
-    
 
     if(profName == "Arthur Attili"){
 		var profMiniCV = "Com uma grande paixão por tecnologia e dados, Arthur iniciou sua carreira no mercado de digital com planejamento criativo e programática. Atualmente, trabalha com Business Intelligence na Blinks, empresa de mídia e performance do grupo WPP. Suas principais realizações hoje são para o cliente Ambev, criando dashboards, configurando web analytics, instalando tags e fazendo auditoria de ativos digitais de todas as principais marcas da companhia. Não atuou somente com Ambev, mas também já atendeu outras grandes empresas como Vivara, Serasa Experian, Staples e Ikesaki para diferentes funções de BI."
 	}
-    
-
-    
     
 
     if(profName == "Augusto Rocha"){
@@ -99,23 +94,20 @@ function insertProfMiniCV(profName){
 	}
     
 
-    
+
+
+
+   /* ------------------ PROFESSORES COM LETRA B ------------------ */   
     
 
     if(profName == "Breno Spadotto"){
 		var profMiniCV = "Atua no time de Data Intelligence da CI&T, multinacional brasileira focada na transformação digital de clientes como Itaú, Coca-Cola e Johnson&Johnson, onde tem a missão de manter a alta performance de diversas iniciativas através da estruturação e análise de dados."
 	}
     
-
-    
-    
-
+   
     if(profName == "Bruno Goulart"){
 		var profMiniCV = "Graduado em Matemática, pós graduado em Gestão Empresarial, certificado em Analytics e Vendas em soluções digitais pela Google Academy. Data scientist especialista em marketing digital com foco em business intelligence, web analytics e social analytics. Ao todo são 10 anos de experiência, com passagens pela B2W Digital, comparador de preços Zoom, Vale S.A., TV Globo e Wooza."
 	}
-    
-
-    
     
 
     if(profName == "Bruno Miracco"){
@@ -123,32 +115,31 @@ function insertProfMiniCV(profName){
 	}
     
 
-    
-    
-
     if(profName == "Bruno Perez"){
 		var profMiniCV = "Mercadólogo com mais de 10 anos de experiência em desenvolvimento de campanhas e sistemas online. Empreendedor por natureza, atualmente é dono de uma agência com clientes como Casas Bahia, Ponto Frio, Conectcar, Energy, Y&R, VML e Fbiz."
 	}
-    
-
-    
     
 
     if(profName == "Bruno Rodrigues"){
 		var profMiniCV = "Responsável por novos negócios digitais na i-Cherry. Desenvolvimento de projeto voltados a Links Patrocinados, SEO (Search Engine Optimization), BI (Business Intelligence) com integração de Web Analytics, BI, CRM entre outros e CRO (Conversion Rate Optimization).Desenvolvimento de projetos específicos para líderes de mercado online e offline como Coca-Cola, iCarros, Petrobras, Microsoft, Expedia, entre outros. Foco em estratégias online com maketing multicanal (comparadores, mídia display, SEM, redes sociais) com ferramentas estratégicas de análise de resultados. Realização de ações de marketing online para diversos sites e empresas.Sócio fundador da JWT, especializada em atendimento e SAC 2.0."
 	}
     
+   
 
+
+
+   /* ------------------ PROFESSORES COM LETRA C ------------------ */   
     
     
-
     if(profName == "Caio Bertolazzo"){
 		var profMiniCV = "Pós-MBA em Negociação Empresarial pela Fundação Getulio Vargas, MBA em Gestão Empresarial pela Business School São Paulo, Graduação em Gestão Comercial pela FMU e Green Belt pela Werkema.Dez anos de experiência em vendas B2C e B2B.Especialista em Negociação, Vendas, Key Account Management, E-commerce e Marketplaces."
 	}
     
 
-    
-    
+	if(profName == "Caroline Marques"){
+		var profMiniCV = "Formada em Administração. Possui experiência comercial em grandes indústrias; além de já ter se aventurado pelo mundo do empreendedorismo; e nos últimos anos tem se especializado nas vendas de varejo através da venda online. Practitioner em PNL, alinha as técnicas para uma melhor comunicação com foco em resultados. Atualmente, trabalha em uma Joint Venture desenvolvendo e inserindo o marketplace B2C na vida dos varejistas de material de construção. Outras empresas pela qual já passou: Michelin, B2W (Americanas, Shoptime e Submarino), Carrefour e L?Oréal."
+	}
+
 
     if(profName == "Caroline Rembowski"){
 		var profMiniCV = "Experiência de 11 anos na área de Marketing e Comunicação, em empresas multinacionais de grande e médio porte, agências digitais, veículos de internet, e-commerce e mobile. Responsável pelo marketing online da Fnac e atualmente liderando a equipe de e-commerce da Etna."
@@ -159,36 +150,35 @@ function insertProfMiniCV(profName){
 	}
     
 
-    
-    
+	if(profName == "Claudio Zanutim"){
+		var profMiniCV = "Autor, Professor, Comunicador, Palestrante e Trainer Internacional. Mestre em Administração de Empresas e Gestão de Pessoas pela Unesp, MBA´s em Administração Estratégica, Mercadologia e Gestão de Pessoas. Experiência de mais de 32 anos atuando em Varejo, Industria e no Universo Acadêmico. Também fui empreendedor: dono de fábrica e 6 lojas em shopping centers."
+	}
+
 
     if(profName == "Cleber Fonseca"){
 		var profMiniCV = "Head de Business Intelligence, SEO e Analytics da Arezzo & Co. Mais de 10 anos de experiência no mercado digital. Foi responsável pelos principais produtos digitais do Grupo RBS como jornal Zero Hora, portal clicRBS, local search hagah e Diário Catarinense, entre outros, atuando tanto no desenvolvimento de projetos de SEO, captação de audiência, soluções em web Analytics e análise, procurando entender o comportamento dos usuários para gerar insights e recomendações de melhoria contínua dos produtos digitais do grupo."
 	}
     
 
-    
-    
-
-    if(profName == "Cristiano Creczyenski"){
+	if(profName == "Cristiano Creczyenski"){
 		var profMiniCV = "É formado em Design Gráfico pela UCS e possui MBA em Gestão Empresarial pela Unisinos. Atua desde 2008 em operações de e-commerce, onde se especializou em marketing digital de performance. Atualmente é coordenador de marketing digital no Grupo Dass atuando com marcas globais como Fila e Umbro.Possui forte entendimento de SEM, SEO, Display, Retargeting, E-mail Marketing e Mídias Sociais, não só para a exposição da marca e para gerar tráfego, mas também para acelerar as vendas."
 	}
-    
-  
-  
-      if(profName == "Cynthia Prado"){
+   
+
+    if(profName == "Cynthia Prado"){
 		var profMiniCV = "Solution Engineer na Oracle e Embaixadora do Mulheres no E-commerce, Cynthia tem 20 anos de experiência em Design Digital e 14 anos em Ecommerce (B2B e B2C). Premiada pelo Prêmio ABComm em 2019 duas vezes premiada pelo Talento Awards da Unilever.Também trabalhou em empresas como Kalunga, Somlivre, Centauro e Videolar."
 	}
 
-    
-    
 
+
+
+
+   /* ------------------ PROFESSORES COM LETRA D ------------------ */  
+
+  
     if(profName == "Daniel Bento"){
 		var profMiniCV = "Daniel Bento atualmente é Dono da Delta Bravo Consultoria. Foi Sr Advisor na LastMinute, CEO na Braspag Tecnologia em Pagamento, do Grupo Silvio Santos e posteriormente vendida para Cielo, Head da unidade de negócios online do Panamericano.com e Country Manager da Decolar.com, maior portal de vendas de serviços de turismo, da América Latina."
 	}
-    
-
-    
     
 
     if(profName == "Daniel Nepomuceno"){
@@ -196,23 +186,14 @@ function insertProfMiniCV(profName){
 	}
     
 
-    
-    
-
     if(profName == "Dayane Mofacto"){
 		var profMiniCV = "Profissional com 15 anos de experiência no Mercado de Marketing e Publicidade. Especialista em Marketing pela ESPM e MBA em Design Estratégico pelo Infnet. Já trabalhou em empresas como B2W, Comprafacil.com, Jockey Club Brasileiro e Pari Mutuel Urbain, onde foi responsável pela gestão do e-commerce de apostas e projetos digitais PMU aqui no Brasil. Como executiva de contas, já atendeu e coordenou projetos para clientes dos setores público e privado, como Ministério da Saúde, Governo do Distrito Federal, Prefeitura de Salvador, Setur, Laboratórios Sabin, entre outros. Consultora Webbz e Coordenadora da ComSchool RJ."
 	}
-    
-
-    
-    
+  
 
     if(profName == "Denis Andrade"){
 		var profMiniCV = "Formado em Sistemas para Internet pela FIAP (Faculdade de Informática e Administração Paulista) e com mais de 7 anos de experiência em Internet. Trabalhou com grandes projetos na Agência Cappuccino Digital, inicialmente como Programador e Analista SEO, e depois com Pesquisa e Desenvolvimento de Novos Negócios. Foi Analista de SEO na agência SEO Marketing atendendo clientes de diversas áreas como: mercado imobiliário, e-commerce, indústrias e profissionais autônomos. Hoje é Sócio Diretor da agência Mateada. Pesquisa, estuda e presta consultoria em diversas áreas do Marketing Digital. Participa ativamente dos maiores eventos da área no Brasil e é colaborador ativo de blogs e fóruns especializados no assunto."
 	}
-    
-
-    
     
 
     if(profName == "Denis Casita"){
@@ -220,38 +201,34 @@ function insertProfMiniCV(profName){
 	}
     
 
-    
-    
-
     if(profName == "Denis Smetana"){
 		var profMiniCV = "Engenheiro Químico formado pela Poli-USP, tendo estudado em Hamburg/Alemanha em 2001 com bolsa de estuado da Capes-DAAD.Possui MBA Executivo pelo Insper e especialização em estratégia digital por Harvard.Foi executivo no planejamento financeiro da Cetelem Financeira (atual BNP Personal Finance). Em 2008 iniciou a carreira na internet como executivo no BuscaPé Financial Services, área do BuscaPé responsável por meios de pagamentos e que tinha sob sua gestão a Pagamento Digital (atual PayU) e FCcontrol, chegando a Gerente Geral desta unidade de negócios. Em seguida foi responsável pelo planejamento financeiro do iG, sendo que neste período foi board advisor no Moip. Foi CFO da unidade do Ideaisnet que gerenciava as empresas de ecommerce do grupo: Ciashop, Moip e Zura. Retornou ao mercado financeiro como CFO da Click Promotora de Crédito Consignado, empresa com aporte do Pine River Capital Management, e que adquiriu e gerenciou a carteira de créditos consignado de INSS do Banco Cacique. Atualmente é CFO da Rakuten Brasil e ministra os cursos de meios de pagamentos e fraudes na Comschool."
 	}
 
-    
-    
-
+ 
     if(profName == "Denis Strum"){
 		var profMiniCV = "Profissional com mais de 12 anos de experiência atuando com marketing. Vivência como cliente e fornecedor de comunicação e marketing. Últimos 6 anos atuando com Marketing Digital e E-commerce. Experiência com implementação de projetos digitais, incluindo posicionamento de marca, planejamento estratégico e Growth Hacking (SEO, SEM, CRM, Social Midia, e todas as demais estrategias para crescimento do tráfego e conversão. Especializações: métricas no marketing digital, planejamento de marketing, gestão de equipe e branding."
 	}
     
 
-    
-    
+	if(profName == "Denise Moraes"){
+		var profMiniCV = " Consultora & Coach com 15 anos de atuação nas Áreas de Gestão de Cultura Organizacional, Desenvolvimento de Liderança e Team building. Ampla experiência em Coaching Executivo & Mentoring, Assessoria Estratégica e Assessment de Lideranças.Certificação como Practitioner nas metodologias globais: O Elemento Humano® (LHEP), LIFO® (LMP) e Barrett® (CTT). Certificação em Coaching Executivo e RH Estratégico. Instituto Marcondes de Tecnologia.Certificação em Coaching & Mentoring Instituto Holos ? certificado pelo International Coaching Federation (ICF)."
+	}
+	
+
+	if(profName == "Denise Salvador"){
+		var profMiniCV = "Especialista com mais de 30 anos atuando em Educação Corporativa,  tanto na coordenação quanto na instrutória de programas e cursos com foco  técnico e comportamentais. Destaque para desenvolvimento de líderes, equipes de vendas e atendimento. Trajetória em empresas no ramo financeiro (Fininvest) , varejo (Grupo Carrefour), de saúde (Lab Helion Povoa), gás (SHV Gas) e Mineração (Vale) onde atua hoje na posição de  Master HR Training and Development . Graduação em Psicologia, com Pós graduação em RH | Pontifícia Universidade Católica- RJ"
+	}
+
 
     if(profName == "Dimas Mombach de Oliveira"){
 		var profMiniCV = "Sócio/fundador da Uords Estratégias Digitais, escritório de Mídia Digital de Performance e Google Partner Premier. Uma das primeiras agências com selo de Google Partner de Porto Alegre. Trabalha em projetos junto com Egali Intercâmbio, Poker Esportes, Volare, CIGAM Software de Gestão, FSG - Faculdade da Serra Gaucha.Iniciou há 10 anos como estrategista de campanhas com o Google Adwords e hoje lidera o time de negócios e atendimento da Uords."
 	}
-    
-
-    
-    
+  
 
     if(profName == "Douglas Martineli"){
 		var profMiniCV = "Supervisor de Mídia Online na Isobar, está há mais de oito anos trabalhando com comunicação e marketing, ajudando pequenas e grandes marcas a encontrarem as melhores soluções para seus negócios através de estratégias de marketing digital. Ao longo da carreira já atendeu marcas como Chevrolet, Santander, Senac, Sufresh, José Cuervo, entre outras."
 	}
-    
-
-    
     
 
     if(profName == "Douglas Spessato"){
@@ -260,14 +237,19 @@ function insertProfMiniCV(profName){
     
 
     
-    
+
+	
+   /* ------------------ PROFESSORES COM LETRA E ------------------ */  
+
+
+    if(profName == "Ederson Oliveira "){
+	    var profMiniCV = "Pós graduado em marketing pela ESPM e extensão executiva pela FIA/USP. Especialista em aquisição B2B via Linkedin. Durante 8 anos liderou a Agência Blitz atendendo Google, Corinthians, Bacardi, Faber Castell, Vogue, Netshoes, Caixa e outras. Foi growh lead da Allpoints, maior programa de fidelidade para hotéis do mundo e PMO da Growth Masters. Atualmente é growth coordinator na Fix, uma startup de serviços imobiliários, founder da plataforma nocodefree.com e partner da Linked Leads, consultoria especializada em lead generation no LinkedIn."
+    }
+
 
     if(profName == "Edilaine Godoi"){
 		var profMiniCV = "Edilaine Godoi acumula longa experiência à frente do comércio eletrônico no Brasil. A executiva trabalhou anteriormente em empresas como Ultrafarma.com.br, Combe Incorporated, Sanegás, foi a primeira funcionária da operação Netfarma e foi proprietária de uma agência digital. Atualmente é head de e-commerce na varejista Ikesaki Cosméticos e Professora da Comschool. Em 2015 e 2018 foi eleita a melhor profissional de e-commerce pela ABComm."
 	}
-    
-
-    
     
 
     if(profName == "Edmilson Maleski"){
@@ -275,15 +257,9 @@ function insertProfMiniCV(profName){
 	}
     
 
-    
-    
-
     if(profName == "Eduardo Koch"){
 		var profMiniCV = "Publicitário, Especialista em Branding e Mestre em Marketing com ênfase em Gestão Organizacional, atuou com Planejamento de comunicação e posicionamento de marcas em grandes agências de Porto Alegre, São Paulo e Rio de Janeiro, estruturou o departamento de Customer Success na empresa TOTVS, atualmente Coordena o departamento de Customer Success voltado para Agências Parceiras na Resultados Digitais, em Florianópolis.Como docente, lecionou em cursos de branding, marketing digital e contrução de marcas no ambiente online na FGV-RJ, Unigranrio e Uniritter-RS, atua como consultor e palestrante de temas como marketing digital, e-commerce, branding e automação de marketing e customer success."
 	}
-    
-
-    
     
 
     if(profName == "Eduardo Oliveira"){
@@ -291,15 +267,9 @@ function insertProfMiniCV(profName){
 	}
     
 
-    
-    
-
     if(profName == "Elisa Malheiros"){
 		var profMiniCV = "Graduada em Comunicação Social, Pós-graduada em Comunicação com o Mercado pela ESPM e especialista em Consultoria de Imagem e Estilo (Belas Artes). Elisa possui vasto conhecimento no mercado corporativo, atuando em diversas áreas. São 12 anos de experiência nacional e Internacional, em cidades como Nova York, Barcelona e Cidade do México. Atualmente é sócia e fundadora da Emana Consultoria."
 	}
-    
-
-    
     
 
     if(profName == "Eliziane Lettieri Vezzosi"){
@@ -307,23 +277,14 @@ function insertProfMiniCV(profName){
 	}
     
 
-    
-    
-
     if(profName == "Eric Gallardo"){
 		var profMiniCV = "Profissional com mais de 16 anos de experiência em posições de liderança em iniciativas digitais com alta complexidade tecnológica, Internet, Sistemas e Mobile, gerenciando Pessoas, Projetos e Tecnologias para E-commerce, Marketing, B2B, Varejo, Atacado e Distribuição."
 	}
     
 
-    
-    
-
     if(profName == "Erick Massa Sprengel"){
 		var profMiniCV = "Formado em Engenharia da Computação na USP. Atualmente é Engenheiro de Android na LG Eletronics.Experiência de 6 anos em desenvolvimento de sistemas mobile. Tendo trabalhado em projetos como Fábrica de Aplicativos, Tokio Marine, BB Seguros 360, PeggTaxi, Aquii, JZ Resgate, CBF, MovistarOn, entre outros.Atuando na concepção do produto, modelagem do sistema (arquitetura) e desenvolvimento (Android e backend)"
 	}
-    
-
-    
     
 
     if(profName == "Ezinete Gomes"){
@@ -334,28 +295,27 @@ function insertProfMiniCV(profName){
     
     
 
+   /* ------------------ PROFESSORES COM LETRA F ------------------ */  
+   
+
     if(profName == "Fabiana Alvarez"){
 		var profMiniCV = "Formada em Marketing pela USP, já tive a oportunidade de trabalhar em diferentes empresas. Após passar por diversas área de Marketing - em empresas como Unilever, Itaú, BMC, Farfetch, etc - me apaixonei pelo Digital e me desenvolvi nesse meio; no qual tive a chance de participar de projetos super interessantes, conhecer pessoas incríveis e ampliar meus conhecimentos. Já tive um e-commerce de jóias e semi jóias e hoje me dedico à minha própria empresa. Amo dar aulas, compartilhar tudo o que aprendi nesse período e continuar aprendendo ainda mais com a troca de experiências entre pessoas desse ramo."
 	}
     
 
-    
-    
-
     if(profName == "Fabiana Louzane"){
 		var profMiniCV = "Formada em Publicidade e Propaganda pela Cásper Líbero. Iniciou sua carreira na Rádio Gazeta FM. Atuou na área de marketing das empresas Siciliano, Saraiva e está no segmento de Casa e Decoração há seis anos, na gestão do e-commerce da Camicado. Finalista do Prêmio e-commerce Brasil 2011 na categoria Atendimento e Relacionamento com os clientes e premiada duas vezes na Expocom, nas categorias de pesquisa e planejamento."
 	}
-    
+   
 
-    
-    
+	if(profName == "Fabiano Donadon"){
+		var profMiniCV = "Apaixonado pelo que faz, lidera a área digital da Johnson & Johnson Vision Care como Gerente de Marketing Digital da América Latina. Possui ampla experiência em Marketing, CRM, Mídias Sociais, gestão de PR, e-trade e E-Commerce, aplicados em empresas como Philips, Panasonic, Colgate-Palmolive, HP, Secretaria da Fazenda, entre outras. Vencedor de diversos prêmios de transformação digital pelas empresas que passou. Formado em Publicidade e Propaganda pelo Mackenzie, MBA em Gestão Estratégica e Econômica de Projetos pela FGV, e Especialização em Digital Marketing pela Columbia Business School. Curioso por natureza e nerd por opção, entusiasmado por resultados e líder de coração, Fabiano vem trazendo para o mundo real as oportunidades que o e-mundo oferece, ajudando os dispostos a aprender a mergulhar no mundo da web."
+	} 
+
 
     if(profName == "Fabio Fialho"){
 		var profMiniCV = "Diretor comercial na Synapcom. Mais de 15 anos de experiência em projetos de operações e logística. Forte atuação no desenho e acompanhamento de projetos que levam a indústria para o Mundo Digital. Participou de projetos desse tipo para empresas tais como Unilever, Diageo, Contem 1g, Semp Toshiba, L'Oréal, Vista Alegre e Aramis, entre outras. Experiência na elaboração e avaliação de Requests For Proposals (RFPs) para projetos de operações em e-commerce. Participou no desenvolvimento de inúmeras RFIs para a indústria e no lançamento de seus BIDs."
 	}
-    
-
-    
     
 
     if(profName == "Fabio Marão"){
@@ -363,15 +323,9 @@ function insertProfMiniCV(profName){
 	}
     
 
-    
-    
-
     if(profName == "Fábio Pereira"){
 		var profMiniCV = "Formado em administração de empresas pela FGV com MBA em Marketing pela ESPM. Em 1999 foi um dos fundadores do site Submarino.com.br, participando do Business Plan, estratégia de lançamento e cuidando da categoria de livros do site. Posteriormente gerenciou mais de 15 lojas virtuais de marcas consagradas como Caloi, Burago, Polti, Timex, auxiliando empresas a entrarem no e-commerce. Trabalhou por 3 anos na Globo.com sendo responsável pela área de e-commerce e gerência de publicidade, sendo posteriormente CEO do Virgula ( portal para público jovem da rádio Jovem Pan), dirtetor de e-commerce da Polishop e Gerente Geral de B2B na B2W ( empresa resultante da fusão da Americanas.com com Submarino ). Foi diretor de e-commerce na Fnac.com.br ( multinacional francesa com filiais e sites em Portugal, Espanha, Itália, Suiça e Brasil ), sendo responsável pela unidade de negócios como um todo, levando o site a ser a 1ª loja da rede no Brasil e o 2º maior site do grupo Fnac no mundo."
 	}
-    
-
-    
     
 
     if(profName == "Fabio Veneroni"){
@@ -379,23 +333,19 @@ function insertProfMiniCV(profName){
 	}
     
 
-    
-    
-
     if(profName == "Fabrizzio Topper"){
 		var profMiniCV = "Especialista em Planejamento e Design Estratégico, com 20 anos de atuação no mercado de consultoria em modelagem de negócios e estratégia empresarial. Fundador e idealizador da DRIVEN.cx. Formado em Product Design na FAAP, Administração Financeira na USF, Marketing & Estratégia na FGV, Neuroeconomia na ESPM, empreendedorismo na BABSON College, Coach e Neurolinguística na SBPNL. Docente de planejamento e modelagem de negócios digitais, focado em tecnologias e ecossistemas aplicados a alavancas de experiencia do cliente e conversão comercial, leciona na ComSchool, FIA, IBMEC, ESPM e IED. Atua no desenvolvimento do mercado como diretor da ABCOMM, IBEVAR e VP no POPAI Brasil."
 	}
     
 
-    
-    
+	if(profName == "Fares Hid Saba"){
+		var profMiniCV = "Sou especialista em UX (user experience) e trabalho com foco em toda a experiência do cliente, desde o processo de imersão e definição estratégica, passando por todas as análises quantitativas e qualitativas do negócio, geração de ideias e planejamento de produtos, prototipação da solução, validação através de testes de usabilidade, implementação da solução e melhoria contínua de indicadores. Participei do concepção e evolução de portais de grandes empresas, destacando-se Credicard, Cetelem, Porto Seguro e, mais recentemente, do Banco Santander Brasil. Atualmente estou a frente de uma equipe de 18 pessoas, entre designers, researchers, frontend developers, PMs, POs e generalistas, responsável pela equalização de experiência multicanal em todo o ciclo de vida do cliente bancário, desde a conquista, cross/up sell, relacionamento digital, autoatendimento, reconquista, governança de identidade visual e inovação digital."
+	}
+
 
     if(profName == "Felipe Magalhães Bonel"){
 		var profMiniCV = "Profissional de tecnologia e produtos, professor, palestrante e especialista em interfaces conversacionais. Graduado em Comunicação e Multimeios pela PUC-SP, atua há 9 anos no mercado de produto e conteúdo digital, sendo que os últimos 3 foram dedicados à construção de bots com inteligência artificial para clientes como Vivo, Motorola, GOL, Nextel, Grupo Votorantim e outros. Atualmente, escreve para a Chatbot's Life e para a Bots Brasil, além de ser curador de conteúdo da VUI Design BR."
 	}
-    
-
-    
     
 
     if(profName == "Felipe Moimaz"){
@@ -403,15 +353,9 @@ function insertProfMiniCV(profName){
 	}
     
 
-    
-    
-
     if(profName == "Felipe Orlando Marti"){
 		var profMiniCV = "Profissional com mais de 19 anos de experiência em marketing e vendas com atuação nas áreas de operação off-line, gestão em negócios B2B e B2C de alta rentabilidade, e-commerce, marketing digital, outbound marketing, trade marketing, parcerias e live marketing. Com histórico de empresas como Saraiva, Vivo, Buscapé, Ricardo Eletro, Gregory Modas e atualmente na Unilever."
 	}
-    
-
-    
     
 
     if(profName == "Felippi Perez"){
@@ -419,15 +363,9 @@ function insertProfMiniCV(profName){
 	}
     
 
-    
-    
-
     if(profName == "Felix Grivot"){
 		var profMiniCV = "Formado em marketing e publicidade possui experiência de mais de 10 anos em atendimento digital e marketing. Coordenou diversos projetos de implantação de marketing digital e inbound nos últimos 4 anos, com passagem nos mercados de comunicação, indústrias, e serviços focados no mercado B2B. Atualmente lidera o time de marketing da uMov.me, empresa de tecnologia na área de aplicativos móveis corporativos."
 	}
-    
-
-    
     
 
     if(profName == "Fernanda Bittencourt"){
@@ -435,15 +373,9 @@ function insertProfMiniCV(profName){
 	}
     
 
-    
-    
-
     if(profName == "Fernanda Dutra"){
 		var profMiniCV = "Especialista em Comunicação, sócia diretora da Flyflow, professora, palestrante e coach. Formada em Administração e Artes Plásticas e Pós-graduada em Gestão Estratégica de Pessoas e Marketing pela Universidade Presbiteriana Mackenzie. Possui diversos certificados profissionais, entre eles de Coaching e Gestão Estratégica em Neurobusiness."
 	}
-    
-
-    
     
 
     if(profName == "Fernanda Nascimento"){
@@ -451,15 +383,9 @@ function insertProfMiniCV(profName){
 	}
     
 
-    
-    
-
     if(profName == "Filipe Bonfim"){
 		var profMiniCV = "Formado em publicidade e propaganda e pós-graduado em marketing e design digital, pela ESPM/ RJ, com extensão em gerenciamento de projetos. Mais de 10 anos no mercado digital, atualmente como Gerente de Marketing Digital no Ponta dos Ganchos Exclusive Resort, professor do módulo de publicidade em mídias digitais na Unisul e fotógrafo freelancer. Com passagem pelas agências Flag Cx, NBS e Agência 3 no Rio de Janeiro, Agência Click em São Paulo e nas empresas Rede Globo, Infoglobo e Aunica."
 	}
-    
-
-    
     
 
     if(profName == "Flavio Evangelho"){
@@ -467,14 +393,15 @@ function insertProfMiniCV(profName){
 	}
     
 
-    
-    
-
-    if(profName == "Franklin Bravos"){
+	if(profName == "Franklin Bravos"){
 		var profMiniCV = "Franklin Bravos é graduado em Física pela USP e técnico em Processamento de Dados pela Unicamp. Trabalha com tecnologia e internet desde 1998, tendo atuado em grandes empresas como: IG, Odonto Prev, Liberty Seguros e Net.Atualmente é sócio na Signativa, uma das mais conceituadas empresa brasileiras especializada em desenvolvimento Magento. Responsável em ampliar a atuação da empresa em todo Brasil. Professor na ComSchool nos cursos de Magento e também atua em treinamentos e consultorias para grandes clientes e marcas, como Hering, Imaginarium, Brandili, Melissa, Natura, Fischer, Futura Saúde e Amigão Calçados."
 	}
 
-    
+ 
+	
+
+
+   /* ------------------ PROFESSORES COM LETRA G ------------------ */  	
     
 
     if(profName == "Gabriel Mattos"){
@@ -482,31 +409,34 @@ function insertProfMiniCV(profName){
 	}
     
 
-    
-    
-
     if(profName == "Gabriel Nunes"){
 		var profMiniCV = "Gestor de SEO em uma agência referência da área, formado em publicidade e propaganda pela Anhembi Morumbi. Já prestou consultoria de SEO para alguns dos maiores players da internet brasileira, dentre eles 10 sites que estão entre os top 300 do país."
 	}
     
 
-    
-    
+	if(profName == "Gabriel Queiroz"){
+		var profMiniCV = "Especialista em Marketing Digital; Gestão de campanhas de branding e performance; Campanhas de performance para lojas físicas; Elaboração de planejamento tático e estratégico; Gestão operacional; Prospecção e otimização de campanhas de mídia online;  Especialista em mídia online; Atendimento ao cliente com foco em negociação e resultados; Especialista Google Ads, Youtube, Facebook Ads, Analytics, Merchant Center, Bing Ads, Criteo, Shopback & Redes de Afiliados;Conhecimentos de mídia programática; Elaboração de dashboards de resultados automatizados e interativos; Negociação comercial c/ veículos digitais; Certificações Google Ads (Shopping, pesquisa, display, aplicativos, mensuração e vídeo)."
+	}
+
 
     if(profName == "Gabriel Villa"){
 		var profMiniCV = "Gabriel Villa é Business Designer na VTEX, buscando soluções para novos clientes corporativos. Antes disso, foi o head do ShopFácil.com, na transformação em Marketplace e com crescimento de GMV de 41x em 5 anos. É especialista em meios de pagamento, fidelidade e inclusão financeira. É Administrador de Empresas pela FEA-USP, com cursos em escolas como Perestroika, Hiper Island, etc."
 	}
     
 
-    
-    
+	if(profName == "Gabriela Novo"){
+		var profMiniCV = "Atua com comunicação há 7 anos, sendo que 5 deles em agência de publicidade. Mídia híbrida, mas com foco em digital. Sua experiência passa pelas práticas das plataformas SEM como Google Ads, DV360, Youtube e Bing Ads, Social em Facebook, Instagram, Twitter e Linkedin e ambientes de análise digital. Experiência com clientes de diversas industrias e perfis, pois acredita em gerar valor de negócio através da mídia."
+	}
+
+
+	if(profName == "Gabriela Santana"){
+		var profMiniCV = "A mais de 13 anos atuando na área de marketing, publicidade e comunicação com experiências multinacionais, startups tecnológicas, agências de publicidade e marketing digital. Atuo com o mercado Latino americano, com projetos de lançamentos de mercados e expansão. Com um perfil 360, acumulo em minha carreira conhecimentos em diversas frentes do marketing: institucional, brand marketing, marketing de produto, endomarketing, marketing de performance, estratégias de campanhas e propagandas online e off-line, lançamentos de produtos, geração de lead, automação de marketing, web analytics, redes sociais, inbound marketing, conteúdo, criação, promoções, eventos e gestão de equipe multidiciplinar. Hoje lidero uma equipe de growth marketing focada em realizar experimentos de marketing baseado no processo de growth hacking focando performance e incremento de receita sustentável."
+	}
+
 
     if(profName == "Gilberto Dimenstein"){
 		var profMiniCV = "Gilberto Dimenstein ganhou todos os principais prêmios destinados a jornalistas e escritores. Foi acadêmico-visitante no programa de direitos humano da Universidade de Columbia (Nova York). Integrou a incubadora de projetos sociais de Universidade Harvard. Atualmente coordena o Catraca Livre, escolhido, em 2013, por um júri formado por especialistas em tecnologia da informação da Universidade de Oxford, BBC e Financial Times, uma das 100 mais inspiradoras inovações digitais para a mudança social."
 	}
-    
-
-    
     
 
     if(profName == "Gonzalo Greco"){
@@ -514,15 +444,19 @@ function insertProfMiniCV(profName){
 	}
     
 
-    
-    
+	if(profName == "Guilherme Martins"){
+		var profMiniCV = "Guilherme atua na área tributária desde 2006, dispondo de ampla experiência em consultoria e contencioso administrativo em tributos indiretos e questões aduaneiras. Antes de se tornar sócio do MIRANDA JUNQUEIRA MARTINS ADVOGADOS, trabalhou em alguns dos maiores escritórios de advocacia do Brasil. Como Diretor Jurídico da ABComm, Guilherme foi responsável pela elaboração de projetos de lei em matéria tributária relacionados ao comércio eletrônico e pela condução de Ações Coletivas, de abrangência e repercussão nacionais, visando resguardar os direitos e interesses do Setor. Guilherme também é palestrante e articulista sobre temas relacionados ao Direito Tributário."
+	}
+
+
+	if(profName == "Gustavo Chapchap"){
+		var profMiniCV = "Graduado em Marketing, trabalha com comunicação há mais de 20 anos e com e-commerce desde 2006. Redigiu o projeto que originou o Dia do Profissional Digital #404DigitalDay aprovado no plenário da Câmara Municipal da Cidade de São Paulo em 2014. É líder do comitê de e-Commerce da ABRADi (Associação Brasileira dos Agentes Digitais), atua como CMO na JET e-business. Em 2019 foi premiado como MVP no Fórum E-Commerce Brasil."
+	}
+
 
     if(profName == "Gustavo Daher"){
 		var profMiniCV = "Gestor de Marketing e Business com foco em Resultado. Fazer negócios crescerem de forma saudável é o meu lema (Faturamento e Margem). Gestão de Mídia Online com foco em Performance. Gestão de pessoas com foco em carreira."
 	}
-    
-
-    
     
 
     if(profName == "Gustavo Erlichman"){
@@ -530,33 +464,40 @@ function insertProfMiniCV(profName){
 	}
     
 
-    
-    
-
     if(profName == "Gustavo Santos"){
 		var profMiniCV = "Formado em Marketing, com MBA em Estratégias do Varejo pela FIA e Gestão Estratégica pela Anhembi Morumbi. Consultor em e-commerce com mais de de 15 anos de experiência no segmento de varejo e bens de consumo esteve à frente de projetos de implantação, gestão e consultoria em operações de e-commerce, marketing digital e social commerce.Já atendeu clientes como: Riachuelo, C&A, ikesaki, Shop2gether, entre outros."
 	}
-    
+  
+
+
+
+
+   /* ------------------ PROFESSORES COM LETRA H ------------------ */  
+
+
+    if(profName == "Helenice Moura"){
+	    var profMiniCV = "Presidente do Comitê de líderes de e-commerce SP, co-fundadora da A Liga Digital, embaixadora do Mulheres no E-commerce, que reúne mais de 30 mil mulheres e professora de pós graduação na FIA e professora da ComSchool. É Google Partner desde 2008 e possui MBA em Business Intelligence pela FIAP. Além disso, possui especialização em Gerência Comercial pela FGV, é sócia fundadora de startups de Marketing Digital, atua neste segmento desde 2005. Teve passagens por grandes empresas, como Terra Empresas, Scup, Ativi e NoTopo. Foi responsável por criar estratégias para marcas, como Amend Cosméticos, Sky, Ticket, Any Any, Speedo, Abilio Diniz, Banco Carrefour, Atacadão, Mapfre e Braskem."
+    }	
+
 
     if(profName == "Helio Tadeu Brogna Coelho Zwicker" || profName == "Helio Tadeu Brogna Coelho"){
 		var profMiniCV = "Advogado, pós-graduado em Direito e Tecnologia da Informação pela Universidade de São Paulo. Diretor Jurídico da Associação Brasileira de Comércio Eletrônico ? ABCOMM. Sócio do escritório Terras Coelho Advogados. Atua em defesa de grandes empresas de tecnologia em todo o território nacional."
 	}
     
 
+	if(profName == "Henrique Castro"){
+		var profMiniCV = "Formado em Marketing pela Anhembi Morumbi e extensão em Agile e Marketing Digital pela Columbia Business School e ESPM, é co-fundador e Head de Operações da Vibezz, startup de soluções e estratégias. Com experiências também no mercado de entretenimento, foi head de Marketing Digital na Cinépolis no Brasil durante 3 anos cuidando de conteúdos, ativações, campanhas, promoções, PR, Influência, Mídia, etc. Também assumiu a área de Digital na VELOX TICKETS durante quase 2 anos, expandindo parcerias, ações, PR, Analytics e eventos.."
+	}	
+
+
     if(profName == "Hermes Augusto"){
 		var profMiniCV = "Publicitário e especialista em SEO com mais de 8 anos de experiência. Já realizou projetos de SEO para as maiores marcas do Brasil pelas agências Jüssi e Cadastra, além de ter sido head de SEO das empresas Webmotors, BTG Pactual e Genial Investimentos."
 	}
     
 
-    
-    
-
     if(profName == "Henrique Almeida"){
 		var profMiniCV = "Mais de 12 anos de experiência em negócios digitais, CEO da Almeida Consultoria e palestrante, especialista em operação e alta performance de e-commerce. Atuou em projetos dos mais variados em empresas como Banco Real, Banco Bradesco, Bosch, Brastemp, Continental, CTBC, Doutores da Alegria, Instituto Hope, Meio & Mensagem, Nestlé, PowerBar, Shoestock e WebMotors. Foi sócio-diretor da Trendhouse onde atuou realizando gestão fullflilment de e-commerce.Como Consultor, atuou ou continua atuando no sucesso das empresas: Adidas, Authentic Feet, Artwalk, Amissima, Ana Hickmann, Camila Klein, Electrolux, Gallerist, Gluten Free Box, Leandrini, Lojas Mel, Livstorm, Meu Amigo Pet, Millie Pet, Pet Nativa, Perfumaria Seiki, Piuka Acessórios, PneuX, ShoeBiz, entre outros."
 	}
-    
-
-    
     
 
     if(profName == "Hugo Yang"){
@@ -567,20 +508,28 @@ function insertProfMiniCV(profName){
     
     
 
+   /* ------------------ PROFESSORES COM LETRA I ------------------ */  
+
+
+    if(profName == "Isabel Ananias"){
+	    var profMiniCV = "Graduada em Administração de empresas pelo Complexo Educacional FMU. Possui mais 10 anos de experiência em marketing digital. Passou por empresas como Buscapé Company e Grupo Minha Vida. Hoje é consultora de pequenas a grandes empresas, além de atuar no segmento da educação, como conteudista e tutora de turma realizando vídeoaulas e podcasts."
+    }
+
+
     if(profName == "Ivan Alves"){
 		var profMiniCV = "Formado em Administração e Publicidade e Propaganda. Apaixonado pelo que faz e por novos projetos, trabalha como Business Consultant na Sprinklr: empresa que atua no segmento de tecnologia em redes sociais e ajuda clientes com os seus desafios de negócio. Antes disso, passou por empresas como Santander e Magazine Luiza e atualmente trabalha como consultor de serviço para grandes players de diversos mercados. Também é fundador do blog Publistagram.com"
 	}
     
 
-    
-    
+
+
+
+   /* ------------------ PROFESSORES COM LETRA J ------------------ */  
+
 
     if(profName == "Jacob André Gomes"){
 		var profMiniCV = "Jacob André Gomes Vicente, conhecido popularmente por André Jacob, com mais de 21 anos na área contábil é Diretor Executivo da GlobalNet Contabilidade (Alphaville-Baruer/SP). É Contabilista; Graduado em Tecnologia da Informação; Pós-Graduado em Direito Tributário; Mestrando em Direito Tributário ? Projeto Tributos para e-commerce; Empreteco (Curso Metodologia da ONU) ministrado pelo Sebrae; Professor de Tributos no e-commerce (Com Shocool); Membro do Conselho Executivo ABComm (um dos fundadores); Articulista /Palestrante."
 	}
-    
-
-    
     
 
     if(profName == "Jannos Artusi"){
@@ -588,19 +537,18 @@ function insertProfMiniCV(profName){
 	}
     
 
-    
-    
-
     if(profName == "Jason Baroni"){
 		var profMiniCV = "Formado em Gestão de Marketing pela Universidade Anhembi Morumbi, apaixonado por gestão de marcas e entusiasta tecnológico. Especialista em Marketing Digital, solidifica 6 anos de carreira orientados a relações comerciais e mercadológicas B2B e B2C. Atua como Analista de Marketing Digital Sênior na Velox Tickets e tem como principais qualificações Google Ads (Facebook & Instagram Ads) e otimização de e-commerce."
 	}
     
 
-    
-    
+	if(profName == "Jeniffer Almeida"){
+		var profMiniCV = "Vasta experiência em Customer Experience, tendo atuado no Mercado Livre com BI, levantando dados de atendimento, analisando e propondo junto à gestão ajustes para sanar as maiores dores dos usuários. Também junto à área de User Experience (UX), foi responsável no Brasil pela parte de comunicação no projeto de Gestão de Conflitos (ODR), um dos cases de maior sucesso da companhia. Amplo conhecimento em onboarding, criação de tutoriais em diversos formatos, e-learnings e gestão de treinamentos. Atualmente é UX Writer Senior na B2W Digital, cuidando da comunicação de todo fluxo transacional do Pós-Compras nas marcas americanas e Sou Barato."
+	}	
+
 
     if(profName == "João Ramirez"){
-		var profMiniCV = "Empreendedor, especialista em lançar e identificar oportunidades digitais, com mais de 16 anos de experiência no mercado online brasileiro. Co-fundador do ClickOn, um dos líderes do mercado brasileiro de compras coletivas. Co-fundador do Migux, maior rede social construída no Brasil, líder no segmento infantil. Consultor de negócios digitais em Games Sociais, E-Commerce, Telefonia Móvel e Transmídia. Consultor-voluntário do Teleton, da AACD, em campanhas de arrecadação de recursos pela Web e telefonia celular. Consultor do Instituto Socioambiental e da Federação das Organizações Indígenas do Rio Negro, em projetos de inclusão digital e bons usos da Web. Foi estrategista digital da campanha de Marina Silva à Presidência da República. É pioneiro do UOL, maior portal em língua não-inglesa do mundo. Na pré-história da Internet, foi responsável pela primeira transmissão ao vivo de um show pela Web no Brasil."
+		var profMiniCV = "Especialista em livestreaming e estratégia digital. Fez a primeira transmissão ao vivo da história da Internet brasileira em 1996 e está no Guinness Book of Records. Dirigiu centenas de produções ao vivo nas últimas duas décadas. É cofundador e Diretor Executivo da ABLINK, pioneira no mercado de streaming e conteúdos para plataformas digitais. Foi estrategista de comunicação de campanhas eleitorais, incluindo Eduardo Bandeira de Mello (REDE), à Prefeitura do Rio, em 2020, Alessandro Molon (REDE), à Prefeitura do Rio, em 2016, e as campanhas de Marina Silva à Presidência, em 2010 e 2014. Foi estrategista digital de diversas campanhas ativistas, incluindo projetos nas áreas de meio-ambiente e educação. É professor, palestrante e consultor."
 	}
     
 
@@ -609,95 +557,81 @@ function insertProfMiniCV(profName){
 	}
     
 
-    
-    
-
     if(profName == "José Batista de Queiroz Filho"){
 		var profMiniCV = "Formado em Tecnologia da Informação e Administração de Empresas, possui especialização em Marketing Digital e Comércio Eletrônico. JB, como é conhecido. Com mais de 20 anos de experiência no mercado nacional, desenvolveu projetos para diversos setores da economia. Palestrante Internacional de Marketing Digital para países emergentes e Cofundador do Portal Canal do Ensino, portal com mais de 2 milhões de acessos por mês."
 	}
-    
-
-    
-    
+  
 
     if(profName == "José Paulo Motta"){
 		var profMiniCV = "Atualmente ocupa a posição de Chief Business Development Officer na Hi Platform e Sócio-Conselheiro na Topper Minds.Possui mais de 18 anos de experiência em Finanças, e-Commerce e Novos Negócios. Experiência adquirida em Instituições Financeiras, Empresas de TI, Marketing Digital, e-Commerce e Varejo. Atuou na área de Marketing Portfolio and Financial MIS no Citibank, Financial Products na GE Capital, Financial Planning and MIS no ibi Bank e CFO no Grupo Direct (Direct Talk, DTM IBope e Scup), General Manager na Internet Boutique (e-closet & The Boutique) e Head of Business Development na Itaro."
 	}
     
 
-    
-    
-
     if(profName == "Juliana Lorenzetti"){
 		var profMiniCV = "Grande vivência na área de fraudes no e-commerce. Formada em Ciências Sociais, com especialização em marketing pela Universidade Federal do Rio Grande do Sul. Atualmente é Gerente Comercial na ClearSale, onde atua na parte de prevenção de fraudes nas vendas de e-commerce, segmento financeiro, porta a porta, seguros e telecom."
 	}
-    
+  
+	
 
-    
-    
+
+
+   /* ------------------ PROFESSORES COM LETRA K ------------------ */  	
+
+
+    if(profName == "Karina Kotake"){
+	    var profMiniCV = "Com 10 anos de experiência na área de marketing, atua em projetos para empresas de médio e grande porte nos setores de bens de consumo, varejo e serviços: Nissan, Natura, Renner, Grupo Iguatemi, Grupo Inbrands, Grupo Arezzo & Co, Grupo Scalina, Amaro, Dafiti, entre outros. Fundadora de uma agência startup de marketing digital, considerada uma das 10 agências mais desejadas para se trabalhar (Trampos/2014) e com cases de sucesso nacionais e internacionais. Experiência internacional."
+    }	
+
 
     if(profName == "Katia Nuno"){
 		var profMiniCV = "Profissional com MBA em Marketig Digital, graduada em Relações Públicas e extensão em Trade Marketing. Atuo com planejamento e estratégias de inbound marketing, marketing de conteúdo, SEO e gestão de redes sociais e campanha de mídia nos segmentos B2B e B2C."
 	}
-    
-
-    
-    
+   
 
     if(profName == "Kleber Forato"){
 		var profMiniCV = "Diretor de Web Analytics na Intuitive. Foi Head de eCommerce na WA Consulting, maior consultoria de Web Analytics do Brasil. Graduado em Comunicação, Pós Graduado em Marketing de Serviços. Atua há mais de 6 anos na área tendo passado por empresas como: AgênciaClick, Habbo Hotel, Agência LongPlay, Portal iG e Agência Ogilvy, onde foi responsável pela reformulação e posicionamento da área de Web & Social Analytics, atuou junto a grandes clientes como: Unilever, Kraft Foods, Claro, JAC Motors, IBM, Burger King, entre outros. Integrante do comitê de métricas do IAB-Brasil."
 	}
-    
+  
+	
 
-    
-    
+
+
+   /* ------------------ PROFESSORES COM LETRA L ------------------ */  	
+   
 
     if(profName == "Leandro Soares"){
 		var profMiniCV = "Diretor do Marketplace do Mercado Livre, responsável pela área comercial da plataforma. Graduado em Engenharia Elétrica e possui Mestrado em Física pela Universidade Estadual de Campinas além de MBA em Marketing e Finanças pela The Wharton School of Business da University of Pennsylvania (EUA). Trabalhou na Bain & Company como líder de projeto; Unibanco S.A., como gerente sênior de crédito e produtos e Mckinsey & Company, como consultor. Tem experiência em desenvolvimento de negócios com foco na internet e mobile, além de operações de varejo em serviços financeiros, focadas em recuperação de crédito para pequenas e médias empresas. Isso inclui consultoria em alta gestão de grandes grupos nacionais e multinacionais em diversos setores, onde participou de projetos de definição de estratégia de crescimento, fusão e integração, avaliação de parcerias estratégicas e revisão comercial, implementação de operações de cobranças, gestão de carteira de empréstimos, criação de métricas para avaliar desempenho de comércio virtual e outros."
 	}
-    
+  
 
-    
-    
+	if(profName == "Leonardo Azevedo"){
+		var profMiniCV = "Possui experiência em Contencioso Cível e é altamente qualificado em Direito Digital, Privacidade e Proteção de Dados Pessoais, bem como Direito do Consumidor. Representa empresas nacionais e multinacionais na resolução de litígios civis e consumeristas. Atua no âmbito consultivo para startups, na elaboração de pareceres sobre legalização dos jogos e na implementação de programas de conformidade com a Lei Geral de Proteção de Dados (LGPD), e também, presta assessoria a clientes perante a Justiça Desportiva, na prevenção e solução de litígios relacionados ao Direito do Consumidor perante o Poder Judiciário, e em procedimentos judiciais e arbitrais envolvendo questões de rescisão contratual."
+	}	
+
 
     if(profName == "Leonardo Franco"){
 		var profMiniCV = "Empreendedor, especialista em Marketing Digital, E-commerce e E-business, com 9 anos de experiência nas áreas de Comunicação e Estratégia Digital, atuou em grandes empresas nacionais e internacionais, como: DHL Logistics, Sonae Sierra Brasil, CPFL Energia, Amazon Web Services, Imaginarium e Moura. Já empreendeu em 3 projetos bem-sucedidos nos quais ainda atua como consultor de estratégias digitais. É consultor em diversos projetos, onde ativa, evolui e escala a performance digital de grandes empresas e marcas. Atualmente se dedica a performance e KPIs nas empresas onde atua com metas a curto, médio e longo prazo. Graduado em Publicidade (Grupo IBMEC), pós-graduado em Marketing e Negócios Digitais (Grupo IBMEC), especializou-se em e-commerce, Google AdWords Certified e Facebook Blueprint Certified."
 	}
-    
-
-    
-    
+  
 
     if(profName == "Leonardo Godoi"){
 		var profMiniCV = "Possui 18 anos de vivência com Internet, emergiu no Ecommerce em 2008 onde atuou como Head de Marketing Digital por 4 anos na Shopfisio, atualmente a maior operação online em produtos para saúde e bem-estar da América Latina. Em 2012 foi Gestor de Ecommerce na Kallan Calçados, uma grande varejista disposta a criar experiências Omni-Channel entre suas dezenas de lojas físicas e um novo canal de vendas online. Com Certificações em Google Analytics, Adwords e ComSchool é também Graduado em Sistemas para Internet com MBA em Empreendedorismo, Negócios e Startups. Desde 2014 é Sócio-Fundador da WideCommerce, empresa Especializada em Implantações de Projetos Ecommerce Magento®, atende hoje varejistas B2C e B2B entre os principais estão: Marson Lar & Construção, Progressiva na Web, Redelease, Loja da Claudia Raia, Rede de Ensino Maple Bear, FarmaForma, Cpap Vital, Detona Shop e La Bella Lis. Como Consultor sempre está disponível para discutir sobre Planejamento Estratégico no Ecommerce , CRO & UX, Mídia de Performance, ROI, Analytics, SEO e Mobile."
 	}
     
 
-    
-    
-
     if(profName == "Leonardo Palagi"){
 		var profMiniCV = "Professor e Palestrante, é especialista em Marketing e atua no mercado de comunicação há 16 anos, nos últimos 5 também como professor de MBA em Marketing na Universidade Anhembi Morumbi, Business School SP e UNICID, e na ComSchool em diversos cursos focados no digital. É Fundador da LAB780, startup de Tecnologia e, há 14 anos, fundou e é Diretor de Estratégia da Redcube, coordenando projetos como o reposicionamento digital da Marca LYCRA® e o planejamento do retorno da marca Carrefour aos canais Digitais. É corresponsável pela criação e planejamento estratégico da Campanha ?Desejos? que garantiu o prêmio Top of Mind para a Ticket Seviços e o prêmio Top Invention de Melhor Campanha para sua agência."
 	}
-    
-
-    
-    
+ 
 
     if(profName == "Leonardo Pallotta"){
 		var profMiniCV = "Líder da iniciativa de educação de uma das maiores empresas de tecnologia para relacionamento do cliente do Brasil desenvolvendo a primeira escola de Customer Care do Brasil, a Hi Academy. Por mais de 10 anos foi sócio-fundador responsável por inovação e marketing digital na agência de publicidade Zebra Deluxe Comunicação, Atualmente diretor de planejamento digital na agência de publicidade Sherlock Digital. Formado em Administração pela Universidade Mackenzie e pós-graduado em Marketing pela Universidade Insper. Trabalha com marketing há mais de 15 anos, possui certificação Google Adwords e experiência com marketing digital desde 2010. Ao longo desse período desenvolveu planejamento estratégico digital, gestão de mídias sociais e campanhas de mídia de performance para grandes companhias brasileiras, como Whirlpool, Votorantim, Grendene, Brasil Kirin, Kosé, Centro Universitário Belas Artes e DuPont. Desde 2012 atuando como professor de cursos livres e pós-graduação sobre temas como, gestão de mídias sociais, planejamento de comunicação digital e marketing digital no Centro Universitário Belas Artes, SENAC e FIA Business School."
 	}
     
 
-    
-    
-
     if(profName == "Leonardo Rocha"){
 		var profMiniCV = "CEO e co-fundador da Admatic, software para otimização e automação de campanhas online. Formado em Administração de Empresas com pós graduação em Gestão Empresarial, tem 10 anos de experiência em Marketing Online e já passou por empresas como TV Globo, Leader.com e Golden Goal Sports Ventures."
 	}
-    
-
-    
     
 
     if(profName == "Leonardo Rodrigues"){
@@ -710,15 +644,9 @@ function insertProfMiniCV(profName){
 	}
     
 
-    
-    
-
     if(profName == "Letícia Ito"){
 		var profMiniCV = "Formada em Marketing e pós graduada em Gestão de Projetos, possui mais de 7 anos de experiência com marketing digital, tendo passado por empresas como JWT, Slaviero Hotéis e ContaAzul. Hoje atua na Involves como responsável pela estratégia de CRM e e-mail marketing para o mercado nacional e LATAM, além de ser team leader do time de Growth Hacking."
 	}
-    
-
-    
     
 
     if(profName == "Lilian Gonçalves"){
@@ -726,76 +654,71 @@ function insertProfMiniCV(profName){
 	}
     
 
-    
-    
-
     if(profName == "Liliane Ferrari"){
 		var profMiniCV = "Consultora e professora de Mídias Sociais, profissional parceira da Spark Flupvip Company, o maior grupo de marketing de influência do mundo. Palestrante oficial do Facebook no Brasil em 2014, Top 10 do RD Summit 2017 e 1º lugar no Digital Experience Day 2017. Apontada como uma das 10 mulheres mais influentes da internet brasileira pelo iG em 2009. Desenvolveu projetos digitais para empresas como LiveAd, Talent, Editora Trip, TV Globo, Petiscos, Facebook, Itaipu, Editora Alto Astral, Santander, Colgate, Julia Petit entre outras."
 	}
-    
-
-    
-    
+ 
 
     if(profName == "Lisandra Maioli"){
 		var profMiniCV = "Jornalista graduada pela Universidade Metodista (2000), pós-graduada em Jornalismo Cultural e Multimídia pela PUC-SP (2004) e em Mídias Interativas pelo Senac São Paulo (2006), Certificado em Marketing pela UC Berkeley (2013) e em Marketing com foco em Mídias Sociais pela UCLA (2014), curso de extensão em Mídias Sociais para B2B pela Stanford University (2012), e de UX Research pela NNielsen (2012). Com mais de 10 anos de experiência em Comunicação Digital (User Experience, Mídias Sociais, Estratégia de Marketing Digital, Webwriting, Coordenação e Desenvolvimento de Projetos e de Produtos para Mídias Digitais) com passagens pelos portais iG, Lance!net, e Terra Network, pelas agências de Marketing Digital e-bit e Medcenter Solutions, pelas agências de comunicação corporativa Máquina da Notícia e CDN Digital, além do Senac São Paulo, em Comunicação Digital da área de Desenvolvimento Social. Depois de colaborar na área de UX de uma startup em São Francisco (USA) e para a agência de eventos internacionais Wish Marketing and Events, atualmente é responsável pelo mercado de língua Portuguesa da Talenthouse.com, empresa sediada em Los Angeles (EUA). Responsável pelo desenvolvimento e coordenação do curso de pós-graduação em Mídias Digitais e Interativas no Senac Rio de Janeiro e do desenvolvimento da pós-graduação em Mídias Sociais também para o Senac Rio de Janeiro. Além de autora do capítulo \"Webwriting\" do e-book \"Para entender as Mídias Sociais\"; e do capítulo \"UX com foco em Alta Performance\" do livro \"Marketing Digital de Alta Performance\" - Ed. ComSchool, 2016."
 	}
 	
+
     if(profName == "Lucimar Delarolli"){
 		var profMiniCV = "Mestranda em Gestão do Conhecimento (Universidad de Léon-Espanha) com MBA em Gestão de Recursos Humanos na PUC-RJ. Bacharel e Licenciada em Psicologia na Universidade Gama Filho e Pós-graduada em Gestão de Pessoas, também pela PUC-RJ. Possui amplo conhecimento e mais de 25 anos de experiência em posições de Business Partner em empresas multinacionais, ONG e Consultoria, Gestão de Pessoas e em Especialização em Desenvolvimento Humano. Além de professora dos cursos de Pós-graduação nos MBAs de Marketing da ESPM e Gestão de Negócios do IBMEC."
 	}
+
+
+    if(profName == "Luis Augusto"){
+		var profMiniCV = "20 anos de experiência com logística, com maior foco em transportes, distribuição last mile e armazenagem no e-commerce. Desenvolvimento e implementação de projetos de redesenho e ampliação de malhas logísticas. Planejamento e execução de operações especiais, como Black Friday."
+	}
+
 
     if(profName == "Luís Felipe Cota"){
 		var profMiniCV = "Sócio e cofundador da Goomark, maior agência de marketing digital para PMEs do Brasil, tem centenas de cases de sucesso atendendo com nível global de qualidade centenas de pequenas e médias empresas, também é palestrante nos principais eventos de marketing digital."
 	}
     
 
-    
-    
+	if(profName == "Luiza Fontana"){
+		var profMiniCV = "Com 12 anos de experiência em Digital e eCommmerce, sua carreira vem sendo pautada neste universo que está em constante mudança e da qual se assume uma grande apaixonada e entusiasta. Com passagens por empresas como Disney, Emirates Airlines, Philips e Reckitt Benckiser, atualmente atua como Gerente de eRetail B2C na Heineken, onde encabeça o desafio de acelerar as vendas do canal ao lado de um time multifuncional assim como aumentar a presença digital das marcas do grupo."
+	}	
 
-    if(profName == "Luiz Clerc"){
+
+	if(profName == "Luiz Clerc"){
 		var profMiniCV = "Palestrante, Coaching e especialista em desenvolvimento humano das pessoas. Economista, formado pela Cândido Mendes/RJ, especialização no APG - Programa de Gestão Avançada realizado na Amana-Key e MBA Executivo concluído no INSPER/SP. 31 anos de atuação no Mercado Financeiro sempre em empresas de grande porte e multinacionais, sendo 15 anos na função de Superintendente Comercial, especialista em Vendas e no Varejo, atuando com equipes de vendas multidisciplinares e multifuncionais."
 	}
-    
-
-    if(profName == "Luis Augusto"){
-		var profMiniCV = "20 anos de experiência com logística, com maior foco em transportes, distribuição last mile e armazenagem no e-commerce. Desenvolvimento e implementação de projetos de redesenho e ampliação de malhas logísticas. Planejamento e execução de operações especiais, como Black Friday."
-	}
-    
-
-    
-    
+        
 
     if(profName == "Luiz Dias"){
 		var profMiniCV = "Luiz Dias é Diretor de E-Commerce da EZ COMMERCE, graduado em Publicidade e Marketing na Univ. Anhembi Morumbi e em Direito na FMU. Iniciou a carreira trabalhando com criação e usabilidade em agências de publicidade e marketing. No Comércio Eletrônico ingressou em 2007 no Gimba.com, varejista de Informática e Material para Escritório, ainda como Diretor de Arte e Criação, onde também acumulou a função de Coordenador de Marketing. Em 2009 assumiu as atividades como Gestor de E-commerce na Centauro, maior varejista de artigos esportivos da América Latina. No fim de 2010 incorporou a função de Gerente Geral de E-Commerce na Paquetá Esportes. Em Janeiro de 2012 assumiu como Gerente Geral de E-Commerce na Connect Parts, maior loja online de acessórios automotivos da América Latina. Tem em seu portfólio consultorias para as lojas virtuais CorpoIdeal.com.br, Lebes.com.br, LojaSilva.com.br, MariaPresenteira.com.br e My Shop Brasil, entre outras. Palestrante em diversos eventos do setor. Autor de artigos para o jornal O Estado de São Paulo, Revista WIDE, Mundo do Marketing e Webinsider/UOL, entre outros."
 	}
     
 
-    
-    
-
-    if(profName == "Luiz Vergueiro"){
+	if(profName == "Luiz Vergueiro"){
 		var profMiniCV = "Diretor de Logística na Infracommerce, empresa que opera o \"Fullcommerce\" para mais de 25 lojas \"online\". Engenheiro de produção mecânica pela escola de engenharia Mauá e pós graduado em Administração na FGV-SP. 15 anos de experiência em operações, em Produção e Logística."
 	}
-    
+  
+	
 
-    
-    
 
+
+   /* ------------------ PROFESSORES COM LETRA M ------------------ */  
+    
+    
     if(profName == "Marcel Albuquerque"){
 		var profMiniCV = "Na Netshoes desde janeiro de 2012, está ajudando a consolidar o mobile como canal estratégico para a empresa. Formado em administração com ênfase em Marketing pela ESPM ? SP, trabalha desde 2005 no mercado de mobilidade. Passou por empresas como Ogilvy One, Ed. Abril, Hanzo, Tellvox, Tectoy Mobile e BeMobile. Trabalhou na equipe de marketing performance, onde foi responsável por campanhas de publicidade que direcionavam o usuário para o mobile commerce da empresa. Atualmente é Gestor de Projetos Mobile na área de Tecnologia, onde desenvolve projetos como o Netshoes Click, primeiro aplicativo mobile do mundo a usar diferentes mecânicas de reconhecimento de imagem para identificar produtos e direcionar o usuário para a compra pelo celular."
 	}
     
 
-    
-    
+	if(profName == "Marcela Azevedo"){
+		var profMiniCV = "10 anos de experiência profissional, tendo ocupado cargos como Gerente de Recursos Humanos e HRBP, atuou de forma generalista em diferentes empresas e segmentos. Hoje está à frente da MF Consultoria de Recursos Humanos. Possui formação em Psicologia, com especialização em Gestão Estratégica de Pessoas, e formação em Planejamento Estratégico, Professional Coaching e Management 3.0. Nos últimos anos acumulou certificações para atuar na transformação das organizações em People Analytics, Gestão de Mudanças - HUCMI, Agile HR Practitioner e Agile Coach."
+	}
 
+
+ 
     if(profName == "Marcelo Colombari"){
 		var profMiniCV = "Apaixonado por fotografia e crente de que uma imagem diz mais que palavras. Dedico-me à fotografia Still, com a finalidade de auxiliar os gestores de lojas virtuais a expor de forma satisfatória seus produtos, valendo-se desse recurso como parte integrante dos seus esforços de marketing. Atualmente também escrevo artigos no Blog e-Mania, que é um dos maiores blogs de fotografia do país."
 	}
-    
-
-    
     
 
     if(profName == "Marcelo Vieira"){
@@ -803,15 +726,9 @@ function insertProfMiniCV(profName){
 	}
     
 
-    
-    
-
     if(profName == "Marcio Chaer"){
 		var profMiniCV = "Gerente de Operações de Transporte da B2W Digital. Mais de 15 anos de experiência no mercado de logística e transportes, com carreira na gestão das atividades de planejamento operacional, qualidade, projetos, tecnologia e operações de transportes. Gerência de times de alta performance, com foco no planejamento, método de trabalho e gerenciamento da rotina. Grande vivência na determinação de indicadores de desempenho e metas de resultados. Sucesso na condução de diversos projetos de novas operações, reestruturações e melhoria de performance operacional.Responsável por start-up de nova empresa transportadora e pela introdução de novos nichos de operações em transportes e logística. Responsável pela expansão de operações de multicanalidade (venda por e-commerce, entrega e retirada em lojas físicas) e frete expresso (entrega rápida, entrega no mesmo dia). Foi Diretor de Operações na Delivera Express e Gerente Nacional de Operações Transportesna Texlog Logística."
 	}
-    
-
-    
     
 
     if(profName == "Marcio Cots"){
@@ -819,38 +736,30 @@ function insertProfMiniCV(profName){
 	}
     
 
-    
-    
-
     if(profName == "Marcos Juncken"){
 		var profMiniCV = "Growth hacker apaixonado por dados, comportamento do consumidor, motociclismo e esportes ao ar livre. Formado em marketing pela Universidade de São Paulo (USP), também participei de um programa executivo na Ohio University. Sou aprendiz ao longo da vida e possuo habilidades em ciência de dados, programação e neurociência. Além de empreendedora, sou consultora de marketing e trabalhei em empresas competitivas e impactantes como Udacity e Fundação Estudar."
 	}
-    
 
-    
-    
+	
+	if(profName == "Marcos Potasz"){
+		var profMiniCV = "Head de Marketing Digital na ComSchool. Bacharelado em Sistema de Informação na Universidade Presbiteriana Mackenzie. MBA em Marketing Digital pela ESPM. Atuou em Marketing com empresas de diversos segmentos como sócio durante 5 anos em agência de Marketing Digital. Especialista em criação de campanhas digitais e divulgação no Google Ads e Facebook Ads. Vasto conhecimento nas ferramentas de Google Analytics e Google Data Studio com objetivo de gerar relatórios e dashboards personalizados."
+	}
+	
+
 
     if(profName == "Mariana Castriota"){
 		var profMiniCV = "Gerente de e-commerce sênior especializada no desenvolvimento de novos negócios, marketplace, fulfillment serviços e inovação. Com MBA em andamento e Marketing pela FGV e pós-graduada em Gestão de Negócios com Ênfase em Marketing, pela ESPM (SP), formada em Física pela UNESP. Hoje, trabalha o Magazine Luiza, com passagens também por Ricardo Eletro, Infracommerce, Grupo Estado, Schumann e Martins."
 	}
     
 
-    
-    
-
     if(profName == "Mário Guimarães"){
 		var profMiniCV = "Com mais de 15 anos de experiência em negócios online, Mário Guimarães iniciou na área de Design e Produção Digitale migrou para o e-Commerce misturando o know-how em Media com o E-Business. Dos diversos clientes atendindoscom treinamentos, consultorias e desenvolvimento e tecnologia, estão:SONY, Brasil CT (Disney e Mattel), Connect Parts, Grupo Birô (Biroshop, Post2B e Buy2B), Whirlpool (Brastemp e Consul),Multilaser, Semp Toshiba, Carrera (GM Chevrolet), Mormaii, QualitySP, H2O Purificadores, Mega Mamute, Máquina de Vendas(Ricardo Eletro), Assurant, SP Auto Peças, Mercado do Mecânico, Decor Peças, LOI Brasil, 00K e-Business Tools, Centauro... Hoje dedica a carreira em aplicar e-Consulting em e-commerce, treinamentos, outsourcing para Aplicativos comoProduct Manager/Owner e Pesquisa e Desenvolvimento."
 	}
 
-    
-    
-
+ 
     if(profName == "Mário Melo"){
 		var profMiniCV = "10 anos trabalhando com projetos de SEO. Experiência em empresas como Globo.com, VivaReal, Petlove, Catho, Descomplica, Canaltech e atualmente atuando como Especialista SEO da XP Investimentos."
 	}
-    
-
-    
     
 
     if(profName == "Maudy Pedrão"){
@@ -858,67 +767,81 @@ function insertProfMiniCV(profName){
 	}
     
 
-    
-    
-
     if(profName == "Maurici Junior"){
 		var profMiniCV = "Autor e Organizador do Livro Marketing Digital de Alta Performance, da Editora ComSchool. Membro do Conselho Administrativo da Associação Brasileira de Comércio Eletrônico (ABCOMM) e Consultor de E-commerce Honda, Diesel, Kipling, Gazeta do Povo e Bemol. Sócio Diretor da ComSchool, tendo atendido como consultor mais de 300 projetos de negócios digitais. É palestrante e professor de cursos in company, com experiência em grandes empresas e eventos, como Click Summit Portugal, Google, Unilever, Natura, Samsung, Sony, Itaú, Comgas, Visa, Bosch, Mahle, Volkswagen, entre outros. Professor titular na ComSchool, ministrando aulas de E-commerce, Marketing Digital e Mídias Sociais e professor convidado em cursos de MBA e pós-graduação em E-commerce e Marketing Digital na Anhembi Morumbi São Paulo, IBG Rondonópolis/MT, SENAC Bauru/SP e UNOESC Chapecó/SC."
 	}
-    
-
-    
-    
+ 
 
     if(profName == "Mauricio Brusadin"){
 		var profMiniCV = "Maurício Brusadin - Diretor-executivo da â??Epolitics Posicionamento Digitalâ? , Economista (Unesp), Mestre em Engenharia Urbana (UFScar), Especialista em Redes Sociais (Ecommerce School), Ex-Presidente Estadual do Partido Verde (São Paulo), Ex-vereador e estrategista de diversas Campanhas Nacionais, em 2010: Marina Silva à Presidência da República, Fábio Feldmann ao Governo do Estado de São Paulo, Ricardo Young ao Senado.Nas eleições municipais de 2012 coordenou o Posicionamento Digital do Prefeito eleito de São José do Rio Preto e Ribeirão Preto. Nas eleições de 2014, trabalhou nas Campanhas de Aécio Neves, Rodrigo Rollemberg (DF), Geraldo Alckmin (SP), Deputado Federal Guilherme Mussi (SP).Diretor de Politicas Publicas na Associação Brasileira de Comércio Eletrônico, Professor de Planejamento Digital da ComSchool, Consultor Digital da RAPS (Rede de Ação Política pela Sustentabilidade) e Especialista em Estratégias Políticas de Comunicação Digital e Formulação de Conteúdo para Redes Sociais."
 	}
     
 
-    
-    
-
     if(profName == "Mauricio Cardoso"){
 		var profMiniCV = "Especialista em e-commerce, com ampla experiência em operações de vendas pela internet. Profissional com experiência de 8 anos no mercado digital, trabalhando como diretor comercial da Webglobal e co-fundador do site Webcontinental.com.br. Também representa a ABCOMM (Associação Brasileira de Comércio Eletrônico), sendo Diretor no estado do Rio Grande do Sul."
 	}
-    
+  
 
-    
-    
+	if(profName == "Mauricio Grandeza"){
+		var profMiniCV = "Atualmente COO da Onofre Agora, com mais de 17 anos de experiência liderando operações de Ecommerce nacionais e multinacionais (Carrefour, Walmart, C&C, Mercadolivre e Stanley), com foco na gestão Omnichannel (Multicanalidade) ? interação das Lojas fisicas, Ecommerce, televendas, móbile, mídias sociais, marketplace e SAC. Possui MBA em Gestão Empresarial na Naippe/USP, Extensão em Estratégias Digitais para negócios na Columbia Business School, Pós-graduação em Marketing na ESPM e Graduado em Administração. É diretor-presidente da Aprovare ? Assocaição dos Profissionais do Varejo e foi eleito o Profissional do Ano ? Categoria Gestão & Estratégia, no 1º Fórum E-commerce Brasil em 2011."
+	}
+
 
     if(profName == "Mauricio Salvador"){
 		var profMiniCV = "Mestre em Comunicação e Administração, MBA em Gestão e Estratégias, foi Executivo de Contas pelo Yahoo! Brasil e Diretor de Marketing e Vendas para América Latina na e-bit, atendendo clientes como Claro, Pão de Açucar, Wal-Mart, Saraiva, Polishop, Ponto Frio e MasterCard, entre outros. Lecionou em workshops na Universidade da Califórnia. Autor dos livros: Como abrir uma loja virtual de sucesso, Gerente de E-commerce, Marketing Digital de Alta Performance e Turismo Online. Professor em cursos de MBA na FIA, PROVAR e BSP. CEO da ComSchool. Board Member na Ecommerce Foundation. Consultor de e-commerce para empresas tais como La Poste, Alibaba, Hering, Le Lis Blanc, Honda, Gradiente, Riachuelo e startups no Vale do Silício. Presidente da ABComm: Associação Brasileira de Comércio Eletrônico."
 	}
     
 
+	if(profName == "Mayra Prado"){
+		var profMiniCV = "Graduada em Comunicação Social - Publicidade e Propaganda (SENAC), além de diversos cursos de especialização na área. Atuo há mais de 9 anos sendo desses 4 anos na área de programática, tendo passado por empresas como: Buscapé, Netshoes, Portal iG e Affiperf. Já atuou junto a grandes clientes como: TIM, CAOA Hyundai, Emirates, Globo Internacional, Swarovski, Wyndham Brasil, Fox Films, Fox Channels, Sanofi, Unimed, MoneyGram, Medquímica, AACD, Divena Autos, MoneyGram, Cidade Jardim, Gerencianet. Atualmente coordena o time de Data e Performance da Z+ na gestão operacional (Mídia Programática, Search & Display, Social) e gestão de dados (Reports, Dashboards)."
+	}
     
-    
+
+
+
+
+   /* ------------------ PROFESSORES COM LETRA N ------------------ */  
+
+
+    if(profName == "Naya Whitaker"){
+	    var profMiniCV = "Jornalista fascinada por comunicação, atuo há 7 anos em marketing digital. Crio estratégias customer centric, produzindo conteúdo para social media e outros canais - dentro e fora da tela, na frente e atrás das câmeras. Cocriadora do projeto Nós, mulheres investidoras, na Easynvest."
+    }  
 
     if(profName == "Nilson Toledo"){
 		var profMiniCV = "Foi Coordenador e Instrutor de Treinamento de Informática em parceria com o SENAI por 10 anos, tendo ministrado cursos fechados para empresas como Banco do Brasil e Saint-Gobain Brasil. Atuou com Segurança da Informação na Hewlett-Packard Brasil atendendo clientes como Braskem, Promon e Telefônica, desenvolvendo treinamentos para novas equipes de atendimento. Tem experiência na área de eventos há mais de 10 anos, trabalhando em feiras como FENASOFT e EXPO CAD CAM, além de atuar juntamente com a coordenação de eventos para empresas como NIKE e AUDI. Nos últimos 6 anos atuou como Coordenador de Projetos e Eventos Culturais na Prefeitura do Município de São Paulo. Formado em Design de Produto e Programação Visual, com MBA em Desenvolvimento de Software Web e MBC em Comunicação Empresarial e Institucional."
 	}
     
-
-    
-    
-
+   
     if(profName == "Núbia Mota"){
 		var profMiniCV = "Formada pelo MBA da FGV em Gestão Comercial, foi responsável pela criação do programa Reseller, onde agências revendem e implantam a plataforma VTEX. Hoje, Núbia atua como Field Marketing & Business Development Director - LATAM na Magento, an Adobe Company."
 	}
     
 
-    
-    
+
+
+
+   /* ------------------ PROFESSORES COM LETRA O ------------------ */  
+
+
+
+
+
+   /* ------------------ PROFESSORES COM LETRA P ------------------ */  
+        
 
     if(profName == "Pablo Moura"){
 		var profMiniCV = "Profissional multidisciplinar com experiência em design estratégico, marketing digital e inovação. Trabalhou em empresas líderes em seus segmentos. Na TV Globo atuou na área de entretenimento, na Globo.com, na construção do portal de notícias e G1 e do Portal de Entretenimento, na Ogilvy Brasil construiu e liderou um time que participou ativamente de conquistas de um número recorde de prêmios em Cannes que contribuíram para o título de agência de ano. Atualmente no Itaú Unibanco, maior banco da América Latina, está focado no desenvolvimento de soluções de experiência digital para os clientes pessoa física, tanto mobile quanto em serviços de internet. Nesse desafio lidar uma equipe de 30 profissionais diretamente."
 	}
 
+
+	if(profName == "Pablo Pazos"){
+		var profMiniCV = "Profissional formado em Relações Públicas pela UERJ, extensão em Business na Australia Pacific College e pós graduado em Marketing pelo Ibmec/RJ. Atua há 14 anos no ecommerce, com passagens por B2W, Dufry Duty Free, Ricardo Eletro e atualmente VTEX. Em 2012 lançou o OmniChannel da Ricardo Eletro iniciando as primeiras medidas para integração on e off como venda online nas lojas físicas, troca na loja, retira loja e ship from store."
+	}
+
+
     if(profName == "Paloma Cardoso"){
 		var profMiniCV = "Coordenadora Comercial B2C, palestrante e professora na ComSchool, 7 anos de experiência com área comercial. Formada em Publicidade e Propaganda possui especializações em Técnicas de Vendas, Marketing Digital, E-commerce, Mídias Sociais e CopyWriting."
 	}
-    
-
-    
     
 
     if(profName == "Patricia Amaro"){
@@ -926,15 +849,9 @@ function insertProfMiniCV(profName){
 	}
     
 
-    
-    
-
     if(profName == "Patricia Knipl"){
 		var profMiniCV = "Profissional com mais de 20 anos de experiência no e-commerce em empresas de diferentes segmentos do varejo, como Submarino, B2W, Netshoes, Fnac e Electrolux.  Com experiência em implantação de loja online e omnichannel, atualmente atua em inovação, e-commerce e digital na Varejista Ikesaki."
 	}
-    
-
-    
     
 
     if(profName == "Paulo Dornelas"){
@@ -942,15 +859,14 @@ function insertProfMiniCV(profName){
 	}
     
 
-    
-    
+	if(profName == "Paulo Filho"){
+		var profMiniCV = "Head de Data na &ldquo;Gauge &#45; Digital Consulting&rdquo;. Especialista em planejamento estrat&eacute;gico, Cria&ccedil;&atilde;o de Dashboards, Integra&ccedil;&atilde;o de dados, Programa&ccedil;&atilde;o HTML, Business Intelligence, Gest&atilde;o de equipes de Web Analytics, Vendas, Web Tagging. Atuou como Diretor de Dados e Intelig&ecirc;ncia no Grupo Havas Brasil e como Coordenador de Business Intelligence (BI) na &ldquo;AFFIPERF&rdquo;. Curso Superior de Tecnologia em Processos Gerencias na FGV e MBA Big Data (Data Science) na FIAP."
+	}
 
-    if(profName == "Paulo Moreira"){
+
+	if(profName == "Paulo Moreira"){
 		var profMiniCV = "Mestre em Administração de Empresas, pós-graduado em Marketing pela FGV e Bacharel em Comunicação Social pela PUC. Professor e Pesquisador-Acadêmico, possui mais de 09 anos de experiência em Comércio Eletrônico, tendo especializado-se em projetos de implantação. Já atuou em diversas empresas de todos os portes pelo Brasil, tais como: Novo Mundo, Tend Tudo, Casa Show, Pontal Calçados, SurfCo e World Comexx. Conta com Certificação Google Advertising Professional (GAP) & Google Analytics Individual Qualification (GAIQ). Atualmente atende projetos de e-commerce pela sua empresa, a Ecommerce Jump."
 	}
-    
-
-    
     
 
     if(profName == "Paulo Oliveira Neto"){
@@ -958,15 +874,9 @@ function insertProfMiniCV(profName){
 	}
     
 
-    
-    
-
     if(profName == "Paulo Salvador"){
 		var profMiniCV = "Um dos mais respeitados profissionais de Turismo, Hotelaria, Marketing e Distribuição Online no Brasil e no Exterior. Trabalhou na Accor Hotels Vice-presidente Mundial de E-Commerce, Fidelização e Consumer Insights na sede do grupo em Paris tendo sido responsável pela criação do programa LeClub de Fidelidade. Baseado em Frankfurt e São Paulo, foi Chief Marketing Officer da Worldhotels e atua como Conselheiro e Diretor de Distribuição da rede Intercity. Além de Executivo, Paulo Salvador é Jornalista, Sociólogo, professor do MBA Internacional da Frankfurt School of Business e curador do Curso de Turismo OnLine da ComSchool."
 	}
-    
-
-    
     
 
     if(profName == "Pedro Scripilliti"){
@@ -974,30 +884,31 @@ function insertProfMiniCV(profName){
 	}
     
 
-    
-    
-
     if(profName == "Perla Amabile"){
 		var profMiniCV = "Perla é especialista em comportamento do consumidor e estratégias de branding e marketing, atuando hoje como Gerente de Planejamento Estratégico na SapientNitro, agência multinacional do Publicis Groupe, além de gerir um projeto pessoal, a start up Bicicletando. Atua há 13 anos no mercado, passando os últimos 10 anos em agências de marketing e publicidade, tendo se destacado em estratégias digitais e inovação. É publicitária, com MBA em Ciências do Consumo, pós-graduação em Criação Publicitária e especialização em Neurociências aplicada ao Consumo, Programação Neurolinguística (PNL), Marketing Digital e Ecommerce. É palestrante em eventos do setor, como: Social Media Brasil, Universidade Anhembi Morumbi, Faculdade Sumaré, Faculdade Zumbi dos Palmares, além de já ter mediado round tables no Ecommerce Brasil. Também é professora do curso de Comportamento do Consumidor promovido pela Media Education, hub de conteúdo sênior que há mais de 7 anos compartilha conhecimento por meio de eventos e workshops."
 	}
-    
-
-    
     
 
     if(profName == "Pierre Jacquin"){
 		var profMiniCV = "Professor do Curso de Logística no E-commerce Atualmente exerce a função de Diretor Executivo da \"Intelipost\". 7 anos de atuação na \"Accenture\", em cargos como Diretor de Vendas Estratégicas, Gestor de Vendas Estratégicas e Diretor de Vendas LATAM. Co-Fundador da Charles Legend. Experiência em Vendas, estratégias go-to-market e Customer Relationship Management."
 	}
 
+
+
+
+
+   /* ------------------ PROFESSORES COM LETRA Q ------------------ */  	
     
-    
+ 
+
+   
+   
+   /* ------------------ PROFESSORES COM LETRA R ------------------ */  
+
 
     if(profName == "Rafael Bandoni"){
 		var profMiniCV = "Rafael Bandoni é publicitário de formação e pós graduando em comunicação e design digital pela ESPM - SP. Atua na área desde 2014 quando entrou em uma agência de comunicação digital e se apaixonou pela área. Atualmente trabalha na área de Marketing Intelligence da CI&T, responsável por mídia e performace e em sua carreira já atendeu clientes como John Deere, Farmina, Honda, Catupiry, AstraZeneca, Mann Filter, entre outros."
 	}
-    
-
-    
     
 
     if(profName == "Rafael Biselli"){
@@ -1005,15 +916,9 @@ function insertProfMiniCV(profName){
 	}
     
 
-    
-    
-
     if(profName == "Rafael Brito"){
 		var profMiniCV = "Profissional de Marketing Digital, é especialista em ações para o mercado PME, já atuou nas áreas de produção de conteúdo para mídias sociais, assessoria de imprensa, RP, Branded Content e Inbound marketing, é jornalista por formação, possui MBA em Gestão Empresarial pela FGV e é devoto do Gerenciamento Pelas Diretrizes."
 	}
-    
-
-    
     
 
     if(profName == "Rafael Sesto"){
@@ -1021,15 +926,19 @@ function insertProfMiniCV(profName){
 	}
     
 
+	if(profName == "Raphael Almeida"){
+		var profMiniCV = "Nos seus anos como especialista de e-commerce, ele ganhou experiência sólida em gestão de canais digitais de empresas, com responsabilidade sobre marketing e vendas, projetos, lanejamentos estratégicos e operações em e-commerce, portais digitais, CRM, Jornada do Cliente (EX/UI) focado em conversão. Mais recentemente, é responsável como Coordenador de Desenvolvimento e Inovação na Movida. A frente das unidades de negócio Seminovos Movida, GTF Movida e consultor de e-commerce de novos produtos com foco em possibilidades de aumento de ROI e conversão."
+	}
     
-    
+
+    if(profName == "Raphael Ferrari"){
+		var profMiniCV = "Sócio e Diretor na Agência Sanders Digital com mais de 9 anos de experiência em e-commerce e marketing digital, com participação em mais de 200 lojas implantadas. Entre elas: Danone, Suvinil, Zelo, Chevrolet, Santa Luzia, Arcelor Mittal, Pierre Cardin, Essilor, New Era, Probel e Tena. Consultor e mentor de Marketing Digital, Inbound, CRM, CRO e E-commerce em players de diversos segmentos do mercado."
+	} 
+
 
     if(profName == "Raphael Penna"){
 		var profMiniCV = "Comecei no Marketing Digital na área de serviços ao cliente, também trabalhei em gerenciamento de projetos, Business Intelligence, CRO e desenvolvendo uma nova unidade de negócios na Jussi para consultoria digital. Agora trabalho na Samsung em um projeto de transformação digital, gerenciando o ecossistema Martech (DMP, DSP, Adserver, CRM, Analytics, testes AB e outras ferramentas), experiência digital, análise de negócios e análise de jornada digital para desempenho em todos os pontos de contato com usuários / consumidores, marketing orientado por dados.Como agência trabalhei com mais de 30 marcas, entre elas: Boticário, Itaú, Brastemp, Cônsul, Redecard, Honda, Motorola, Kroton, Ambev, Carrefour, Adidas, Localiza, Unidas, Sanofi, Easynvest, B.blend, etc."
 	}
-    
-
-    
     
 
     if(profName == "Raquel Bersano"){
@@ -1037,31 +946,24 @@ function insertProfMiniCV(profName){
 	}
     
 
-    
-    
-
     if(profName == "Regina Monge"){
 		var profMiniCV = "Regina Monge: Autora do manual \"O que é Neurobranding? Entenda como a Conexão entre Cérebros e Marcas pode impulsionar os resultados e valor de Marca\", é fundadora e CEO da Verts Intelligence ? primeira consultoria a trabalhar com Neurobranding no Brasil e CEO do Neurobranding Lab, plataforma em rede e incubadora que tem como objetivo acelerar o processo de construção de marcas. Coordenadora do comitê de Neurobranding da Neurrobusiness Society, pós Graduada em Neuroestratégia e Neuromarketing, pelo ISG | Business & Economics School ? Lisboa; MBA em Comunicação com foco em Marketing, pela ESPM; Extensão em História e Linguagem do Cinema e da Televisão e do Audiovisual, pela PUC SP, e graduada em Comunicação Social pela Universidade Anhembi Morumbi. Professora de Neuromarketing na ComSchool e Member of the Neuromarketing Science & Business Association ? NMSBA. Também integra a diretoria de Marketing da ABComm ? Associação Brasileira de Comércio Eletrônico."
 	}
     
 
+	if(profName == "Renato Balma"){
+		var profMiniCV = "Atua no momento como Gerente de Marketplace na Inovakasa, com amplo domínio em SEO, cadastro de produtos, prospecção, gestão comercial, estratégias de vendas, plataformas, integrações e CRM. Graduado em Administração de Empresas, com Pós Graduação / MBA em Marketing Digital pela Faculdade Impacta de Tecnologia e especializações em CX e omminichanel. Possui 12 anos de experiência em E-commerce / Marketplace, atuando por 08 anos na Via Varejo. Além disso, trabalhou como consultor ou gerenciou projetos de Marketplace em empresas como Soulmkt, Madel, WAW Design, JP Imports, Store Mania, Inonni entre outras..."
+	}
     
     
-
     if(profName == "Renato Chaves"){
 		var profMiniCV = "Pós-graduado pela Universidade de São Paulo - ECA/USP em Publicidade, Propaganda e Mercado. Mais de oito anos de experiência como especialista e pesquisador de estratégias de Marketing Digital & e-commerce. Mais de 45 milhões de reais administrados em campanhas Search Marketing, SEO, Display, Remarketing, Mídia Programática / Branding e Performance."
 	}
     
-
     
-    
-
     if(profName == "Renato Mendes"){
 		var profMiniCV = "Com 14 anos de experiência no mercado de Marketing & Comunicação, Renato é formado em Jornalismo pela PUC-SP e pós-graduado em Finanças. Trabalhou por mais de sete anos como repórter/editor das mais importantes publicações no Brasil, incluindo as revistas Exame, Época Negócios, Você S/A e IstoÉ Dinheiro. Desde 2009, atua no mercado digital. Como diretor da MWeb, foi responsável ou colaborou com a estratégia online de empresas como Ambev, Telefônica, C&A, Insper e Camargo Correa, entre outras. Desde 2011, está na Netshoes onde ocupa atualmente a liderança do time de Marketing & Communications. É professor de E-commerce e Social Media na ComSchool. Em 2014 foi eleito pelo Comunique-se o Executivo do Ano na categoria de Comunicação Corporativa."
 	}
-    
-
-    
     
 
     if(profName == "Ricardo Nery"){
@@ -1069,15 +971,19 @@ function insertProfMiniCV(profName){
 	}
     
 
+	if(profName == "Ricardo Santana"){
+		var profMiniCV = "Head de e-commerce, Consultor Certificado MercadoLivre Silver, Diretor executivo ComEcomm - SP, Palestrante e-commerce Brasil, Pós graduado Mba Marketing Digital FGV, atuando 27 no mercado automotivo concessionários Toyota, Bmw, nas areas de pós vendas, importação e prestação de serviços, digitalizando 02 fabricas de peças automotivas e conduzindo suas operações para o digital, implantação de 4 lojas oficiais no MercadoLivre."
+	}
     
-    
+
+	if(profName == "Roberto Alexandre"){
+		var profMiniCV = "Formado em Publicidade e Propaganda, baiano, um lifelong learner, com ampla experiencia em Marketing Digital e Growth em empresas startups . Atualmente atuo como Growth e Marketing Coordinator na Omnibees uma multinacional do setor hoteleiro."
+	}
+
 
     if(profName == "Roberto Motta"){
 		var profMiniCV = "Formado em Comunicação Social com habilitação em Publicidade e Propaganda pela Escola Superior de Propaganda e Marketing (ESPM), possui Master in Business Communication pela FGV e trabalha com marketing e publicidade desde 2005. Iniciou sua carreira na área de Web da Directv/SKY e permaneceu lá até 2007. Em seguida, coordenou a área de Web da Ford Brasil (pós-vendas) até 2008. Após esse período, teve passagens ainda pela Liberty Seguros e Accenture até ser convidado pelo sócio da Dafiti para gerenciar a área de CRM e Social Media em 2012, onde permaneceu até 2015, quando assumiu a área de CRM da adidas Brasil & Latin America."
 	}
-    
-
-    
     
 
     if(profName == "Rodolfo Oliveira"){
@@ -1085,31 +991,24 @@ function insertProfMiniCV(profName){
 	}
     
 
-    
-    
-
     if(profName == "Rodrigo Bandeira"){
 		var profMiniCV = "Diretor Regional na ABComm RJ (Associação Brasileira de Comércio Eletrônico) e Marketing no Varejo, na Mania Virtual. É graduado em Publicidade e Propaganda, pela FACHA-RJ ? Faculdades Integradas Helio Alonso. Possui MBA em Comércio Eletrônico. No mercado de e-commerce, desde 2005, conquistou 4 vezes o Prêmio Diamante de Excelência em Qualidade de Comércio Eletrônico B2C, frente ao Marketing do Site Varejista Mania Virtual."
 	}
     
 
-    
-    
+	if(profName == "Rodrigo Botinhão"){
+		var profMiniCV = "Com mais de 8 anos de experiência com Marketing Digital, atuando com e-commerce e serviços. Conhecimentos em canais de aquisição (SEO, SEM, Social Media, Affiliates, Email Marketing), Plataformas de comércio eletrônico, Análise e mensuração de resultados."
+	} 
 
+    
     if(profName == "Rodrigo Esch"){
 		var profMiniCV = "Atualmente na posição de Coordenador de Design do Itaú Unibanco, acumula passagens por empresas como Oi, Huge e Comprafacil.com, tendo liderado times e projetos nacionais e internacionais, sempre com foco na melhoria da experiência do usuário e no aumento de conversão de produtos e serviços. Pós-graduado com MBA em Design Thinking."
 	}
     
-
-    
-    
-
+  
     if(profName == "Rodrigo Gadelha"){
 		var profMiniCV = "Com mais 14 anos de experiência no Mercado Digital, passou pelos maiores grupos de Comunicação como Publicis Group, Accor Services e Grupo Eugenio, participou do desenvolvimento de Campanhas e Projetos para Aécio Neves 2014, Natura, Chevrolet, Unimed, Volkswagen, Sanofi, Ipiranga, Bradesco, Bayer, CVC, Pfizer entre outros.No Marketing Político Digital desenvolveu sua própria metodologia de Planejamento Estratégico a RG Moebius que foi usada quando foi Coordenador da Área de SocialCRM Campanha Presidencial Aécio Neves 2014. Ficou sob sua responsabilidade (Whatsapp Marketing, Email-Marketing, DBM - Data Base Marketing, SMS Marketing and Social Media - Facebook Notification Marketing).Doutorando em Psicologia SocialPresidente da ABRADI NorteCEO ? RG OrganiC"
 	}
-    
-
-    
     
 
     if(profName == "Rodrigo Galvão"){
@@ -1117,15 +1016,9 @@ function insertProfMiniCV(profName){
 	}
     
 
-    
-    
-
     if(profName == "Rodrigo Gonçalves"){
 		var profMiniCV = "Rodrigo Gonçalves é Profissional de Marketing, especializado em Inteligência Estratégica. Atua há 9 anos no Mercado de E-mail Marketing pela Mailsender Expanded. É autor de diversos artigos para Revistas Especializadas e já palestrou em diversos eventos, como o Email Evolution Conference Brasil,da ABEMD, e o Digitalize-me, da ABCOMM. Obteve, em 2005, Menção Honrosa do \"Dicastero per le Comunicazioni Sociali Salesiana\" (Roma/Itália). Como consultor, também já atuou em marketing nos segmentos industrial, institucional, educacional, tendo também sido assessor de marketing da secretaria de Turismo de Macaé."
 	}
-    
-
-    
     
 
     if(profName == "Rodrigo Mourão"){
@@ -1133,15 +1026,9 @@ function insertProfMiniCV(profName){
 	}
     
 
-    
-    
-
     if(profName == "Rodrigo Rio"){
 		var profMiniCV = "Bacharel em Matemática com ênfase em Informática pela Fundação Santo André. Especializações em Marketing Direto pela ABEMD e MBA em Marketing Digital pela Fundação Getúlio Vargas.Rodrigo Rio - e-Commerce Manager da Philips, empresa de tecnologia diversificada, concentrada em melhorar as vidas das pessoas por meio da inovação significativa nas áreas de Cuidados com a saúde, Estilo de vida do consumidor e Iluminação. Antes da Philips fui Gerente Geral de Vendas e Marketing Digital da GAFISA, incorporadora e construtora com mais de 60 anos no Brasil, sendo uma grande oportunidade de juntar toda a experiência de e-business de outros mercados e as técnicas de marketing digital para o mercado imobiliário.Nos últimos 15 anos participei de grandes multinacionais como Philips do Brasil, CNA Group e ASUS , grande Grupo de Vestuário e Calçado World Tennis e também como empresário na área de tecnologia e marketing digital onde atuou em grande projetos como: e-commerce Lancôme, Tectotal, Itaú, Unibanco, Galderma, Siemens, Kimberly, sites de Relacionamento com Investidores, softwares de Fitness, entre outros.Também esteve no início da comercialização e entrada de grandes players do varejo eletrônico para a indústria como: B2W, CNOVA, Maquina de Vendas, Walmart, Hermes e outros regionais."
 	}
-    
-
-    
     
 
     if(profName == "Ronald Filho"){
@@ -1149,55 +1036,71 @@ function insertProfMiniCV(profName){
 	}
     
 
-    
-    
-
     if(profName == "Rubem Razões"){
 		var profMiniCV = "Há 19 anos no mercado de internet, é gestor de e-commerce, consultor, mentor e palestrante. Um viciado em resultado e crescimento, especialista em Varejo, Gestão Empresarial, Marketing, TI, Atendimento, Logística, Planejamento Estratégico, com apurada visão Omnichannel. Atuou como gestor de e-commerce do Angeloni, um dos pioneiros nas vendas de alimentos pela Internet e contribui diretamente para uma dos maiores cases Hybris e em 2018 Omnichannel, ambos como executivo na Cia Hering. É graduado em Educação Física e Adm pela UDESC, especialista em gestão empresarial pela Estácio de Sá, com MBA em e-business pela FAE. Em 2014, 2015 e 2017, foi escolhido como um dos 5 melhores profissionais do país na categoria de vendas e Operações pelo grupo i-Master."
 	}
     
 
-  
-    
 
+
+
+   /* ------------------ PROFESSORES COM LETRA S ------------------ */  
+
+  
     if(profName == "Sara Zimmermann"){
 		var profMiniCV = "Administradora, Professora e Pesquisadora; Mestranda em Administração, com foco em Organizações / Marketing Digital pela Esalq USP; MBA em Gestão de Projetos pela ESAMC Campinas; Pós-Graduada em Gestão de Marketing e Mídia Digital pela Georgetown University - EUA; Graduada em Administração pela ESAMC Campinas; Curso Internacional em Marketing Estratégico pela Harvard University - EUA. Trabalha nas áreas de Planejamento Estratégico, Marketing e Mídia Digital desde 2007. Desenvolve pesquisas desde 2011. Atua como Docente em Graduação e Pós-Graduação (MBA) desde 2015. Estudo e experiências nacionais e internacionais."
 	}
     
 
-    
+    if(profName == "Sabrina Garcia"){
+		var profMiniCV = "Atua com marketing digital há 6 anos. Iniciou sua carreira como estagiária em agência de publicidade e pôde ter contato com os mais diversos clientes, objetivos e plataformas. Hoje trabalha no maior banco de investimento da América Latina como especialista de Google. Antes disso, passou 9 meses no Google, em uma vaga temporária de atendimento para grandes players na plataforma de DV360. Possui expertise em: DSPs, Google Search Ads, Search Ads 360, Google display Network, Google Discovery, Google performance Max, Google Shopping, Google Video, Facebook, Instagram e LinkedIn. Atua também com plataformas recém chegadas ao Brasil: Tik Tok e Pinterest Ads."
+	}
+
+
+	if(profName == "Simone Sguerri"){
+		var profMiniCV = "Publicitária, especializada em marketing estratégico e mídias sociais. Possui 18 anos de experiência em Publicidade e Marketing, sendo os últimos 6 anos atuando no mercado de mídias sociais como consultora em empresas, palestrante e professora. Há 3 anos fundou a agência de Mídias Sociais e Digitais Bubble Digital em São Paulo, onde atua como diretora estratégica atendendo clientes em todo Brasil com a gestão profissional de suas redes sociais e performance de anúncios."
+	}
     
 
     if(profName == "Stefan Rehm"){
 		var profMiniCV = "Stefan Rehm é alemão, Administrador e Mestre em gestão de empresas pela HEC School of Management de Paris. Trabalhou em empresas como Google e IBM nos primeiros anos profissionais antes de ingressar em gestão de e-commerce na Europa. Radicado no Brasil desde 2012, quando veio gerenciar operações de e-commerce, deparou-se com os desafios e oportunidades relacionados à logística do país. Hoje, é fundador da Intelipost, empresa líder do segmento de tecnologia para gestão de transporte, com mais do que R$ 10M de investimento e clientes como: Lojas Renner, Riachuelo, Boticário, Magazine Luiza e B2W."
 	}
     
-
-    
-    
-
+     
     if(profName == "Stephanie Santos "){
 		var profMiniCV = "Formada em Publicidade e Propaganda com ênfase em Mídias Digitais pela Unicuritiba. Trabalha com Web Analytics desde 2014, começou sua carreira em agência, onde permaneceu até o começo de 2017, durante esse período atendeu os mais diversos segmentos e clientes como: TIM (Telecom Italia), Nestlé e Shell.Hoje atua como especialista em Web Analytics no Peixe Urbano / Groupon Latam, focada principalmente em análise, construção e automatização de relatórios."
 	}
     
 
-    
-    
+
+
+
+   /* ------------------ PROFESSORES COM LETRA T ------------------ */  
+
+
+    if(profName == "Tais Santos"){
+	    var profMiniCV = "Possui mais de seis anos de experiência em Marketing de Performance, principalmente em Social Ads (Facebook, Instagram, LinkedIn e Twitter Ads). Atendeu grandes clientes do ramo de telco, automotivo, bancário entre outros. Com experiência em treinamento e desenvolvimento de equipes. Certificada BluePrint Media Buying Professional e Media Planning Professional."
+    }	
+
+
+    if(profName == "Thais Sterenberg"){
+	    var profMiniCV = "Com mais de 6 anos de mercado, sou publicitária de formação e pós-graduada em Marketing e Comunicação Digital pela ESPM. Com especialização em Growth Hacking, trabalhei em empresas como Danone e Nestlé nas áreas de marketing de produto, marketing digital e de conteúdo. Depois de anos na indústria, optei por seguir um novo rumo e atualmente sou Head de Marketing e Growth na Fix, startup de tecnologia e serviços em crescimento acelerado. Em paralelo, iniciei a Autonomy, uma consultoria focada em capacitar pequenos empreendedores a estruturarem e gerirem a área de marketing de seus negócios incorporando princípios de growth."
+    }
+
 
     if(profName == "Thalita Bottari"){
 		var profMiniCV = "Em passagens pela WBrasil e Casanova, teve a oportunidade de mergulhar no universo do design e da fotografia, dividiu seu tempo entre a direção de arte e o planejamento criativo (on e offline) na Publicidade Archote, atuou no time de planejamento digital pela Agência Ginga e foi diretora de criação na CrearePP."
 	}
-    
 
-    
-    
 
+    if(profName == "Thayan Rodrigues"){
+	    var profMiniCV = "Publicitário com mais de 9 anos de experiência com marketing digital e 3 anos ministrando cursos e palestras sobre a área. Trabalhou em grandes agências do Paraná, como Mirum e Opúsmultipla, além de empresas de tecnologia e comunicação, como a Vhsys e Gazeta do Povo. Atualmente é Gerente Especialista em Google Ads na agência África. Já atendeu dezenas de clientes, como Itaú, Porto Seguro, Caixa Econômica, O Boticário, Nextel, entre outros."
+    }
+
+   
     if(profName == "Thiago Cazzaro"){
 		var profMiniCV = "Thiago Cazzaro é Fundador e Consultor de SEO há mais de 11 anos na AtivaClick, empresa de Marketing Digital situada em Campinas-SP. Professor e palestrante na área de Otimização e Performance Web, lecionou em cursos livres, graduação e pós-graduação nas disciplinas de Web Design, Empreendedorismo Digital, SEM e SEO. É formado em Imagem e Som pela Universidade Federal de São Carlos (UFSCar) e cursa MBA em Business Intelligence."
 	}
-    
-
-    
     
 
     if(profName == "Thiago Ferrari"){
@@ -1205,15 +1108,9 @@ function insertProfMiniCV(profName){
 	}
     
 
-    
-    
-
     if(profName == "Thiago José Loch"){
 		var profMiniCV = "Trabalha com marketing digital desde 2007, fundou um blog e se interessou por conteúdo, SEO e planejamento. Desde então, é apaixonado pelo tema, buscando sempre a alta performance por esses canais. Em 2012 foi co-fundador do Google Business Group Florianópolis, onde ajudoua fomentar o conhecimento sobre as ferramentas Google na Grande Florianópolis. Atualmente é Head de Conteúdo e SEO na Softplan, maior empresa de desenvolvimento para o mercado jurídico da América Latina."
 	}
-    
-
-    
     
 
     if(profName == "Thiago Veras"){
@@ -1221,15 +1118,9 @@ function insertProfMiniCV(profName){
 	}
     
 
-    
-    
-
     if(profName == "Thiely Medeiros"){
 		var profMiniCV = "Oito anos de experiência no mercado de Marketing Online, com ferramentas de SEM (Google Adwords ? Search, Display e Youtube e Bing Ads) web-analytics, mídias sociais (Facebook, Instagram, Twitter, Linkedin e outros) e RTB (Criteo, Next Performance, Triggit, Sociomantic). Trabalho diretamente relacionado à estratégia de negócio dos clientes que atendo/atendi com análises, execução e apresentação de resultados."
 	}
-    
-
-    
     
 
     if(profName == "Tiago Batitucci"){
@@ -1237,15 +1128,9 @@ function insertProfMiniCV(profName){
 	}
     
 
-    
-    
-
     if(profName == "Tiago Otani"){
 		var profMiniCV = "Co-fundador da IlhadoSilicio.com e Marketing Associate na Recebe, tem mais de 10 anos de experiência no Mercado Digital, onde auxilou empresas a aumentarem suas vendas, solucionando gargalos e implementando métodos de aquisição online através de ferramentas digitais."
 	}
-    
-
-    
     
 
     if(profName == "Tiago Rocha"){
@@ -1253,234 +1138,87 @@ function insertProfMiniCV(profName){
 	}
     
 
-    
-    
+
+
+
+   /* ------------------ PROFESSORES COM LETRA U ------------------ */  
+
+
+
+
+
+   /* ------------------ PROFESSORES COM LETRA V ------------------ */  
+
+
+    if(profName == "Vanessa Reis"){
+	    var profMiniCV = "Vanessa Reis é Coordenadora de Operações da Goomark, com vasta experiência em obtenção de resultados para pequenas e médias empresas dos mais diversos segmentos através do marketing digital e da metodologia PDCA. Já atuou na área de marketing de conteúdo, Inbound Marketing, SEO e Google Ads. Formada em Comunicação Social - Publicidade e Propaganda, possui pós-graduação em Gestão de Projetos pela FGV e cursa MBA em Gestão de Mídias Digitais e Inteligência de Negócios pela ESPM."
+    }
+
 
     if(profName == "Vinicius Canola"){
 		var profMiniCV = "Apaixonado por tecnologia, Vinícius é um dos responsáveis pela área de Web Analytics da Blinks, empresa do grupo WPP. Atua principalmente na área de e-commerce, atendendo clientes como Bebestore, Giuliana Flores, Staples e OLX, tendo foco tanto em análise de dados, quanto em personalizações técnicas envolvendo desenvolvimento de diversas ferramentas."
 	}
     
 
-    
-    
-
     if(profName == "Vinicius Mancini"){
 		var profMiniCV = "Há mais de 14 anos no mercado de comunicação, é designer gráfico e fotógrafo com especialização em comunicação digital empresarial pela ESPM. Diretor de criação por natureza, já atuou em projetos de diferentes mídias em clientes como Brasil Telecom, Telefônica, Bosch, Novo Nordisk, Natura, entre outros. Desde 2008 mergulhou no universo de marketing digital, onde fez frente em projetos para marcas como Samgung, Lenovo, Cinemark e Itaú Cinemas. É o criador do projeto de fotografia colaborativa ligado à mobilidade urbana São Paulo Walk, e em 2013 fundou a Fábrica de Posts, produtora de conteúdo para redes sociais voltada para o varejo online. Já foi mediador de Round Tables em eventos da Ecommerce Brasil e é professor da ComSchool desde Janeiro de 2015."
 	}
-    
 
-    
-    
+	
+
+
+
+   /* ------------------ PROFESSORES COM LETRA W ------------------ */  
+
 
     if(profName == "Wallan Machado"){
-		var profMiniCV = "Especialista em Web Analytics com Certificado Google Analytics Individual Qualification e com amplo domínio em Google Tag Manager, Omniture Adobe Analytics e Adobe Dynamic Tag Management, clusterização e estruturação de dados, com vários artigos publicados em portais com relevância no Marketing Digital como E-commerce Brasil e Digitalks.Head de SEO & Web Analytics, em uma das principais empresas mundiais no ramo de Home & Living, a Westwing, e Consultor de Marketing Digital com foco em Mídia & Performance do e-commerce da maior empresa de entretenimento do Brasil, a Omelete Store."
-	}
-    
+	    var profMiniCV = "Especialista em Web Analytics com Certificado Google Analytics Individual Qualification e com amplo domínio em Google Tag Manager, Omniture Adobe Analytics e Adobe Dynamic Tag Management, clusterização e estruturação de dados, com vários artigos publicados em portais com relevância no Marketing Digital como E-commerce Brasil e Digitalks.Head de SEO & Web Analytics, em uma das principais empresas mundiais no ramo de Home & Living, a Westwing, e Consultor de Marketing Digital com foco em Mídia & Performance do e-commerce da maior empresa de entretenimento do Brasil, a Omelete Store."
+    }
 
-    
-    
-
-    if(profName == "Wesley Muniz"){
-		var profMiniCV = "Atua no momento como Gerente de Business Intelligence (BI) no Banco Bradesco, dando também suporte para o digital e planejamentos de UX, e redes sociais como Facebook, Instagram, LinkdIn, Youtube e Twitter. Exerceu na \"ID\TBWA\" a função de Coordenador de BI e Analista Sênior de BI na \"CUBOCC\". Graduado no curso de Data Science e Big Data Analytics no Instituto Massachusetts de Tecnologia e no curso de Comunicação em Social Media com foco em estratégias. Bacharel em Comunicação Social no Centro Universitário FIEO."
-	}
-    
-    
-
-    if(profName == "Will Trannin"){
-		var profMiniCV = "Diretor Executivo da SEO Master. É Mestre pela PUC-Rio com ênfase em TI e UX e trabalha há mais de 7 anos com SEO. O mercado de E-Commerce tem atraído sua atenção nos últimos 3 anos e é o idealizador do projeto Guia SEO para E-Commerce."
-	}
-    
-
-    if(profName == "Xico Graziano"){
-		var profMiniCV = "Francisco Graziano Neto, Xico Graziano, é Engenheiro Agrônomo, Mestre em Economia Agrária e Doutor em Administração. Professor de MBA da FGV/SP e lecionou na Unesp/Jaboticabal. Ocupou vários cargos públicos, no Governo de São Paulo e no Governo Federal. Foi Deputado Federal pelo PSDB/SP entre 1998 e 2006.Consultor em organização, marketing de agronegócios e sustentabilidade, conferencista e escritor, publicou 10 livros sobre questões agrárias, meio ambiente e política. Sócio-diretor da ePoliticsGraziano, consultoria especializada em posicionamento digital.Na campanha presidencial de 2010, Xico Graziano foi coordenador da â??Proposta Serraâ? , plataforma colaborativa do programa de governo. Em 2014, gerenciou e operou parte da campanha digital de Aécio Neves. Consultor de várias campanhas municipais em 2016, é responsável pelo canal Observador Político."
-	}
-    
 
     if(profName == "Wellington Silva"){
-		var profMiniCV = "Trabalha a 6 anos com Digital Analytics e CRO (Conversion Rate Optimization); Esteve na liderança do time de Métricas da Intuitive e PMWEB; Criou e liderou a squad de CRO da Netshoes; É Cofundador e CEO da Rocket Labs e atualmente trabalha com Digital Analytics para o time de Data & Insights no Santander; Toda a sua experiencia foi construída para entender o comportamento dos usuários com dados quantitativos em diversos tipos de negócios, sejam eles e-commerce, financeiras, institucional, etc."
-	}
+	    var profMiniCV = "Trabalha a 6 anos com Digital Analytics e CRO (Conversion Rate Optimization); Esteve na liderança do time de Métricas da Intuitive e PMWEB; Criou e liderou a squad de CRO da Netshoes; É Cofundador e CEO da Rocket Labs e atualmente trabalha com Digital Analytics para o time de Data & Insights no Santander; Toda a sua experiencia foi construída para entender o comportamento dos usuários com dados quantitativos em diversos tipos de negócios, sejam eles e-commerce, financeiras, institucional, etc."
+    }
+
+
+    if(profName == "Wesley Muniz"){
+	    var profMiniCV = "Atua no momento como Gerente de Business Intelligence (BI) no Banco Bradesco, dando também suporte para o digital e planejamentos de UX, e redes sociais como Facebook, Instagram, LinkdIn, Youtube e Twitter. Exerceu na \"ID\TBWA\" a função de Coordenador de BI e Analista Sênior de BI na \"CUBOCC\". Graduado no curso de Data Science e Big Data Analytics no Instituto Massachusetts de Tecnologia e no curso de Comunicação em Social Media com foco em estratégias. Bacharel em Comunicação Social no Centro Universitário FIEO."
+    }
+	
+
+    if(profName == "Will Trannin"){
+	    var profMiniCV = "Diretor Executivo da SEO Master. É Mestre pela PUC-Rio com ênfase em TI e UX e trabalha há mais de 7 anos com SEO. O mercado de E-Commerce tem atraído sua atenção nos últimos 3 anos e é o idealizador do projeto Guia SEO para E-Commerce."
+    }
+
+
+
+
+
+   /* ------------------ PROFESSORES COM LETRA X ------------------ */
+   
+   
+    if(profName == "Xico Graziano"){
+	    var profMiniCV = "Francisco Graziano Neto, Xico Graziano, é Engenheiro Agrônomo, Mestre em Economia Agrária e Doutor em Administração. Professor de MBA da FGV/SP e lecionou na Unesp/Jaboticabal. Ocupou vários cargos públicos, no Governo de São Paulo e no Governo Federal. Foi Deputado Federal pelo PSDB/SP entre 1998 e 2006.Consultor em organização, marketing de agronegócios e sustentabilidade, conferencista e escritor, publicou 10 livros sobre questões agrárias, meio ambiente e política. Sócio-diretor da ePoliticsGraziano, consultoria especializada em posicionamento digital.Na campanha presidencial de 2010, Xico Graziano foi coordenador da â??Proposta Serraâ? , plataforma colaborativa do programa de governo. Em 2014, gerenciou e operou parte da campanha digital de Aécio Neves. Consultor de várias campanhas municipais em 2016, é responsável pelo canal Observador Político."
+    }
+
+
+
+
+
+   /* ------------------ PROFESSORES COM LETRA Y ------------------ */  
+
+    if(profName == "Yuri Leone"){
+	    var profMiniCV = "Publicitário, 27 anos, MBA em Marketing Digital com mais de 6 anos de experiência no mercado do Digital, com passagem em diferentes segmentos, como: Mercado Financeiro, Varejo, Agência de Publicidade, Terceiro Setor e Tecnologia. Especialista em mídia de performance, alto conhecimento em réguas de comunicação, planejamento e estratégico de marketing digital, coordenação de equipe."
+    }	
+
+
+
+
+
+   /* ------------------ PROFESSORES COM LETRA Z ------------------ */  
+
+
+
     
-
-    if(profName == "Mayra Prado"){
-		var profMiniCV = "Graduada em Comunicação Social - Publicidade e Propaganda (SENAC), além de diversos cursos de especialização na área. Atuo há mais de 9 anos sendo desses 4 anos na área de programática, tendo passado por empresas como: Buscapé, Netshoes, Portal iG e Affiperf. Já atuou junto a grandes clientes como: TIM, CAOA Hyundai, Emirates, Globo Internacional, Swarovski, Wyndham Brasil, Fox Films, Fox Channels, Sanofi, Unimed, MoneyGram, Medquímica, AACD, Divena Autos, MoneyGram, Cidade Jardim, Gerencianet. Atualmente coordena o time de Data e Performance da Z+ na gestão operacional (Mídia Programática, Search & Display, Social) e gestão de dados (Reports, Dashboards)."
-	}
-    
-
-    if(profName == "Raphael Almeida"){
-		var profMiniCV = "Nos seus anos como especialista de e-commerce, ele ganhou experiência sólida em gestão de canais digitais de empresas, com responsabilidade sobre marketing e vendas, projetos, lanejamentos estratégicos e operações em e-commerce, portais digitais, CRM, Jornada do Cliente (EX/UI) focado em conversão. Mais recentemente, é responsável como Coordenador de Desenvolvimento e Inovação na Movida. A frente das unidades de negócio Seminovos Movida, GTF Movida e consultor de e-commerce de novos produtos com foco em possibilidades de aumento de ROI e conversão."
-	}
-
-    if(profName == "Simone Sguerri"){
-		var profMiniCV = "Publicitária, especializada em marketing estratégico e mídias sociais. Possui 18 anos de experiência em Publicidade e Marketing, sendo os últimos 6 anos atuando no mercado de mídias sociais como consultora em empresas, palestrante e professora. Há 3 anos fundou a agência de Mídias Sociais e Digitais Bubble Digital em São Paulo, onde atua como diretora estratégica atendendo clientes em todo Brasil com a gestão profissional de suas redes sociais e performance de anúncios."
-	}
-
-    if(profName == "Vanessa Reis"){
-		var profMiniCV = "Vanessa Reis é Coordenadora de Operações da Goomark, com vasta experiência em obtenção de resultados para pequenas e médias empresas dos mais diversos segmentos através do marketing digital e da metodologia PDCA. Já atuou na área de marketing de conteúdo, Inbound Marketing, SEO e Google Ads. Formada em Comunicação Social - Publicidade e Propaganda, possui pós-graduação em Gestão de Projetos pela FGV e cursa MBA em Gestão de Mídias Digitais e Inteligência de Negócios pela ESPM."
-	}
-
-    if(profName == "Paulo Filho"){
-		var profMiniCV = "Head de Data na &ldquo;Gauge &#45; Digital Consulting&rdquo;. Especialista em planejamento estrat&eacute;gico, Cria&ccedil;&atilde;o de Dashboards, Integra&ccedil;&atilde;o de dados, Programa&ccedil;&atilde;o HTML, Business Intelligence, Gest&atilde;o de equipes de Web Analytics, Vendas, Web Tagging. Atuou como Diretor de Dados e Intelig&ecirc;ncia no Grupo Havas Brasil e como Coordenador de Business Intelligence (BI) na &ldquo;AFFIPERF&rdquo;. Curso Superior de Tecnologia em Processos Gerencias na FGV e MBA Big Data (Data Science) na FIAP."
-	}
-
-    if(profName == "Raquel Bernaso"){
-		var profMiniCV = "&Eacute; Fundadora e Consultora em Marketing Digital da &ldquo;Inspire Digital&rdquo;. Especialista em Marketing Digital e Inbound Marketing. Atuou como Gerente de Processos e Marketing Digital na &ldquo;CPTarget Intelig&ecirc;ncia Online&rdquo;, onde foi respons&aacute;vel pelo planejamento e gest&atilde;o do processo de desenvolvimento de p&aacute;ginas e pe&ccedil;as digitais, cria&ccedil;&atilde;o de conceito e briefing, estudo da concorr&ecirc;ncia, follow-up com fornecedores, interface com &aacute;reas internas, cria&ccedil;&atilde;o de fluxos de processos para o gerenciamento de atividades envolvendo a &aacute;rea comercial, operacional e de tecnologia, dentre outras fun&ccedil;&otilde;es. P&oacute;s-gradua&ccedil;&atilde;o em administra&ccedil;&atilde;o de empresas na FGV e especializa&ccedil;&atilde;o, neuroci&ecirc;ncia e tecnologia aplicada no Mackenzie."
-	}
-
-    if(profName == "Claudio Zanutim"){
-		var profMiniCV = "Autor, Professor, Comunicador, Palestrante e Trainer Internacional. Mestre em Administração de Empresas e Gestão de Pessoas pela Unesp, MBA´s em Administração Estratégica, Mercadologia e Gestão de Pessoas. Experiência de mais de 32 anos atuando em Varejo, Industria e no Universo Acadêmico. Também fui empreendedor: dono de fábrica e 6 lojas em shopping centers."
-	}
-
-    if(profName == "Gabriela Santana"){
-		var profMiniCV = "A mais de 13 anos atuando na área de marketing, publicidade e comunicação com experiências multinacionais, startups tecnológicas, agências de publicidade e marketing digital. Atuo com o mercado Latino americano, com projetos de lançamentos de mercados e expansão. Com um perfil 360, acumulo em minha carreira conhecimentos em diversas frentes do marketing: institucional, brand marketing, marketing de produto, endomarketing, marketing de performance, estratégias de campanhas e propagandas online e off-line, lançamentos de produtos, geração de lead, automação de marketing, web analytics, redes sociais, inbound marketing, conteúdo, criação, promoções, eventos e gestão de equipe multidiciplinar. Hoje lidero uma equipe de growth marketing focada em realizar experimentos de marketing baseado no processo de growth hacking focando performance e incremento de receita sustentável."
-	}
-
-    if(profName == "Fares Hid Saba"){
-		var profMiniCV = "Sou especialista em UX (user experience) e trabalho com foco em toda a experiência do cliente, desde o processo de imersão e definição estratégica, passando por todas as análises quantitativas e qualitativas do negócio, geração de ideias e planejamento de produtos, prototipação da solução, validação através de testes de usabilidade, implementação da solução e melhoria contínua de indicadores. Participei do concepção e evolução de portais de grandes empresas, destacando-se Credicard, Cetelem, Porto Seguro e, mais recentemente, do Banco Santander Brasil. Atualmente estou a frente de uma equipe de 18 pessoas, entre designers, researchers, frontend developers, PMs, POs e generalistas, responsável pela equalização de experiência multicanal em todo o ciclo de vida do cliente bancário, desde a conquista, cross/up sell, relacionamento digital, autoatendimento, reconquista, governança de identidade visual e inovação digital."
-	}
-
-    if(profName == "Guilherme Martins"){
-		var profMiniCV = "Guilherme atua na área tributária desde 2006, dispondo de ampla experiência em consultoria e contencioso administrativo em tributos indiretos e questões aduaneiras. Antes de se tornar sócio do MIRANDA JUNQUEIRA MARTINS ADVOGADOS, trabalhou em alguns dos maiores escritórios de advocacia do Brasil. Como Diretor Jurídico da ABComm, Guilherme foi responsável pela elaboração de projetos de lei em matéria tributária relacionados ao comércio eletrônico e pela condução de Ações Coletivas, de abrangência e repercussão nacionais, visando resguardar os direitos e interesses do Setor. Guilherme também é palestrante e articulista sobre temas relacionados ao Direito Tributário."
-	}
-
-    if(profName == "Denise Salvador"){
-		var profMiniCV = "Especialista com mais de 30 anos atuando em Educação Corporativa,  tanto na coordenação quanto na instrutória de programas e cursos com foco  técnico e comportamentais. Destaque para desenvolvimento de líderes, equipes de vendas e atendimento. Trajetória em empresas no ramo financeiro (Fininvest) , varejo (Grupo Carrefour), de saúde (Lab Helion Povoa), gás (SHV Gas) e Mineração (Vale) onde atua hoje na posição de  Master HR Training and Development . Graduação em Psicologia, com Pós graduação em RH | Pontifícia Universidade Católica- RJ"
-	}
-
-    if(profName == "Rodrigo Botinhão"){
-		var profMiniCV = "Com mais de 8 anos de experiência com Marketing Digital, atuando com e-commerce e serviços. Conhecimentos em canais de aquisição (SEO, SEM, Social Media, Affiliates, Email Marketing), Plataformas de comércio eletrônico, Análise e mensuração de resultados."
-	} 
-
-    if(profName == "Raphael Ferrari"){
-		var profMiniCV = "Sócio e Diretor na Agência Sanders Digital com mais de 9 anos de experiência em e-commerce e marketing digital, com participação em mais de 200 lojas implantadas. Entre elas: Danone, Suvinil, Zelo, Chevrolet, Santa Luzia, Arcelor Mittal, Pierre Cardin, Essilor, New Era, Probel e Tena. Consultor e mentor de Marketing Digital, Inbound, CRM, CRO e E-commerce em players de diversos segmentos do mercado."
-	} 
-
-    if(profName == "Naya Whitaker"){
-		var profMiniCV = "Jornalista fascinada por comunicação, atuo há 7 anos em marketing digital. Crio estratégias customer centric, produzindo conteúdo para social media e outros canais - dentro e fora da tela, na frente e atrás das câmeras. Cocriadora do projeto Nós, mulheres investidoras, na Easynvest."
-	} 
-
-    if(profName == "Fabiano Donadon"){
-		var profMiniCV = "Apaixonado pelo que faz, lidera a área digital da Johnson & Johnson Vision Care como Gerente de Marketing Digital da América Latina. Possui ampla experiência em Marketing, CRM, Mídias Sociais, gestão de PR, e-trade e E-Commerce, aplicados em empresas como Philips, Panasonic, Colgate-Palmolive, HP, Secretaria da Fazenda, entre outras. Vencedor de diversos prêmios de transformação digital pelas empresas que passou. Formado em Publicidade e Propaganda pelo Mackenzie, MBA em Gestão Estratégica e Econômica de Projetos pela FGV, e Especialização em Digital Marketing pela Columbia Business School. Curioso por natureza e nerd por opção, entusiasmado por resultados e líder de coração, Fabiano vem trazendo para o mundo real as oportunidades que o e-mundo oferece, ajudando os dispostos a aprender a mergulhar no mundo da web."
-	}    
-	
-    if(profName == "Denise Moraes"){
-		var profMiniCV = " Consultora & Coach com 15 anos de atuação nas Áreas de Gestão de Cultura Organizacional, Desenvolvimento de Liderança e Team building. Ampla experiência em Coaching Executivo & Mentoring, Assessoria Estratégica e Assessment de Lideranças.Certificação como Practitioner nas metodologias globais: O Elemento Humano® (LHEP), LIFO® (LMP) e Barrett® (CTT). Certificação em Coaching Executivo e RH Estratégico. Instituto Marcondes de Tecnologia.Certificação em Coaching & Mentoring Instituto Holos ? certificado pelo International Coaching Federation (ICF)."
-	}
-
-	if(profName == "Marcela Azevedo"){
-		var profMiniCV = "10 anos de experiência profissional, tendo ocupado cargos como Gerente de Recursos Humanos e HRBP, atuou de forma generalista em diferentes empresas e segmentos. Hoje está à frente da MF Consultoria de Recursos Humanos. Possui formação em Psicologia, com especialização em Gestão Estratégica de Pessoas, e formação em Planejamento Estratégico, Professional Coaching e Management 3.0. Nos últimos anos acumulou certificações para atuar na transformação das organizações em People Analytics, Gestão de Mudanças - HUCMI, Agile HR Practitioner e Agile Coach."
-	}
-
-	if(profName == "Caroline Marques"){
-		var profMiniCV = "Formada em Administração. Possui experiência comercial em grandes indústrias; além de já ter se aventurado pelo mundo do empreendedorismo; e nos últimos anos tem se especializado nas vendas de varejo através da venda online. Practitioner em PNL, alinha as técnicas para uma melhor comunicação com foco em resultados. Atualmente, trabalha em uma Joint Venture desenvolvendo e inserindo o marketplace B2C na vida dos varejistas de material de construção. Outras empresas pela qual já passou: Michelin, B2W (Americanas, Shoptime e Submarino), Carrefour e L?Oréal."
-	}
-
-	if(profName == "Renato Balma"){
-		var profMiniCV = "Atua no momento como Gerente de Marketplace na Inovakasa, com amplo domínio em SEO, cadastro de produtos, prospecção, gestão comercial, estratégias de vendas, plataformas, integrações e CRM. Graduado em Administração de Empresas, com Pós Graduação / MBA em Marketing Digital pela Faculdade Impacta de Tecnologia e especializações em CX e omminichanel. Possui 12 anos de experiência em E-commerce / Marketplace, atuando por 08 anos na Via Varejo. Além disso, trabalhou como consultor ou gerenciou projetos de Marketplace em empresas como Soulmkt, Madel, WAW Design, JP Imports, Store Mania, Inonni entre outras..."
-	}
-
-	if(profName == "Thais Sterenberg"){
-		var profMiniCV = "Com mais de 6 anos de mercado, sou publicitária de formação e pós-graduada em Marketing e Comunicação Digital pela ESPM. Com especialização em Growth Hacking, trabalhei em empresas como Danone e Nestlé nas áreas de marketing de produto, marketing digital e de conteúdo. Depois de anos na indústria, optei por seguir um novo rumo e atualmente sou Head de Marketing e Growth na Fix, startup de tecnologia e serviços em crescimento acelerado. Em paralelo, iniciei a Autonomy, uma consultoria focada em capacitar pequenos empreendedores a estruturarem e gerirem a área de marketing de seus negócios incorporando princípios de growth."
-	}
-
-	if(profName == "Roberto Alexandre"){
-		var profMiniCV = "Formado em Publicidade e Propaganda, baiano, um lifelong learner, com ampla experiencia em Marketing Digital e Growth em empresas startups . Atualmente atuo como Growth e Marketing Coordinator na Omnibees uma multinacional do setor hoteleiro."
-	}
-
-	if(profName == "Alexandre Moron"){
-		var profMiniCV = "Formado em Engenharia pela UNISANTA e com MBA em Marketing pela USP, possui sua vivência digital voltada às novas operações de marketplace e à digitalização de novos entrantes do modelo de plataforma, passando pelo marketplace Dafiti Group (Dafiti, Kanui e Tricae) e atualmente no Magalu Marketplace respondendo pelas parcerias comerciais com plataformas de tecnologia e instituições de formação integradas ao negócio. É também porta-voz do Magalu em eventos direcionados aos novos negócios."
-	}
-
-	if(profName == "Ricardo Santana"){
-		var profMiniCV = "Head de e-commerce, Consultor Certificado MercadoLivre Silver, Diretor executivo ComEcomm - SP, Palestrante e-commerce Brasil, Pós graduado Mba Marketing Digital FGV, atuando 27 no mercado automotivo concessionários Toyota, Bmw, nas areas de pós vendas, importação e prestação de serviços, digitalizando 02 fabricas de peças automotivas e conduzindo suas operações para o digital, implantação de 4 lojas oficiais no MercadoLivre."
-	}
-
-	if(profName == "Gustavo Chapchap"){
-		var profMiniCV = "Graduado em Marketing, trabalha com comunicação há mais de 20 anos e com e-commerce desde 2006. Redigiu o projeto que originou o Dia do Profissional Digital #404DigitalDay aprovado no plenário da Câmara Municipal da Cidade de São Paulo em 2014. É líder do comitê de e-Commerce da ABRADi (Associação Brasileira dos Agentes Digitais), atua como CMO na JET e-business. Em 2019 foi premiado como MVP no Fórum E-Commerce Brasil."
-	}
-	
-	if(profName == "Marcos Potasz"){
-		var profMiniCV = "Head de Marketing Digital na ComSchool. Bacharelado em Sistema de Informação na Universidade Presbiteriana Mackenzie. MBA em Marketing Digital pela ESPM. Atuou em Marketing com empresas de diversos segmentos como sócio durante 5 anos em agência de Marketing Digital. Especialista em criação de campanhas digitais e divulgação no Google Ads e Facebook Ads. Vasto conhecimento nas ferramentas de Google Analytics e Google Data Studio com objetivo de gerar relatórios e dashboards personalizados."
-	}
-
-	if(profName == "Stephanie Santos"){
-		var profMiniCV = "Formada em Publicidade e Propaganda com ênfase em Mídias Digitais pela Unicuritiba. Trabalha com Web Analytics desde 2014, começou sua carreira em agência, onde permaneceu até o começo de 2017, durante esse período atendeu os mais diversos segmentos e clientes como: TIM (Telecom Italia), Nestlé e Shell.Hoje atua como especialista em Web Analytics no Peixe Urbano / Groupon Latam, focada principalmente em análise, construção e automatização de relatórios."
-	}
-
-	if(profName == "Anita Bataglin"){
-		var profMiniCV = "Com mais de dez anos de carreira no mercado digital, 1º lugar do prêmio ABCOMM 2020 na categoria Profissional de E-commerce, trabalha diretamente focada na gestão de e-commerce e transformação digital, desde a gestão comercial dos canais de venda até backoffice e entrega de experiência para os consumidores de grandes marcas de consumo, moda, beleza, e tech. Atualmente head de e-commerce na Synapcom."
-	}
-
-	if(profName == "Ederson Oliveira "){
-		var profMiniCV = "Pós graduado em marketing pela ESPM e extensão executiva pela FIA/USP. Especialista em aquisição B2B via Linkedin. Durante 8 anos liderou a Agência Blitz atendendo Google, Corinthians, Bacardi, Faber Castell, Vogue, Netshoes, Caixa e outras. Foi growh lead da Allpoints, maior programa de fidelidade para hotéis do mundo e PMO da Growth Masters. Atualmente é growth coordinator na Fix, uma startup de serviços imobiliários, founder da plataforma nocodefree.com e partner da Linked Leads, consultoria especializada em lead generation no LinkedIn."
-	}
-
-	if(profName == "Gabriela Novo"){
-		var profMiniCV = "Atua com comunicação há 7 anos, sendo que 5 deles em agência de publicidade. Mídia híbrida, mas com foco em digital. Sua experiência passa pelas práticas das plataformas SEM como Google Ads, DV360, Youtube e Bing Ads, Social em Facebook, Instagram, Twitter e Linkedin e ambientes de análise digital. Experiência com clientes de diversas industrias e perfis, pois acredita em gerar valor de negócio através da mídia."
-	}
-
-	if(profName == "Gabriel Queiroz"){
-		var profMiniCV = "Especialista em Marketing Digital; Gestão de campanhas de branding e performance; Campanhas de performance para lojas físicas; Elaboração de planejamento tático e estratégico; Gestão operacional; Prospecção e otimização de campanhas de mídia online;  Especialista em mídia online; Atendimento ao cliente com foco em negociação e resultados; Especialista Google Ads, Youtube, Facebook Ads, Analytics, Merchant Center, Bing Ads, Criteo, Shopback & Redes de Afiliados;Conhecimentos de mídia programática; Elaboração de dashboards de resultados automatizados e interativos; Negociação comercial c/ veículos digitais; Certificações Google Ads (Shopping, pesquisa, display, aplicativos, mensuração e vídeo)."
-	}
-	
-	if(profName == "Leonardo Azevedo"){
-		var profMiniCV = "Possui experiência em Contencioso Cível e é altamente qualificado em Direito Digital, Privacidade e Proteção de Dados Pessoais, bem como Direito do Consumidor. Representa empresas nacionais e multinacionais na resolução de litígios civis e consumeristas. Atua no âmbito consultivo para startups, na elaboração de pareceres sobre legalização dos jogos e na implementação de programas de conformidade com a Lei Geral de Proteção de Dados (LGPD), e também, presta assessoria a clientes perante a Justiça Desportiva, na prevenção e solução de litígios relacionados ao Direito do Consumidor perante o Poder Judiciário, e em procedimentos judiciais e arbitrais envolvendo questões de rescisão contratual."
-	}	
-
-	if(profName == "Luiza Fontana"){
-		var profMiniCV = "Com 12 anos de experiência em Digital e eCommmerce, sua carreira vem sendo pautada neste universo que está em constante mudança e da qual se assume uma grande apaixonada e entusiasta. Com passagens por empresas como Disney, Emirates Airlines, Philips e Reckitt Benckiser, atualmente atua como Gerente de eRetail B2C na Heineken, onde encabeça o desafio de acelerar as vendas do canal ao lado de um time multifuncional assim como aumentar a presença digital das marcas do grupo."
-	}	
-
-	if(profName == "Mauricio Grandeza"){
-		var profMiniCV = "Atualmente COO da Onofre Agora, com mais de 17 anos de experiência liderando operações de Ecommerce nacionais e multinacionais (Carrefour, Walmart, C&C, Mercadolivre e Stanley), com foco na gestão Omnichannel (Multicanalidade) ? interação das Lojas fisicas, Ecommerce, televendas, móbile, mídias sociais, marketplace e SAC. Possui MBA em Gestão Empresarial na Naippe/USP, Extensão em Estratégias Digitais para negócios na Columbia Business School, Pós-graduação em Marketing na ESPM e Graduado em Administração. É diretor-presidente da Aprovare ? Assocaição dos Profissionais do Varejo e foi eleito o Profissional do Ano ? Categoria Gestão & Estratégia, no 1º Fórum E-commerce Brasil em 2011."
-	}
-	
-	if(profName == "Tais Santos"){
-		var profMiniCV = "Possui mais de seis anos de experiência em Marketing de Performance, principalmente em Social Ads (Facebook, Instagram, LinkedIn e Twitter Ads). Atendeu grandes clientes do ramo de telco, automotivo, bancário entre outros. Com experiência em treinamento e desenvolvimento de equipes. Certificada BluePrint Media Buying Professional e Media Planning Professional."
-	}	
-
-	if(profName == "Thayan Rodrigues"){
-		var profMiniCV = "Publicitário com mais de 9 anos de experiência com marketing digital e 3 anos ministrando cursos e palestras sobre a área. Trabalhou em grandes agências do Paraná, como Mirum e Opúsmultipla, além de empresas de tecnologia e comunicação, como a Vhsys e Gazeta do Povo. Atualmente é Gerente Especialista em Google Ads na agência África. Já atendeu dezenas de clientes, como Itaú, Porto Seguro, Caixa Econômica, O Boticário, Nextel, entre outros."
-	}
-	
-	if(profName == "Karina Kotake"){
-		var profMiniCV = "Com 10 anos de experiência na área de marketing, atua em projetos para empresas de médio e grande porte nos setores de bens de consumo, varejo e serviços: Nissan, Natura, Renner, Grupo Iguatemi, Grupo Inbrands, Grupo Arezzo & Co, Grupo Scalina, Amaro, Dafiti, entre outros. Fundadora de uma agência startup de marketing digital, considerada uma das 10 agências mais desejadas para se trabalhar (Trampos/2014) e com cases de sucesso nacionais e internacionais. Experiência internacional."
-	}	
-
-	if(profName == "Pablo Pazos"){
-		var profMiniCV = "Profissional formado em Relações Públicas pela UERJ, extensão em Business na Australia Pacific College e pós graduado em Marketing pelo Ibmec/RJ. Atua há 14 anos no ecommerce, com passagens por B2W, Dufry Duty Free, Ricardo Eletro e atualmente VTEX. Em 2012 lançou o OmniChannel da Ricardo Eletro iniciando as primeiras medidas para integração on e off como venda online nas lojas físicas, troca na loja, retira loja e ship from store."
-	}	
-
-	if(profName == "Jeniffer Almeida"){
-		var profMiniCV = "Vasta experiência em Customer Experience, tendo atuado no Mercado Livre com BI, levantando dados de atendimento, analisando e propondo junto à gestão ajustes para sanar as maiores dores dos usuários. Também junto à área de User Experience (UX), foi responsável no Brasil pela parte de comunicação no projeto de Gestão de Conflitos (ODR), um dos cases de maior sucesso da companhia. Amplo conhecimento em onboarding, criação de tutoriais em diversos formatos, e-learnings e gestão de treinamentos. Atualmente é UX Writer Senior na B2W Digital, cuidando da comunicação de todo fluxo transacional do Pós-Compras nas marcas americanas e Sou Barato."
-	}	
-
-	if(profName == "Yuri Leone"){
-		var profMiniCV = "Publicitário, 27 anos, MBA em Marketing Digital com mais de 6 anos de experiência no mercado do Digital, com passagem em diferentes segmentos, como: Mercado Financeiro, Varejo, Agência de Publicidade, Terceiro Setor e Tecnologia. Especialista em mídia de performance, alto conhecimento em réguas de comunicação, planejamento e estratégico de marketing digital, coordenação de equipe."
-	}	
-
-	if(profName == "Andre Ferreira"){
-		var profMiniCV = "Relações públicas com especialização em marketing no varejo e apaixonado por conversas e por pessoas. Há 12 anos, ajuda marcas a construírem relacionamentos com seus públicos por meio da criação de conteúdo nos canais digitais. Consultor de comunicação e varejo, já criou campanhas de marketing e coordenou equipes de vendas e atendimento para negócios locais e e-commerce. Atualmente, como Head de Atendimento e Planejamento na Vibezz, atende grandes players nacionais do mercado de entretenimento.."
-	}	
-
-	if(profName == "Henrique Castro"){
-		var profMiniCV = "Formado em Marketing pela Anhembi Morumbi e extensão em Agile e Marketing Digital pela Columbia Business School e ESPM, é co-fundador e Head de Operações da Vibezz, startup de soluções e estratégias. Com experiências também no mercado de entretenimento, foi head de Marketing Digital na Cinépolis no Brasil durante 3 anos cuidando de conteúdos, ativações, campanhas, promoções, PR, Influência, Mídia, etc. Também assumiu a área de Digital na VELOX TICKETS durante quase 2 anos, expandindo parcerias, ações, PR, Analytics e eventos.."
-	}	
-
-	if(profName == "Alaina Paisan"){
-		var profMiniCV = "Com 12 anos de experiência no digital, é community manager na SMXP e account manager na Seu Agá. Formada em Comunicação Social pela PUC-Rio e pós-graduanda em gestão de projetos pela Trevisan Escola de Negócios, organizou ou palestrou em diversos eventos, incluindo duas edições do Social Media Week SP. Em busca da democratização do digital, atuou como mentora voluntária no Startup Weekend Woman, Forum Mulher Empreendedora, dentre outros."
-	}	
-
-	if(profName == "Ana Pio"){
-		var profMiniCV = "Especialista em eCommerce, canais digitais e business online, possui mais de 15 anos de experiência em Marketing Digital e Gestão de Ecommerce. Carreira desenvolvida no universo online em canais B2C, B2B e D2C, implantando, fazendo a gestão 360 e a escala do business online. Apaixonada por Transformação Digital & Cultural, o propósito é conectar! Pós Graduada em Comunicação e Marketing com Certificação em Gestão de Marketing Digital de Alta Performance e aprendizado Hands On ao longo da carreira. Atualmente, Executiva Sênior eCommerce na multinacional Reckitt e Embaixadora do Projeto Mulheres no eCommerce."
-	}	
-
-	if(profName == "Helenice Moura"){
-		var profMiniCV = "Presidente do Comitê de líderes de e-commerce SP, co-fundadora da A Liga Digital, embaixadora do Mulheres no E-commerce, que reúne mais de 30 mil mulheres e professora de pós graduação na FIA e professora da ComSchool. É Google Partner desde 2008 e possui MBA em Business Intelligence pela FIAP. Além disso, possui especialização em Gerência Comercial pela FGV, é sócia fundadora de startups de Marketing Digital, atua neste segmento desde 2005. Teve passagens por grandes empresas, como Terra Empresas, Scup, Ativi e NoTopo. Foi responsável por criar estratégias para marcas, como Amend Cosméticos, Sky, Ticket, Any Any, Speedo, Abilio Diniz, Banco Carrefour, Atacadão, Mapfre e Braskem."
-	}	
-
-	if(profName == "Isabel Ananias"){
-		var profMiniCV = "Graduada em Administração de empresas pelo Complexo Educacional FMU. Possui mais 10 anos de experiência em marketing digital. Passou por empresas como Buscapé Company e Grupo Minha Vida. Hoje é consultora de pequenas a grandes empresas, além de atuar no segmento da educação, como conteudista e tutora de turma realizando vídeoaulas e podcasts."
-	}
-
 	return profMiniCV;
 }
