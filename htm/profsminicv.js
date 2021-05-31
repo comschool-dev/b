@@ -272,6 +272,11 @@ function insertProfMiniCV(profName){
 	}
     
 
+    if(profName == "Elisangela Munhoz"){
+		var profMiniCV = "Advogada, mediadora de conflitos e professora universitária e mestre em comunicação e semiótica, possui 15 anos de experiência em Direito do Consumidor."
+	}
+
+
     if(profName == "Eliziane Lettieri Vezzosi"){
 		var profMiniCV = "Relações Públicas com especialização em Marketing Estratégico e Gestão.Experiência de mais de 10 anos em Marketing, Eventos Corporativos e Projetos Digitais no Brasil, Austrália e Inglaterra. Passagem pelas empresas XP Investimento, ODIG, PipeRun, Arkadin e atualmente é Partner Success Manager na Dinamize.Pesquisadora das temáticas de Marketing Digital, Customer Experience e Aprendizagem Organizacional."
 	}
