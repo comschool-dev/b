@@ -1218,9 +1218,11 @@ function insertProfMiniCV(profName){
 
    /* ------------------ PROFESSORES COM LETRA Y ------------------ */  
 
+
+    /* --------- DESATIVADO EM 09.06.2021 ---------
     if(profName == "Yuri Leone"){
 	    var profMiniCV = "Publicitário, 27 anos, MBA em Marketing Digital com mais de 6 anos de experiência no mercado do Digital, com passagem em diferentes segmentos, como: Mercado Financeiro, Varejo, Agência de Publicidade, Terceiro Setor e Tecnologia. Especialista em mídia de performance, alto conhecimento em réguas de comunicação, planejamento e estratégico de marketing digital, coordenação de equipe."
-    }	
+    }	*/
 
 
 
