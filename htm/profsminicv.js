@@ -554,7 +554,7 @@ function insertProfMiniCV(profName){
     
 
 	if(profName == "Jeniffer Almeida"){
-		var profMiniCV = "Vasta experiência em Customer Experience, tendo atuado no Mercado Livre com BI, levantando dados de atendimento, analisando e propondo junto à gestão ajustes para sanar as maiores dores dos usuários. Também junto à área de User Experience (UX), foi responsável no Brasil pela parte de comunicação no projeto de Gestão de Conflitos (ODR), um dos cases de maior sucesso da companhia. Amplo conhecimento em onboarding, criação de tutoriais em diversos formatos, e-learnings e gestão de treinamentos. Atualmente é UX Writer Senior na B2W Digital, cuidando da comunicação de todo fluxo transacional do Pós-Compras nas marcas americanas e Sou Barato."
+		var profMiniCV = "Vasta experiência em Customer Experience, tendo atuado no Mercado Livre com BI, levantando dados de atendimento, analisando e propondo junto à gestão ajustes para sanar as maiores dores dos usuários. Também junto à área de User Experience (UX), foi responsável no Brasil pela parte de comunicação no projeto de Gestão de Conflitos (ODR), um dos cases de maior sucesso da companhia. Amplo conhecimento em onboarding, criação de tutoriais em diversos formatos, e-learnings e gestão de treinamentos. Foi também UX Writer Senior na B2W Digital, cuidando da comunicação de todo fluxo transacional do Pós-Compras nas marcas Americanas, Submarino, Shoptime e Sou Barato. Atualmente é Content Designer Senior na Creditas."
 	}	
 
 
