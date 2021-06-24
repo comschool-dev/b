@@ -774,7 +774,7 @@ function insertProfMiniCV(profName){
     
 
     if(profName == "Maudy Pedrão"){
-		var profMiniCV = "Especialista de SEO e Coordenador de Redes sociais. Foi responsável pelo time de SEO que atendia grandes marcas como Sony, Telhanorte e Kroton,com foco em aumentar o tráfego orgânico e receita usando as melhores práticas de otimização de e-commerce, blog e canais de Youtube. Também gerenciou contas de grandes empresas como: Brinquedos Estrela, Lustres Yamamura, UNIP, Papaiz, E-lens, Azul Linhas Aéreas, Loja Copag, Sony Store e Mambo."
+		var profMiniCV = "Gerente de SEO e Consultor de SEO. Experiência em SEO, participando de projetos em marcas como grupo Caoa, Sony, Telhanorte, Kroton, Voe Azul/Azul Viagens, Salve a Noiva, Eurodicas, Adnews e outras empresas de vários segmentos. Possui foco em aumentar o tráfego orgânico e receita usando as melhores práticas de otimização de e-commerce, blog e canais de Youtube. Gerenciou contas de grandes empresas (Brinquedos Estrela, Lustres Yamamura, UNIP, Papaiz, E-lens, Azul Linhas Aéreas, Loja Copag, Sony Store, Telhanorte, Mambo, Bodega Goulart)."
 	}
     
 
@@ -817,6 +817,11 @@ function insertProfMiniCV(profName){
     if(profName == "Naya Whitaker"){
 	    var profMiniCV = "Jornalista fascinada por comunicação, atuo há 7 anos em marketing digital. Crio estratégias customer centric, produzindo conteúdo para social media e outros canais - dentro e fora da tela, na frente e atrás das câmeras. Cocriadora do projeto Nós, mulheres investidoras, na Easynvest."
     }  
+
+	if(profName == "Nathalia Pacheco"){
+	    var profMiniCV = "Formada em Administração de empresas, com pós graduação de Marketing e Gestão Comercial pela BSP Business School e MBA executivo em liderança e Gestão pela Saint Paul. Carreira desenvolvida no setor d turismo, com sólida experiência em gestão de produto, segmentação, ciclo de vida de produto, análise de tendências de mercado e comportamento de consumo para unidades de negócios b2c, b2b e online. Participei do processo de implementação de modelo de franquia e aquisições de novos negócios. Além de implementação de gestão, planejamento e desenvolvimento de produto."
+    }  
+
 
     if(profName == "Nilson Toledo"){
 		var profMiniCV = "Foi Coordenador e Instrutor de Treinamento de Informática em parceria com o SENAI por 10 anos, tendo ministrado cursos fechados para empresas como Banco do Brasil e Saint-Gobain Brasil. Atuou com Segurança da Informação na Hewlett-Packard Brasil atendendo clientes como Braskem, Promon e Telefônica, desenvolvendo treinamentos para novas equipes de atendimento. Tem experiência na área de eventos há mais de 10 anos, trabalhando em feiras como FENASOFT e EXPO CAD CAM, além de atuar juntamente com a coordenação de eventos para empresas como NIKE e AUDI. Nos últimos 6 anos atuou como Coordenador de Projetos e Eventos Culturais na Prefeitura do Município de São Paulo. Formado em Design de Produto e Programação Visual, com MBA em Desenvolvimento de Software Web e MBC em Comunicação Empresarial e Institucional."
@@ -1166,8 +1171,13 @@ function insertProfMiniCV(profName){
     }
 
 
+    if(profName == "Victor Alencar"){
+	    var profMiniCV = "Graduado em Direito pela Universidade Presbiteriana Mackenzie e em Jornalismo pela Cásper Líbero, Victor iniciou sua carreira no SEO em meados de 2018 atuando como Link Builder. Atualmente, como sócio da Gear SEO, uma agência especializada em SEO, Victor lidera o time de Estratégia e Análise de Palavras-Chave, sendo o responsável pela pesquisa de mais de 6.500 palavras-chave todos os meses."
+    }
+
+
     if(profName == "Vinicius Canola"){
-		var profMiniCV = "Apaixonado por tecnologia, Vinícius é um dos responsáveis pela área de Web Analytics da Blinks, empresa do grupo WPP. Atua principalmente na área de e-commerce, atendendo clientes como Bebestore, Giuliana Flores, Staples e OLX, tendo foco tanto em análise de dados, quanto em personalizações técnicas envolvendo desenvolvimento de diversas ferramentas."
+		var profMiniCV = "Diretor de dados da WMS (WPP Media Services), com mais de 10 anos de experiência em dados voltado a tecnologia e marketing digital, Vinícius é especialista em Web Analytics, disciplina técnica que optou não abrir mão dos estudos mesmo atuando em um cargo executivo. Já teve experiência com cliente como Ambev, Itau, Natura, OLX, dentre outros grandes players, hoje atua em uma função executiva, com um time multi disciplinar de dados."
 	}
     
 
